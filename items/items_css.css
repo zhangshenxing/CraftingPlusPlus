@@ -1,0 +1,2291 @@
+@font-face{
+	font-family: Minecraft;
+	src: url("minecraft.woff") format("woff");
+}
+/* 布局 */
+html{
+	font-family: "Microsoft Yahei", Tahoma;
+}
+body{
+	margin: 0;
+}
+nav{
+	position: fixed;
+	height: 100%;
+	width: 12%;
+	top: 0; left: 0;
+}
+div#main_part{
+	width: 88%;
+	float: right;
+}
+article{
+	margin: 2em 3em;
+}
+p.indent{
+	text-indent: 2em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Tahoma, "Microsoft Yahei", Simsun;
+}
+h1{
+	text-align: center;
+	font-size: 200%;
+	padding: 1em 0 0.3em;
+}
+h2{
+	border-bottom: solid 2px grey;
+	padding: 30px 0 5px;
+}
+h3{
+	font-size: 120%;
+}
+h4{
+	font-size: 110%;
+	display: inline;
+}
+code{
+	color: black;
+	font-weight: normal;
+	font-size: 100%;
+	background-color: #fff;
+	font-family: "Courier New", 楷体;
+}
+footer{
+	margin: 10px auto 5px;
+}
+footer p{
+	text-align: center;
+	font-size: 85%;
+}
+footer img{
+	height: 30px;
+}
+/* 颜色 */
+body{
+	background-color: #eee;
+}
+article a{
+	color: hsl(220, 50%, 50%);
+}
+nav, nav ul ul li{
+	background: #8B8B8B;
+}
+nav li:hover{
+	background-color: #000;
+}
+a:hover{
+	color: #d25349;
+	text-decoration: underline;
+}
+h1, h2, h3, strong{
+	color: blue;
+}
+.command{
+	width:100%;
+	background-color:#050505;
+	border:2px solid #87888a;
+	color:#d4d4d4;
+	padding:2px 5px;
+	font-family: "Courier New", 楷体;
+}
+/* 导航 */
+nav{
+	font-size: 100%;
+	font-weight: bold;
+	z-index: 10;
+}
+nav a, nav a:hover{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+nav ul{
+	margin: 0; 
+	padding: 0;
+	height: 2em;
+	list-style-type: none;
+}
+nav a{
+	display: block;
+	height: 100%; width: 100%;
+	padding: 6px 2px 6px 16px;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul{
+	width: 100%;
+	margin-left: 100%;
+	margin-top: -2.04em;
+	padding: 0;
+	top: auto;
+	float: left;
+	display: none;
+	position: absolute;
+	z-index: 9;
+}
+nav ul ul:nth-child(3){
+	margin-left: 200%;
+}
+nav ul ul:nth-child(4){
+	margin-left: 300%;
+}
+nav ul ul:nth-child(5){
+	margin-left: 400%;
+}
+nav ul ul:nth-child(6){
+	margin-left: 500%;
+}
+nav ul ul:nth-child(7){
+	margin-left: 600%;
+}
+nav ul li.up1 ul{
+	margin-top: -4.08em;
+}
+nav ul li.up2 ul{
+	margin-top: -6.12em;
+}
+nav ul li.up3 ul{
+	margin-top: -8.16em;
+}
+nav ul li.up4 ul{
+	margin-top: -10.2em;
+}
+nav ul li.up5 ul{
+	margin-top: -12.24em;
+}
+nav ul li.up6 ul{
+	margin-top: -14.28em;
+}
+nav ul li.up7 ul{
+	margin-top: -16.32em;
+}
+nav ul li.up8 ul{
+	margin-top: -18.36em;
+}
+nav ul li.up9 ul{
+	margin-top: -20.4em;
+}
+/* 图片 */
+figure{
+	text-align: left;
+	text-indent: 0;
+	margin-left: 0;
+}
+figcaption, p.note{
+	font-family: Arial, 楷体, monospace, Courier;
+}
+figure img{
+	border: rgb(219, 156, 30) 2px solid;
+	border-color: hsl(40,40%,20%);
+}
+/* 表格 */
+table{
+	margin: 20px 0;
+	background-color: #fff;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid #aaa;
+	padding: 0.2em 0.4em;
+	vertical-align: middle;
+}
+thead th{
+	background: #505050;
+	font-weight: bold;
+	color: #fff;
+}
+tbody th{
+	background-color: #ddd;
+}
+table.aiom_table tbody td:first-child, table.aiom_table tbody td:nth-child(3), table.onlyicons{
+	background-color: #8b8b8b;
+}
+table.onlyicons td{
+	font-size: 32px;
+}
+table.adv td{
+	height: 52px;
+	width: 52px;
+	font-size: 90%;
+}
+table.adv .normal{
+	background-image: url("gui/normal.png");
+}
+table.adv .goal{
+	background-image: url("gui/goal.png");
+}
+table.adv .challenge{
+	background-image: url("gui/challenge.png");
+}
+table.adv span{
+	width: 52px; height: 52px;
+}
+table.adv span.ui a{
+	left: 10px; top: 10px;
+}
+table.block_breaker{
+	margin: 20px 0px;
+	background-color: #999;
+	border-collapse: collapse;
+}
+table.block_breaker td,table.block_breaker th{
+	border: 1px solid #fff;
+}
+table.characters a{
+	display: inline-block;
+	width: 128px; height: 256px;
+	background-size: 128px 256px;
+}
+table.support img{
+	height: 60px;
+}
+/* 图标 */
+span.ui{
+	display: inline-block;
+	position: relative;
+}
+span.ui a{
+	position: absolute;
+}
+a.ui{
+	position: relative;
+}
+span.ui a, a.ui{
+	display: inline-block;
+	background-size: 32px 32px;
+	width: 32px; height: 32px;
+	image-rendering: -moz-crisp-edges; /* Firefox */
+	image-rendering: -o-crisp-edges; /* Opera */      
+	image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ 
+	image-rendering: crisp-edges; 
+	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+	color: #fff;
+	text-shadow: 2px 2px 0 #3f3f3f;
+	filter: DropShadow (color="#3f3f3f",offx="2",offy="2");
+	-webkit-filter: DropShadow (color="#3f3f3f",offx="2",offy="2");
+}
+a.size16, .size16 a, nav span{
+	display: inline-block;
+	background-size: 16px 16px;
+	width: 16px; height: 16px;
+	vertical-align: middle;
+}
+a.size18{
+	display: inline-block;
+	background-size: 18px 18px;
+	width: 18px; height: 18px;
+	vertical-align: middle;
+}
+.shapeless{
+	position: absolute;
+	top: 16px; right: 16px;
+	display: block;
+	width: 19px; height: 15px;
+	background-image: url("shapeless.png");
+}
+.stack{
+	position: absolute;
+	font-family: Minecraft, sans-serif !important;
+	right: 0;
+	bottom: 0;
+}
+/* 合成器 */
+.cm{
+	height: 136px; width: 260px;
+	background-image: url("gui/cm.png");
+}
+span.cm > a:nth-child(1){top: 16px; left: 16px;}
+span.cm > a:nth-child(2){top: 16px; left: 52px;}
+span.cm > a:nth-child(3){top: 16px; left: 88px;}
+span.cm > a:nth-child(4){top: 52px; left: 16px;}
+span.cm > a:nth-child(5){top: 52px; left: 52px;}
+span.cm > a:nth-child(6){top: 52px; left: 88px;}
+span.cm > a:nth-child(7){top: 88px; left: 16px;}
+span.cm > a:nth-child(8){top: 88px; left: 52px;}
+span.cm > a:nth-child(9){top: 88px; left: 88px;}
+span.cm > a:nth-child(10){top: 52px; left: 204px;}
+/* 工作台 */
+.ct{
+	height: 136px; width: 260px;
+	background-image: url("gui/ct.png");
+}
+/* 发射器 */
+span.dp{
+	height: 136px; width: 136px;
+	background-image: url("gui/dp.png");
+}
+span.dp > a:nth-child(1){top: 16px; left: 16px;}
+span.dp > a:nth-child(2){top: 16px; left: 52px;}
+span.dp > a:nth-child(3){top: 16px; left: 88px;}
+span.dp > a:nth-child(4){top: 52px; left: 16px;}
+span.dp > a:nth-child(5){top: 52px; left: 52px;}
+span.dp > a:nth-child(6){top: 52px; left: 88px;}
+span.dp > a:nth-child(7){top: 88px; left: 16px;}
+span.dp > a:nth-child(8){top: 88px; left: 52px;}
+span.dp > a:nth-child(9){top: 88px; left: 88px;}
+/* 熔炉 */
+span.fur{
+	height: 136px; width: 192px;
+	background-image: url("gui/fur.png");
+}
+span.fur > a:nth-child(1){top: 16px; left: 16px;}
+span.fur > a:nth-child(2){top: 88px; left: 16px;}
+span.fur > a:nth-child(3){top: 52px; left: 136px;}
+/* 多功能一体机 */
+span.aiom{
+	width: 352px; height: 182px;
+	background-image: url("gui/aiom.png");
+}
+span.aiom a:nth-child(1){top: 36px; left: 52px;}
+span.aiom a:nth-child(2){top: 72px; left: 52px;}
+span.aiom a:nth-child(3){top: 36px; left: 124px;}
+span.aiom a:nth-child(4){top: 36px; left: 160px;}
+span.aiom a:nth-child(5){top: 108px; left: 124px;}
+span.aiom a:nth-child(6){top: 108px; left: 160px;}
+span.aiom a:nth-child(7){top: 104px; left: 304px;}
+/* 版本提示 */
+span.version, span.oldversion{
+	display: inline-block;
+	height: 20px;
+	font-size: 70%;
+	border-radius: 5px;
+	padding: 2px 5px 0px;
+	text-shadow: 1px 1px 1px #000;
+	color: gold;
+	text-indent: 0;
+}
+span.version{
+	background-color: #4c1;
+}
+span.oldversion{
+	background-color: #666;
+}
+span.version:before, span.oldversion:before{ 
+	content: "版本 ";
+	color: #ccccff;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+abbr{
+	cursor: help;
+}
+em{
+	font-style: italic;
+}
+.center{
+	text-align: center;
+}
+.center img{
+	height: 210px;
+}
+.lore{
+	color: purple;
+}
+.left{
+	text-align: left;
+}
+
+/* minecraft block */
+.acacia_log                          {background-image: url(minecraft/acacia_log.png);}
+.acacia_planks                       {background-image: url(minecraft/acacia_planks.png);}
+.acacia_pressure_plate               {background-image: url(minecraft/acacia_pressure_plate.png);}
+.acacia_sapling                      {background-image: url(minecraft/acacia_sapling.png);}
+.acacia_sign                         {background-image: url(minecraft/acacia_sign.png);}
+.acacia_slab                         {background-image: url(minecraft/acacia_slab.png);}
+.acacia_stairs                       {background-image: url(minecraft/acacia_stairs.png);}
+.acacia_trapdoor                     {background-image: url(minecraft/acacia_trapdoor.png);}
+.acacia_wood                         {background-image: url(minecraft/acacia_wood.png);}
+.activator_rail                      {background-image: url(minecraft/activator_rail.png);}
+.allium                              {background-image: url(minecraft/allium.png);}
+.amethyst_block                      {background-image: url(minecraft/amethyst_block.png);}
+.amethyst_cluster                    {background-image: url(minecraft/amethyst_cluster.png);}
+.ancient_debris                      {background-image: url(minecraft/ancient_debris.png);}
+.andesite                            {background-image: url(minecraft/andesite.png);}
+.andesite_slab                       {background-image: url(minecraft/andesite_slab.png);}
+.andesite_stairs                     {background-image: url(minecraft/andesite_stairs.png);}
+.andesite_wall                       {background-image: url(minecraft/andesite_wall.png);}
+.anvil                               {background-image: url(minecraft/anvil.png);}
+.azalea                              {background-image: url(minecraft/azalea.png);}
+.azalea_leaves                       {background-image: url(minecraft/azalea_leaves.png);}
+.azure_bluet                         {background-image: url(minecraft/azure_bluet.png);}
+.bamboo                              {background-image: url(minecraft/bamboo.png);}
+.barrel                              {background-image: url(minecraft/barrel.png);}
+.barrier                             {background-image: url(minecraft/barrier.png);}
+.basalt                              {background-image: url(minecraft/basalt.png);}
+.beacon                              {background-image: url(minecraft/beacon.png);}
+.bedrock                             {background-image: url(minecraft/bedrock.png);}
+.beehive                             {background-image: url(minecraft/beehive.png);}
+.bee_nest                            {background-image: url(minecraft/bee_nest.png);}
+.bell                                {background-image: url(minecraft/bell.png);}
+.birch_button                        {background-image: url(minecraft/birch_button.png);}
+.birch_door                          {background-image: url(minecraft/birch_door.png);}
+.birch_fence_gate                    {background-image: url(minecraft/birch_fence_gate.png);}
+.birch_fence                         {background-image: url(minecraft/birch_fence.png);}
+.birch_leaves                        {background-image: url(minecraft/birch_leaves.png);}
+.birch_log                           {background-image: url(minecraft/birch_log.png);}
+.birch_planks                        {background-image: url(minecraft/birch_planks.png);}
+.birch_pressure_plate                {background-image: url(minecraft/birch_pressure_plate.png);}
+.birch_sapling                       {background-image: url(minecraft/birch_sapling.png);}
+.birch_sign                          {background-image: url(minecraft/birch_sign.png);}
+.birch_slab                          {background-image: url(minecraft/birch_slab.png);}
+.birch_stairs                        {background-image: url(minecraft/birch_stairs.png);}
+.birch_trapdoor                      {background-image: url(minecraft/birch_trapdoor.png);}
+.birch_wood                          {background-image: url(minecraft/birch_wood.png);}
+.black_banner                        {background-image: url(minecraft/black_banner.png);}
+.black_bed                           {background-image: url(minecraft/black_bed.png);}
+.black_carpet                        {background-image: url(minecraft/black_carpet.png);}
+.black_concrete_powder               {background-image: url(minecraft/black_concrete_powder.png);}
+.black_concrete                      {background-image: url(minecraft/black_concrete.png);}
+.black_glazed_terracotta             {background-image: url(minecraft/black_glazed_terracotta.png);}
+.black_shulker_box                   {background-image: url(minecraft/black_shulker_box.png);}
+.black_stained_glass                 {background-image: url(minecraft/black_stained_glass.png);}
+.black_stained_glass_pane            {background-image: url(minecraft/black_stained_glass_pane.png);}
+.black_terracotta                    {background-image: url(minecraft/black_terracotta.png);}
+.black_wool                          {background-image: url(minecraft/black_wool.png);}
+.blackstone                          {background-image: url(minecraft/blackstone.png);}
+.blackstone_slab                     {background-image: url(minecraft/blackstone_slab.png);}
+.blackstone_stairs                   {background-image: url(minecraft/blackstone_stairs.png);}
+.blackstone_wall                     {background-image: url(minecraft/blackstone_wall.png);}
+.blast_furnace                       {background-image: url(minecraft/blast_furnace.png);}
+.blue_banner                         {background-image: url(minecraft/blue_banner.png);}
+.blue_bed                            {background-image: url(minecraft/blue_bed.png);}
+.blue_carpet                         {background-image: url(minecraft/blue_carpet.png);}
+.blue_concrete_powder                {background-image: url(minecraft/blue_concrete_powder.png);}
+.blue_concrete                       {background-image: url(minecraft/blue_concrete.png);}
+.blue_glazed_terracotta              {background-image: url(minecraft/blue_glazed_terracotta.png);}
+.blue_ice                            {background-image: url(minecraft/blue_ice.png);}
+.blue_orchid                         {background-image: url(minecraft/blue_orchid.png);}
+.blue_shulker_box                    {background-image: url(minecraft/blue_shulker_box.png);}
+.blue_stained_glass                  {background-image: url(minecraft/blue_stained_glass.png);}
+.blue_stained_glass_pane             {background-image: url(minecraft/blue_stained_glass_pane.png);}
+.blue_terracotta                     {background-image: url(minecraft/blue_terracotta.png);}
+.blue_wool                           {background-image: url(minecraft/blue_wool.png);}
+.bone_block                          {background-image: url(minecraft/bone_block.png);}
+.bookshelf                           {background-image: url(minecraft/bookshelf.png);}
+.brain_coral                         {background-image: url(minecraft/brain_coral.png);}
+.brain_coral_block                   {background-image: url(minecraft/brain_coral_block.png);}
+.brain_coral_fan                     {background-image: url(minecraft/brain_coral_fan.png);}
+.brewing_stand                       {background-image: url(minecraft/brewing_stand.png);}
+.brick_slab                          {background-image: url(minecraft/brick_slab.png);}
+.brick_stairs                        {background-image: url(minecraft/brick_stairs.png);}
+.brick_wall                          {background-image: url(minecraft/brick_wall.png);}
+.bricks                              {background-image: url(minecraft/bricks.png);}
+.brown_banner                        {background-image: url(minecraft/brown_banner.png);}
+.brown_bed                           {background-image: url(minecraft/brown_bed.png);}
+.brown_carpet                        {background-image: url(minecraft/brown_carpet.png);}
+.brown_concrete_powder               {background-image: url(minecraft/brown_concrete_powder.png);}
+.brown_concrete                      {background-image: url(minecraft/brown_concrete.png);}
+.brown_glazed_terracotta             {background-image: url(minecraft/brown_glazed_terracotta.png);}
+.brown_mushroom_block                {background-image: url(minecraft/brown_mushroom_block.png);}
+.brown_mushroom                      {background-image: url(minecraft/brown_mushroom.png);}
+.brown_shulker_box                   {background-image: url(minecraft/brown_shulker_box.png);}
+.brown_stained_glass                 {background-image: url(minecraft/brown_stained_glass.png);}
+.brown_stained_glass_pane            {background-image: url(minecraft/brown_stained_glass_pane.png);}
+.brown_terracotta                    {background-image: url(minecraft/brown_terracotta.png);}
+.brown_wool                          {background-image: url(minecraft/brown_wool.png);}
+.bubble_coral                        {background-image: url(minecraft/bubble_coral.png);}
+.bubble_coral_block                  {background-image: url(minecraft/bubble_coral_block.png);}
+.bubble_coral_fan                    {background-image: url(minecraft/bubble_coral_fan.png);}
+.budding_amethyst                    {background-image: url(minecraft/budding_amethyst.png);}
+.cactus                              {background-image: url(minecraft/cactus.png);}
+.cake                                {background-image: url(minecraft/cake.png);}
+.campfire                            {background-image: url(minecraft/campfire.png);}
+.cartography_table                   {background-image: url(minecraft/cartography_table.png);}
+.carved_pumpkin                      {background-image: url(minecraft/carved_pumpkin.png);}
+.cauldron                            {background-image: url(minecraft/cauldron.png);}
+.chain                               {background-image: url(minecraft/chain.png);}
+.chain_command_block                 {background-image: url(minecraft/chain_command_block.png);}
+.chest                               {background-image: url(minecraft/chest.png);}
+.chipped_anvil                       {background-image: url(minecraft/chipped_anvil.png);}
+.chiseled_deepslate                  {background-image: url(minecraft/chiseled_deepslate.png);}
+.chiseled_nether_bricks              {background-image: url(minecraft/chiseled_nether_bricks.png);}
+.chiseled_polished_blackstone        {background-image: url(minecraft/chiseled_polished_blackstone.png);}
+.chiseled_quartz_block               {background-image: url(minecraft/chiseled_quartz_block.png);}
+.chiseled_red_sandstone              {background-image: url(minecraft/chiseled_red_sandstone.png);}
+.chiseled_sandstone                  {background-image: url(minecraft/chiseled_sandstone.png);}
+.chiseled_stone_bricks               {background-image: url(minecraft/chiseled_stone_bricks.png);}
+.chorus_flower                       {background-image: url(minecraft/chorus_flower.png);}
+.chorus_plant                        {background-image: url(minecraft/chorus_plant.png);}
+.clay                                {background-image: url(minecraft/clay.png);}
+.coal_block                          {background-image: url(minecraft/coal_block.png);}
+.coal_ore                            {background-image: url(minecraft/coal_ore.png);}
+.coarse_dirt                         {background-image: url(minecraft/coarse_dirt.png);}
+.cobbled_deepslate                   {background-image: url(minecraft/cobbled_deepslate.png);}
+.cobblestone                         {background-image: url(minecraft/cobblestone.png);}
+.cobblestone_slab                    {background-image: url(minecraft/cobblestone_slab.png);}
+.cobblestone_stairs                  {background-image: url(minecraft/cobblestone_stairs.png);}
+.cobblestone_wall                    {background-image: url(minecraft/cobblestone_wall.png);}
+.cobweb                              {background-image: url(minecraft/cobweb.png);}
+.command_block                       {background-image: url(minecraft/command_block.png);}
+.comparator                          {background-image: url(minecraft/comparator.png);}
+.composter                           {background-image: url(minecraft/composter.png);}
+.conduit                             {background-image: url(minecraft/conduit.png);}
+.copper_block                        {background-image: url(minecraft/copper_block.png);}
+.copper_ore                          {background-image: url(minecraft/copper_ore.png);}
+.cornflower                          {background-image: url(minecraft/cornflower.png);}
+.cracked_nether_bricks               {background-image: url(minecraft/cracked_nether_bricks.png);}
+.cracked_polished_blackstone_bricks  {background-image: url(minecraft/cracked_polished_blackstone_bricks.png);}
+.cracked_stone_bricks                {background-image: url(minecraft/cracked_stone_bricks.png);}
+.crafting_table                      {background-image: url(minecraft/crafting_table.png);}
+.creeper_head                        {background-image: url(minecraft/creeper_head.png);}
+.crimson_button                      {background-image: url(minecraft/crimson_button.png);}
+.crimson_door                        {background-image: url(minecraft/crimson_door.png);}
+.crimson_fence_gate                  {background-image: url(minecraft/crimson_fence_gate.png);}
+.crimson_fence                       {background-image: url(minecraft/crimson_fence.png);}
+.crimson_fungus                      {background-image: url(minecraft/crimson_fungus.png);}
+.crimson_hyphae                      {background-image: url(minecraft/crimson_hyphae.png);}
+.crimson_nylium                      {background-image: url(minecraft/crimson_nylium.png);}
+.crimson_planks                      {background-image: url(minecraft/crimson_planks.png);}
+.crimson_pressure_plate              {background-image: url(minecraft/crimson_pressure_plate.png);}
+.crimson_roots                       {background-image: url(minecraft/crimson_roots.png);}
+.crimson_sign                        {background-image: url(minecraft/crimson_sign.png);}
+.crimson_slab                        {background-image: url(minecraft/crimson_slab.png);}
+.crimson_stairs                      {background-image: url(minecraft/crimson_stairs.png);}
+.crimson_stem                        {background-image: url(minecraft/crimson_stem.png);}
+.crimson_trapdoor                    {background-image: url(minecraft/crimson_trapdoor.png);}
+.crying_obsidian                     {background-image: url(minecraft/crying_obsidian.png);}
+.cut_copper                          {background-image: url(minecraft/cut_copper.png);}
+.cut_copper_slab                     {background-image: url(minecraft/cut_copper_slab.png);}
+.cut_copper_stairs                   {background-image: url(minecraft/cut_copper_stairs.png);}
+.cut_red_sandstone                   {background-image: url(minecraft/cut_red_sandstone.png);}
+.cut_red_sandstone_slab              {background-image: url(minecraft/cut_red_sandstone_slab.png);}
+.cut_sandstone                       {background-image: url(minecraft/cut_sandstone.png);}
+.cut_sandstone_slab                  {background-image: url(minecraft/cut_sandstone_slab.png);}
+.cyan_banner                         {background-image: url(minecraft/cyan_banner.png);}
+.cyan_bed                            {background-image: url(minecraft/cyan_bed.png);}
+.cyan_carpet                         {background-image: url(minecraft/cyan_carpet.png);}
+.cyan_concrete_powder                {background-image: url(minecraft/cyan_concrete_powder.png);}
+.cyan_concrete                       {background-image: url(minecraft/cyan_concrete.png);}
+.cyan_glazed_terracotta              {background-image: url(minecraft/cyan_glazed_terracotta.png);}
+.cyan_shulker_box                    {background-image: url(minecraft/cyan_shulker_box.png);}
+.cyan_stained_glass                  {background-image: url(minecraft/cyan_stained_glass.png);}
+.cyan_stained_glass_pane             {background-image: url(minecraft/cyan_stained_glass_pane.png);}
+.cyan_terracotta                     {background-image: url(minecraft/cyan_terracotta.png);}
+.cyan_wool                           {background-image: url(minecraft/cyan_wool.png);}
+.damaged_anvil                       {background-image: url(minecraft/damaged_anvil.png);}
+.dandelion                           {background-image: url(minecraft/dandelion.png);}
+.dark_oak_button                     {background-image: url(minecraft/dark_oak_button.png);}
+.dark_oak_door                       {background-image: url(minecraft/dark_oak_door.png);}
+.dark_oak_fence_gate                 {background-image: url(minecraft/dark_oak_fence_gate.png);}
+.dark_oak_fence                      {background-image: url(minecraft/dark_oak_fence.png);}
+.dark_oak_leaves                     {background-image: url(minecraft/dark_oak_leaves.png);}
+.dark_oak_log                        {background-image: url(minecraft/dark_oak_log.png);}
+.dark_oak_planks                     {background-image: url(minecraft/dark_oak_planks.png);}
+.dark_oak_pressure_plate             {background-image: url(minecraft/dark_oak_pressure_plate.png);}
+.dark_oak_sapling                    {background-image: url(minecraft/dark_oak_sapling.png);}
+.dark_oak_sign                       {background-image: url(minecraft/dark_oak_sign.png);}
+.dark_oak_slab                       {background-image: url(minecraft/dark_oak_slab.png);}
+.dark_oak_stairs                     {background-image: url(minecraft/dark_oak_stairs.png);}
+.dark_oak_trapdoor                   {background-image: url(minecraft/dark_oak_trapdoor.png);}
+.dark_oak_wood                       {background-image: url(minecraft/dark_oak_wood.png);}
+.dark_prismarine                     {background-image: url(minecraft/dark_prismarine.png);}
+.dark_prismarine_slab                {background-image: url(minecraft/dark_prismarine_slab.png);}
+.dark_prismarine_stairs              {background-image: url(minecraft/dark_prismarine_stairs.png);}
+.daylight_detector                   {background-image: url(minecraft/daylight_detector.png);}
+.dead_brain_coral                    {background-image: url(minecraft/dead_brain_coral.png);}
+.dead_brain_coral_block              {background-image: url(minecraft/dead_brain_coral_block.png);}
+.dead_brain_coral_fan                {background-image: url(minecraft/dead_brain_coral_fan.png);}
+.dead_bubble_coral                   {background-image: url(minecraft/dead_bubble_coral.png);}
+.dead_bubble_coral_block             {background-image: url(minecraft/dead_bubble_coral_block.png);}
+.dead_bubble_coral_fan               {background-image: url(minecraft/dead_bubble_coral_fan.png);}
+.dead_bush                           {background-image: url(minecraft/dead_bush.png);}
+.dead_fire_coral                     {background-image: url(minecraft/dead_fire_coral.png);}
+.dead_fire_coral_block               {background-image: url(minecraft/dead_fire_coral_block.png);}
+.dead_fire_coral_fan                 {background-image: url(minecraft/dead_fire_coral_fan.png);}
+.dead_horn_coral                     {background-image: url(minecraft/dead_horn_coral.png);}
+.dead_horn_coral_block               {background-image: url(minecraft/dead_horn_coral_block.png);}
+.dead_horn_coral_fan                 {background-image: url(minecraft/dead_horn_coral_fan.png);}
+.dead_tube_coral                     {background-image: url(minecraft/dead_tube_coral.png);}
+.dead_tube_coral_block               {background-image: url(minecraft/dead_tube_coral_block.png);}
+.dead_tube_coral_fan                 {background-image: url(minecraft/dead_tube_coral_fan.png);}
+.deepslate                           {background-image: url(minecraft/deepslate.png);}
+.deepslate_coal_ore                  {background-image: url(minecraft/deepslate_coal_ore.png);}
+.deepslate_copper_ore                {background-image: url(minecraft/deepslate_copper_ore.png);}
+.deepslate_diamond_ore               {background-image: url(minecraft/deepslate_diamond_ore.png);}
+.deepslate_emerald_ore               {background-image: url(minecraft/deepslate_emerald_ore.png);}
+.deepslate_gold_ore                  {background-image: url(minecraft/deepslate_gold_ore.png);}
+.deepslate_iron_ore                  {background-image: url(minecraft/deepslate_iron_ore.png);}
+.deepslate_lapis_ore                 {background-image: url(minecraft/deepslate_lapis_ore.png);}
+.deepslate_redstone_ore              {background-image: url(minecraft/deepslate_redstone_ore.png);}
+.detector_rail                       {background-image: url(minecraft/detector_rail.png);}
+.diamond_block                       {background-image: url(minecraft/diamond_block.png);}
+.diamond_ore                         {background-image: url(minecraft/diamond_ore.png);}
+.diorite                             {background-image: url(minecraft/diorite.png);}
+.diorite_slab                        {background-image: url(minecraft/diorite_slab.png);}
+.diorite_stairs                      {background-image: url(minecraft/diorite_stairs.png);}
+.diorite_wall                        {background-image: url(minecraft/diorite_wall.png);}
+.dirt                                {background-image: url(minecraft/dirt.png);}
+.dispenser                           {background-image: url(minecraft/dispenser.png);}
+.dragon_egg                          {background-image: url(minecraft/dragon_egg.png);}
+.dragon_head                         {background-image: url(minecraft/dragon_head.png);}
+.dried_kelp_block                    {background-image: url(minecraft/dried_kelp_block.png);}
+.dripstone_block                     {background-image: url(minecraft/dripstone_block.png);}
+.dropper                             {background-image: url(minecraft/dropper.png);}
+.emerald_block                       {background-image: url(minecraft/emerald_block.png);}
+.emerald_ore                         {background-image: url(minecraft/emerald_ore.png);}
+.enchanting_table                    {background-image: url(minecraft/enchanting_table.png);}
+.end_portal_frame                    {background-image: url(minecraft/end_portal_frame.png);}
+.end_rod                             {background-image: url(minecraft/end_rod.png);}
+.end_stone                           {background-image: url(minecraft/end_stone.png);}
+.end_stone_brick_slab                {background-image: url(minecraft/end_stone_brick_slab.png);}
+.end_stone_brick_stairs              {background-image: url(minecraft/end_stone_brick_stairs.png);}
+.end_stone_brick_wall                {background-image: url(minecraft/end_stone_brick_wall.png);}
+.end_stone_bricks                    {background-image: url(minecraft/end_stone_bricks.png);}
+.ender_chest                         {background-image: url(minecraft/ender_chest.png);}
+.exposed_copper                      {background-image: url(minecraft/exposed_copper.png);}
+.exposed_cut_copper                  {background-image: url(minecraft/exposed_cut_copper.png);}
+.exposed_cut_copper_slab             {background-image: url(minecraft/exposed_cut_copper_slab.png);}
+.exposed_cut_copper_stairs           {background-image: url(minecraft/exposed_cut_copper_stairs.png);}
+.farmland                            {background-image: url(minecraft/farmland.png);}
+.fern                                {background-image: url(minecraft/fern.png);}
+.fire_coral                          {background-image: url(minecraft/fire_coral.png);}
+.fire_coral_block                    {background-image: url(minecraft/fire_coral_block.png);}
+.fire_coral_fan                      {background-image: url(minecraft/fire_coral_fan.png);}
+.fletching_table                     {background-image: url(minecraft/fletching_table.png);}
+.flower_pot                          {background-image: url(minecraft/flower_pot.png);}
+.flowering_azalea                    {background-image: url(minecraft/flowering_azalea.png);}
+.flowering_azalea_leaves             {background-image: url(minecraft/flowering_azalea_leaves.png);}
+.furnace                             {background-image: url(minecraft/furnace.png);}
+.gilded_blackstone                   {background-image: url(minecraft/gilded_blackstone.png);}
+.glass                               {background-image: url(minecraft/glass.png);}
+.glass_pane                          {background-image: url(minecraft/glass_pane.png);}
+.glowstone                           {background-image: url(minecraft/glowstone.png);}
+.gold_block                          {background-image: url(minecraft/gold_block.png);}
+.gold_ore                            {background-image: url(minecraft/gold_ore.png);}
+.granite                             {background-image: url(minecraft/granite.png);}
+.granite_slab                        {background-image: url(minecraft/granite_slab.png);}
+.granite_stairs                      {background-image: url(minecraft/granite_stairs.png);}
+.granite_wall                        {background-image: url(minecraft/granite_wall.png);}
+.grass_block                         {background-image: url(minecraft/grass_block.png);}
+.grass_path                          {background-image: url(minecraft/grass_path.png);}
+.grass                               {background-image: url(minecraft/grass.png);}
+.gravel                              {background-image: url(minecraft/gravel.png);}
+.gray_banner                         {background-image: url(minecraft/gray_banner.png);}
+.gray_bed                            {background-image: url(minecraft/gray_bed.png);}
+.gray_carpet                         {background-image: url(minecraft/gray_carpet.png);}
+.gray_concrete_powder                {background-image: url(minecraft/gray_concrete_powder.png);}
+.gray_concrete                       {background-image: url(minecraft/gray_concrete.png);}
+.gray_glazed_terracotta              {background-image: url(minecraft/gray_glazed_terracotta.png);}
+.gray_shulker_box                    {background-image: url(minecraft/gray_shulker_box.png);}
+.gray_stained_glass                  {background-image: url(minecraft/gray_stained_glass.png);}
+.gray_stained_glass_pane             {background-image: url(minecraft/gray_stained_glass_pane.png);}
+.gray_terracotta                     {background-image: url(minecraft/gray_terracotta.png);}
+.gray_wool                           {background-image: url(minecraft/gray_wool.png);}
+.green_banner                        {background-image: url(minecraft/green_banner.png);}
+.green_bed                           {background-image: url(minecraft/green_bed.png);}
+.green_carpet                        {background-image: url(minecraft/green_carpet.png);}
+.green_concrete_powder               {background-image: url(minecraft/green_concrete_powder.png);}
+.green_concrete                      {background-image: url(minecraft/green_concrete.png);}
+.green_glazed_terracotta             {background-image: url(minecraft/green_glazed_terracotta.png);}
+.green_shulker_box                   {background-image: url(minecraft/green_shulker_box.png);}
+.green_stained_glass                 {background-image: url(minecraft/green_stained_glass.png);}
+.green_stained_glass_pane            {background-image: url(minecraft/green_stained_glass_pane.png);}
+.green_terracotta                    {background-image: url(minecraft/green_terracotta.png);}
+.green_wool                          {background-image: url(minecraft/green_wool.png);}
+.grindstone                          {background-image: url(minecraft/grindstone.png);}
+.hay_block                           {background-image: url(minecraft/hay_block.png);}
+.heavy_weighted_pressure_plate       {background-image: url(minecraft/heavy_weighted_pressure_plate.png);}
+.hopper                              {background-image: url(minecraft/hopper.png);}
+.honey_block                         {background-image: url(minecraft/honey_block.png);}
+.honeycomb_block                     {background-image: url(minecraft/honeycomb_block.png);}
+.horn_coral                          {background-image: url(minecraft/horn_coral.png);}
+.horn_coral_block                    {background-image: url(minecraft/horn_coral_block.png);}
+.horn_coral_fan                      {background-image: url(minecraft/horn_coral_fan.png);}
+.ice                                 {background-image: url(minecraft/ice.png);}
+.infested_chiseled_stone_bricks      {background-image: url(minecraft/infested_chiseled_stone_bricks.png);}
+.infested_cobblestone                {background-image: url(minecraft/infested_cobblestone.png);}
+.infested_cracked_stone_bricks       {background-image: url(minecraft/infested_cracked_stone_bricks.png);}
+.infested_mossy_stone_bricks         {background-image: url(minecraft/infested_mossy_stone_bricks.png);}
+.infested_stone                      {background-image: url(minecraft/infested_stone.png);}
+.infested_stone_bricks               {background-image: url(minecraft/infested_stone_bricks.png);}
+.iron_bars                           {background-image: url(minecraft/iron_bars.png);}
+.iron_door                           {background-image: url(minecraft/iron_door.png);}
+.iron_block                          {background-image: url(minecraft/iron_block.png);}
+.iron_ore                            {background-image: url(minecraft/iron_ore.png);}
+.iron_trapdoor                       {background-image: url(minecraft/iron_trapdoor.png);}
+.jack_o_lantern                      {background-image: url(minecraft/jack_o_lantern.png);}
+.jigsaw                              {background-image: url(minecraft/jigsaw.png);}
+.jukebox                             {background-image: url(minecraft/jukebox.png);}
+.jungle_button                       {background-image: url(minecraft/jungle_button.png);}
+.jungle_door                         {background-image: url(minecraft/jungle_door.png);}
+.jungle_fence_gate                   {background-image: url(minecraft/jungle_fence_gate.png);}
+.jungle_fence                        {background-image: url(minecraft/jungle_fence.png);}
+.jungle_leaves                       {background-image: url(minecraft/jungle_leaves.png);}
+.jungle_log                          {background-image: url(minecraft/jungle_log.png);}
+.jungle_planks                       {background-image: url(minecraft/jungle_planks.png);}
+.jungle_pressure_plate               {background-image: url(minecraft/jungle_pressure_plate.png);}
+.jungle_sapling                      {background-image: url(minecraft/jungle_sapling.png);}
+.jungle_sign                         {background-image: url(minecraft/jungle_sign.png);}
+.jungle_slab                         {background-image: url(minecraft/jungle_slab.png);}
+.jungle_stairs                       {background-image: url(minecraft/jungle_stairs.png);}
+.jungle_trapdoor                     {background-image: url(minecraft/jungle_trapdoor.png);}
+.jungle_wood                         {background-image: url(minecraft/jungle_wood.png);}
+.kelp                                {background-image: url(minecraft/kelp.png);}
+.ladder                              {background-image: url(minecraft/ladder.png);}
+.lantern                             {background-image: url(minecraft/lantern.png);}
+.lapis_block                         {background-image: url(minecraft/lapis_block.png);}
+.lapis_ore                           {background-image: url(minecraft/lapis_ore.png);}
+.large_fern                          {background-image: url(minecraft/large_fern.png);}
+.lava                                {background-image: url(minecraft/lava.png);}
+.lectern                             {background-image: url(minecraft/lectern.png);}
+.lever                               {background-image: url(minecraft/lever.png);}
+.light_blue_banner                   {background-image: url(minecraft/light_blue_banner.png);}
+.light_blue_bed                      {background-image: url(minecraft/light_blue_bed.png);}
+.light_blue_carpet                   {background-image: url(minecraft/light_blue_carpet.png);}
+.light_blue_concrete_powder          {background-image: url(minecraft/light_blue_concrete_powder.png);}
+.light_blue_concrete                 {background-image: url(minecraft/light_blue_concrete.png);}
+.light_blue_glazed_terracotta        {background-image: url(minecraft/light_blue_glazed_terracotta.png);}
+.light_blue_shulker_box              {background-image: url(minecraft/light_blue_shulker_box.png);}
+.light_blue_stained_glass            {background-image: url(minecraft/light_blue_stained_glass.png);}
+.light_blue_stained_glass_pane       {background-image: url(minecraft/light_blue_stained_glass_pane.png);}
+.light_blue_terracotta               {background-image: url(minecraft/light_blue_terracotta.png);}
+.light_blue_wool                     {background-image: url(minecraft/light_blue_wool.png);}
+.light_gray_banner                   {background-image: url(minecraft/light_gray_banner.png);}
+.light_gray_bed                      {background-image: url(minecraft/light_gray_bed.png);}
+.light_gray_carpet                   {background-image: url(minecraft/light_gray_carpet.png);}
+.light_gray_concrete_powder          {background-image: url(minecraft/light_gray_concrete_powder.png);}
+.light_gray_concrete                 {background-image: url(minecraft/light_gray_concrete.png);}
+.light_gray_glazed_terracotta        {background-image: url(minecraft/light_gray_glazed_terracotta.png);}
+.light_gray_shulker_box              {background-image: url(minecraft/light_gray_shulker_box.png);}
+.light_gray_stained_glass            {background-image: url(minecraft/light_gray_stained_glass.png);}
+.light_gray_stained_glass_pane       {background-image: url(minecraft/light_gray_stained_glass_pane.png);}
+.light_gray_terracotta               {background-image: url(minecraft/light_gray_terracotta.png);}
+.light_gray_wool                     {background-image: url(minecraft/light_gray_wool.png);}
+.light_weighted_pressure_plate       {background-image: url(minecraft/light_weighted_pressure_plate.png);}
+.lilac                               {background-image: url(minecraft/lilac.png);}
+.lily_pad                            {background-image: url(minecraft/lily_pad.png);}
+.lily_of_the_valley                  {background-image: url(minecraft/lily_of_the_valley.png);}
+.lime_banner                         {background-image: url(minecraft/lime_banner.png);}
+.lime_bed                            {background-image: url(minecraft/lime_bed.png);}
+.lime_carpet                         {background-image: url(minecraft/lime_carpet.png);}
+.lime_concrete_powder                {background-image: url(minecraft/lime_concrete_powder.png);}
+.lime_concrete                       {background-image: url(minecraft/lime_concrete.png);}
+.lime_glazed_terracotta              {background-image: url(minecraft/lime_glazed_terracotta.png);}
+.lime_shulker_box                    {background-image: url(minecraft/lime_shulker_box.png);}
+.lime_stained_glass                  {background-image: url(minecraft/lime_stained_glass.png);}
+.lime_stained_glass_pane             {background-image: url(minecraft/lime_stained_glass_pane.png);}
+.lime_terracotta                     {background-image: url(minecraft/lime_terracotta.png);}
+.lime_wool                           {background-image: url(minecraft/lime_wool.png);}
+.lodestone                           {background-image: url(minecraft/lodestone.png);}
+.loom                                {background-image: url(minecraft/loom.png);}
+.magenta_banner                      {background-image: url(minecraft/magenta_banner.png);}
+.magenta_bed                         {background-image: url(minecraft/magenta_bed.png);}
+.magenta_carpet                      {background-image: url(minecraft/magenta_carpet.png);}
+.magenta_concrete_powder             {background-image: url(minecraft/magenta_concrete_powder.png);}
+.magenta_concrete                    {background-image: url(minecraft/magenta_concrete.png);}
+.magenta_glazed_terracotta           {background-image: url(minecraft/magenta_glazed_terracotta.png);}
+.magenta_shulker_box                 {background-image: url(minecraft/magenta_shulker_box.png);}
+.magenta_stained_glass               {background-image: url(minecraft/magenta_stained_glass.png);}
+.magenta_stained_glass_pane          {background-image: url(minecraft/magenta_stained_glass_pane.png);}
+.magenta_terracotta                  {background-image: url(minecraft/magenta_terracotta.png);}
+.magenta_wool                        {background-image: url(minecraft/magenta_wool.png);}
+.magma_block                         {background-image: url(minecraft/magma_block.png);}
+.melon                               {background-image: url(minecraft/melon.png);}
+.moss_block                          {background-image: url(minecraft/moss_block.png);}
+.mossy_cobblestone                   {background-image: url(minecraft/mossy_cobblestone.png);}
+.mossy_cobblestone_slab              {background-image: url(minecraft/mossy_cobblestone_slab.png);}
+.mossy_cobblestone_stairs            {background-image: url(minecraft/mossy_cobblestone_stairs.png);}
+.mossy_cobblestone_wall              {background-image: url(minecraft/mossy_cobblestone_wall.png);}
+.mossy_stone_brick_slab              {background-image: url(minecraft/mossy_stone_brick_slab.png);}
+.mossy_stone_brick_stairs            {background-image: url(minecraft/mossy_stone_brick_stairs.png);}
+.mossy_stone_brick_wall              {background-image: url(minecraft/mossy_stone_brick_wall.png);}
+.mossy_stone_bricks                  {background-image: url(minecraft/mossy_stone_bricks.png);}
+.mud                                 {background-image: url(minecraft/mud.png);}
+.mushroom_stem                       {background-image: url(minecraft/mushroom_stem.png);}
+.mycelium                            {background-image: url(minecraft/mycelium.png);}
+.nether_brick_fence                  {background-image: url(minecraft/nether_brick_fence.png);}
+.nether_brick_slab                   {background-image: url(minecraft/nether_brick_slab.png);}
+.nether_brick_stairs                 {background-image: url(minecraft/nether_brick_stairs.png);}
+.nether_brick_wall                   {background-image: url(minecraft/nether_brick_wall.png);}
+.nether_bricks                       {background-image: url(minecraft/nether_bricks.png);}
+.nether_gold_ore                     {background-image: url(minecraft/nether_gold_ore.png);}
+.nether_quartz_ore                   {background-image: url(minecraft/nether_quartz_ore.png);}
+.nether_sprouts                      {background-image: url(minecraft/nether_sprouts.png);}
+.nether_wart_block                   {background-image: url(minecraft/nether_wart_block.png);}
+.nether_wart                         {background-image: url(minecraft/nether_wart.png);}
+.netherite_block                     {background-image: url(minecraft/netherite_block.png);}
+.netherrack                          {background-image: url(minecraft/netherrack.png);}
+.note_block                          {background-image: url(minecraft/note_block.png);}
+.oak_button                          {background-image: url(minecraft/oak_button.png);}
+.oak_door                            {background-image: url(minecraft/oak_door.png);}
+.oak_fence_gate                      {background-image: url(minecraft/oak_fence_gate.png);}
+.oak_fence                           {background-image: url(minecraft/oak_fence.png);}
+.oak_leaves                          {background-image: url(minecraft/oak_leaves.png);}
+.oak_log                             {background-image: url(minecraft/oak_log.png);}
+.oak_planks                          {background-image: url(minecraft/oak_planks.png);}
+.oak_pressure_plate                  {background-image: url(minecraft/oak_pressure_plate.png);}
+.oak_sapling                         {background-image: url(minecraft/oak_sapling.png);}
+.oak_sign                            {background-image: url(minecraft/oak_sign.png);}
+.oak_slab                            {background-image: url(minecraft/oak_slab.png);}
+.oak_stairs                          {background-image: url(minecraft/oak_stairs.png);}
+.oak_trapdoor                        {background-image: url(minecraft/oak_trapdoor.png);}
+.oak_wood                            {background-image: url(minecraft/oak_wood.png);}
+.observer                            {background-image: url(minecraft/observer.png);}
+.obsidian                            {background-image: url(minecraft/obsidian.png);}
+.orange_banner                       {background-image: url(minecraft/orange_banner.png);}
+.orange_bed                          {background-image: url(minecraft/orange_bed.png);}
+.orange_carpet                       {background-image: url(minecraft/orange_carpet.png);}
+.orange_concrete_powder              {background-image: url(minecraft/orange_concrete_powder.png);}
+.orange_concrete                     {background-image: url(minecraft/orange_concrete.png);}
+.orange_glazed_terracotta            {background-image: url(minecraft/orange_glazed_terracotta.png);}
+.orange_shulker_box                  {background-image: url(minecraft/orange_shulker_box.png);}
+.orange_stained_glass                {background-image: url(minecraft/orange_stained_glass.png);}
+.orange_stained_glass_pane           {background-image: url(minecraft/orange_stained_glass_pane.png);}
+.orange_terracotta                   {background-image: url(minecraft/orange_terracotta.png);}
+.orange_tulip                        {background-image: url(minecraft/orange_tulip.png);}
+.orange_wool                         {background-image: url(minecraft/orange_wool.png);}
+.oxeye_daisy                         {background-image: url(minecraft/oxeye_daisy.png);}
+.oxidized_copper                     {background-image: url(minecraft/oxidized_copper.png);}
+.oxidized_cut_copper                 {background-image: url(minecraft/oxidized_cut_copper.png);}
+.oxidized_cut_copper_slab            {background-image: url(minecraft/oxidized_cut_copper_slab.png);}
+.oxidized_cut_copper_stairs          {background-image: url(minecraft/oxidized_cut_copper_stairs.png);}
+.packed_ice                          {background-image: url(minecraft/packed_ice.png);}
+.peony                               {background-image: url(minecraft/peony.png);}
+.petrified_oak_slab                  {background-image: url(minecraft/petrified_oak_slab.png);}
+.pink_banner                         {background-image: url(minecraft/pink_banner.png);}
+.pink_bed                            {background-image: url(minecraft/pink_bed.png);}
+.pink_carpet                         {background-image: url(minecraft/pink_carpet.png);}
+.pink_concrete_powder                {background-image: url(minecraft/pink_concrete_powder.png);}
+.pink_concrete                       {background-image: url(minecraft/pink_concrete.png);}
+.pink_glazed_terracotta              {background-image: url(minecraft/pink_glazed_terracotta.png);}
+.pink_shulker_box                    {background-image: url(minecraft/pink_shulker_box.png);}
+.pink_stained_glass                  {background-image: url(minecraft/pink_stained_glass.png);}
+.pink_stained_glass_pane             {background-image: url(minecraft/pink_stained_glass_pane.png);}
+.pink_terracotta                     {background-image: url(minecraft/pink_terracotta.png);}
+.pink_tulip                          {background-image: url(minecraft/pink_tulip.png);}
+.pink_wool                           {background-image: url(minecraft/pink_wool.png);}
+.piston                              {background-image: url(minecraft/piston.png);}
+.player_head                         {background-image: url(minecraft/player_head.png);}
+.podzol                              {background-image: url(minecraft/podzol.png);}
+.polished_andesite                   {background-image: url(minecraft/polished_andesite.png);}
+.polished_andesite_slab              {background-image: url(minecraft/polished_andesite_slab.png);}
+.polished_andesite_stairs            {background-image: url(minecraft/polished_andesite_stairs.png);}
+.polished_basalt                     {background-image: url(minecraft/polished_basalt.png);}
+.polished_blackstone                 {background-image: url(minecraft/polished_blackstone.png);}
+.polished_blackstone_brick_slab      {background-image: url(minecraft/polished_blackstone_brick_slab.png);}
+.polished_blackstone_brick_stairs    {background-image: url(minecraft/polished_blackstone_brick_stairs.png);}
+.polished_blackstone_brick_wall      {background-image: url(minecraft/polished_blackstone_brick_wall.png);}
+.polished_blackstone_bricks          {background-image: url(minecraft/polished_blackstone_bricks.png);}
+.polished_blackstone_button          {background-image: url(minecraft/polished_blackstone_button.png);}
+.polished_blackstone_pressure_plate  {background-image: url(minecraft/polished_blackstone_pressure_plate.png);}
+.polished_blackstone_slab            {background-image: url(minecraft/polished_blackstone_slab.png);}
+.polished_blackstone_stairs          {background-image: url(minecraft/polished_blackstone_stairs.png);}
+.polished_blackstone_wall            {background-image: url(minecraft/polished_blackstone_wall.png);}
+.polished_deepslate                  {background-image: url(minecraft/polished_deepslate.png);}
+.polished_diorite                    {background-image: url(minecraft/polished_diorite.png);}
+.polished_diorite_slab               {background-image: url(minecraft/polished_diorite_slab.png);}
+.polished_diorite_stairs             {background-image: url(minecraft/polished_diorite_stairs.png);}
+.polished_granite                    {background-image: url(minecraft/polished_granite.png);}
+.polished_granite_slab               {background-image: url(minecraft/polished_granite_slab.png);}
+.polished_granite_stairs             {background-image: url(minecraft/polished_granite_stairs.png);}
+.poppy                               {background-image: url(minecraft/poppy.png);}
+.powered_rail                        {background-image: url(minecraft/powered_rail.png);}
+.prismarine                          {background-image: url(minecraft/prismarine.png);}
+.prismarine_brick_slab               {background-image: url(minecraft/prismarine_brick_slab.png);}
+.prismarine_brick_stairs             {background-image: url(minecraft/prismarine_brick_stairs.png);}
+.prismarine_bricks                   {background-image: url(minecraft/prismarine_bricks.png);}
+.prismarine_slab                     {background-image: url(minecraft/prismarine_slab.png);}
+.prismarine_stairs                   {background-image: url(minecraft/prismarine_stairs.png);}
+.prismarine_wall                     {background-image: url(minecraft/prismarine_wall.png);}
+.pumpkin                             {background-image: url(minecraft/pumpkin.png);}
+.purple_banner                       {background-image: url(minecraft/purple_banner.png);}
+.purple_bed                          {background-image: url(minecraft/purple_bed.png);}
+.purple_carpet                       {background-image: url(minecraft/purple_carpet.png);}
+.purple_concrete_powder              {background-image: url(minecraft/purple_concrete_powder.png);}
+.purple_concrete                     {background-image: url(minecraft/purple_concrete.png);}
+.purple_glazed_terracotta            {background-image: url(minecraft/purple_glazed_terracotta.png);}
+.purple_shulker_box                  {background-image: url(minecraft/purple_shulker_box.png);}
+.purple_stained_glass                {background-image: url(minecraft/purple_stained_glass.png);}
+.purple_stained_glass_pane           {background-image: url(minecraft/purple_stained_glass_pane.png);}
+.purple_terracotta                   {background-image: url(minecraft/purple_terracotta.png);}
+.purple_wool                         {background-image: url(minecraft/purple_wool.png);}
+.purpur_block                        {background-image: url(minecraft/purpur_block.png);}
+.purpur_pillar                       {background-image: url(minecraft/purpur_pillar.png);}
+.purpur_slab                         {background-image: url(minecraft/purpur_slab.png);}
+.purpur_stairs                       {background-image: url(minecraft/purpur_stairs.png);}
+.quartz_block                        {background-image: url(minecraft/quartz_block.png);}
+.quartz_bricks                       {background-image: url(minecraft/quartz_bricks.png);}
+.quartz_pillar                       {background-image: url(minecraft/quartz_pillar.png);}
+.quartz_slab                         {background-image: url(minecraft/quartz_slab.png);}
+.quartz_stairs                       {background-image: url(minecraft/quartz_stairs.png);}
+.rail                                {background-image: url(minecraft/rail.png);}
+.raw_copper_block                    {background-image: url(minecraft/raw_copper_block.png);}
+.raw_gold_block                      {background-image: url(minecraft/raw_gold_block.png);}
+.raw_iron_block                      {background-image: url(minecraft/raw_iron_block.png);}
+.red_banner                          {background-image: url(minecraft/red_banner.png);}
+.red_bed                             {background-image: url(minecraft/red_bed.png);}
+.red_carpet                          {background-image: url(minecraft/red_carpet.png);}
+.red_concrete_powder                 {background-image: url(minecraft/red_concrete_powder.png);}
+.red_concrete                        {background-image: url(minecraft/red_concrete.png);}
+.red_glazed_terracotta               {background-image: url(minecraft/red_glazed_terracotta.png);}
+.red_mushroom_block                  {background-image: url(minecraft/red_mushroom_block.png);}
+.red_mushroom                        {background-image: url(minecraft/red_mushroom.png);}
+.red_nether_brick_slab               {background-image: url(minecraft/red_nether_brick_slab.png);}
+.red_nether_brick_stairs             {background-image: url(minecraft/red_nether_brick_stairs.png);}
+.red_nether_brick_wall               {background-image: url(minecraft/red_nether_brick_wall.png);}
+.red_nether_bricks                   {background-image: url(minecraft/red_nether_bricks.png);}
+.red_sand                            {background-image: url(minecraft/red_sand.png);}
+.red_sandstone                       {background-image: url(minecraft/red_sandstone.png);}
+.red_sandstone_slab                  {background-image: url(minecraft/red_sandstone_slab.png);}
+.red_sandstone_stairs                {background-image: url(minecraft/red_sandstone_stairs.png);}
+.red_sandstone_wall                  {background-image: url(minecraft/red_sandstone_wall.png);}
+.red_shulker_box                     {background-image: url(minecraft/red_shulker_box.png);}
+.red_stained_glass                   {background-image: url(minecraft/red_stained_glass.png);}
+.red_stained_glass_pane              {background-image: url(minecraft/red_stained_glass_pane.png);}
+.red_terracotta                      {background-image: url(minecraft/red_terracotta.png);}
+.red_tulip                           {background-image: url(minecraft/red_tulip.png);}
+.red_wool                            {background-image: url(minecraft/red_wool.png);}
+.respawn_anchor                      {background-image: url(minecraft/respawn_anchor.png);}
+.redstone_block                      {background-image: url(minecraft/redstone_block.png);}
+.redstone_lamp                       {background-image: url(minecraft/redstone_lamp.png);}
+.redstone_ore                        {background-image: url(minecraft/redstone_ore.png);}
+.redstone_torch                      {background-image: url(minecraft/redstone_torch.png);}
+.repeater                            {background-image: url(minecraft/repeater.png);}
+.repeating_command_block             {background-image: url(minecraft/repeating_command_block.png);}
+.rose_bush                           {background-image: url(minecraft/rose_bush.png);}
+.sand                                {background-image: url(minecraft/sand.png);}
+.sandstone                           {background-image: url(minecraft/sandstone.png);}
+.sandstone_slab                      {background-image: url(minecraft/sandstone_slab.png);}
+.sandstone_stairs                    {background-image: url(minecraft/sandstone_stairs.png);}
+.sandstone_wall                      {background-image: url(minecraft/sandstone_wall.png);}
+.scaffolding                         {background-image: url(minecraft/scaffolding.png);}
+.sea_lantern                         {background-image: url(minecraft/sea_lantern.png);}
+.sea_pickle                          {background-image: url(minecraft/sea_pickle.png);}
+.seagrass                            {background-image: url(minecraft/seagrass.png);}
+.shroomlight                         {background-image: url(minecraft/shroomlight.png);}
+.shulker_box                         {background-image: url(minecraft/shulker_box.png);}
+.skeleton_skull                      {background-image: url(minecraft/skeleton_skull.png);}
+.slime_block                         {background-image: url(minecraft/slime_block.png);}
+.smithing_table                      {background-image: url(minecraft/smithing_table.png);}
+.smoker                              {background-image: url(minecraft/smoker.png);}
+.smooth_quartz                       {background-image: url(minecraft/smooth_quartz.png);}
+.smooth_quartz_slab                  {background-image: url(minecraft/smooth_quartz_slab.png);}
+.smooth_quartz_stairs                {background-image: url(minecraft/smooth_quartz_stairs.png);}
+.smooth_red_sandstone                {background-image: url(minecraft/smooth_red_sandstone.png);}
+.smooth_red_sandstone_slab           {background-image: url(minecraft/smooth_red_sandstone_slab.png);}
+.smooth_red_sandstone_stairs         {background-image: url(minecraft/smooth_red_sandstone_stairs.png);}
+.smooth_sandstone                    {background-image: url(minecraft/smooth_sandstone.png);}
+.smooth_sandstone_slab               {background-image: url(minecraft/smooth_sandstone_slab.png);}
+.smooth_sandstone_stairs             {background-image: url(minecraft/smooth_sandstone_stairs.png);}
+.smooth_stone                        {background-image: url(minecraft/smooth_stone.png);}
+.smooth_stone_slab                   {background-image: url(minecraft/smooth_stone_slab.png);}
+.snow_block                          {background-image: url(minecraft/snow_block.png);}
+.snow                                {background-image: url(minecraft/snow.png);}
+.soul_campfire                       {background-image: url(minecraft/soul_campfire.png);}
+.soul_lantern                        {background-image: url(minecraft/soul_lantern.png);}
+.soul_sand                           {background-image: url(minecraft/soul_sand.png);}
+.soul_soil                           {background-image: url(minecraft/soul_soil.png);}
+.soul_torch                          {background-image: url(minecraft/soul_torch.png);}
+.spawner                             {background-image: url(minecraft/spawner.png);}
+.sponge                              {background-image: url(minecraft/sponge.png);}
+.spruce_button                       {background-image: url(minecraft/spruce_button.png);}
+.spruce_door                         {background-image: url(minecraft/spruce_door.png);}
+.spruce_fence_gate                   {background-image: url(minecraft/spruce_fence_gate.png);}
+.spruce_fence                        {background-image: url(minecraft/spruce_fence.png);}
+.spruce_leaves                       {background-image: url(minecraft/spruce_leaves.png);}
+.spruce_log                          {background-image: url(minecraft/spruce_log.png);}
+.spruce_planks                       {background-image: url(minecraft/spruce_planks.png);}
+.spruce_pressure_plate               {background-image: url(minecraft/spruce_pressure_plate.png);}
+.spruce_sapling                      {background-image: url(minecraft/spruce_sapling.png);}
+.spruce_sign                         {background-image: url(minecraft/spruce_sign.png);}
+.spruce_slab                         {background-image: url(minecraft/spruce_slab.png);}
+.spruce_stairs                       {background-image: url(minecraft/spruce_stairs.png);}
+.spruce_trapdoor                     {background-image: url(minecraft/spruce_trapdoor.png);}
+.spruce_wood                         {background-image: url(minecraft/spruce_wood.png);}
+.sticky_piston                       {background-image: url(minecraft/sticky_piston.png);}
+.stone                               {background-image: url(minecraft/stone.png);}
+.stone_brick_slab                    {background-image: url(minecraft/stone_brick_slab.png);}
+.stone_brick_stairs                  {background-image: url(minecraft/stone_brick_stairs.png);}
+.stone_brick_wall                    {background-image: url(minecraft/stone_brick_wall.png);}
+.stone_bricks                        {background-image: url(minecraft/stone_bricks.png);}
+.stone_button                        {background-image: url(minecraft/stone_button.png);}
+.stone_pressure_plate                {background-image: url(minecraft/stone_pressure_plate.png);}
+.stone_slab                          {background-image: url(minecraft/stone_slab.png);}
+.stone_stairs                        {background-image: url(minecraft/stone_stairs.png);}
+.stonecutter                         {background-image: url(minecraft/stonecutter.png);}
+.stripped_acacia_log                 {background-image: url(minecraft/stripped_acacia_log.png);}
+.stripped_acacia_wood                {background-image: url(minecraft/stripped_acacia_wood.png);}
+.stripped_birch_log                  {background-image: url(minecraft/stripped_birch_log.png);}
+.stripped_birch_wood                 {background-image: url(minecraft/stripped_birch_wood.png);}
+.stripped_crimson_hyphae             {background-image: url(minecraft/stripped_crimson_hyphae.png);}
+.stripped_crimson_stem               {background-image: url(minecraft/stripped_crimson_stem.png);}
+.stripped_dark_oak_log               {background-image: url(minecraft/stripped_dark_oak_log.png);}
+.stripped_dark_oak_wood              {background-image: url(minecraft/stripped_dark_oak_wood.png);}
+.stripped_jungle_log                 {background-image: url(minecraft/stripped_jungle_log.png);}
+.stripped_jungle_wood                {background-image: url(minecraft/stripped_jungle_wood.png);}
+.stripped_oak_log                    {background-image: url(minecraft/stripped_oak_log.png);}
+.stripped_oak_wood                   {background-image: url(minecraft/stripped_oak_wood.png);}
+.stripped_spruce_log                 {background-image: url(minecraft/stripped_spruce_log.png);}
+.stripped_spruce_wood                {background-image: url(minecraft/stripped_spruce_wood.png);}
+.stripped_warped_hyphae              {background-image: url(minecraft/stripped_warped_hyphae.png);}
+.stripped_warped_stem                {background-image: url(minecraft/stripped_warped_stem.png);}
+.structure_block                     {background-image: url(minecraft/structure_block.png);}
+.structure_void                      {background-image: url(minecraft/structure_void.png);}
+.sugar_cane                          {background-image: url(minecraft/sugar_cane.png);}
+.sunflower                           {background-image: url(minecraft/sunflower.png);}
+.tall_grass                          {background-image: url(minecraft/tall_grass.png);}
+.target                              {background-image: url(minecraft/target.png);}
+.terracotta                          {background-image: url(minecraft/terracotta.png);}
+.tnt                                 {background-image: url(minecraft/tnt.png);}
+.rooted_dirt                         {background-image: url(minecraft/rooted_dirt.png);}
+.torch                               {background-image: url(minecraft/torch.png);}
+.trapped_chest                       {background-image: url(minecraft/trapped_chest.png);}
+.tripwire_hook                       {background-image: url(minecraft/tripwire_hook.png);}
+.tube_coral                          {background-image: url(minecraft/tube_coral.png);}
+.tube_coral_block                    {background-image: url(minecraft/tube_coral_block.png);}
+.tube_coral_fan                      {background-image: url(minecraft/tube_coral_fan.png);}
+.turtle_egg                          {background-image: url(minecraft/turtle_egg.png);}
+.twisting_vines                      {background-image: url(minecraft/twisting_vines.png);}
+.vine                                {background-image: url(minecraft/vine.png);}
+.warped_button                       {background-image: url(minecraft/warped_button.png);}
+.warped_door                         {background-image: url(minecraft/warped_door.png);}
+.warped_fence_gate                   {background-image: url(minecraft/warped_fence_gate.png);}
+.warped_fence                        {background-image: url(minecraft/warped_fence.png);}
+.warped_fungus                       {background-image: url(minecraft/warped_fungus.png);}
+.warped_hyphae                       {background-image: url(minecraft/warped_hyphae.png);}
+.warped_nylium                       {background-image: url(minecraft/warped_nylium.png);}
+.warped_planks                       {background-image: url(minecraft/warped_planks.png);}
+.warped_pressure_plate               {background-image: url(minecraft/warped_pressure_plate.png);}
+.warped_roots                        {background-image: url(minecraft/warped_roots.png);}
+.warped_sign                         {background-image: url(minecraft/warped_sign.png);}
+.warped_slab                         {background-image: url(minecraft/warped_slab.png);}
+.warped_stairs                       {background-image: url(minecraft/warped_stairs.png);}
+.warped_stem                         {background-image: url(minecraft/warped_stem.png);}
+.warped_trapdoor                     {background-image: url(minecraft/warped_trapdoor.png);}
+.warped_wart_block                   {background-image: url(minecraft/warped_wart_block.png);}
+.waxed_exposed_copper                {background-image: url(minecraft/waxed_exposed_copper.png);}
+.water                               {background-image: url(minecraft/water.png);}
+.waxed_exposed_cut_copper            {background-image: url(minecraft/waxed_exposed_cut_copper.png);}
+.waxed_exposed_cut_copper_slab       {background-image: url(minecraft/waxed_exposed_cut_copper_slab.png);}
+.waxed_exposed_cut_copper_stairs     {background-image: url(minecraft/waxed_exposed_cut_copper_stairs.png);}
+.waxed_oxidized_copper               {background-image: url(minecraft/waxed_oxidized_copper.png);}
+.waxed_oxidized_cut_copper           {background-image: url(minecraft/waxed_oxidized_cut_copper.png);}
+.waxed_oxidized_cut_copper_slab      {background-image: url(minecraft/waxed_oxidized_cut_copper_slab.png);}
+.waxed_oxidized_cut_copper_stairs    {background-image: url(minecraft/waxed_oxidized_cut_copper_stairs.png);}
+.waxed_weathered_copper              {background-image: url(minecraft/waxed_weathered_copper.png);}
+.waxed_weathered_cut_copper          {background-image: url(minecraft/waxed_weathered_cut_copper.png);}
+.waxed_weathered_cut_copper_slab     {background-image: url(minecraft/waxed_weathered_cut_copper_slab.png);}
+.waxed_weathered_cut_copper_stairs   {background-image: url(minecraft/waxed_weathered_cut_copper_stairs.png);}
+.weathered_copper                    {background-image: url(minecraft/weathered_copper.png);}
+.weathered_cut_copper                {background-image: url(minecraft/weathered_cut_copper.png);}
+.weathered_cut_copper_slab           {background-image: url(minecraft/weathered_cut_copper_slab.png);}
+.weathered_cut_copper_stairs         {background-image: url(minecraft/weathered_cut_copper_stairs.png);}
+.weeping_vines                       {background-image: url(minecraft/weeping_vines.png);}
+.wet_sponge                          {background-image: url(minecraft/wet_sponge.png);}
+.white_banner                        {background-image: url(minecraft/white_banner.png);}
+.white_bed                           {background-image: url(minecraft/white_bed.png);}
+.white_carpet                        {background-image: url(minecraft/white_carpet.png);}
+.white_concrete_powder               {background-image: url(minecraft/white_concrete_powder.png);}
+.white_concrete                      {background-image: url(minecraft/white_concrete.png);}
+.white_glazed_terracotta             {background-image: url(minecraft/white_glazed_terracotta.png);}
+.white_shulker_box                   {background-image: url(minecraft/white_shulker_box.png);}
+.white_stained_glass                 {background-image: url(minecraft/white_stained_glass.png);}
+.white_stained_glass_pane            {background-image: url(minecraft/white_stained_glass_pane.png);}
+.white_terracotta                    {background-image: url(minecraft/white_terracotta.png);}
+.white_tulip                         {background-image: url(minecraft/white_tulip.png);}
+.white_wool                          {background-image: url(minecraft/white_wool.png);}
+.wither_rose                         {background-image: url(minecraft/wither_rose.png);}
+.wither_skeleton_skull               {background-image: url(minecraft/wither_skeleton_skull.png);}
+.yellow_banner                       {background-image: url(minecraft/yellow_banner.png);}
+.yellow_bed                          {background-image: url(minecraft/yellow_bed.png);}
+.yellow_carpet                       {background-image: url(minecraft/yellow_carpet.png);}
+.yellow_concrete_powder              {background-image: url(minecraft/yellow_concrete_powder.png);}
+.yellow_concrete                     {background-image: url(minecraft/yellow_concrete.png);}
+.yellow_glazed_terracotta            {background-image: url(minecraft/yellow_glazed_terracotta.png);}
+.yellow_shulker_box                  {background-image: url(minecraft/yellow_shulker_box.png);}
+.yellow_stained_glass                {background-image: url(minecraft/yellow_stained_glass.png);}
+.yellow_stained_glass_pane           {background-image: url(minecraft/yellow_stained_glass_pane.png);}
+.yellow_terracotta                   {background-image: url(minecraft/yellow_terracotta.png);}
+.yellow_wool                         {background-image: url(minecraft/yellow_wool.png);}
+.zombie_head                         {background-image: url(minecraft/zombie_head.png);}
+/* minecraft item */
+.acacia_boat                         {background-image: url(minecraft/acacia_boat.png);}
+.apple                               {background-image: url(minecraft/apple.png);}
+.amethyst_shard                      {background-image: url(minecraft/amethyst_shard.png);}
+.armor_stand                         {background-image: url(minecraft/armor_stand.png);}
+.arrow                               {background-image: url(minecraft/arrow.png);}
+.baked_potato                        {background-image: url(minecraft/baked_potato.png);}
+.bat_spawn_egg                       {background-image: url(minecraft/bat_spawn_egg.png);}
+.bee_spawn_egg                       {background-image: url(minecraft/bee_spawn_egg.png);}
+.beef                                {background-image: url(minecraft/beef.png);}
+.beetroot_seeds                      {background-image: url(minecraft/beetroot_seeds.png);}
+.beetroot_soup                       {background-image: url(minecraft/beetroot_soup.png);}
+.beetroot                            {background-image: url(minecraft/beetroot.png);}
+.birch_boat                          {background-image: url(minecraft/birch_boat.png);}
+.black_dye                           {background-image: url(minecraft/black_dye.png);}
+.blaze_powder                        {background-image: url(minecraft/blaze_powder.png);}
+.blaze_rod                           {background-image: url(minecraft/blaze_rod.png);}
+.blaze_spawn_egg                     {background-image: url(minecraft/blaze_spawn_egg.png);}
+.blue_dye                            {background-image: url(minecraft/blue_dye.png);}
+.bone_meal                           {background-image: url(minecraft/bone_meal.png);}
+.bone                                {background-image: url(minecraft/bone.png);}
+.book                                {background-image: url(minecraft/book.png);}
+.writable_book                       {background-image: url(minecraft/writable_book.png);}
+.experience_bottle                   {background-image: url(minecraft/experience_bottle.png);}
+.bowl                                {background-image: url(minecraft/bowl.png);}
+.bow                                 {background-image: url(minecraft/bow.png);}
+.bread                               {background-image: url(minecraft/bread.png);}
+.brick                               {background-image: url(minecraft/brick.png);}
+.brown_dye                           {background-image: url(minecraft/brown_dye.png);}
+.bucket                              {background-image: url(minecraft/bucket.png);}
+.green_dye                           {background-image: url(minecraft/green_dye.png);}
+.carrot                              {background-image: url(minecraft/carrot.png);}
+.carrot_on_a_stick                   {background-image: url(minecraft/carrot_on_a_stick.png);}
+.cat_spawn_egg                       {background-image: url(minecraft/cat_spawn_egg.png);}
+.cave_spider_spawn_egg               {background-image: url(minecraft/cave_spider_spawn_egg.png);}
+.chainmail_boots                     {background-image: url(minecraft/chainmail_boots.png);}
+.chainmail_chestplate                {background-image: url(minecraft/chainmail_chestplate.png);}
+.chainmail_helmet                    {background-image: url(minecraft/chainmail_helmet.png);}
+.chainmail_leggings                  {background-image: url(minecraft/chainmail_leggings.png);}
+.charcoal                            {background-image: url(minecraft/charcoal.png);}
+.chest_minecart                      {background-image: url(minecraft/chest_minecart.png);}
+.chicken                             {background-image: url(minecraft/chicken.png);}
+.chicken_spawn_egg                   {background-image: url(minecraft/chicken_spawn_egg.png);}
+.chorus_fruit                        {background-image: url(minecraft/chorus_fruit.png);}
+.clay_ball                           {background-image: url(minecraft/clay_ball.png);}
+.clock                               {background-image: url(minecraft/clock.gif);}
+.coal                                {background-image: url(minecraft/coal.png);}
+.cocoa_beans                         {background-image: url(minecraft/cocoa_beans.png);}
+.cod                                 {background-image: url(minecraft/cod.png);}
+.cod_bucket                          {background-image: url(minecraft/cod_bucket.png);}
+.cod_spawn_egg                       {background-image: url(minecraft/cod_spawn_egg.png);}
+.command_block_minecart              {background-image: url(minecraft/command_block_minecart.png);}
+.compass                             {background-image: url(minecraft/compass.gif);}
+.cooked_chicken                      {background-image: url(minecraft/cooked_chicken.png);}
+.cooked_cod                          {background-image: url(minecraft/cooked_cod.png);}
+.cooked_mutton                       {background-image: url(minecraft/cooked_mutton.png);}
+.cooked_porkchop                     {background-image: url(minecraft/cooked_porkchop.png);}
+.cooked_rabbit                       {background-image: url(minecraft/cooked_rabbit.png);}
+.cooked_salmon                       {background-image: url(minecraft/cooked_salmon.png);}
+.cookie                              {background-image: url(minecraft/cookie.png);}
+.copper_ingot                        {background-image: url(minecraft/copper_ingot.png);}
+.cow_spawn_egg                       {background-image: url(minecraft/cow_spawn_egg.png);}
+.creeper_banner_pattern              {background-image: url(minecraft/creeper_banner_pattern.png);}
+.creeper_spawn_egg                   {background-image: url(minecraft/creeper_spawn_egg.png);}
+.crossbow                            {background-image: url(minecraft/crossbow.png);}
+.cyan_dye                            {background-image: url(minecraft/cyan_dye.png);}
+.dark_oak_boat                       {background-image: url(minecraft/dark_oak_boat.png);}
+.debug_stick                         {background-image: url(minecraft/debug_stick.png);}
+.diamond_axe                         {background-image: url(minecraft/diamond_axe.png);}
+.diamond_boots                       {background-image: url(minecraft/diamond_boots.png);}
+.diamond_chestplate                  {background-image: url(minecraft/diamond_chestplate.png);}
+.diamond_helmet                      {background-image: url(minecraft/diamond_helmet.png);}
+.diamond_hoe                         {background-image: url(minecraft/diamond_hoe.png);}
+.diamond_horse_armor                 {background-image: url(minecraft/diamond_horse_armor.png);}
+.diamond_leggings                    {background-image: url(minecraft/diamond_leggings.png);}
+.diamond_pickaxe                     {background-image: url(minecraft/diamond_pickaxe.png);}
+.diamond_shovel                      {background-image: url(minecraft/diamond_shovel.png);}
+.diamond_sword                       {background-image: url(minecraft/diamond_sword.png);}
+.diamond                             {background-image: url(minecraft/diamond.png);}
+.dolphin_spawn_egg                   {background-image: url(minecraft/dolphin_spawn_egg.png);}
+.donkey_spawn_egg                    {background-image: url(minecraft/donkey_spawn_egg.png);}
+.dragon_breath                       {background-image: url(minecraft/dragon_breath.png);}
+.dragon_fireball                     {background-image: url(minecraft/dragon_fireball.png);}
+.dried_kelp                          {background-image: url(minecraft/dried_kelp.png);}
+.drowned_spawn_egg                   {background-image: url(minecraft/drowned_spawn_egg.png);}
+.egg                                 {background-image: url(minecraft/egg.png);}
+.elder_guardian_spawn_egg            {background-image: url(minecraft/elder_guardian_spawn_egg.png);}
+.elytra                              {background-image: url(minecraft/elytra.png);}
+.emerald                             {background-image: url(minecraft/emerald.png);}
+.map                                 {background-image: url(minecraft/map.png);}
+.enchanted_book                      {background-image: url(minecraft/enchanted_book.png);}
+.enchanted_golden_apple              {background-image: url(minecraft/enchanted_golden_apple.png);}
+.end_crystal                         {background-image: url(minecraft/end_crystal.png);}
+.ender_eye                           {background-image: url(minecraft/ender_eye.png);}
+.ender_pearl                         {background-image: url(minecraft/ender_pearl.png);}
+.enderman_spawn_egg                  {background-image: url(minecraft/enderman_spawn_egg.png);}
+.endermite_spawn_egg                 {background-image: url(minecraft/endermite_spawn_egg.png);}
+.evoker_spawn_egg                    {background-image: url(minecraft/evoker_spawn_egg.png);}
+.feather                             {background-image: url(minecraft/feather.png);}
+.fermented_spider_eye                {background-image: url(minecraft/fermented_spider_eye.png);}
+.fire_charge                         {background-image: url(minecraft/fire_charge.png);}
+.firework_rocket                     {background-image: url(minecraft/firework_rocket.png);}
+.firework_star                       {background-image: url(minecraft/firework_star.png);}
+.fishing_rod                         {background-image: url(minecraft/fishing_rod.png);}
+.flint                               {background-image: url(minecraft/flint.png);}
+.flint_and_steel                     {background-image: url(minecraft/flint_and_steel.png);}
+.flower_banner_pattern               {background-image: url(minecraft/flower_banner_pattern.png);}
+.fox_spawn_egg                       {background-image: url(minecraft/fox_spawn_egg.png);}
+.furnace_minecart                    {background-image: url(minecraft/furnace_minecart.png);}
+.ghast_spawn_egg                     {background-image: url(minecraft/ghast_spawn_egg.png);}
+.ghast_tear                          {background-image: url(minecraft/ghast_tear.png);}
+.glass_bottle                        {background-image: url(minecraft/glass_bottle.png);}
+.glistering_melon_slice              {background-image: url(minecraft/glistering_melon_slice.png);}
+.globe_banner_pattern                {background-image: url(minecraft/globe_banner_pattern.png);}
+.glowstone_dust                      {background-image: url(minecraft/glowstone_dust.png);}
+.gold_ingot                          {background-image: url(minecraft/gold_ingot.png);}
+.gold_nugget                         {background-image: url(minecraft/gold_nugget.png);}
+.golden_apple                        {background-image: url(minecraft/golden_apple.png);}
+.golden_axe                          {background-image: url(minecraft/golden_axe.png);}
+.golden_boots                        {background-image: url(minecraft/golden_boots.png);}
+.golden_carrot                       {background-image: url(minecraft/golden_carrot.png);}
+.golden_chestplate                   {background-image: url(minecraft/golden_chestplate.png);}
+.golden_helmet                       {background-image: url(minecraft/golden_helmet.png);}
+.golden_hoe                          {background-image: url(minecraft/golden_hoe.png);}
+.golden_horse_armor                  {background-image: url(minecraft/golden_horse_armor.png);}
+.golden_leggings                     {background-image: url(minecraft/golden_leggings.png);}
+.golden_pickaxe                      {background-image: url(minecraft/golden_pickaxe.png);}
+.golden_shovel                       {background-image: url(minecraft/golden_shovel.png);}
+.golden_sword                        {background-image: url(minecraft/golden_sword.png);}
+.gray_dye                            {background-image: url(minecraft/gray_dye.png);}
+.guardian_spawn_egg                  {background-image: url(minecraft/guardian_spawn_egg.png);}
+.gunpowder                           {background-image: url(minecraft/gunpowder.png);}
+.heart_of_the_sea                    {background-image: url(minecraft/heart_of_the_sea.png);}
+.hoglin_spawn_egg                    {background-image: url(minecraft/hoglin_spawn_egg.png);}
+.honey_bottle                        {background-image: url(minecraft/honey_bottle.png);}
+.honeycomb                           {background-image: url(minecraft/honeycomb.png);}
+.hopper_minecart                     {background-image: url(minecraft/hopper_minecart.png);}
+.horse_spawn_egg                     {background-image: url(minecraft/horse_spawn_egg.png);}
+.husk_spawn_egg                      {background-image: url(minecraft/husk_spawn_egg.png);}
+.ink_sac                             {background-image: url(minecraft/ink_sac.png);}
+.iron_axe                            {background-image: url(minecraft/iron_axe.png);}
+.iron_boots                          {background-image: url(minecraft/iron_boots.png);}
+.iron_chestplate                     {background-image: url(minecraft/iron_chestplate.png);}
+.iron_helmet                         {background-image: url(minecraft/iron_helmet.png);}
+.iron_hoe                            {background-image: url(minecraft/iron_hoe.png);}
+.iron_horse_armor                    {background-image: url(minecraft/iron_horse_armor.png);}
+.iron_ingot                          {background-image: url(minecraft/iron_ingot.png);}
+.iron_leggings                       {background-image: url(minecraft/iron_leggings.png);}
+.iron_nugget                         {background-image: url(minecraft/iron_nugget.png);}
+.iron_pickaxe                        {background-image: url(minecraft/iron_pickaxe.png);}
+.iron_shovel                         {background-image: url(minecraft/iron_shovel.png);}
+.iron_sword                          {background-image: url(minecraft/iron_sword.png);}
+.item_frame                          {background-image: url(minecraft/item_frame.png);}
+.jungle_boat                         {background-image: url(minecraft/jungle_boat.png);}
+.knowledge_book                      {background-image: url(minecraft/knowledge_book.png);}
+.lapis_lazuli                        {background-image: url(minecraft/lapis_lazuli.png);}
+.lava_bucket                         {background-image: url(minecraft/lava_bucket.png);}
+.lead                                {background-image: url(minecraft/lead.png);}
+.leather                             {background-image: url(minecraft/leather.png);}
+.leather_boots                       {background-image: url(minecraft/leather_boots.png);}
+.leather_helmet                      {background-image: url(minecraft/leather_helmet.png);}
+.leather_horse_armor                 {background-image: url(minecraft/leather_horse_armor.png);}
+.leather_leggings                    {background-image: url(minecraft/leather_leggings.png);}
+.leather_chestplate                  {background-image: url(minecraft/leather_chestplate.png);}
+.light_blue_dye                      {background-image: url(minecraft/light_blue_dye.png);}
+.light_gray_dye                      {background-image: url(minecraft/light_gray_dye.png);}
+.lime_dye                            {background-image: url(minecraft/lime_dye.png);}
+.lingering_potion                    {background-image: url(minecraft/lingering_potion.png);}
+.llama_spawn_egg                     {background-image: url(minecraft/llama_spawn_egg.png);}
+.magenta_dye                         {background-image: url(minecraft/magenta_dye.png);}
+.magma_cream                         {background-image: url(minecraft/magma_cream.png);}
+.magma_cube_spawn_egg                {background-image: url(minecraft/magma_cube_spawn_egg.png);}
+.filled_map                          {background-image: url(minecraft/filled_map.png);}
+.melon_seeds                         {background-image: url(minecraft/melon_seeds.png);}
+.melon_slice                         {background-image: url(minecraft/melon_slice.png);}
+.milk_bucket                         {background-image: url(minecraft/milk_bucket.png);}
+.minecart                            {background-image: url(minecraft/minecart.png);}
+.mojang_banner_pattern               {background-image: url(minecraft/mojang_banner_pattern.png);}
+.mooshroom_spawn_egg                 {background-image: url(minecraft/mooshroom_spawn_egg.png);}
+.mule_spawn_egg                      {background-image: url(minecraft/mule_spawn_egg.png);}
+.mushroom_stew                       {background-image: url(minecraft/mushroom_stew.png);}
+.music_disc_11                       {background-image: url(minecraft/music_disc_11.png);}
+.music_disc_13                       {background-image: url(minecraft/music_disc_13.png);}
+.music_disc_blocks                   {background-image: url(minecraft/music_disc_blocks.png);}
+.music_disc_cat                      {background-image: url(minecraft/music_disc_cat.png);}
+.music_disc_chirp                    {background-image: url(minecraft/music_disc_chirp.png);}
+.music_disc_far                      {background-image: url(minecraft/music_disc_far.png);}
+.music_disc_mall                     {background-image: url(minecraft/music_disc_mall.png);}
+.music_disc_mellohi                  {background-image: url(minecraft/music_disc_mellohi.png);}
+.music_disc_pigstep                  {background-image: url(minecraft/music_disc_pigstep.png);}
+.music_disc_stal                     {background-image: url(minecraft/music_disc_stal.png);}
+.music_disc_strad                    {background-image: url(minecraft/music_disc_strad.png);}
+.music_disc_wait                     {background-image: url(minecraft/music_disc_wait.png);}
+.music_disc_ward                     {background-image: url(minecraft/music_disc_ward.png);}
+.mutton                              {background-image: url(minecraft/mutton.png);}
+.name_tag                            {background-image: url(minecraft/name_tag.png);}
+.nautilus_shell                      {background-image: url(minecraft/nautilus_shell.png);}
+.netherite_axe                       {background-image: url(minecraft/netherite_axe.png);}
+.netherite_boots                     {background-image: url(minecraft/netherite_boots.png);}
+.netherite_chestplate                {background-image: url(minecraft/netherite_chestplate.png);}
+.netherite_helmet                    {background-image: url(minecraft/netherite_helmet.png);}
+.netherite_hoe                       {background-image: url(minecraft/netherite_hoe.png);}
+.netherite_ingot                     {background-image: url(minecraft/netherite_ingot.png);}
+.netherite_leggings                  {background-image: url(minecraft/netherite_leggings.png);}
+.netherite_pickaxe                   {background-image: url(minecraft/netherite_pickaxe.png);}
+.netherite_scrap                     {background-image: url(minecraft/netherite_scrap.png);}
+.netherite_shovel                    {background-image: url(minecraft/netherite_shovel.png);}
+.netherite_sword                     {background-image: url(minecraft/netherite_sword.png);}
+.nether_brick                        {background-image: url(minecraft/nether_brick.png);}
+.quartz                              {background-image: url(minecraft/quartz.png);}
+.nether_star                         {background-image: url(minecraft/nether_star.png);}
+.nether_wart                         {background-image: url(minecraft/nether_wart.png);}
+.oak_boat                            {background-image: url(minecraft/oak_boat.png);}
+.ocelot_spawn_egg                    {background-image: url(minecraft/ocelot_spawn_egg.png);}
+.orange_dye                          {background-image: url(minecraft/orange_dye.png);}
+.painting                            {background-image: url(minecraft/painting.png);}
+.panda_spawn_egg                     {background-image: url(minecraft/panda_spawn_egg.png);}
+.paper                               {background-image: url(minecraft/paper.png);}
+.parrot_spawn_egg                    {background-image: url(minecraft/parrot_spawn_egg.png);}
+.phantom_membrane                    {background-image: url(minecraft/phantom_membrane.png);}
+.phantom_spawn_egg                   {background-image: url(minecraft/phantom_spawn_egg.png);}
+.pig_spawn_egg                       {background-image: url(minecraft/pig_spawn_egg.png);}
+.piglin_banner_pattern               {background-image: url(minecraft/piglin_banner_pattern.png);}
+.piglin_spawn_egg                    {background-image: url(minecraft/piglin_spawn_egg.png);}
+.piglin_brute_spawn_egg              {background-image: url(minecraft/piglin_brute_spawn_egg.png);}
+.pillager_spawn_egg                  {background-image: url(minecraft/pillager_spawn_egg.png);}
+.pink_dye                            {background-image: url(minecraft/pink_dye.png);}
+.pointed_dripstone                   {background-image: url(minecraft/pointed_dripstone.png);}
+.poisonous_potato                    {background-image: url(minecraft/poisonous_potato.png);}
+.polar_bear_spawn_egg                {background-image: url(minecraft/polar_bear_spawn_egg.png);}
+.popped_chorus_fruit                 {background-image: url(minecraft/popped_chorus_fruit.png);}
+.porkchop                            {background-image: url(minecraft/porkchop.png);}
+.potato                              {background-image: url(minecraft/potato.png);}
+.powder_snow_bucket                  {background-image: url(minecraft/powder_snow_bucket.png);}
+.water_bottle                        {background-image: url(minecraft/water_bottle.png);}
+.potion                              {background-image: url(minecraft/potion.png);}
+.potion_of_slow_falling              {background-image: url(minecraft/potion_of_slow_falling.png);}
+.prismarine_crystals                 {background-image: url(minecraft/prismarine_crystals.png);}
+.prismarine_shard                    {background-image: url(minecraft/prismarine_shard.png);}
+.pufferfish                          {background-image: url(minecraft/pufferfish.png);}
+.pufferfish_bucket                   {background-image: url(minecraft/pufferfish_bucket.png);}
+.pufferfish_spawn_egg                {background-image: url(minecraft/pufferfish_spawn_egg.png);}
+.pumpkin_pie                         {background-image: url(minecraft/pumpkin_pie.png);}
+.pumpkin_seeds                       {background-image: url(minecraft/pumpkin_seeds.png);}
+.purple_dye                          {background-image: url(minecraft/purple_dye.png);}
+.rabbit                              {background-image: url(minecraft/rabbit.png);}
+.rabbit_foot                         {background-image: url(minecraft/rabbit_foot.png);}
+.rabbit_hide                         {background-image: url(minecraft/rabbit_hide.png);}
+.rabbit_spawn_egg                    {background-image: url(minecraft/rabbit_spawn_egg.png);}
+.rabbit_stew                         {background-image: url(minecraft/rabbit_stew.png);}
+.ravager_spawn_egg                   {background-image: url(minecraft/ravager_spawn_egg.png);}
+.raw_copper                          {background-image: url(minecraft/raw_copper.png);}
+.raw_gold                            {background-image: url(minecraft/raw_gold.png);}
+.raw_iron                            {background-image: url(minecraft/raw_iron.png);}
+.redstone                            {background-image: url(minecraft/redstone.png);}
+.red_dye                             {background-image: url(minecraft/red_dye.png);}
+.rotten_flesh                        {background-image: url(minecraft/rotten_flesh.png);}
+.saddle                              {background-image: url(minecraft/saddle.png);}
+.salmon                              {background-image: url(minecraft/salmon.png);}
+.salmon_bucket                       {background-image: url(minecraft/salmon_bucket.png);}
+.salmon_spawn_egg                    {background-image: url(minecraft/salmon_spawn_egg.png);}
+.scute                               {background-image: url(minecraft/scute.png);}
+.shears                              {background-image: url(minecraft/shears.png);}
+.sheep_spawn_egg                     {background-image: url(minecraft/sheep_spawn_egg.png);}
+.shield                              {background-image: url(minecraft/shield.png);}
+.shulker_shell                       {background-image: url(minecraft/shulker_shell.png);}
+.shulker_spawn_egg                   {background-image: url(minecraft/shulker_spawn_egg.png);}
+.silverfish_spawn_egg                {background-image: url(minecraft/silverfish_spawn_egg.png);}
+.skeleton_horse_spawn_egg            {background-image: url(minecraft/skeleton_horse_spawn_egg.png);}
+.skeleton_spawn_egg                  {background-image: url(minecraft/skeleton_spawn_egg.png);}
+.skull_banner_pattern                {background-image: url(minecraft/skull_banner_pattern.png);}
+.slime_ball                          {background-image: url(minecraft/slime_ball.png);}
+.slime_spawn_egg                     {background-image: url(minecraft/slime_spawn_egg.png);}
+.snowball                            {background-image: url(minecraft/snowball.png);}
+.spectral_arrow                      {background-image: url(minecraft/spectral_arrow.png);}
+.spider_eye                          {background-image: url(minecraft/spider_eye.png);}
+.spider_spawn_egg                    {background-image: url(minecraft/spider_spawn_egg.png);}
+.splash_potion                       {background-image: url(minecraft/splash_potion.png);}
+.splash_potion_of_slow_falling       {background-image: url(minecraft/splash_potion_of_slow_falling.png);}
+.spruce_boat                         {background-image: url(minecraft/spruce_boat.png);}
+.squid_spawn_egg                     {background-image: url(minecraft/squid_spawn_egg.png);}
+.cooked_beef                         {background-image: url(minecraft/cooked_beef.png);}
+.spyglass                            {background-image: url(minecraft/spyglass.png);}
+.stick                               {background-image: url(minecraft/stick.png);}
+.stone_axe                           {background-image: url(minecraft/stone_axe.png);}
+.stone_hoe                           {background-image: url(minecraft/stone_hoe.png);}
+.stone_pickaxe                       {background-image: url(minecraft/stone_pickaxe.png);}
+.stone_shovel                        {background-image: url(minecraft/stone_shovel.png);}
+.stone_sword                         {background-image: url(minecraft/stone_sword.png);}
+.stray_spawn_egg                     {background-image: url(minecraft/stray_spawn_egg.png);}
+.strider_spawn_egg                   {background-image: url(minecraft/strider_spawn_egg.png);}
+.string                              {background-image: url(minecraft/string.png);}
+.sugar_cane                          {background-image: url(minecraft/sugar_cane.png);}
+.sugar                               {background-image: url(minecraft/sugar.png);}
+.suspicious_stew                     {background-image: url(minecraft/suspicious_stew.png);}
+.sweet_berries                       {background-image: url(minecraft/sweet_berries.png);}
+.tipped_arrow_of_fire_resistance     {background-image: url(minecraft/tipped_arrow_of_fire_resistance.png);}
+.tipped_arrow_of_generation          {background-image: url(minecraft/tipped_arrow_of_generation.png);}
+.tipped_arrow_of_harming             {background-image: url(minecraft/tipped_arrow_of_harming.png);}
+.tipped_arrow_of_healing             {background-image: url(minecraft/tipped_arrow_of_healing.png);}
+.tipped_arrow_of_invisibility        {background-image: url(minecraft/tipped_arrow_of_invisibility.png);}
+.tipped_arrow_of_leaping             {background-image: url(minecraft/tipped_arrow_of_leaping.png);}
+.tipped_arrow_of_luck                {background-image: url(minecraft/tipped_arrow_of_luck.png);}
+.tipped_arrow_of_night_vision        {background-image: url(minecraft/tipped_arrow_of_night_vision.png);}
+.tipped_arrow_of_poison              {background-image: url(minecraft/tipped_arrow_of_poison.png);}
+.tipped_arrow_of_slowness            {background-image: url(minecraft/tipped_arrow_of_slowness.png);}
+.tipped_arrow_of_slow_falling        {background-image: url(minecraft/tipped_arrow_of_slow_falling.png);}
+.tipped_arrow_of_strength            {background-image: url(minecraft/tipped_arrow_of_strength.png);}
+.tipped_arrow_of_swiftness           {background-image: url(minecraft/tipped_arrow_of_swiftness.png);}
+.tipped_arrow_of_turtle_master       {background-image: url(minecraft/tipped_arrow_of_turtle_master.png);}
+.tipped_arrow_of_water_breathing     {background-image: url(minecraft/tipped_arrow_of_water_breathing.png);}
+.tipped_arrow_of_weakness            {background-image: url(minecraft/tipped_arrow_of_weakness.png);}
+.tnt_minecart                        {background-image: url(minecraft/tnt_minecart.png);}
+.totem_of_undying                    {background-image: url(minecraft/totem_of_undying.png);}
+.trader_llama_spawn_egg              {background-image: url(minecraft/trader_llama_spawn_egg.png);}
+.trident                             {background-image: url(minecraft/trident.png);}
+.tropical_fish                       {background-image: url(minecraft/tropical_fish.png);}
+.tropical_fish_bucket                {background-image: url(minecraft/tropical_fish_bucket.png);}
+.tropical_fish_spawn_egg             {background-image: url(minecraft/tropical_fish_spawn_egg.png);}
+.turtle_helmet                       {background-image: url(minecraft/turtle_helmet.png);}
+.turtle_spawn_egg                    {background-image: url(minecraft/turtle_spawn_egg.png);}
+.vex_spawn_egg                       {background-image: url(minecraft/vex_spawn_egg.png);}
+.villager_spawn_egg                  {background-image: url(minecraft/villager_spawn_egg.png);}
+.vindicator_spawn_egg                {background-image: url(minecraft/vindicator_spawn_egg.png);}
+.wandering_trader_spawn_egg          {background-image: url(minecraft/wandering_trader_spawn_egg.png);}
+.warped_fungus_on_a_stick            {background-image: url(minecraft/warped_fungus_on_a_stick.png);}
+.water_bucket                        {background-image: url(minecraft/water_bucket.png);}
+.wheat_seeds                         {background-image: url(minecraft/wheat_seeds.png);}
+.wheat                               {background-image: url(minecraft/wheat.png);}
+.white_dye                           {background-image: url(minecraft/white_dye.png);}
+.witch_spawn_egg                     {background-image: url(minecraft/witch_spawn_egg.png);}
+.wither_skeleton_spawn_egg           {background-image: url(minecraft/wither_skeleton_spawn_egg.png);}
+.wolf_spawn_egg                      {background-image: url(minecraft/wolf_spawn_egg.png);}
+.wooden_axe                          {background-image: url(minecraft/wooden_axe.png);}
+.wooden_hoe                          {background-image: url(minecraft/wooden_hoe.png);}
+.wooden_pickaxe                      {background-image: url(minecraft/wooden_pickaxe.png);}
+.wooden_shovel                       {background-image: url(minecraft/wooden_shovel.png);}
+.wooden_sword                        {background-image: url(minecraft/wooden_sword.png);}
+.written_book                        {background-image: url(minecraft/written_book.png);}
+.yellow_dye                          {background-image: url(minecraft/yellow_dye.png);}
+.zoglin_spawn_egg                    {background-image: url(minecraft/zoglin_spawn_egg.png);}
+.zombie_horse_spawn_egg              {background-image: url(minecraft/zombie_horse_spawn_egg.png);}
+.zombie_spawn_egg                    {background-image: url(minecraft/zombie_spawn_egg.png);}
+.zombie_villager_spawn_egg           {background-image: url(minecraft/zombie_villager_spawn_egg.png);}
+.zombified_piglin_spawn_egg          {background-image: url(minecraft/zombified_piglin_spawn_egg.png);}
+/* cpp */
+.acid                           {background-image: url(cpp/acid.png);}
+.agentia_of_agileness           {background-image: url(cpp/agentia_of_agileness.png);}
+.agentia_of_blood               {background-image: url(cpp/agentia_of_blood.png);}
+.agentia_of_bounce              {background-image: url(cpp/agentia_of_bounce.png);}
+.agentia_of_chain               {background-image: url(cpp/agentia_of_chain.png);}
+.agentia_of_dirt                {background-image: url(cpp/agentia_of_dirt.png);}
+.agentia_of_earth               {background-image: url(cpp/agentia_of_earth.png);}
+.agentia_of_extremeness         {background-image: url(cpp/agentia_of_extremeness.png);}
+.agentia_of_eyesight            {background-image: url(cpp/agentia_of_eyesight.png);}
+.agentia_of_fire                {background-image: url(cpp/agentia_of_fire.png);}
+.agentia_of_fire_shield         {background-image: url(cpp/agentia_of_fire_shield.png);}
+.agentia_of_life                {background-image: url(cpp/agentia_of_life.png);}
+.agentia_of_lightness           {background-image: url(cpp/agentia_of_lightness.png);}
+.agentia_of_ocean               {background-image: url(cpp/agentia_of_ocean.png);}
+.agentia_of_rejuveness          {background-image: url(cpp/agentia_of_rejuveness.png);}
+.agentia_of_ridge               {background-image: url(cpp/agentia_of_ridge.png);}
+.agentia_of_sharpness           {background-image: url(cpp/agentia_of_sharpness.png);}
+.agentia_of_shield              {background-image: url(cpp/agentia_of_shield.png);}
+.agentia_of_sky                 {background-image: url(cpp/agentia_of_sky.png);}
+.agentia_of_tide                {background-image: url(cpp/agentia_of_tide.png);}
+.agentia_of_transparentness     {background-image: url(cpp/agentia_of_transparentness.png);}
+.agentia_of_waterless           {background-image: url(cpp/agentia_of_waterless.png);}
+.alkaloid                       {background-image: url(cpp/alkaloid.png);}
+.alkaloid_rare_earth            {background-image: url(cpp/alkaloid_rare_earth.png);}
+.all_in_one_machine             {background-image: url(cpp/all_in_one_machine.png);}
+.ammonia_refrigerant            {background-image: url(cpp/ammonia_refrigerant.png);}
+.ancient_scroll                 {background-image: url(cpp/ancient_scroll.png);}
+.angry_hand                     {background-image: url(cpp/angry_hand.png);}
+.apple_jam                      {background-image: url(cpp/apple_jam.png);}
+.apricot                        {background-image: url(cpp/apricot.png);}
+.arabia_speedwell               {background-image: url(cpp/arabia_speedwell.png);}
+.artemisia_argyi                {background-image: url(cpp/artemisia_argyi.png);}
+.assorted_root_candy            {background-image: url(cpp/assorted_root_candy.png);}
+.axolotl_head_blue              {background-image: url(cpp/axolotl_head_blue.png);}
+.axolotl_head_cyan              {background-image: url(cpp/axolotl_head_cyan.png);}
+.axolotl_head_gold              {background-image: url(cpp/axolotl_head_gold.png);}
+.axolotl_head_lucy              {background-image: url(cpp/axolotl_head_lucy.png);}
+.axolotl_head_wild              {background-image: url(cpp/axolotl_head_wild.png);}
+.bacon                          {background-image: url(cpp/bacon.png);}
+.baked_carrot                   {background-image: url(cpp/baked_carrot.png);}
+.baked_shroomlight              {background-image: url(cpp/baked_shroomlight.png);}
+.banana                         {background-image: url(cpp/banana.png);}
+.basalt_plugin                  {background-image: url(cpp/basalt_plugin.png);}
+.bat_head                       {background-image: url(cpp/bat_head.png);}
+.bauhinia                       {background-image: url(cpp/bauhinia.png);}
+.bauhinia_seeds                 {background-image: url(cpp/bauhinia_seeds.png);}
+.beacon_enhancer                {background-image: url(cpp/beacon_enhancer.png);}
+.bear_meat                      {background-image: url(cpp/bear_meat.png);}
+.bee_head                       {background-image: url(cpp/bee_head.png);}
+.beef_kebab                     {background-image: url(cpp/beef_kebab.png);}
+.bilibili_logo                  {background-image: url(cpp/bilibili_logo.png);}
+.bionic_acid                    {background-image: url(cpp/bionic_acid.png);}
+.black_force_of_moon            {background-image: url(cpp/black_force_of_moon.png);}
+.black_framed_glasses           {background-image: url(cpp/black_framed_glasses.png);}
+.black_hat                      {background-image: url(cpp/black_hat.png);}
+.black_sign                     {background-image: url(cpp/black_sign.png);}
+.blackstone_plugin              {background-image: url(cpp/blackstone_plugin.png);}
+.blackthorn                     {background-image: url(cpp/blackthorn.png);}
+.blackthorn_seeds               {background-image: url(cpp/blackthorn_seeds.png);}
+.blaze_head                     {background-image: url(cpp/blaze_head.png);}
+.blaze_head                     {background-image: url(cpp/blaze_head.png);}
+.block_breaker                  {background-image: url(cpp/block_breaker.png);}
+.blue_doughnut                  {background-image: url(cpp/blue_doughnut.png);}
+.blue_force_of_sky              {background-image: url(cpp/blue_force_of_sky.png);}
+.blue_jeans                     {background-image: url(cpp/blue_jeans.png);}
+.blue_rose                      {background-image: url(cpp/blue_rose.png);}
+.blue_sign                      {background-image: url(cpp/blue_sign.png);}
+.blueberry                      {background-image: url(cpp/blueberry.png);}
+.blueberry_cake                 {background-image: url(cpp/blueberry_cake.png);}
+.blueberry_jam                  {background-image: url(cpp/blueberry_jam.png);}
+.boiled_egg                     {background-image: url(cpp/boiled_egg.png);}
+.bottle_of_air                  {background-image: url(cpp/bottle_of_air.png);}
+.bottle_of_salt                 {background-image: url(cpp/bottle_of_salt.png);}
+.braised_beef_with_potatoes     {background-image: url(cpp/braised_beef_with_potatoes.png);}
+.braised_pork_with_potatoes     {background-image: url(cpp/braised_pork_with_potatoes.png);}
+.break_hand                     {background-image: url(cpp/break_hand.png);}
+.broken_spawner                 {background-image: url(cpp/broken_spawner.png);}
+.broom                          {background-image: url(cpp/broom.png);}
+.brown_sign                     {background-image: url(cpp/brown_sign.png);}
+.burger                         {background-image: url(cpp/burger.png);}
+.burning_chrysanthe             {background-image: url(cpp/burning_chrysanthe.png);}
+.burning_chrysanthe_seeds       {background-image: url(cpp/burning_chrysanthe_seeds.png);}
+.butter                         {background-image: url(cpp/butter.png);}
+.cake_roll                      {background-image: url(cpp/cake_roll.png);}
+.calamus                        {background-image: url(cpp/calamus.png);}
+.calamus_seeds                  {background-image: url(cpp/calamus_seeds.png);}
+.calliopsis                     {background-image: url(cpp/calliopsis.png);}
+.candied_haw                    {background-image: url(cpp/candied_haw.png);}
+.caramel_pudding                {background-image: url(cpp/caramel_pudding.png);}
+.carbon_dust                    {background-image: url(cpp/carbon_dust.png);}
+.cat_breed                      {background-image: url(cpp/cat_breed.png);}
+.cat_head_black                 {background-image: url(cpp/cat_head_black.png);}
+.cat_head_british_shorthair     {background-image: url(cpp/cat_head_british_shorthair.png);}
+.cat_head_calico                {background-image: url(cpp/cat_head_calico.png);}
+.cat_head_jellie                {background-image: url(cpp/cat_head_jellie.png);}
+.cat_head_persian               {background-image: url(cpp/cat_head_persian.png);}
+.cat_head_ragdoll               {background-image: url(cpp/cat_head_ragdoll.png);}
+.cat_head_red                   {background-image: url(cpp/cat_head_red.png);}
+.cat_head_siamese               {background-image: url(cpp/cat_head_siamese.png);}
+.cat_head_tabby                 {background-image: url(cpp/cat_head_tabby.png);}
+.cat_head_tuxedo                {background-image: url(cpp/cat_head_tuxedo.png);}
+.cat_head_white                 {background-image: url(cpp/cat_head_white.png);}
+.cattail                        {background-image: url(cpp/cattail.png);}
+.cattail_seeds                  {background-image: url(cpp/cattail_seeds.png);}
+.cave_spider_head               {background-image: url(cpp/cave_spider_head.png);}
+.cbl_logo                       {background-image: url(cpp/cbl_logo.png);}
+.certification_of_earth         {background-image: url(cpp/certification_of_earth.png);}
+.character01                    {background-image: url(cpp/character/01.png);}
+.character02                    {background-image: url(cpp/character/02.png);}
+.character03                    {background-image: url(cpp/character/03.png);}
+.character04                    {background-image: url(cpp/character/04.png);}
+.character05                    {background-image: url(cpp/character/05.png);}
+.character06                    {background-image: url(cpp/character/06.png);}
+.character07                    {background-image: url(cpp/character/07.png);}
+.character08                    {background-image: url(cpp/character/08.png);}
+.character09                    {background-image: url(cpp/character/09.png);}
+.character10                    {background-image: url(cpp/character/10.png);}
+.character11                    {background-image: url(cpp/character/11.png);}
+.character12                    {background-image: url(cpp/character/12.png);}
+.character13                    {background-image: url(cpp/character/13.png);}
+.character14                    {background-image: url(cpp/character/14.png);}
+.character15                    {background-image: url(cpp/character/15.png);}
+.character16                    {background-image: url(cpp/character/16.png);}
+.character17                    {background-image: url(cpp/character/17.png);}
+.character18                    {background-image: url(cpp/character/18.png);}
+.character19                    {background-image: url(cpp/character/19.png);}
+.character20                    {background-image: url(cpp/character/20.png);}
+.character21                    {background-image: url(cpp/character/21.png);}
+.character22                    {background-image: url(cpp/character/22.png);}
+.character23                    {background-image: url(cpp/character/23.png);}
+.character24                    {background-image: url(cpp/character/24.png);}
+.character25                    {background-image: url(cpp/character/25.png);}
+.character26                    {background-image: url(cpp/character/26.png);}
+.character27                    {background-image: url(cpp/character/27.png);}
+.character28                    {background-image: url(cpp/character/28.png);}
+.character29                    {background-image: url(cpp/character/29.png);}
+.character30                    {background-image: url(cpp/character/30.png);}
+.character31                    {background-image: url(cpp/character/31.png);}
+.character32                    {background-image: url(cpp/character/32.png);}
+.character33                    {background-image: url(cpp/character/33.png);}
+.character34                    {background-image: url(cpp/character/34.png);}
+.character35                    {background-image: url(cpp/character/35.png);}
+.character36                    {background-image: url(cpp/character/36.png);}
+.character37                    {background-image: url(cpp/character/37.png);}
+.character38                    {background-image: url(cpp/character/38.png);}
+.character39                    {background-image: url(cpp/character/39.png);}
+.character40                    {background-image: url(cpp/character/40.png);}
+.character41                    {background-image: url(cpp/character/41.png);}
+.character42                    {background-image: url(cpp/character/42.png);}
+.character43                    {background-image: url(cpp/character/43.png);}
+.character44                    {background-image: url(cpp/character/44.png);}
+.character45                    {background-image: url(cpp/character/45.png);}
+.character46                    {background-image: url(cpp/character/46.png);}
+.character47                    {background-image: url(cpp/character/47.png);}
+.character48                    {background-image: url(cpp/character/48.png);}
+.character49                    {background-image: url(cpp/character/49.png);}
+.character50                    {background-image: url(cpp/character/50.png);}
+.character51                    {background-image: url(cpp/character/51.png);}
+.character52                    {background-image: url(cpp/character/52.png);}
+.character53                    {background-image: url(cpp/character/53.png);}
+.character54                    {background-image: url(cpp/character/54.png);}
+.character55                    {background-image: url(cpp/character/55.png);}
+.character56                    {background-image: url(cpp/character/56.png);}
+.character57                    {background-image: url(cpp/character/57.png);}
+.character58                    {background-image: url(cpp/character/58.png);}
+.character59                    {background-image: url(cpp/character/59.png);}
+.character60                    {background-image: url(cpp/character/60.png);}
+.character61                    {background-image: url(cpp/character/61.png);}
+.character62                    {background-image: url(cpp/character/62.png);}
+.character63                    {background-image: url(cpp/character/63.png);}
+.character64                    {background-image: url(cpp/character/64.png);}
+.character65                    {background-image: url(cpp/character/65.png);}
+.character66                    {background-image: url(cpp/character/66.png);}
+.character67                    {background-image: url(cpp/character/67.png);}
+.character68                    {background-image: url(cpp/character/68.png);}
+.character69                    {background-image: url(cpp/character/69.png);}
+.character70                    {background-image: url(cpp/character/70.png);}
+.character71                    {background-image: url(cpp/character/71.png);}
+.character72                    {background-image: url(cpp/character/72.png);}
+.character73                    {background-image: url(cpp/character/73.png);}
+.character74                    {background-image: url(cpp/character/74.png);}
+.character75                    {background-image: url(cpp/character/75.png);}
+.character76                    {background-image: url(cpp/character/76.png);}
+.character77                    {background-image: url(cpp/character/77.png);}
+.character78                    {background-image: url(cpp/character/78.png);}
+.character79                    {background-image: url(cpp/character/79.png);}
+.character80                    {background-image: url(cpp/character/80.png);}
+.character81                    {background-image: url(cpp/character/81.png);}
+.character82                    {background-image: url(cpp/character/82.png);}
+.character83                    {background-image: url(cpp/character/83.png);}
+.character84                    {background-image: url(cpp/character/84.png);}
+.character85                    {background-image: url(cpp/character/85.png);}
+.character86                    {background-image: url(cpp/character/86.png);}
+.character87                    {background-image: url(cpp/character/87.png);}
+.character88                    {background-image: url(cpp/character/88.png);}
+.character89                    {background-image: url(cpp/character/89.png);}
+.character90                    {background-image: url(cpp/character/90.png);}
+.character91                    {background-image: url(cpp/character/91.png);}
+.character92                    {background-image: url(cpp/character/92.png);}
+.character93                    {background-image: url(cpp/character/93.png);}
+.character94                    {background-image: url(cpp/character/94.png);}
+.character95                    {background-image: url(cpp/character/95.png);}
+.character96                    {background-image: url(cpp/character/96.png);}
+.character97                    {background-image: url(cpp/character/97.png);}
+.character98                    {background-image: url(cpp/character/98.png);}
+.character99                    {background-image: url(cpp/character/99.png);}
+.character100                   {background-image: url(cpp/character/100.png);}
+.character101                   {background-image: url(cpp/character/101.png);}
+.character102                   {background-image: url(cpp/character/102.png);}
+.character103                   {background-image: url(cpp/character/103.png);}
+.character104                   {background-image: url(cpp/character/104.png);}
+.character105                   {background-image: url(cpp/character/105.png);}
+.character106                   {background-image: url(cpp/character/106.png);}
+.character107                   {background-image: url(cpp/character/107.png);}
+.character108                   {background-image: url(cpp/character/108.png);}
+.character109                   {background-image: url(cpp/character/109.png);}
+.character110                   {background-image: url(cpp/character/110.png);}
+.character111                   {background-image: url(cpp/character/111.png);}
+.character112                   {background-image: url(cpp/character/112.png);}
+.character113                   {background-image: url(cpp/character/113.png);}
+.character114                   {background-image: url(cpp/character/114.png);}
+.character115                   {background-image: url(cpp/character/115.png);}
+.character116                   {background-image: url(cpp/character/116.png);}
+.character117                   {background-image: url(cpp/character/117.png);}
+.character118                   {background-image: url(cpp/character/118.png);}
+.character119                   {background-image: url(cpp/character/119.png);}
+.character120                   {background-image: url(cpp/character/120.png);}
+.character121                   {background-image: url(cpp/character/121.png);}
+.character122                   {background-image: url(cpp/character/122.png);}
+.character123                   {background-image: url(cpp/character/123.png);}
+.character124                   {background-image: url(cpp/character/124.png);}
+.character125                   {background-image: url(cpp/character/125.png);}
+.character126                   {background-image: url(cpp/character/126.png);}
+.character127                   {background-image: url(cpp/character/127.png);}
+.character128                   {background-image: url(cpp/character/128.png);}
+.character129                   {background-image: url(cpp/character/129.png);}
+.character130                   {background-image: url(cpp/character/130.png);}
+.cheese                         {background-image: url(cpp/cheese.png);}
+.cheese_cake                    {background-image: url(cpp/cheese_cake.png);}
+.cherry                         {background-image: url(cpp/cherry.png);}
+.cherry_jam                     {background-image: url(cpp/cherry_jam.png);}
+.chest_dropper                  {background-image: url(cpp/chest_dropper.png);}
+.chest_transporter              {background-image: url(cpp/chest_transporter.png);}
+.chicken_head                   {background-image: url(cpp/chicken_head.png);}
+.chicken_kebab                  {background-image: url(cpp/chicken_kebab.png);}
+.chilled_mango_sago_cream_with_pomelo{background-image: url(cpp/chilled_mango_sago_cream_with_pomelo.png);}
+.china_flag                     {background-image: url(cpp/china_flag.png);}
+.chinese_date                   {background-image: url(cpp/chinese_date.png);}
+.chocolate_cake                 {background-image: url(cpp/chocolate_cake.png);}
+.christmas_roast_chicken        {background-image: url(cpp/christmas_roast_chicken.png);}
+.christmas_tree                 {background-image: url(cpp/christmas_tree.png);}
+.cinder                         {background-image: url(cpp/cinder.png);}
+.citrus                         {background-image: url(cpp/citrus.png);}
+.classical_painting             {background-image: url(cpp/classical_painting.png);}
+.clay_bucket                    {background-image: url(cpp/clay_bucket.png);}
+.coal_nugget                    {background-image: url(cpp/coal_nugget.png);}
+.coal_shard                     {background-image: url(cpp/coal_shard.png);}
+.coarse_silicon                 {background-image: url(cpp/coarse_silicon.png);}
+.cobblestone_plugin             {background-image: url(cpp/cobblestone_plugin.png);}
+.coconut                        {background-image: url(cpp/coconut.png);}
+.cod_head                       {background-image: url(cpp/cod_head.png);}
+.cold_drink                     {background-image: url(cpp/cold_drink.png);}
+.cole_flower                    {background-image: url(cpp/cole_flower.png);}
+.color_palette                  {background-image: url(cpp/color_palette.png);}
+.colorful_sign                  {background-image: url(cpp/colorful_sign.png);}
+.colorful_vegetable             {background-image: url(cpp/colorful_vegetable.png);}
+.compressor                     {background-image: url(cpp/compressor.gif);}
+.cooked_bear_meat               {background-image: url(cpp/cooked_bear_meat.png);}
+.cooked_donkey_meat             {background-image: url(cpp/cooked_donkey_meat.png);}
+.cooked_horse_meat              {background-image: url(cpp/cooked_horse_meat.png);}
+.cooked_llama_meat              {background-image: url(cpp/cooked_llama_meat.png);}
+.cooked_mule_meat               {background-image: url(cpp/cooked_mule_meat.png);}
+.cooked_parrot_meat             {background-image: url(cpp/cooked_parrot_meat.png);}
+.coordinate_recorder            {background-image: url(cpp/coordinate_recorder.png);}
+.copper_dust                    {background-image: url(cpp/copper_dust.png);}
+.cornus                         {background-image: url(cpp/cornus.png);}
+.couplets                       {background-image: url(cpp/couplets.png);}
+.cow_head                       {background-image: url(cpp/cow_head.png);}
+.cpc_flag                       {background-image: url(cpp/cpc_flag.png);}
+.crafting_machine               {background-image: url(cpp/crafting_machine.png);}
+.crocu                          {background-image: url(cpp/crocu.png);}
+.croissant                      {background-image: url(cpp/croissant.png);}
+.cupcake                        {background-image: url(cpp/cupcake.png);}
+.cyan_force_of_mountain         {background-image: url(cpp/cyan_force_of_mountain.png);}
+.cyan_sign                      {background-image: url(cpp/cyan_sign.png);}
+.cyclamen                       {background-image: url(cpp/cyclamen.png);}
+.dandelion_bush                 {background-image: url(cpp/dandelion_bush.png);}
+.deepslate_plugin               {background-image: url(cpp/deepslate_plugin.png);}
+.diamond_dust                   {background-image: url(cpp/diamond_dust.png);}
+.diamond_shard                  {background-image: url(cpp/diamond_shard.png);}
+.dolphin_head                   {background-image: url(cpp/dolphin_head.png);}
+.donkey_head                    {background-image: url(cpp/donkey_head.png);}
+.donkey_meat                    {background-image: url(cpp/donkey_meat.png);}
+.double_color_vine_salad        {background-image: url(cpp/double_color_vine_salad.png);}
+.doughnut                       {background-image: url(cpp/doughnut.png);}
+.dragon_breath_berries          {background-image: url(cpp/dragon_breath_berries.png);}
+.dragon_breath_berry_seedlings  {background-image: url(cpp/dragon_breath_berry_seedlings.png);}
+.dream_wand                     {background-image: url(cpp/dream_wand.png);}
+.drowned_head                   {background-image: url(cpp/drowned_head.png);}
+.dumpling                       {background-image: url(cpp/dumpling.png);}
+.dustbin                        {background-image: url(cpp/dustbin.png);}
+.dye_stick                      {background-image: url(cpp/dye_stick.png);}
+.egg_stew                       {background-image: url(cpp/egg_stew.png);}
+.elder_guardian_head            {background-image: url(cpp/elder_guardian_head.png);}
+.elder_s_words                  {background-image: url(cpp/elder_s_words.png);}
+.emerald_dust                   {background-image: url(cpp/emerald_dust.png);}
+.emerald_shard                  {background-image: url(cpp/emerald_shard.png);}
+.empire_hat                     {background-image: url(cpp/empire_hat.png);}
+.empty_bookshelf                {background-image: url(cpp/empty_bookshelf.png);}
+.empty_plugin                   {background-image: url(cpp/empty_plugin.png);}
+.enchanted_diamond              {background-image: url(cpp/enchanted_diamond.png);}
+.enchanted_gold                 {background-image: url(cpp/enchanted_gold.png);}
+.enchanted_iron                 {background-image: url(cpp/enchanted_iron.png);}
+.end_stone_plugin               {background-image: url(cpp/end_stone_plugin.png);}
+.enderman_head                  {background-image: url(cpp/enderman_head.png);}
+.enderman_head                  {background-image: url(cpp/enderman_head.png);}
+.endermite_head                 {background-image: url(cpp/endermite_head.png);}
+.endless_summer                 {background-image: url(cpp/endless_summer.png);}
+.esparto                        {background-image: url(cpp/esparto.png);}
+.esparto_seeds                  {background-image: url(cpp/esparto_seeds.png);}
+.evoker_head                    {background-image: url(cpp/evoker_head.png);}
+.fermenter                      {background-image: url(cpp/fermenter.png);}
+.fertilizer                     {background-image: url(cpp/fertilizer.png);}
+.firecrackers                   {background-image: url(cpp/firecrackers.png);}
+.fish_and_chips                 {background-image: url(cpp/fish_and_chips.png);}
+.flower_compass                 {background-image: url(cpp/flower_compass.gif);}
+.flower_shaped_qiaoguo          {background-image: url(cpp/flower_shaped_qiaoguo.png);}
+.fluffy_grass                   {background-image: url(cpp/fluffy_grass.png);}
+.fluffy_grass_seeds             {background-image: url(cpp/fluffy_grass_seeds.png);}
+.forage_crystal                 {background-image: url(cpp/forage_crystal.png);}
+.forage_crystal_seeds           {background-image: url(cpp/forage_crystal_seeds.png);}
+.forget_me_not                  {background-image: url(cpp/forget_me_not.png);}
+.fox_head_red                   {background-image: url(cpp/fox_head_red.png);}
+.fox_head_snow                  {background-image: url(cpp/fox_head_snow.png);}
+.france_flag                    {background-image: url(cpp/france_flag.png);}
+.fruit_leaves                   {background-image: url(cpp/fruit_leaves.png);}
+.fruit_sapling                  {background-image: url(cpp/fruit_sapling.png);}
+.garland                        {background-image: url(cpp/garland.png);}
+.gerbera                        {background-image: url(cpp/gerbera.png);}
+.gerbera_seeds                  {background-image: url(cpp/gerbera_seeds.png);}
+.ghast_head                     {background-image: url(cpp/ghast_head.png);}
+.github_logo                    {background-image: url(cpp/github_logo.png);}
+.glass_helmet                   {background-image: url(cpp/glass_helmet.png);}
+.glass_item_frame               {background-image: url(cpp/glass_item_frame.png);}
+.glass_pickaxe                  {background-image: url(cpp/glass_pickaxe.png);}
+.glass_sign                     {background-image: url(cpp/glass_sign.png);}
+.glazed_shade                   {background-image: url(cpp/glazed_shade.png);}
+.glazed_shade_seeds             {background-image: url(cpp/glazed_shade_seeds.png);}
+.glow_forsythia                 {background-image: url(cpp/glow_forsythia.png);}
+.glow_forsythia_seeds           {background-image: url(cpp/glow_forsythia_seeds.png);}
+.glow_hat                       {background-image: url(cpp/glow_hat.png);}
+.glow_squid_head                {background-image: url(cpp/glow_squid_head.png);}
+.goat_head                      {background-image: url(cpp/goat_head.png);}
+.gold_dust                      {background-image: url(cpp/gold_dust.png);}
+.gold_shard                     {background-image: url(cpp/gold_shard.png);}
+.golden_anvil                   {background-image: url(cpp/golden_anvil.png);}
+.golden_grape                   {background-image: url(cpp/golden_grape.png);}
+.golem                          {background-image: url(cpp/golem.png);}
+.golem_farmer                   {background-image: url(cpp/golem_farmer.png);}
+.golem_fisher                   {background-image: url(cpp/golem_fisher.png);}
+.golem_herder                   {background-image: url(cpp/golem_herder.png);}
+.golem_miner                    {background-image: url(cpp/golem_miner.png);}
+.golem_warrior                  {background-image: url(cpp/golem_warrior.png);}
+.grafter                        {background-image: url(cpp/grafter.png);}
+.grape                          {background-image: url(cpp/grape.png);}
+.grapefruit                     {background-image: url(cpp/grapefruit.png);}
+.gray_sign                      {background-image: url(cpp/gray_sign.png);}
+.green_doughnut                 {background-image: url(cpp/green_doughnut.png);}
+.green_force_of_water           {background-image: url(cpp/green_force_of_water.png);}
+.green_hat                      {background-image: url(cpp/green_hat.png);}
+.green_sign                     {background-image: url(cpp/green_sign.png);}
+.guardian_head                  {background-image: url(cpp/guardian_head.png);}
+.happiness                      {background-image: url(cpp/happiness.png);}
+.harvest                        {background-image: url(cpp/harvest.png);}
+.hawthorn                       {background-image: url(cpp/hawthorn.png);}
+.heart_of_crystal               {background-image: url(cpp/heart_of_crystal.gif);}
+.hibiscus                       {background-image: url(cpp/hibiscus.png);}
+.hibiscus_seeds                 {background-image: url(cpp/hibiscus_seeds.png);}
+.high_pressure_plugin           {background-image: url(cpp/high_pressure_plugin.png);}
+.high_temperature_plugin        {background-image: url(cpp/high_temperature_plugin.png);}
+.honey_pancake                  {background-image: url(cpp/honey_pancake.png);}
+.horse_head                     {background-image: url(cpp/horse_head.png);}
+.horse_meat                     {background-image: url(cpp/horse_meat.png);}
+.husk_head                      {background-image: url(cpp/husk_head.png);}
+.hyacinth                       {background-image: url(cpp/hyacinth.png);}
+.hyacinth_seeds                 {background-image: url(cpp/hyacinth_seeds.png);}
+.ice_cream_cone                 {background-image: url(cpp/ice_cream_cone.png);}
+.illusioner_head                {background-image: url(cpp/illusioner_head.png);}
+.industrious_hand               {background-image: url(cpp/industrious_hand.png);}
+.internationale                 {background-image: url(cpp/internationale.png);}
+.intiernatsional                {background-image: url(cpp/intiernatsional.png);}
+.iris                           {background-image: url(cpp/iris.png);}
+.iron_chain                     {background-image: url(cpp/iron_chain.png);}
+.iron_dust                      {background-image: url(cpp/iron_dust.png);}
+.iron_golem_head                {background-image: url(cpp/iron_golem_head.png);}
+.iron_shard                     {background-image: url(cpp/iron_shard.png);}
+.isorchid                       {background-image: url(cpp/isorchid.png);}
+.isorchid_seeds                 {background-image: url(cpp/isorchid_seeds.png);}
+.item_processer                 {background-image: url(cpp/item_processer.png);}
+.jacket                         {background-image: url(cpp/jacket.png);}
+.joking_glasses                 {background-image: url(cpp/joking_glasses.png);}
+.ketchup                        {background-image: url(cpp/ketchup.png);}
+.lamb_kebab                     {background-image: url(cpp/lamb_kebab.png);}
+.lapis_shard                    {background-image: url(cpp/lapis_shard.png);}
+.lash                           {background-image: url(cpp/lash.png);}
+.lemon                          {background-image: url(cpp/lemon.png);}
+.light_blue_sign                {background-image: url(cpp/light_blue_sign.png);}
+.light_gray_sign                {background-image: url(cpp/light_gray_sign.png);}
+.lilium_pumilum                 {background-image: url(cpp/lilium_pumilum.png);}
+.limb_of_ridge                  {background-image: url(cpp/limb_of_ridge.png);}
+.lime_sign                      {background-image: url(cpp/lime_sign.png);}
+.llama_head                     {background-image: url(cpp/llama_head.png);}
+.llama_meat                     {background-image: url(cpp/llama_meat.png);}
+.longan                         {background-image: url(cpp/longan.png);}
+.loquat                         {background-image: url(cpp/loquat.png);}
+.lotus                          {background-image: url(cpp/lotus.png);}
+.lotus_root                     {background-image: url(cpp/lotus_root.png);}
+.lotus_seeds                    {background-image: url(cpp/lotus_seeds.png);}
+.low_pressure_plugin            {background-image: url(cpp/low_pressure_plugin.png);}
+.low_temperature_plugin         {background-image: url(cpp/low_temperature_plugin.png);}
+.lupine                         {background-image: url(cpp/lupine.png);}
+.luxurious_netherite_barbecue   {background-image: url(cpp/luxurious_netherite_barbecue.png);}
+.lychee                         {background-image: url(cpp/lychee.png);}
+.lycoris_radiata                {background-image: url(cpp/lycoris_radiata.png);}
+.lycoris_radiata_seeds          {background-image: url(cpp/lycoris_radiata_seeds.png);}
+.magenta_sign                   {background-image: url(cpp/magenta_sign.png);}
+.magma_cube_head                {background-image: url(cpp/magma_cube_head.png);}
+.magnet                         {background-image: url(cpp/magnet.png);}
+.mango                          {background-image: url(cpp/mango.png);}
+.marigold                       {background-image: url(cpp/marigold.png);}
+.marigold_seeds                 {background-image: url(cpp/marigold_seeds.png);}
+.mcmod_logo                     {background-image: url(cpp/mcmod_logo.png);}
+.meat_floss_bread               {background-image: url(cpp/meat_floss_bread.png);}
+.mending_plugin                 {background-image: url(cpp/mending_plugin.png);}
+.minion_goggles                 {background-image: url(cpp/minion_goggles.png);}
+.mob_projector                  {background-image: url(cpp/mob_projector.png);}
+.moon_shard                     {background-image: url(cpp/moon_shard.png);}
+.moon_stone                     {background-image: url(cpp/moon_stone.png);}
+.mooncake_with_chinese_ham      {background-image: url(cpp/mooncake_with_chinese_ham.png);}
+.mooncake_with_date_paste       {background-image: url(cpp/mooncake_with_date_paste.png);}
+.mooncake_with_double_yolks_and_lotus_seed_paste{background-image: url(cpp/mooncake_with_double_yolks_and_lotus_seed_paste.png);}
+.mooncake_with_five_kernel      {background-image: url(cpp/mooncake_with_five_kernel.png);}
+.mooncake_with_rose_paste       {background-image: url(cpp/mooncake_with_rose_paste.png);}
+.mooshroom_head_brown           {background-image: url(cpp/mooshroom_head_brown.png);}
+.mooshroom_head_red             {background-image: url(cpp/mooshroom_head_red.png);}
+.muffler                        {background-image: url(cpp/muffler.png);}
+.mule_head                      {background-image: url(cpp/mule_head.png);}
+.mule_meat                      {background-image: url(cpp/mule_meat.png);}
+.mystery_blaze_powder           {background-image: url(cpp/mystery_blaze_powder.png);}
+.mystery_rabbit_foot            {background-image: url(cpp/mystery_rabbit_foot.png);}
+.narcissus                      {background-image: url(cpp/narcissus.png);}
+.netherite_mushroom_stew        {background-image: url(cpp/netherite_mushroom_stew.png);}
+.netherrack_plugin              {background-image: url(cpp/netherrack_plugin.png);}
+.nf_logo                        {background-image: url(cpp/nf_logo.png);}
+.northwest_wind                 {background-image: url(cpp/northwest_wind.png);}
+.nova_of_fire                   {background-image: url(cpp/nova_of_fire.gif);}
+.nurse_hat                      {background-image: url(cpp/nurse_hat.png);}
+.obsidian_plugin                {background-image: url(cpp/obsidian_plugin.png);}
+.orange                         {background-image: url(cpp/orange.png);}
+.orange_force_of_dirt           {background-image: url(cpp/orange_force_of_dirt.png);}
+.orange_framed_glasses          {background-image: url(cpp/orange_framed_glasses.png);}
+.orange_jam                     {background-image: url(cpp/orange_jam.png);}
+.orange_sign                    {background-image: url(cpp/orange_sign.png);}
+.ore_leaves                     {background-image: url(cpp/ore_leaves.png);}
+.ore_sapling                    {background-image: url(cpp/ore_sapling.png);}
+.origin_of_the_world            {background-image: url(cpp/origin_of_the_world.png);}
+.osmanthus                      {background-image: url(cpp/osmanthus.png);}
+.oxalis                         {background-image: url(cpp/oxalis.png);}
+.oxalis_seeds                   {background-image: url(cpp/oxalis_seeds.png);}
+.panda_head                     {background-image: url(cpp/panda_head.png);}
+.pansy                          {background-image: url(cpp/pansy.png);}
+.pants                          {background-image: url(cpp/pants.png);}
+.parrot_head_blue               {background-image: url(cpp/parrot_head_blue.png);}
+.parrot_head_cyan               {background-image: url(cpp/parrot_head_cyan.png);}
+.parrot_head_gray               {background-image: url(cpp/parrot_head_gray.png);}
+.parrot_head_green              {background-image: url(cpp/parrot_head_green.png);}
+.parrot_head_red                {background-image: url(cpp/parrot_head_red.png);}
+.parrot_meat                    {background-image: url(cpp/parrot_meat.png);}
+.payapa                         {background-image: url(cpp/payapa.png);}
+.peach                          {background-image: url(cpp/peach.png);}
+.peach_shaped_qiaoguo           {background-image: url(cpp/peach_shaped_qiaoguo.png);}
+.pear                           {background-image: url(cpp/pear.png);}
+.persimmon                      {background-image: url(cpp/persimmon.png);}
+.phantom_head                   {background-image: url(cpp/phantom_head.png);}
+.pig_head                       {background-image: url(cpp/pig_head.png);}
+.piglin_head                    {background-image: url(cpp/piglin_head.png);}
+.pillager_head                  {background-image: url(cpp/pillager_head.png);}
+.pineapple                      {background-image: url(cpp/pineapple.png);}
+.pink_doughnut                  {background-image: url(cpp/pink_doughnut.png);}
+.pink_sign                      {background-image: url(cpp/pink_sign.png);}
+.pizza                          {background-image: url(cpp/pizza.png);}
+.plum                           {background-image: url(cpp/plum.png);}
+.poinsettia                     {background-image: url(cpp/poinsettia.png);}
+.polar_bear_head                {background-image: url(cpp/polar_bear_head.png);}
+.pomegranate                    {background-image: url(cpp/pomegranate.png);}
+.pork_kebab                     {background-image: url(cpp/pork_kebab.png);}
+.portable_crafting_machine      {background-image: url(cpp/portable_crafting_machine.png);}
+.portable_crafting_table        {background-image: url(cpp/portable_crafting_table.png);}
+.potion_of_invulnerable         {background-image: url(cpp/potion_of_invulnerable.png);}
+.potion_of_ninja                {background-image: url(cpp/potion_of_ninja.png);}
+.potion_of_reckless             {background-image: url(cpp/potion_of_reckless.png);}
+.primrose                       {background-image: url(cpp/primrose.png);}
+.prosperous                     {background-image: url(cpp/prosperous.png);}
+.pufferfish_head                {background-image: url(cpp/pufferfish_head.png);}
+.purple_doughnut                {background-image: url(cpp/purple_doughnut.png);}
+.purple_eye                     {background-image: url(cpp/purple_eye.png);}
+.purple_force_of_life           {background-image: url(cpp/purple_force_of_life.png);}
+.purple_illusion                {background-image: url(cpp/purple_illusion.png);}
+.purple_illusion_seeds          {background-image: url(cpp/purple_illusion_seeds.png);}
+.purple_sign                    {background-image: url(cpp/purple_sign.png);}
+.qingtuan                       {background-image: url(cpp/qingtuan.png);}
+.qixi_bamboo                    {background-image: url(cpp/qixi_bamboo.png);}
+.quartz_dust                    {background-image: url(cpp/quartz_dust.png);}
+.rabbit_head_black              {background-image: url(cpp/rabbit_head_black.png);}
+.rabbit_head_brown              {background-image: url(cpp/rabbit_head_brown.png);}
+.rabbit_head_gold               {background-image: url(cpp/rabbit_head_gold.png);}
+.rabbit_head_salt               {background-image: url(cpp/rabbit_head_salt.png);}
+.rabbit_head_toast              {background-image: url(cpp/rabbit_head_toast.png);}
+.rabbit_head_white              {background-image: url(cpp/rabbit_head_white.png);}
+.rabbit_head_white_splotched    {background-image: url(cpp/rabbit_head_white_splotched.png);}
+.rabbit_head_killer_bunny       {background-image: url(cpp/rabbit_head_killer_bunny.png);}
+.rabbit_shaped_qiaoguo          {background-image: url(cpp/rabbit_shaped_qiaoguo.png);}
+.rabbit_stew                    {background-image: url(cpp/rabbit_stew.png);}
+.raisin                         {background-image: url(cpp/raisin.png);}
+.rare_earth_dust                {background-image: url(cpp/rare_earth_dust.png);}
+.rare_earth_glass               {background-image: url(cpp/rare_earth_glass.png);}
+.rare_earth_salt                {background-image: url(cpp/rare_earth_salt.png);}
+.ravager_head                   {background-image: url(cpp/ravager_head.png);}
+.raw_braised_beef_with_potatoes {background-image: url(cpp/raw_braised_beef_with_potatoes.png);}
+.raw_braised_pork_with_potatoes {background-image: url(cpp/raw_braised_pork_with_potatoes.png);}
+.raw_colorful_vegetable         {background-image: url(cpp/raw_colorful_vegetable.png);}
+.raw_rabbit_stew                {background-image: url(cpp/raw_rabbit_stew.png);}
+.red_coat                       {background-image: url(cpp/red_coat.png);}
+.red_force_of_fire              {background-image: url(cpp/red_force_of_fire.png);}
+.red_hat                        {background-image: url(cpp/red_hat.png);}
+.red_lip                        {background-image: url(cpp/red_lip.png);}
+.red_sign                       {background-image: url(cpp/red_sign.png);}
+.redstone_shard                 {background-image: url(cpp/redstone_shard.png);}
+.reinforced_glass               {background-image: url(cpp/reinforced_glass.png);}
+.rice                           {background-image: url(cpp/rice.png);}
+.roost                          {background-image: url(cpp/roost.png);}
+.rotten_flesh_cake              {background-image: url(cpp/rotten_flesh_cake.png);}
+.ruhuasiyu_head                 {background-image: url(cpp/ruhuasiyu_head.png);}
+.russia_flag                    {background-image: url(cpp/russia_flag.png);}
+.sachet                         {background-image: url(cpp/sachet.png);}
+.sakura_leaves                  {background-image: url(cpp/sakura_leaves.png);}
+.sakura_mochi                   {background-image: url(cpp/sakura_mochi.png);}
+.sakura_sapling                 {background-image: url(cpp/sakura_sapling.png);}
+.salmon_head                    {background-image: url(cpp/salmon_head.png);}
+.sandwich                       {background-image: url(cpp/sandwich.png);}
+.santa_gift                     {background-image: url(cpp/santa_gift.png);}
+.scroll                         {background-image: url(cpp/scroll.png);}
+.sealing_wand                   {background-image: url(cpp/sealing_wand.png);}
+.shard_of_the_darkness          {background-image: url(cpp/shard_of_the_darkness.png);}
+.sheep_head                     {background-image: url(cpp/sheep_head.png);}
+.shaved_ice_with_blueberry      {background-image: url(cpp/shaved_ice_with_blueberry.png);}
+.shaved_ice_with_pineapple      {background-image: url(cpp/shaved_ice_with_pineapple.png);}
+.shaved_ice_with_strawberry     {background-image: url(cpp/shaved_ice_with_strawberry.png);}
+.shield_bilibili                {background-image: url(cpp/shield_bilibili.png);}
+.shield_cbl                     {background-image: url(cpp/shield_cbl.png);}
+.shield_china_flag              {background-image: url(cpp/shield_china_flag.png);}
+.shield_cpc_flag                {background-image: url(cpp/shield_cpc_flag.png);}
+.shield_france_flag             {background-image: url(cpp/shield_france_flag.png);}
+.shield_github                  {background-image: url(cpp/shield_github.png);}
+.shield_mcmod                   {background-image: url(cpp/shield_mcmod.png);}
+.shield_nf                      {background-image: url(cpp/shield_nf.png);}
+.shield_russia_flag             {background-image: url(cpp/shield_russia_flag.png);}
+.shield_tcp                     {background-image: url(cpp/shield_tcp.png);}
+.shield_uk_flag                 {background-image: url(cpp/shield_uk_flag.png);}
+.shield_usa_flag                {background-image: url(cpp/shield_usa_flag.png);}
+.shield_ussr_flag               {background-image: url(cpp/shield_ussr_flag.png);}
+.shooting_star                  {background-image: url(cpp/shooting_star.png);}
+.shulker_head                   {background-image: url(cpp/shulker_head.png);}
+.silene_pendula                 {background-image: url(cpp/silene_pendula.png);}
+.silicon_dust                   {background-image: url(cpp/silicon_dust.png);}
+.silicon_plate                  {background-image: url(cpp/silicon_plate.png);}
+.skeleton_horse_skull           {background-image: url(cpp/skeleton_horse_skull.png);}
+.slime_head                     {background-image: url(cpp/slime_head.png);}
+.smart_hand                     {background-image: url(cpp/smart_hand.png);}
+.snow_boots                     {background-image: url(cpp/snow_boots.png);}
+.snow_golem_head                {background-image: url(cpp/snow_golem_head.png);}
+.snowdrop                       {background-image: url(cpp/snowdrop.png);}
+.soda_water                     {background-image: url(cpp/soda_water.png);}
+.sorcerer_stone                 {background-image: url(cpp/sorcerer_stone.png);}
+.soul_fried_chicken             {background-image: url(cpp/soul_fried_chicken.png);}
+.soul_of_dirt                   {background-image: url(cpp/soul_of_dirt.gif);}
+.soybean                        {background-image: url(cpp/soybean.png);}
+.soy_sauce                      {background-image: url(cpp/soy_sauce.png);}
+.spider_head                    {background-image: url(cpp/spider_head.png);}
+.spirit_of_life                 {background-image: url(cpp/spirit_of_life.gif);}
+.splint                         {background-image: url(cpp/splint.png);}
+.spring                         {background-image: url(cpp/spring.png);}
+.spring_festival_decorations    {background-image: url(cpp/spring_festival_decorations.png);}
+.squid_head                     {background-image: url(cpp/squid_head.png);}
+.star_wand                      {background-image: url(cpp/star_wand.png);}
+.stargazy_pie                   {background-image: url(cpp/stargazy_pie.png);}
+.steel_dust                     {background-image: url(cpp/steel_dust.png);}
+.stelera                        {background-image: url(cpp/stelera.png);}
+.stelera_seeds                  {background-image: url(cpp/stelera_seeds.png);}
+.stone_plugin                   {background-image: url(cpp/stone_plugin.png);}
+.strawberry                     {background-image: url(cpp/strawberry.png);}
+.strawberry_cake                {background-image: url(cpp/strawberry_cake.png);}
+.strawberry_jam                 {background-image: url(cpp/strawberry_jam.png);}
+.stray_skull                    {background-image: url(cpp/stray_skull.png);}
+.sun_shard                      {background-image: url(cpp/sun_shard.png);}
+.sun_stone                      {background-image: url(cpp/sun_stone.png);}
+.sushi                          {background-image: url(cpp/sushi.png);}
+.tcp_logo                       {background-image: url(cpp/tcp_logo.png);}
+.temperancer                    {background-image: url(cpp/temperancer.png);}
+.tight_leather_leggings         {background-image: url(cpp/tight_leather_leggings.png);}
+.time_checker                   {background-image: url(cpp/time_checker.png);}
+.time_conditioner               {background-image: url(cpp/time_conditioner.png);}
+.tofu                           {background-image: url(cpp/tofu.png);}
+.toffee_apple                   {background-image: url(cpp/toffee_apple.png);}
+.tomato                         {background-image: url(cpp/tomato.png);}
+.toughen_hand                   {background-image: url(cpp/toughen_hand.png);}
+.trade_machine                  {background-image: url(cpp/trade_machine.png);}
+.trade_plugin                   {background-image: url(cpp/trade_plugin.gif);}
+.trade_plugin1                  {background-image: url(cpp/trade_plugin1.png);}
+.trade_plugin2                  {background-image: url(cpp/trade_plugin2.png);}
+.trade_plugin3                  {background-image: url(cpp/trade_plugin3.png);}
+.trader_llama_head              {background-image: url(cpp/trader_llama_head.png);}
+.trifolium                      {background-image: url(cpp/trifolium.png);}
+.trifolium_seeds                {background-image: url(cpp/trifolium_seeds.png);}
+.tropical_fish_head             {background-image: url(cpp/tropical_fish_head.png);}
+.turtle_head                    {background-image: url(cpp/turtle_head.png);}
+.uk_flag                        {background-image: url(cpp/uk_flag.png);}
+.usa_flag                       {background-image: url(cpp/usa_flag.png);}
+.ussr_flag                      {background-image: url(cpp/ussr_flag.png);}
+.vaccine_of_blindness           {background-image: url(cpp/vaccine_of_blindness.png);}
+.vaccine_of_darkness            {background-image: url(cpp/vaccine_of_darkness.png);}
+.vaccine_of_mining_fatigue      {background-image: url(cpp/vaccine_of_mining_fatigue.png);}
+.vaccine_of_mutation            {background-image: url(cpp/vaccine_of_mutation.png);}
+.vaccine_of_poison              {background-image: url(cpp/vaccine_of_poison.png);}
+.vaccine_of_wither              {background-image: url(cpp/vaccine_of_wither.png);}
+.vegetable_kebab                {background-image: url(cpp/vegetable_kebab.png);}
+.vex_head                       {background-image: url(cpp/vex_head.png);}
+.villager_head                  {background-image: url(cpp/villager_head.png);}
+.vindicator_head                {background-image: url(cpp/vindicator_head.png);}
+.wand_of_the_darkness           {background-image: url(cpp/wand_of_the_darkness.png);}
+.wandering_trader_head          {background-image: url(cpp/wandering_trader_head.png);}
+.white_chrysanthemum            {background-image: url(cpp/white_chrysanthemum.png);}
+.white_doughnut                 {background-image: url(cpp/white_doughnut.png);}
+.white_force_of_lightning       {background-image: url(cpp/white_force_of_lightning.png);}
+.white_sign                     {background-image: url(cpp/white_sign.png);}
+.white_water_lily               {background-image: url(cpp/white_water_lily.png);}
+.wifi_plugin                    {background-image: url(cpp/wifi_plugin.png);}
+.wild_lilium                    {background-image: url(cpp/wild_lilium.png);}
+.wild_lilium_seeds              {background-image: url(cpp/wild_lilium_seeds.png);}
+.wing_of_sky                    {background-image: url(cpp/wing_of_sky.png);}
+.witch_head                     {background-image: url(cpp/witch_head.png);}
+.wolf_head                      {background-image: url(cpp/wolf_head.png);}
+.wool_leaves                    {background-image: url(cpp/wool_leaves.png);}
+.wool_sapling                   {background-image: url(cpp/wool_sapling.png);}
+.yeast_powder                   {background-image: url(cpp/yeast_powder.png);}
+.yellow_chrysanthemum           {background-image: url(cpp/yellow_chrysanthemum.png);}
+.yellow_force_of_earth          {background-image: url(cpp/yellow_force_of_earth.png);}
+.yellow_sign                    {background-image: url(cpp/yellow_sign.png);}
+.zombie_horse_head              {background-image: url(cpp/zombie_horse_head.png);}
+.zombie_villager_head           {background-image: url(cpp/zombie_villager_head.png);}
+.zombified_piglin_head          {background-image: url(cpp/zombified_piglin_head.png);}
+.zongzi                         {background-image: url(cpp/zongzi.png);}
+.zongzi_with_egg_yolk           {background-image: url(cpp/zongzi_with_egg_yolk.png);}
+.zongzi_with_honey_dates        {background-image: url(cpp/zongzi_with_honey_dates.png);}
+.zongzi_with_pork               {background-image: url(cpp/zongzi_with_pork.png);}
+.zongzi_with_honey              {background-image: url(cpp/zongzi_with_honey.png);}
+.zongzi_with_salt               {background-image: url(cpp/zongzi_with_salt.png);}
+.zongzi_with_soda               {background-image: url(cpp/zongzi_with_soda.png);}
+.normal_case                    {background-image: url(gui/normal_case.png);}
+.high_pressure                  {background-image: url(gui/high_pressure.png);}
+.high_temperature               {background-image: url(gui/high_temperature.png);}
+.low_pressure                   {background-image: url(gui/low_pressure.png);}
+.low_temperature                {background-image: url(gui/low_temperature.png);}
+/* gif */
+.coals                          {background-image: url(gif/coals.gif);}
+.all_stone_bricks               {background-image: url(gif/all_stone_bricks.gif);}
+.copper_ores                    {background-image: url(gif/copper_ores.gif);}
+.gold_ores                      {background-image: url(gif/gold_ores.gif);}
+.gold_oress                     {background-image: url(gif/gold_oress.gif);}
+.iron_ores                      {background-image: url(gif/iron_ores.gif);}
+.diamond_ores                   {background-image: url(gif/diamond_ores.gif);}
+.coppers                        {background-image: url(gif/coppers.gif);}
+.waxed_coppers                  {background-image: url(gif/waxed_coppers.gif);}
+.corals                         {background-image: url(gif/corals.gif);}
+.coral_blocks                   {background-image: url(gif/coral_blocks.gif);}
+.coral_fans                     {background-image: url(gif/coral_fans.gif);}
+.sands                          {background-image: url(gif/sands.gif);}
+.logs                           {background-image: url(gif/logs.gif);}
+.logs_with_azalea               {background-image: url(gif/logs_with_azalea.gif);}
+.logs_and_stems                 {background-image: url(gif/logs_and_stems.gif);}
+.stripped_logs_and_stems        {background-image: url(gif/stripped_logs_and_stems.gif);}
+.wood_and_nyphae                {background-image: url(gif/wood_and_nyphae.gif);}
+.stripped_wood_and_nyphae       {background-image: url(gif/stripped_wood_and_nyphae.gif);}
+.leaves                         {background-image: url(gif/leaves.gif);}
+.saplings                       {background-image: url(gif/saplings.gif);}
+.mod_saplings                   {background-image: url(gif/mod_saplings.gif);}
+.vanilla_saplings               {background-image: url(gif/vanilla_saplings.gif);}
+.planks                         {background-image: url(gif/planks.gif);}
+.boats                          {background-image: url(gif/boats.gif);}
+.dyes                           {background-image: url(gif/dyes.gif);}
+.wools                          {background-image: url(gif/wools.gif);}
+.tipped_arrow                   {background-image: url(gif/tipped_arrow.gif);}
+.piglin_bartering               {background-image: url(gif/piglin_bartering.gif);}
+.flower_and_grasses             {background-image: url(gif/flower_and_grasses.gif);}
+.flower_and_grass_seeds         {background-image: url(gif/flower_and_grass_seeds.gif);}
+.lycoris_radiata_crop           {background-image: url(gif/lycoris_radiata_crop.gif);}
+.trifolium_crop                 {background-image: url(gif/trifolium_crop.gif);}
+.blackthorn_crop                {background-image: url(gif/blackthorn_crop.gif);}
+.cattail_crop                   {background-image: url(gif/cattail_crop.gif);}
+.marigold_crop                  {background-image: url(gif/marigold_crop.gif);}
+.hibiscus_crop                  {background-image: url(gif/hibiscus_crop.gif);}
+.hyacinth_crop                  {background-image: url(gif/hyacinth_crop.gif);}
+.calamus_crop                   {background-image: url(gif/calamus_crop.gif);}
+.wild_lilium_crop               {background-image: url(gif/wild_lilium_crop.gif);}
+.bauhinia_crop                  {background-image: url(gif/bauhinia_crop.gif);}
+.fluffy_grass_crop              {background-image: url(gif/fluffy_grass_crop.gif);}
+.gerbera_crop                   {background-image: url(gif/gerbera_crop.gif);}
+.esparto_crop                   {background-image: url(gif/esparto_crop.gif);}
+.glow_forsythia_crop            {background-image: url(gif/glow_forsythia_crop.gif);}
+.glazed_shade_crop              {background-image: url(gif/glazed_shade_crop.gif);}
+.stelera_crop                   {background-image: url(gif/stelera_crop.gif);}
+.forage_crystal_crop            {background-image: url(gif/forage_crystal_crop.gif);}
+.isorchid_crop                  {background-image: url(gif/isorchid_crop.gif);}
+.burning_chrysanthe_crop        {background-image: url(gif/burning_chrysanthe_crop.gif);}
+.oxalis_crop                    {background-image: url(gif/oxalis_crop.gif);}
+.purple_illusion_crop           {background-image: url(gif/purple_illusion_crop.gif);}
+.lotus_crop                     {background-image: url(gif/lotus_crop.gif);}
+.dragon_breath_crop             {background-image: url(gif/dragon_breath_crop.gif);}
+.rice_crop                      {background-image: url(gif/rice_crop.gif);}
+.tomato_crop                    {background-image: url(gif/tomato_crop.gif);}
+.soybean_crop                   {background-image: url(gif/soybean_crop.gif);}
+.strawberry_crop                {background-image: url(gif/strawberry_crop.gif);}
+.blueberry_crop                 {background-image: url(gif/blueberry_crop.gif);}
+.pineapple_crop                 {background-image: url(gif/pineapple_crop.gif);}
+.grape_vines                    {background-image: url(gif/grape_vines.gif);}
+.golden_grape_vines             {background-image: url(gif/golden_grape_vines.gif);}
+.character                      {background-image: url(gif/character.gif);}
+/* misc */
+.speed                        {background-image: url(misc/effects/speed.png);}
+.slowness                     {background-image: url(misc/effects/slowness.png);}
+.haste                        {background-image: url(misc/effects/haste.png);}
+.mining_fatigue               {background-image: url(misc/effects/mining_fatigue.png);}
+.strength                     {background-image: url(misc/effects/strength.png);}
+.instant_health               {background-image: url(misc/effects/instant_health.png);}
+.instant_damage               {background-image: url(misc/effects/instant_damage.png);}
+.jump_boost                   {background-image: url(misc/effects/jump_boost.png);}
+.nausea                       {background-image: url(misc/effects/nausea.png);}
+.regeneration                 {background-image: url(misc/effects/regeneration.png);}
+.resistance                   {background-image: url(misc/effects/resistance.png);}
+.fire_resistance              {background-image: url(misc/effects/fire_resistance.png);}
+.water_breathing              {background-image: url(misc/effects/water_breathing.png);}
+.invisibility                 {background-image: url(misc/effects/invisibility.png);}
+.blindness                    {background-image: url(misc/effects/blindness.png);}
+.night_vision                 {background-image: url(misc/effects/night_vision.png);}
+.hunger_effect                {background-image: url(misc/effects/hunger_effect.png);}
+.weakness                     {background-image: url(misc/effects/weakness.png);}
+.poison                       {background-image: url(misc/effects/poison.png);}
+.wither                       {background-image: url(misc/effects/wither.png);}
+.health_boost                 {background-image: url(misc/effects/health_boost.png);}
+.absorption                   {background-image: url(misc/effects/absorption.png);}
+.saturation                   {background-image: url(misc/effects/saturation.png);}
+.glowing                      {background-image: url(misc/effects/glowing.png);}
+.levitation                   {background-image: url(misc/effects/levitation.png);}
+.luck                         {background-image: url(misc/effects/luck.png);}
+.unluck                       {background-image: url(misc/effects/unluck.png);}
+.slow_falling                 {background-image: url(misc/effects/slow_falling.png);}
+.conduit_power                {background-image: url(misc/effects/conduit_power.png);}
+.dolphins_grace               {background-image: url(misc/effects/dolphins_grace.png);}
+.bad_omen                     {background-image: url(misc/effects/bad_omen.png);}
+.hero_of_the_village          {background-image: url(misc/effects/hero_of_the_village.png);}
+.mob_allay                    {background-image: url(misc/mobs/mob_allay.png);}
+.mob_axolotl                  {background-image: url(misc/mobs/mob_axolotl.png);}
+.mob_bat                      {background-image: url(misc/mobs/mob_bat.png);}
+.mob_bee                      {background-image: url(misc/mobs/mob_bee.png);}
+.mob_blaze                    {background-image: url(misc/mobs/mob_blaze.png);}
+.mob_cat                      {background-image: url(misc/mobs/mob_cat.png);}
+.mob_cave_spider              {background-image: url(misc/mobs/mob_cave_spider.png);}
+.mob_chicken                  {background-image: url(misc/mobs/mob_chicken.png);}
+.mob_cod                      {background-image: url(misc/mobs/mob_cod.png);}
+.mob_cow                      {background-image: url(misc/mobs/mob_cow.png);}
+.mob_creeper                  {background-image: url(misc/mobs/mob_creeper.png);}
+.mob_dolphin                  {background-image: url(misc/mobs/mob_dolphin.png);}
+.mob_donkey                   {background-image: url(misc/mobs/mob_donkey.png);}
+.mob_drowned                  {background-image: url(misc/mobs/mob_drowned.png);}
+.mob_elder_guardian           {background-image: url(misc/mobs/mob_elder_guardian.png);}
+.mob_enderman                 {background-image: url(misc/mobs/mob_enderman.png);}
+.mob_endermite                {background-image: url(misc/mobs/mob_endermite.png);}
+.mob_evoker                   {background-image: url(misc/mobs/mob_evoker.png);}
+.mob_fox                      {background-image: url(misc/mobs/mob_fox.png);}
+.mob_frog                     {background-image: url(misc/mobs/mob_frog.png);}
+.mob_ghast                    {background-image: url(misc/mobs/mob_ghast.png);}
+.mob_glow_squid               {background-image: url(misc/mobs/mob_glow_squid.png);}
+.mob_goat                     {background-image: url(misc/mobs/mob_goat.png);}
+.mob_guardian                 {background-image: url(misc/mobs/mob_guardian.png);}
+.mob_hoglin                   {background-image: url(misc/mobs/mob_hoglin.png);}
+.mob_horse                    {background-image: url(misc/mobs/mob_horse.png);}
+.mob_husk                     {background-image: url(misc/mobs/mob_husk.png);}
+.mob_llama                    {background-image: url(misc/mobs/mob_llama.png);}
+.mob_magma_cube               {background-image: url(misc/mobs/mob_magma_cube.png);}
+.mob_mooshroom                {background-image: url(misc/mobs/mob_mooshroom.png);}
+.mob_ocelot                   {background-image: url(misc/mobs/mob_ocelot.png);}
+.mob_panda                    {background-image: url(misc/mobs/mob_panda.png);}
+.mob_parrot                   {background-image: url(misc/mobs/mob_parrot.png);}
+.mob_phantom                  {background-image: url(misc/mobs/mob_phantom.png);}
+.mob_pig                      {background-image: url(misc/mobs/mob_pig.png);}
+.mob_piglin                   {background-image: url(misc/mobs/mob_piglin.png);}
+.mob_pillager                 {background-image: url(misc/mobs/mob_pillager.png);}
+.mob_polar_bear               {background-image: url(misc/mobs/mob_polar_bear.png);}
+.mob_pufferfish               {background-image: url(misc/mobs/mob_pufferfish.png);}
+.mob_rabbit                   {background-image: url(misc/mobs/mob_rabbit.png);}
+.mob_ravager                  {background-image: url(misc/mobs/mob_ravager.png);}
+.mob_salmon                   {background-image: url(misc/mobs/mob_salmon.png);}
+.mob_sheep                    {background-image: url(misc/mobs/mob_sheep.png);}
+.mob_shulker                  {background-image: url(misc/mobs/mob_shulker.png);}
+.mob_silverfish               {background-image: url(misc/mobs/mob_silverfish.png);}
+.mob_skeleton                 {background-image: url(misc/mobs/mob_skeleton.png);}
+.mob_skeleton_horse           {background-image: url(misc/mobs/mob_skeleton_horse.png);}
+.mob_slime                    {background-image: url(misc/mobs/mob_slime.png);}
+.mob_spider                   {background-image: url(misc/mobs/mob_spider.png);}
+.mob_squid                    {background-image: url(misc/mobs/mob_squid.png);}
+.mob_stray                    {background-image: url(misc/mobs/mob_stray.png);}
+.mob_strider                  {background-image: url(misc/mobs/mob_strider.png);}
+.mob_tropical_fish            {background-image: url(misc/mobs/mob_tropical_fish.png);}
+.mob_turtle                   {background-image: url(misc/mobs/mob_turtle.png);}
+.mob_villager                 {background-image: url(misc/mobs/mob_villager.png);}
+.mob_vindicator               {background-image: url(misc/mobs/mob_vindicator.png);}
+.mob_wandering_llama          {background-image: url(misc/mobs/mob_wandering_llama.png);}
+.mob_wandering_trader         {background-image: url(misc/mobs/mob_wandering_trader.png);}
+.mob_witch                    {background-image: url(misc/mobs/mob_witch.png);}
+.mob_wither_skeleton          {background-image: url(misc/mobs/mob_wither_skeleton.png);}
+.mob_wolf                     {background-image: url(misc/mobs/mob_wolf.png);}
+.mob_zombie                   {background-image: url(misc/mobs/mob_zombie.png);}
+.mob_zombie_horse             {background-image: url(misc/mobs/mob_zombie_horse.png);}
+.mob_zombie_pigman            {background-image: url(misc/mobs/mob_zombie_pigman.png);}
+.mob_zombie_villager          {background-image: url(misc/mobs/mob_zombie_villager.png);}
+.mob_zombified_piglin         {background-image: url(misc/mobs/mob_zombified_piglin.png);}
+.armor                        {background-image: url(misc/armor.png);}
+.armor_half                   {background-image: url(misc/armor_half.png);}
+.hunger                       {background-image: url(misc/hunger.png);}
+.hunger_half                  {background-image: url(misc/hunger_half.png);}
+.xp_orb                       {background-image: url(misc/xp_orb.gif);}
