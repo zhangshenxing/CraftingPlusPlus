@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970071}"
+		},
+		"title": {
+			"color": "#FF0000",
+			"translate": "advancements.cpp.kotonoha.title.6"
+		},
+		"description": {
+			"translate": "advancements.cpp.kotonoha.description.6"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:kotonoha_earth",
+	"criteria": {
+		"red": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/kotonoha"
+	}
+}

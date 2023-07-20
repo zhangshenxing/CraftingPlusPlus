@@ -1,0 +1,23 @@
+execute if data storage cpp:thisb items[{tag:{id:"cpp:wing_of_sky"}}] run scoreboard players set #type cppValue 2001
+execute if data storage cpp:thisb items[{tag:{id:"cpp:heart_of_crystal"}}] run scoreboard players set #type cppValue 2002
+execute if data storage cpp:thisb items[{tag:{id:"cpp:limb_of_ridge"}}] run scoreboard players set #type cppValue 2003
+execute if data storage cpp:thisb items[{tag:{id:"cpp:soul_of_dirt"}}] run scoreboard players set #type cppValue 2004
+execute if data storage cpp:thisb items[{tag:{id:"cpp:certification_of_earth"}}] run scoreboard players set #type cppValue 2005
+execute if data storage cpp:thisb items[{tag:{id:"cpp:nova_of_fire"}}] run scoreboard players set #type cppValue 2006
+execute if data storage cpp:thisb items[{tag:{id:"cpp:spirit_of_life"}}] run scoreboard players set #type cppValue 2007
+execute if data storage cpp:thisb items[{id:"minecraft:phantom_membrane"}] run scoreboard players set #type cppValue 2008
+execute if data storage cpp:thisb items[{id:"minecraft:golden_carrot"}] run scoreboard players set #type cppValue 2009
+execute if data storage cpp:thisb items[{id:"minecraft:magma_cream"}] run scoreboard players set #type cppValue 2010
+execute if data storage cpp:thisb items[{id:"minecraft:pufferfish"}] run scoreboard players set #type cppValue 2011
+execute if data storage cpp:thisb items[{id:"minecraft:ender_pearl"}] run scoreboard players set #type cppValue 2012
+execute if data storage cpp:thisb items[{id:"minecraft:rabbit_foot"}] run scoreboard players set #type cppValue 2013
+execute if data storage cpp:thisb items[{id:"minecraft:sugar"}] run scoreboard players set #type cppValue 2014
+execute if data storage cpp:thisb items[{id:"minecraft:blaze_powder"}] run scoreboard players set #type cppValue 2015
+execute if data storage cpp:thisb items[{id:"minecraft:ghast_tear"}] run scoreboard players set #type cppValue 2016
+execute if data storage cpp:thisb items[{id:"minecraft:glistering_melon_slice"}] run scoreboard players set #type cppValue 2017
+execute if data storage cpp:thisb items[{tag:{id:"cpp:enchanted_gold"}}] run scoreboard players set #type cppValue 2018
+execute if data storage cpp:thisb items[{tag:{id:"cpp:enchanted_diamond"}}] run scoreboard players set #type cppValue 2019
+execute if data storage cpp:thisb items[{id:"minecraft:nautilus_shell"}] run scoreboard players set #type cppValue 2020
+execute if data storage cpp:thisb items[{tag:{id:"cpp:enchanted_iron"}}] run scoreboard players set #type cppValue 2021
+execute if data storage cpp:thisb items[{id:"minecraft:echo_shard"}] run scoreboard players set #type cppValue 2022
+execute if score #type cppValue matches 2001..2022 run function cpp:aiom/recipes/nl/tick1

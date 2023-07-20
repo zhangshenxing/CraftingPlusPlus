@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:hoes",
+		{"id":"#fabric:hoes","required": false}
+	]
+}

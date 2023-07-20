@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 91
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.fortune"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.looting"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sweeping"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.unbreaking"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.lure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.power"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sharpness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.respiration"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.mending"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "minecraft:gameplay/hero_of_the_village/librarian_gift"
+}

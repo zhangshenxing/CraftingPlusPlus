@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		 },
+		"title": {
+			"translate": "advancements.cpp.robber.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.robber.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/robber"
+	}
+}

@@ -1,0 +1,82 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			{
+				"italic": false,
+				"color": "green",
+				"text": "X: ",
+				"extra": [
+					{
+						"nbt": "tag.cpp_stored_pos.X",
+						"storage": "cpp:_"
+					},
+					", Y: ",
+					{
+						"nbt": "tag.cpp_stored_pos.Y",
+						"storage": "cpp:_"
+					},
+					", Z: ",
+					{
+						"nbt": "tag.cpp_stored_pos.Z",
+						"storage": "cpp:_"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.from_crafting_machine"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.coordinate_recorder.use",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.use"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.coordinate_recorder.place",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.sneak",
+						"extra": [
+							"+",
+							{
+								"keybind": "key.use"
+							}
+						]
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "dark_gray",
+				"text": "cpp:coordinate_recorder"
+			}
+		],
+		"replace": true,
+		"entity": "this"
+	},
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:_"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "tag.cpp_stored_pos",
+				"target": "cpp_stored_pos"
+			}
+		]
+	}
+]

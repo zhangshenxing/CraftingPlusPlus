@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"block": {
+			"nbt": "{Items:[{Slot:0b,tag:{cpp_clear:1b}},{Slot:1b,tag:{cpp_clear:1b}},{Slot:2b,tag:{cpp_clear:1b}},{Slot:3b,tag:{cpp_clear:1b}},{Slot:4b,tag:{cpp_clear:1b}},{Slot:5b,tag:{cpp_clear:1b}},{Slot:6b,tag:{cpp_clear:1b}},{Slot:7b,tag:{cpp_clear:1b}},{Slot:17b,tag:{cpp_clear:1b}},{Slot:26b,tag:{cpp_clear:1b}}]}"
+		}
+	}
+}

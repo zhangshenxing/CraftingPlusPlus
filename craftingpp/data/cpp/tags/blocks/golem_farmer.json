@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:leaves",
+		"#minecraft:overworld_natural_logs",
+		"minecraft:melon",
+		"minecraft:mushroom_stem",
+		"minecraft:brown_mushroom_block",
+		"minecraft:red_mushroom_block",
+		"minecraft:pumpkin",
+		"minecraft:sugar_cane",
+		"minecraft:bamboo"
+	]
+}

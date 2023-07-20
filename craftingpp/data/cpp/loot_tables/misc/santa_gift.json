@@ -1,0 +1,323 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_shovel",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_hoe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_shovel",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_axe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_hoe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": 40
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_horse_armor"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:misc/santa_gift_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 10.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.fortune"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.looting"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sweeping"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.lure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.unbreaking"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.respiration"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sharpness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.power"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.mending"
+				}
+			]
+		}
+	]
+}

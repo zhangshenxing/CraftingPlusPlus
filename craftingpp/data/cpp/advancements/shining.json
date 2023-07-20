@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:12976213}"
+		},
+		"title": {
+			"translate": "advancements.cpp.shining.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.shining.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "cpp:sponge",
+	"criteria": {
+		"shining": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:vindicator",
+					"nbt": "{Johnny:1b}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

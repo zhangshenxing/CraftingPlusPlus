@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:set_lore",
+	"replace": false,
+	"lore": [
+		{
+			"italic": false,
+			"color": "blue",
+			"translate": "text.cpp.percent",
+			"with": [
+				"20%"
+			]
+		}
+	]
+}

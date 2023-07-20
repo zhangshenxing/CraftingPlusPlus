@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:fire_coral"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:coral/fire"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:coral/fire"]
+	},
+	"requirements": [
+		[
+			"coral",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:grass_block",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:plains",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"netherite_mushroom_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:netherite_mushroom_stew'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add6"
+	},
+	"requirements": [
+		[
+			"netherite_mushroom_stew"
+		]
+	]
+}

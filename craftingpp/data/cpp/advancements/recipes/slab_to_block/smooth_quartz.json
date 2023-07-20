@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"smooth_quartz_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:smooth_quartz_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/smooth_quartz"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/smooth_quartz"]
+	},
+	"requirements": [
+		[
+			"smooth_quartz_slab",
+			"has_the_recipe"
+		]
+	]
+}

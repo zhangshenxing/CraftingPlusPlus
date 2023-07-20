@@ -1,0 +1,133 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:white_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:orange_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:magenta_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:light_blue_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:yellow_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:lime_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:pink_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:gray_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:light_gray_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:cyan_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:purple_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:blue_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:brown_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:green_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:red_concrete_powder\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:\"minecraft:black_concrete_powder\"}]}"
+				}
+			}
+		}
+	]
+}

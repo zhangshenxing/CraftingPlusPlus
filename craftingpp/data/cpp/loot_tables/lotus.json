@@ -1,0 +1,71 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lily_pad",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.lotus"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:lotus"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.lily.copy",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.bone_meal"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.lotus.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										},
+										{
+											"color": "aqua",
+											"text": "3"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.lotus_seeds"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:lotus',CustomModelData:12971001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

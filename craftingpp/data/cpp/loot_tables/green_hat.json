@@ -1,0 +1,56 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.green_hat"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:green_hat"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:green_hat',CustomModelData:12970016,Trim:{pattern:'cpp:green_hat',material:'minecraft:none'},HideFlags:128}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "head_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 1,
+									"slot": "head"
+								},
+								{
+									"name": "head_armor_toughness",
+									"attribute": "generic.armor_toughness",
+									"operation": "addition",
+									"amount": 2,
+									"slot": "head"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

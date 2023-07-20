@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970071}"
+		},
+		"title": {
+			"color": "#A020F0",
+			"translate": "advancements.cpp.kotonoha.title.7"
+		},
+		"description": {
+			"translate": "advancements.cpp.kotonoha.description.7"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:kotonoha_fire",
+	"criteria": {
+		"purple": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ender_dragon"
+						}
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"range": {
+							"min": 1
+						},
+						"value": {
+							"type": "score",
+							"target": "this",
+							"score": "cppKotoLife"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/kotonoha"
+	}
+}

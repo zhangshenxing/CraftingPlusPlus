@@ -1,0 +1,122 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#00FF00",
+									"translate": "item.cpp.green_force_of_water"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "green",
+									"translate": "block.minecraft.water"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:green_force_of_water"
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "block.minecraft.water",
+									"extra": [
+										" ∞ ",
+										{
+											"italic": false,
+											"color": "red",
+											"translate": "block.minecraft.lava",
+											"extra": [
+												" 0"
+											]
+										},
+										" ",
+										{
+											"italic": false,
+											"color": "aqua",
+											"translate": "block.minecraft.powder_snow",
+											"extra": [
+												" 0"
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.green_force_of_water.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.green_force_of_water.switch",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.green_force_of_water.put",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:green_force_of_water',CustomModelData:12970002,cpp_liquid:{type:0b,lava:0,powder_snow:0}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

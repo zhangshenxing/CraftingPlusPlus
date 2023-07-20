@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"dragon_breath_berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:dragon_breath_berries\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/dragon_breath_berries"
+	}
+}

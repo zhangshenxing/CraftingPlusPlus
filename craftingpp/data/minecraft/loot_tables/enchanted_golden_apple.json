@@ -1,0 +1,106 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.regeneration"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "00:20"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.absorption"
+												},
+												{
+													"translate": "potion.potency.3"
+												}
+											]
+										},
+										{
+											"text": "02:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.resistance"
+										},
+										{
+											"text": "05:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.fire_resistance"
+										},
+										{
+											"text": "05:00"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

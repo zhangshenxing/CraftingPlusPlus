@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"ss",
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:polished_blackstone_brick_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:polished_blackstone_bricks",
+		"count": 4.0
+	}
+}

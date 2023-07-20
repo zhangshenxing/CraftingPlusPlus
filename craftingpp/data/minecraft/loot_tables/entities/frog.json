@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:limb_of_ridge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:heart_of_crystal"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "frog",
+											"variant": "minecraft:cold"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:frog_head.cold"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "frog",
+											"variant": "minecraft:temperate"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:frog_head.temperate"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "frog",
+											"variant": "minecraft:warm"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:frog_head.warm"
+						}
+					]
+				}
+			]
+		}
+	]
+}

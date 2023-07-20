@@ -1,0 +1,225 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:value_check",
+					"value": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#attack_damage"
+						},
+						"score": "cppValue"
+					},
+					"range": 0
+				}
+			}
+		],
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#attack_damage"
+					},
+					"score": "cppValue",
+					"scale": 0.001
+				},
+				"name": "cpp_attack_damage",
+				"attribute": "generic.attack_damage",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:value_check",
+					"value": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#armor"
+						},
+						"score": "cppValue"
+					},
+					"range": 0
+				}
+			}
+		],
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#armor"
+					},
+					"score": "cppValue",
+					"scale": 0.001
+				},
+				"name": "cpp_armor",
+				"attribute": "generic.armor",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:value_check",
+					"value": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#armor_toughness"
+						},
+						"score": "cppValue"
+					},
+					"range": 0
+				}
+			}
+		],
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#armor_toughness"
+					},
+					"score": "cppValue",
+					"scale": 0.001
+				},
+				"name": "cpp_armor_toughness",
+				"attribute": "generic.armor_toughness",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "minecraft:uniform",
+					"min": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#max_health"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					},
+					"max": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#max_health_max"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					}
+				},
+				"name": "cpp_max_health",
+				"attribute": "generic.max_health",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "minecraft:uniform",
+					"min": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#knockback_resistance"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					},
+					"max": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#knockback_resistance_max"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					}
+				},
+				"name": "cpp_knockback_resistance",
+				"attribute": "generic.knockback_resistance",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "minecraft:uniform",
+					"min": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#movement_speed"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					},
+					"max": {
+						"type": "score",
+						"target": {
+							"type": "fixed",
+							"name": "#movement_speed_max"
+						},
+						"score": "cppValue",
+						"scale": 0.001
+					}
+				},
+				"name": "cpp_movement_speed",
+				"attribute": "generic.movement_speed",
+				"operation": "multiply_base",
+				"slot": "legs"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"amount": {
+					"type": "minecraft:uniform",
+					"min": 0.0,
+					"max": 2.0
+				},
+				"name": "cpp_luck",
+				"attribute": "generic.luck",
+				"operation": "addition",
+				"slot": "legs"
+			}
+		]
+	}
+]

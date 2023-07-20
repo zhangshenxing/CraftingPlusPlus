@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12970073}"
+		},
+		"title": {
+			"translate": "advancements.cpp.fermenter.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.fermenter.description"
+		}
+	},
+	"parent": "cpp:skyisland/string",
+	"criteria": {
+		"fermenter": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

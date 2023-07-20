@@ -1,0 +1,59 @@
+{
+	"criteria": {
+		"admire_goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					],
+					"nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+				}
+			}
+		},
+		"call_goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					],
+					"nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+				}
+			}
+		},
+		"yearn_goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					],
+					"nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+				}
+			}
+		},
+		"dream_goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					],
+					"nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"admire_goat_horn",
+			"call_goat_horn",
+			"yearn_goat_horn",
+			"dream_goat_horn"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/misc/goat_horn/screaming"
+	}
+}

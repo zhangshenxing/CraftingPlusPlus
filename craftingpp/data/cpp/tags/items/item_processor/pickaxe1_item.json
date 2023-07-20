@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:lapis_ores",
+		"#minecraft:iron_ores",
+		"#minecraft:copper_ores"
+	]
+}

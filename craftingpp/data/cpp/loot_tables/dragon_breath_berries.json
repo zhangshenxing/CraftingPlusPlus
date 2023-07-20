@@ -1,0 +1,72 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.dragon_breath_berries"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:dragon_breath_berries"
+								},
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-2"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "text.cpp.immunized_from",
+									"with": [
+										{
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "entity.minecraft.shulker_bullet"
+												},
+												{
+													"text": "03:00"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:dragon_breath_berries',CustomModelData:12970097}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

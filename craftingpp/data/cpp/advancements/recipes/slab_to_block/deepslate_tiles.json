@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"deepslate_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:deepslate_tile_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/deepslate_tiles"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/deepslate_tiles"]
+	},
+	"requirements": [
+		[
+			"deepslate_tile_slab",
+			"has_the_recipe"
+		]
+	]
+}

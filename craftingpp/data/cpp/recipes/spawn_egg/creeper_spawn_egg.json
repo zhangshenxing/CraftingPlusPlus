@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ggg",
+		"gdg",
+		"ggg"
+	],
+	"key": {
+		"d": {
+			"item": "minecraft:dragon_egg"
+		},
+		"g": {
+			"item": "minecraft:gunpowder"
+		}
+	},
+	"result": {
+		"item": "minecraft:creeper_spawn_egg"
+	}
+}

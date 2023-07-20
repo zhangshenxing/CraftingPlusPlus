@@ -1,0 +1,111 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"tag": "cpp:torch_placable"
+						}
+					}
+				},
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"tag": "cpp:torch_unputtable"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"tag": "minecraft:trapdoors",
+										"state": {
+											"half": "bottom"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"tag": "minecraft:fence_gates",
+										"state": {
+											"open": "true"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"tag": "minecraft:slabs",
+										"state": {
+											"type": "bottom"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"tag": "minecraft:stairs",
+										"state": {
+											"half": "bottom"
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": -1,
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:lightning_rod"
+					],
+					"state": {
+						"facing": "up"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": -1,
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:lightning_rod"
+					],
+					"state": {
+						"facing": "down"
+					}
+				}
+			}
+		}
+	]
+}

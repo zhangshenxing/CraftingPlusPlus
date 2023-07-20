@@ -1,0 +1,82 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.beef_kebab"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099\u0099\u0099\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:beef_kebab"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "red",
+											"text": "+16"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.strength"
+										},
+										{
+											"text": "00:30"
+										}
+									]
+								},
+								" ",
+								{
+									"italic": false,
+									"translate": "potion.whenDrank"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"text": "+3 ",
+									"extra": [
+										{
+											"translate": "attribute.name.generic.attack_damage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:beef_kebab',CustomModelData:12970002}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

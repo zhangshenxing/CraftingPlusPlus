@@ -1,0 +1,28 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:bubble_column"
+					]
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:water"
+					],
+					"state": {
+						"level": 0
+					}
+				}
+			}
+		}
+	]
+}

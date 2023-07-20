@@ -1,0 +1,153 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:snowy_plains"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:ice_spikes"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:frozen_peaks"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:jagged_peaks"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:snowy_slopes"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:frozen_ocean"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:deep_frozen_ocean"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:grove"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:deep_dark"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:frozen_river"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:snowy_taiga"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:snowy_beach"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:the_end"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:end_highlands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:end_midlands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:small_end_islands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:end_barrens"}}
+									]
+								}
+							],
+							"type": "minecraft:group",
+							"children": [
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:chinese_date"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:hawthorn"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:desert"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:warm_ocean"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:bamboo_jungle"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:jungle"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:sparse_jungle"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:savanna"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:savanna_plateau"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:windswept_savanna"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:nether_wastes"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:soul_sand_valley"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:crimson_forest"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:warped_forest"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:basalt_deltas"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:badlands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:eroded_badlands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:wooded_badlands"}},
+										{"condition": "minecraft:location_check", "predicate": {"biome": "minecraft:mangrove_swamp"}}								
+									]
+								}
+							],
+							"type": "minecraft:group",
+							"children": [
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:banana"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:coconut"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:mango"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:payapa"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:longan"
+								}
+							]
+						},
+						{
+							"type": "minecraft:group",
+							"children": [
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:apricot"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:grapefruit"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:lemon"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:loquat"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:lychee"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:orange"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:peach"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:pear"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:persimmon"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:plum"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "cpp:pomegranate"
+								},
+								{
+									"type": "minecraft:loot_table",
+									"name": "minecraft:apple"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

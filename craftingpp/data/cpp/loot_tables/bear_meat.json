@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beef",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.bear_meat"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0098"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:bear_meat"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "+3"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:bear_meat',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

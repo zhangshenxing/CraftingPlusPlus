@@ -1,0 +1,67 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.marigold_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:marigold_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.obtain",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.carrots"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.potatoes"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.cattail"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.wild_lilium"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:marigold_seeds',CustomModelData:12970005}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

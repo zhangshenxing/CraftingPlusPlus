@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"slot": "legs",
+									"name": "1",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 180.0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

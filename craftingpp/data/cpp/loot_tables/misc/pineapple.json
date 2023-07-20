@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pineapple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 3
+						}
+					]
+				}
+			]
+		}
+	]
+}

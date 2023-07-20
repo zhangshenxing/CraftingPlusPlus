@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12976014}"
+		},
+		"title": {
+			"translate": "advancements.cpp.meow.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.meow.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"meow": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{id:'cpp:cat_breed'}"
+						}
+					}
+				}
+			}
+		}
+	}
+}

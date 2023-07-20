@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cobblestone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cobblestone_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/cobblestone"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/cobblestone"]
+	},
+	"requirements": [
+		[
+			"cobblestone_stairs",
+			"has_the_recipe"
+		]
+	]
+}

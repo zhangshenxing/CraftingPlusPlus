@@ -1,0 +1,28 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:bamboo_fence_gate",
+		"minecraft:oak_fence_gate",
+		"minecraft:spruce_fence_gate",
+		"minecraft:birch_fence_gate",
+		"minecraft:jungle_fence_gate",
+		"minecraft:acacia_fence_gate",
+		"minecraft:dark_oak_fence_gate",
+		"minecraft:mangrove_fence_gate",
+		"minecraft:cherry_fence_gate",
+		"minecraft:crimson_fence_gate",
+		"minecraft:warped_fence_gate",
+		"minecraft:iron_trapdoor",
+		"minecraft:bamboo_trapdoor",
+		"minecraft:oak_trapdoor",
+		"minecraft:spruce_trapdoor",
+		"minecraft:birch_trapdoor",
+		"minecraft:jungle_trapdoor",
+		"minecraft:acacia_trapdoor",
+		"minecraft:dark_oak_trapdoor",
+		"minecraft:mangrove_trapdoor",
+		"minecraft:cherry_trapdoor",
+		"minecraft:crimson_trapdoor",
+		"minecraft:warped_trapdoor"
+	]
+}

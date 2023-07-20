@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "score",
+				"target": "this",
+				"score": "cpp_stack"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:egg"
+				}
+			]
+		}
+	]
+}

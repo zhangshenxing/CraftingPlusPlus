@@ -1,0 +1,43 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#00FFFF",
+								"translate": "item.cpp.limb_of_ridge"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:limb_of_ridge"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.limb_of_ridge.obtain"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:limb_of_ridge',CustomModelData:12970106,dict:['cpp_rare_drops']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

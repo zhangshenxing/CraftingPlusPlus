@@ -1,0 +1,44 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple",
+						"minecraft:enchanted_golden_apple",
+						"minecraft:dried_kelp",
+						"minecraft:beetroot",
+						"minecraft:potato"
+					]
+				}
+			}
+		},
+		"mooncake_with_chinese_ham": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mooncake_with_chinese_ham'}"
+				}
+			}
+		},
+		"cold_drink": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cold_drink'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg1"
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"mooncake_with_chinese_ham",
+			"cold_drink"
+		]
+	]
+}

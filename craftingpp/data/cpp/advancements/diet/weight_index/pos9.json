@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"caramel_pudding": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:caramel_pudding'}"
+				}
+			}
+		},
+		"honey_pancake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:honey_pancake'}"
+				}
+			}
+		},
+		"luxurious_netherite_barbecue": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:luxurious_netherite_barbecue'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"caramel_pudding",
+			"honey_pancake",
+			"luxurious_netherite_barbecue"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos9"
+	}
+}

@@ -1,0 +1,180 @@
+{
+	"pools": [
+		{
+			"rolls": 15.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:soul_of_dirt",
+					"quality": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:nova_of_fire",
+					"quality": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:limb_of_ridge",
+					"quality": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:disc_fragment_5",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5.0,
+								"min": 1.0
+							}
+						}
+					],
+					"quality": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_catalyst",
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 3,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:enchanted_iron",
+					"weight": 7,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:enchanted_gold",
+					"weight": 7,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:meat_floss_bread",
+					"weight": 9,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:toffee_apple",
+					"weight": 9,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 12,
+					"quality": -1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 12,
+					"quality": -2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 12,
+					"quality": -2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:rotten_flesh",
+					"weight": 12,
+					"quality": -2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"weight": 12,
+					"quality": -2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

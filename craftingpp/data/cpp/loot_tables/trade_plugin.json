@@ -1,0 +1,1407 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:white_wool\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.white_wool\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:packed_ice\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.packed_ice\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:blue_ice\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.blue_ice\"}]']}}"
+						}
+					]
+				},				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:tube_coral_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.tube_coral_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:brain_coral_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.brain_coral_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:bubble_coral_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.bubble_coral_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:fire_coral_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.fire_coral_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:horn_coral_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.horn_coral_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:lantern\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.lantern\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:cake\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.cake\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.rabbit_stew\"}',Lore:['[{\"italic\":false,\"translate\":\"effect.minecraft.strength\",\"color\":\"blue\"}, {\"text\":\"（0:30)\"}]','\" \"','{\"italic\":false,\"translate\":\"potion.whenDrank\"}','[{\"italic\":false,\"text\":\"+3 \",\"color\":\"blue\"}, {\"italic\":false,\"translate\":\"attribute.name.generic.attack_damage\"}]']},id:'cpp:rabbit_stew',CustomModelData:12970008,Effects:[{EffectDuration:600,EffectId:5}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.cpp.rabbit_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:18,EffectDuration:7}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:19,EffectDuration:14}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:16,EffectDuration:5}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:8,EffectDuration:8}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:15,EffectDuration:6}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:suspicious_stew\",tag:{Effects:[{EffectId:23,EffectDuration:7}]}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.suspicious_stew\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:terracotta\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.terracotta\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:lapis_lazuli\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.lapis_lazuli\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:gunpowder\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.gunpowder\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:golden_carrot\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.golden_carrot\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:glistering_melon_slice\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.glistering_melon_slice\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:cod_bucket\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.cod_bucket\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:salmon_bucket\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.salmon_bucket\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:pufferfish_bucket\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.pufferfish_bucket\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:1b,id:\"minecraft:tropical_fish_bucket\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.tropical_fish_bucket\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:redstone\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"item.minecraft.redstone\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:night_vision\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.night_vision\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:invisibility\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.invisibility\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:leaping\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.leaping\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:fire_resistance\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.fire_resistance\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:swiftness\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.swiftness\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slowness\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.slowness\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:water_breathing\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.water_breathing\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:healing\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.healing\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:harming\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.harming\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:poison\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.poison\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:regeneration\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.regeneration\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strength\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.strength\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:weakness\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.weakness\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:luck\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.luck\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slow_falling\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.slow_falling\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:turtle_master\"}},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"effect.minecraft.turtle_master\"},{\"translate\":\"item.minecraft.tipped_arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:pointed_dripstone\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"block.minecraft.pointed_dripstone\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:rooted_dirt\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"block.minecraft.rooted_dirt\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:2b,id:\"minecraft:moss_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"2 \",{\"translate\":\"block.minecraft.moss_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:apple\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.apple\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:dripstone_block\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"block.minecraft.dripstone_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:pumpkin_pie\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.pumpkin_pie\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:glass\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"block.minecraft.glass\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:red_sand\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"block.minecraft.red_sand\"}]']}}"
+						}
+					]
+				},				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:white_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.white_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:orange_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.orange_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:magenta_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.magenta_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:light_blue_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.light_blue_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:yellow_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.yellow_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:lime_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.lime_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:pink_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.pink_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:gray_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.gray_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:light_gray_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.light_gray_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:cyan_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.cyan_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:purple_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.purple_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:blue_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.blue_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:brown_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.brown_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:green_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.green_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:red_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.red_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:4b,id:\"minecraft:black_dye\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"4 \",{\"translate\":\"item.minecraft.black_dye\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:5b,id:\"minecraft:cooked_porkchop\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"5 \",{\"translate\":\"item.minecraft.cooked_porkchop\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:6b,id:\"minecraft:bread\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"6 \",{\"translate\":\"item.minecraft.bread\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:12b,id:\"minecraft:cookie\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"12 \",{\"translate\":\"item.minecraft.cookie\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:8b,id:\"minecraft:cooked_chicken\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"8 \",{\"translate\":\"item.minecraft.cooked_chicken\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:8b,id:\"minecraft:sand\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"8 \",{\"translate\":\"block.minecraft.sand\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:10b,id:\"minecraft:brick\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"10 \",{\"translate\":\"item.minecraft.brick\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:1b,cpp_item:{Count:16b,id:\"minecraft:arrow\"},cpp_xp:1,cpp_cd:40,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"16 \",{\"translate\":\"item.minecraft.arrow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:2b,cpp_item:{Count:1b,id:\"minecraft:quartz_block\"},cpp_xp:1,cpp_cd:80,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"2 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.quartz_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:2b,cpp_item:{Count:1b,id:\"minecraft:copper_block\"},cpp_xp:1,cpp_cd:80,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"2 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.copper_block\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:2b,cpp_item:{Count:1b,id:\"minecraft:glowstone\"},cpp_xp:1,cpp_cd:80,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"2 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.glowstone\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:2b,cpp_item:{Count:1b,id:\"minecraft:nautilus_shell\"},cpp_xp:1,cpp_cd:80,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"2 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.nautilus_shell\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:5b,cpp_item:{Count:1b,id:\"minecraft:ender_pearl\"},cpp_xp:1,cpp_cd:200,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"5 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.ender_pearl\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:5b,cpp_item:{Count:1b,id:\"minecraft:slime_ball\"},cpp_xp:1,cpp_cd:200,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"5 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.slime_ball\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:6b,cpp_item:{Count:1b,id:\"minecraft:saddle\"},cpp_xp:1,cpp_cd:240,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"6 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.saddle\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:6b,cpp_item:{Count:1b,id:\"minecraft:map\"},cpp_xp:1,cpp_cd:240,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"6 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.map\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:6b,cpp_item:{Count:1b,id:\"minecraft:item_frame\"},cpp_xp:1,cpp_cd:240,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"6 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.item_frame\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:10b,cpp_item:{Count:1b,id:\"minecraft:globe_banner_pattern\"},cpp_xp:1,cpp_cd:400,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"10 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.globe_banner_pattern.desc\"}, {\"translate\":\"item.minecraft.globe_banner_pattern\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:10b,cpp_item:{Count:1b,id:\"minecraft:bookshelf\"},cpp_xp:1,cpp_cd:400,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"10 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.bookshelf\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:name_tag\"},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.name_tag\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:30b,cpp_item:{Count:1b,id:\"minecraft:bell\"},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"30 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.bell\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:diamond_sword\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_sword\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:24b,cpp_item:{Count:1b,id:\"minecraft:diamond_axe\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"24 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_axe\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:25b,cpp_item:{Count:1b,id:\"minecraft:diamond_pickaxe\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"25 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_pickaxe\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:17b,cpp_item:{Count:1b,id:\"minecraft:diamond_shovel\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"17 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_shovel\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:14b,cpp_item:{Count:1b,id:\"minecraft:diamond_hoe\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"14 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_hoe\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:diamond_helmet\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_helmet\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:diamond_chestplate\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_chestplate\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:26b,cpp_item:{Count:1b,id:\"minecraft:diamond_leggings\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"26 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_leggings\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:diamond_boots\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.diamond_boots\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:fishing_rod\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.fishing_rod\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:14b,cpp_item:{Count:1b,id:\"minecraft:bow\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"14 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.bow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:15b,cpp_item:{Count:1b,id:\"minecraft:crossbow\"},cpp_enchant:1b,cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"15 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"item.minecraft.crossbow\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.protection\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.fire_protection\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.feather_falling\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.blast_protection\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:projectile_protection\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.projectile_protection\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.respiration\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.aqua_affinity\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.thorns\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.depth_strider\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:2s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.frost_walker\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.sharpness\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:smite\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.smite\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:2s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.knockback\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.fire_aspect\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.looting\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.sweeping\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.efficiency\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.silk_touch\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.unbreaking\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.fortune\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:power\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.power\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:20b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:punch\",lvl:2s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"20 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.punch\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.flame\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.infinity\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.luck_of_the_sea\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.lure\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.loyalty\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:44b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:5s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"44 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.impaling\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.riptide\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.channeling\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:24b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"24 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.mending\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:36b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"36 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.piercing\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:28b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:quick_charge\",lvl:3s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"28 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.quick_charge\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:12b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"12 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.multishot\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:24b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"24 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.binding_curse\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"emerald\",cpp_price:24b,cpp_item:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}},cpp_xp:1,cpp_cd:600,CustomModelData:12970112,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"24 \",{\"translate\":\"item.minecraft.emerald\"},\"=\",\"1 \",{\"translate\":\"enchantment.minecraft.vanishing_curse\"}, {\"translate\":\"item.minecraft.enchanted_book\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"gold_ingot\",cpp_price:1b,cpp_xp:4,cpp_cd:200,CustomModelData:12970113,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"}, {\"translate\":\"entity.minecraft.piglin\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"moon_shard\",cpp_price:1b,cpp_item:\"character\",cpp_xp:64,cpp_cd:600,CustomModelData:12970114,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.cpp.moon_shard\"},\"=\",\"1 \",{\"translate\":\"item.cpp.character\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"moon_shard\",cpp_price:1b,cpp_item:\"shulker_box\",cpp_xp:64,cpp_cd:600,CustomModelData:12970114,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.cpp.moon_shard\"},\"=\",\"1 \",{\"translate\":\"block.minecraft.shulker_box\"}]']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cpp:trade_plugin\",cpp_money:\"moon_shard\",cpp_price:1b,cpp_item:\"santa_gift\",cpp_xp:64,cpp_cd:600,CustomModelData:12970114,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.trade_plugin\"}',Lore:['[{\"italic\":false,\"color\":\"green\",\"text\":\"\"},\"1 \",{\"translate\":\"item.cpp.moon_shard\"},\"=\",\"1 \",{\"translate\":\"item.cpp.santa_gift\"}]']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

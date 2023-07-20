@@ -1,0 +1,17 @@
+execute if score #ds_color cppValue matches 0 run setblock ~ ~ ~ white_concrete
+execute if score #ds_color cppValue matches 1 run setblock ~ ~ ~ orange_concrete
+execute if score #ds_color cppValue matches 2 run setblock ~ ~ ~ magenta_concrete
+execute if score #ds_color cppValue matches 3 run setblock ~ ~ ~ light_blue_concrete
+execute if score #ds_color cppValue matches 4 run setblock ~ ~ ~ yellow_concrete
+execute if score #ds_color cppValue matches 5 run setblock ~ ~ ~ lime_concrete
+execute if score #ds_color cppValue matches 6 run setblock ~ ~ ~ pink_concrete
+execute if score #ds_color cppValue matches 7 run setblock ~ ~ ~ gray_concrete
+execute if score #ds_color cppValue matches 8 run setblock ~ ~ ~ light_gray_concrete
+execute if score #ds_color cppValue matches 9 run setblock ~ ~ ~ cyan_concrete
+execute if score #ds_color cppValue matches 10 run setblock ~ ~ ~ purple_concrete
+execute if score #ds_color cppValue matches 11 run setblock ~ ~ ~ blue_concrete
+execute if score #ds_color cppValue matches 12 run setblock ~ ~ ~ brown_concrete
+execute if score #ds_color cppValue matches 13 run setblock ~ ~ ~ green_concrete
+execute if score #ds_color cppValue matches 14 run setblock ~ ~ ~ red_concrete
+execute if score #ds_color cppValue matches 15 run setblock ~ ~ ~ black_concrete
+execute if score #ds_color cppValue matches 16 run setblock ~ ~ ~ white_concrete

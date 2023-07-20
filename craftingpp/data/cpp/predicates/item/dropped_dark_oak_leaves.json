@@ -1,0 +1,19 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:0s,Item:{id:\"minecraft:dark_oak_leaves\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:1s,Item:{id:\"minecraft:dark_oak_leaves\",Count:1b}}"
+			}
+		}
+	]
+}

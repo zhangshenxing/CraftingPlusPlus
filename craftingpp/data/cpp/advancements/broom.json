@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970066}"
+		},
+		"title": {
+			"translate": "advancements.cpp.broom.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.broom.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"broom_mainhand": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{id:'cpp:broom'}"
+						}
+					}
+				}
+			}
+		},
+		"broom_offhand": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"offhand": {
+							"nbt": "{id:'cpp:broom'}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"broom_mainhand",
+			"broom_offhand"
+		]
+	]
+}

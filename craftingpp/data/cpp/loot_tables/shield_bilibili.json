@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"translate": "item.cpp.bilibili_logo"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shield_bilibili"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shield_bilibili',CustomModelData:12970006}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

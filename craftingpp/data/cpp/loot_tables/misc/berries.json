@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "#a"
+										},
+										"score": "cppValue"
+									},
+									"range": 0
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:glow_berries"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "#a"
+										},
+										"score": "cppValue"
+									},
+									"range": 1
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golden_grape"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "#a"
+										},
+										"score": "cppValue"
+									},
+									"range": 2
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:grape"
+						}
+					]
+				}
+			]
+		}
+	]
+}

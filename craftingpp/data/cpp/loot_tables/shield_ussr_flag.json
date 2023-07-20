@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"translate": "item.cpp.ussr_flag"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shield_ussr_flag"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shield_ussr_flag',CustomModelData:12970012}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:\"minecraft:wheat_seeds\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:\"minecraft:beetroot_seeds\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:\"minecraft:pumpkin_seeds\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:\"minecraft:melon_seeds\"}]}"
+				}
+			}
+		}
+	]
+}

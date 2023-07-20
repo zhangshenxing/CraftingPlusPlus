@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:brick_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/bricks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/bricks"]
+	},
+	"requirements": [
+		[
+			"brick_stairs",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.mooncake_with_double_yolks_and_lotus_seed_paste"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0098"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:mooncake_with_double_yolks_and_lotus_seed_paste"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-1"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:mooncake_with_double_yolks_and_lotus_seed_paste',CustomModelData:12970034}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

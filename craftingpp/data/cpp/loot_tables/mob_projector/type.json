@@ -1,0 +1,2353 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cpp_clear:1b,display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.mob_projector\"}'},CustomModelData:12970000}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:white_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:orange_wool\",Slot:13b}]}"
+												}
+											}
+										},
+											{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:magenta_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:light_blue_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:yellow_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:lime_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:pink_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:gray_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:light_gray_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:cyan_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:purple_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:blue_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:brown_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:green_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:red_wool\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:black_wool\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970401}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:wheat\"}, {id:\"minecraft:leather\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970402}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:porkchop\"}, {id:\"minecraft:carrot\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:porkchop\"}, {id:\"minecraft:potato\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970403}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:feather\"}, {id:\"minecraft:wheat_seeds\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:feather\"}, {id:\"minecraft:beetroot_seeds\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:feather\"}, {id:\"minecraft:pumpkin_seeds\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:feather\"}, {id:\"minecraft:melon_seeds\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970404}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:carrot\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:golden_carrot\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:dandelion\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970405}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:feather\"}, {id:\"minecraft:charcoal\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970406}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:cod\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:salmon\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970407}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:gunpowder\"}, {id:\"minecraft:sand\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:gunpowder\"}, {id:\"minecraft:red_sand\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970408}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:rotten_flesh\"}, {id:\"minecraft:iron_nugget\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970409}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:arrow\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970410}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:string\"}, {id:\"minecraft:spider_eye\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970411}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:mossy_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:cracked_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:chiseled_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970412}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:glowstone_dust\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970413}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:redstone\"}, {id:\"minecraft:glowstone_dust\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970801}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:slime_ball\"}, {id:\"minecraft:clay_ball\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970802}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:phantom_membrane\"}, {id:\"minecraft:feather\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970803}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:ice\"}, {id:\"minecraft:cod\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:ice\"}, {id:\"minecraft:salmon\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970804}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:rotten_flesh\"}, {id:\"minecraft:gold_nugget\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970805}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:ghast_tear\"}, {id:\"minecraft:gunpowder\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970806}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:magma_cream\"}, {id:\"minecraft:nether_brick\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970807}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:blaze_powder\"}, {id:\"minecraft:nether_brick\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970808}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:ender_pearl\"}, {id:\"minecraft:end_stone\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970809}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:gold_nugget\"}, {id:\"minecraft:end_stone\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970810}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:emerald\"}, {id:\"minecraft:book\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970811}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:warped_fungus\"}, {id:\"minecraft:string\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970812}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:emerald\"}, {id:\"minecraft:gold_block\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973201}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}, {id:\"minecraft:cod\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}, {id:\"minecraft:salmon\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973202}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:ender_pearl\"}, {id:\"minecraft:chorus_fruit\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973203}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:coal_block\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973204}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:poppy\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:dandelion\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:blue_orchid\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:allium\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cornflower\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:lily_of_the_valley\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:azure_bluet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:oxeye_daisy\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:white_tulip\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:red_tulip\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:orange_tulip\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:pink_tulip\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:wither_rose\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973205}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:bone\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973206}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cod\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:salmon\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973207}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:leather\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973208}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:chest\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973209}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:white_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:orange_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+											{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:magenta_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:light_blue_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:yellow_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:lime_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:pink_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:gray_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:light_gray_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cyan_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:purple_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:blue_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:brown_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:green_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:red_carpet\",Slot:13b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:black_carpet\",Slot:13b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973210}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:feather\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973211}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:seagrass\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973212}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:sweet_berries\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973213}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:bamboo\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973214}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:cod\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973215}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:salmon\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973216}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:tropical_fish\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973217}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:bone\"}, {id:\"minecraft:pufferfish\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973218}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:kelp\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973219}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:tropical_fish\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973220}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:slime_ball\"}, {id:\"minecraft:mud\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973221}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:22b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:totem_of_undying\",Slot:13b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973222}"
+						},
+
+						
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:white_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:orange_wool\",Slot:22b}]}"
+												}
+											}
+										},
+											{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:magenta_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:light_blue_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:yellow_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:lime_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:pink_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:gray_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:light_gray_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:cyan_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:purple_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:blue_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:brown_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:green_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:red_wool\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:black_wool\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970401}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:wheat\"}, {id:\"minecraft:leather\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970402}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:porkchop\"}, {id:\"minecraft:carrot\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:porkchop\"}, {id:\"minecraft:potato\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970403}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:feather\"}, {id:\"minecraft:wheat_seeds\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:feather\"}, {id:\"minecraft:beetroot_seeds\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:feather\"}, {id:\"minecraft:pumpkin_seeds\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:feather\"}, {id:\"minecraft:melon_seeds\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970404}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:carrot\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:golden_carrot\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:rabbit_hide\"}, {id:\"minecraft:dandelion\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970405}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:feather\"}, {id:\"minecraft:charcoal\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970406}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:cod\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:salmon\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970407}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:gunpowder\"}, {id:\"minecraft:sand\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:gunpowder\"}, {id:\"minecraft:red_sand\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970408}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:rotten_flesh\"}, {id:\"minecraft:iron_nugget\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970409}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:arrow\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970410}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:string\"}, {id:\"minecraft:spider_eye\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970411}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:mossy_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:cracked_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:chiseled_stone_bricks\"}, {id:\"minecraft:iron_nugget\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970412}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:ink_sac\"}, {id:\"minecraft:glowstone_dust\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:4,CustomModelData:12970413}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:redstone\"}, {id:\"minecraft:glowstone_dust\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970801}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:slime_ball\"}, {id:\"minecraft:clay_ball\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970802}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:phantom_membrane\"}, {id:\"minecraft:feather\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970803}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:ice\"}, {id:\"minecraft:cod\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:ice\"}, {id:\"minecraft:salmon\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970804}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:rotten_flesh\"}, {id:\"minecraft:gold_nugget\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970805}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:ghast_tear\"}, {id:\"minecraft:gunpowder\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970806}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:magma_cream\"}, {id:\"minecraft:nether_brick\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970807}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:blaze_powder\"}, {id:\"minecraft:nether_brick\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970808}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:ender_pearl\"}, {id:\"minecraft:end_stone\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970809}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:gold_nugget\"}, {id:\"minecraft:end_stone\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970810}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:emerald\"}, {id:\"minecraft:book\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970811}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:warped_fungus\"}, {id:\"minecraft:string\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:8,CustomModelData:12970812}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:emerald\"}, {id:\"minecraft:gold_block\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973201}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}, {id:\"minecraft:cod\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}, {id:\"minecraft:salmon\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973202}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:ender_pearl\"}, {id:\"minecraft:chorus_fruit\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973203}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:coal_block\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973204}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:poppy\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:dandelion\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:blue_orchid\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:allium\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cornflower\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:lily_of_the_valley\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:azure_bluet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:oxeye_daisy\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:white_tulip\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:red_tulip\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:orange_tulip\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:pink_tulip\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:wither_rose\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973205}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:bone\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973206}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cod\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:salmon\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973207}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:leather\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973208}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:chest\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973209}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:white_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:orange_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+											{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:magenta_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:light_blue_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:yellow_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:lime_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:pink_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:gray_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:light_gray_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:cyan_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:purple_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:blue_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:brown_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:green_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:red_carpet\",Slot:22b}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:black_carpet\",Slot:22b}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973210}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:feather\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973211}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:seagrass\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973212}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:sweet_berries\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973213}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:bamboo\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973214}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:cod\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973215}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:salmon\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973216}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:tropical_fish\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973217}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:bone\"}, {id:\"minecraft:pufferfish\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973218}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:kelp\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973219}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:tropical_fish\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973220}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:slime_ball\"}, {id:\"minecraft:mud\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973221}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:13b,id:\"minecraft:skeleton_skull\"}, {id:\"minecraft:totem_of_undying\",Slot:22b}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{cppMobProjXp:32,CustomModelData:12973222}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

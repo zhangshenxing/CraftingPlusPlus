@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:sand",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:desert",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

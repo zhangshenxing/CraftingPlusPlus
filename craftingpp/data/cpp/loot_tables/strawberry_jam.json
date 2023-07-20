@@ -1,0 +1,93 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.strawberry_jam"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:strawberry_jam"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-4"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_crafting_machine",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.jam_food",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.item_frame"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.saturation"
+										},
+										{
+											"text": "00:01"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:strawberry_jam',CustomModelData:12970102,dict:['jam']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"fish_and_chips": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:fish_and_chips'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"fish_and_chips"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos7"
+	}
+}

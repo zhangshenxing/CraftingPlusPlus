@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"acacia_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:acacia_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/acacia_planks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/acacia_planks"]
+	},
+	"requirements": [
+		[
+			"acacia_slab",
+			"has_the_recipe"
+		]
+	]
+}

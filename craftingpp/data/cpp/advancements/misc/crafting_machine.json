@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafting_machine": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "cpp:crafting_machine"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/crafting_machine"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"name": "minecraft:wool",
+					"expand": true,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+		
+					"type": "minecraft:loot_table",
+					"name": "cpp:wool_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

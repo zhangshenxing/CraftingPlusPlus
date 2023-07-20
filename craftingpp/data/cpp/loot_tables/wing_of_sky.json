@@ -1,0 +1,43 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#8888FF",
+								"translate": "item.cpp.wing_of_sky"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:wing_of_sky"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.wing_of_sky.obtain"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:wing_of_sky',CustomModelData:12970101,dict:['cpp_rare_drops']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

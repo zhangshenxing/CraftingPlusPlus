@@ -1,0 +1,275 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": ["minecraft:dirt"]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:grass",
+					"weight": 24
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:birch_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jungle_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:acacia_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cherry_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bamboo",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:fruit_sapling",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ore_sapling",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:wool_sapling",
+					"weight": 4
+				}
+			]
+		},		
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": ["minecraft:gravel"]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint",
+					"weight": 24
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 24
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_nugget",
+					"weight": 24,
+					"functions":[
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"weight": 16,
+					"functions":[
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:quartz",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": ["minecraft:sand"]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dead_bush",
+					"weight": 32
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_nugget",
+					"weight": 24,
+					"functions":[
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"weight": 16,
+					"functions":[
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder",
+					"weight": 2
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": ["minecraft:soul_sand"]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:quartz",
+					"weight": 55
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clay_ball",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_wart",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:twisting_vines",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:weeping_vines",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ghast_tear"
+				}
+			]
+		}
+	]
+}

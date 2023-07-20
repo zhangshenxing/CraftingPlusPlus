@@ -1,0 +1,89 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.lotus_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:lotus_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-2"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.by_fishing"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.lotus_seeds.plant",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "2"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.water"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.lotus_seeds.harvest",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.dirt"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.lotus_root"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:lotus_seeds',CustomModelData:12970100}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

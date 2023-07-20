@@ -1,0 +1,189 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,id:\"minecraft:piston\"}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "score",
+			"target": {
+				"type": "fixed",
+				"name": "#count"
+			},
+			"score": "cppValue"
+		},
+		"range": {
+			"min": 9.0
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:wheat\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:melon_slice\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:dried_kelp\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:nether_wart\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:slime_ball\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:bone_meal\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:coal\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:iron_ingot\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:gold_ingot\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:redstone\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:lapis_lazuli\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:diamond\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:emerald\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:iron_nugget\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:gold_nugget\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:netherite_ingot\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:copper_ingot\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:raw_copper\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:raw_iron\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:raw_gold\"}]}"
+					}
+				}
+			}
+		]
+	}
+]

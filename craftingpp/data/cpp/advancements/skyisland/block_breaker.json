@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12970072}"
+		},
+		"title": {
+			"translate": "advancements.cpp.block_breaker.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.block_breaker.description"
+		}
+	},
+	"parent": "cpp:skyisland/cobblestone",
+	"criteria": {
+		"block_breaker": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:tropical_fish"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.05
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:rare_drops/heart_of_crystal"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:tropical_fish_head"
+				}
+			]
+		}
+	]
+}

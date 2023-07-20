@@ -1,0 +1,4 @@
+{
+	"function": "minecraft:set_nbt",
+	"tag": "{Unbreakable:1b}"
+}

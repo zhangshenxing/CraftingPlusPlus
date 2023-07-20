@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_lycoris_radiata"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:orange_lycoris_radiata"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_lycoris_radiata"
+				}
+			]
+		}
+	]
+}

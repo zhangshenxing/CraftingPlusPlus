@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt"
+		},
+		"title": {
+			"translate": "advancements.cpp.dirt.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.dirt.description"
+		}
+	},
+	"parent": "cpp:skyisland/fermenter",
+	"criteria": {
+		"dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items":[
+					{
+						"items": [
+							"minecraft:dirt"
+						]
+					}
+				]
+			}
+		}
+	}
+}

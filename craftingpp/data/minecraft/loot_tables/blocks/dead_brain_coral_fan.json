@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:drop_coral"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dead_brain_coral_fan"
+				}
+			]
+		}
+	]
+}

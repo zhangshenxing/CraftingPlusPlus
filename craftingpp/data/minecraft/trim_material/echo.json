@@ -1,0 +1,17 @@
+{
+	"asset_name": "echo",
+	"description": {
+		"color": "#009295",
+		"translate": "trim_material.minecraft.echo"
+	},
+	"ingredient": "minecraft:echo_shard",
+	"item_model_index": 0.0129701,
+	"override_armor_materials": {
+		"chainmail": "echo_chainmail",
+		"diamond": "echo_diamond",
+		"gold": "echo_gold",
+		"iron": "echo_iron",
+		"leather": "echo_leather",
+		"netherite": "echo_netherite"
+	}
+}

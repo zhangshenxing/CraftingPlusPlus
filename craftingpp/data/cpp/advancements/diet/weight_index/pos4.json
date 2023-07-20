@@ -1,0 +1,74 @@
+{
+	"criteria": {
+		"boiled_egg": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:boiled_egg'}"
+				}
+			}
+		},
+		"butter": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:butter'}"
+				}
+			}
+		},
+		"colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:colorful_vegetable'}"
+				}
+			}
+		},
+		"raw_braised_pork_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_pork_with_potatoes'}"
+				}
+			}
+		},
+		"raw_braised_beef_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_beef_with_potatoes'}"
+				}
+			}
+		},
+		"raw_rabbit_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_rabbit_stew'}"
+				}
+			}
+		},
+		"netherite_mushroom_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:netherite_mushroom_stew'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"boiled_egg",
+			"butter",
+			"colorful_vegetable",
+			"raw_braised_pork_with_potatoes",
+			"raw_braised_beef_with_potatoes",
+			"raw_rabbit_stew",
+			"netherite_mushroom_stew"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos4"
+	}
+}

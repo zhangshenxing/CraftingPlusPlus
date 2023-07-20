@@ -1,0 +1,38 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:sealing_wand\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:star_wand\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:dream_wand\"}"
+					}
+				}
+			}
+		}
+	]
+}

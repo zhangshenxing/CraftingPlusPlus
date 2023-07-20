@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:petrified_oak_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#A020F0",
+								"translate": "item.cpp.mob_projector"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:mob_projector"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.redstone_control"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.beacon_enhancer_effect",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.beacon_enhancer"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:mob_projector',CustomModelData:12970003,BlockStateTag:{half:'double'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

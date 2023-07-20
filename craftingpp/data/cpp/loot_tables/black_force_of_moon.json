@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#FF55FF",
+									"translate": "item.cpp.black_force_of_moon"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "green",
+									"translate": "block.minecraft.dirt"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:black_force_of_moon"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.black_force_of_moon.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.black_force_of_moon.switch",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:black_force_of_moon',CustomModelData:12970009,cpp_type:0b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

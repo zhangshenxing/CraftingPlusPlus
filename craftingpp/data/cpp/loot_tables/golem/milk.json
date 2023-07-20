@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "score",
+				"target": {
+					"type": "fixed",
+					"name": "#t"
+				},
+				"score": "cppValue"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:milk_bucket"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#00FFFF",
+									"translate": "item.cpp.cyan_force_of_mountain"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "green",
+									"translate": "text.cpp.cyan_force_of_mountain.vertical"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:cyan_force_of_mountain"
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "text.cpp.cyan_force_of_mountain.level",
+									"with": [
+										"2"
+									],
+									"extra": [
+										" ",
+										{
+											"italic": false,
+											"color": "aqua",
+											"translate": "text.cpp.cyan_force_of_mountain.xp",
+											"with": [
+												"0"
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.cyan_force_of_mountain.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.cyan_force_of_mountain.switch",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra":[
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:cyan_force_of_mountain',CustomModelData:12970003,cpp_type:0b,cpp_level:2b,cpp_xp:0s,cpp_upgrade_xp:4s}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"candied_haw": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:candied_haw'}"
+				}
+			}
+		},
+		"zongzi_with_honey_dates": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_honey_dates'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"candied_haw",
+			"zongzi_with_honey_dates"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg14"
+	}
+}

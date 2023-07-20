@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cpp_clear:1b,display:{Lore:['{\"italic\":false,\"translate\":\"text.cpp.switch\",\"color\":\"green\"}']}}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 1
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.minecraft.fire_resistance\"}'},CustomModelData:12971061}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 2
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.minecraft.water_breathing\"}'},CustomModelData:12971062}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 3
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.minecraft.night_vision\"}'},CustomModelData:12971063}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 4
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.minecraft.invisibility\"}'},CustomModelData:12971064}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 5
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.minecraft.saturation\"}'},CustomModelData:12971065}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppBaEPlayer": 6
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"effect.cpp.chain\"}'},CustomModelData:12971066}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

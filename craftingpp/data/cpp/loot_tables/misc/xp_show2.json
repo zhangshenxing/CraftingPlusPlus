@@ -1,0 +1,90 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"translate": "text.cpp.xp_bar"
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12972101,cpp_clear:1b}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppExp": {
+											"min": 0.0,
+											"max": 1000.0
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "green",
+									"score": {
+										"name": "@s",
+										"objective": "cppExp"
+									},
+									"extra": [
+										"/1000"
+									]
+								}
+							],
+							"entity": "this",
+							"replace": true
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_scores",
+										"entity": "this",
+										"scores": {
+											"cppExp": {
+												"min": 0.0,
+												"max": 1000.0
+											}
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "red",
+									"score": {
+										"name": "@s",
+										"objective": "cppExp"
+									},
+									"extra": [
+										"/1000"
+									]
+								}
+							],
+							"entity": "this",
+							"replace": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

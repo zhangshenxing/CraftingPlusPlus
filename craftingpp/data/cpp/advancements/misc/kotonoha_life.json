@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"summoned_dragon": {
+			"conditions": {
+				"player": {
+					"type_specific":{
+						"type": "player",
+						"advancements": {
+							"cpp:kotonoha_life": false
+						}
+					}
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ender_dragon"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:summoned_entity"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/kotonoha_life"
+	}
+}

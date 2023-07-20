@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.tight_leather_leggings"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:tight_leather_leggings"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:tight_leather_leggings',CustomModelData:12970002,Trim:{pattern:'cpp:tight_leather_leggings',material:'minecraft:none'},HideFlags:128}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "legs_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 1,
+									"slot": "legs"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

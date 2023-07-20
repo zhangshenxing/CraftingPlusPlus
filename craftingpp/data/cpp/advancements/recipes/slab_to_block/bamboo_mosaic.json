@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"bamboo_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:bamboo_mosaic_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/bamboo_mosaic"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/bamboo_mosaic"]
+	},
+	"requirements": [
+		[
+			"bamboo_mosaic_slab",
+			"has_the_recipe"
+		]
+	]
+}

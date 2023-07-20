@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#FFFF55",
+									"translate": "item.cpp.magnet"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "white",
+									"translate": "text.cpp.magnet.closed"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:magnet"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.magnet.switch",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.magnet.item_frame"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:magnet',CustomModelData:12970038,cpp_type:2b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:leather_boots\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:golden_boots\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:chainmail_boots\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:iron_boots\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:diamond_boots\"}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:\"minecraft:netherite_boots\"}]}"
+				}
+			}
+		}
+	]
+}

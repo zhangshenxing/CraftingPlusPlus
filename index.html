@@ -20,7 +20,7 @@
 	<li><a href="#花世界"><span class="lycoris_radiata"></span> 花世界</a></li>
 	<li><a href="#附魔室"><span class="enchanting_table"></span> 附魔室</a></li>
 	<li><a href="#图腾柱"><span class="stone_bricks"></span> 图腾柱</a></li>
-	<li><a href="#树"><span class="mod_saplings"></span> 水果树</a></li>
+	<li><a href="#树"><span class="mod_saplings"></span> 树</a></li>
 	<li><a href="#作物田"><span class="strawberry"></span> 作物田</a></li>
 	<li><a href="#野花草"><span class="bauhinia"></span> 野花草</a></li>
 </ul></li>
@@ -253,6 +253,7 @@
 	<li><a href="#属性附加仪式"><span class="regeneration"></span> 属性附加仪式</a></li>
 	<li><a href="#黑暗召唤仪式"><span class="spawner"></span> 黑暗召唤仪式</a></li>
 	<li><a href="#光明修复仪式"><span class="budding_amethyst"></span> 光明修复仪式</a></li>
+	<li><a href="#幽匿注入仪式"><span class="sculk_shrieker"></span> 幽匿注入仪式</a></li>
 </ul></li>
 <li class="up6"><a href="#装饰"><span class="garland"></span> 装饰</a><ul>
 	<li><a href="#称号"><span class="empire_hat"></span> 称号</a></li>
@@ -292,8 +293,6 @@
 <li class="up2"><a href="#实用功能"><span class="obsidian"></span> 实用功能</a><ul>
 	<li><a href="#死亡惩罚"><span class="hunger"></span> 死亡惩罚</a></li>
 	<li><a href="#树叶快速腐烂"><span class="oak_leaves"></span> 树叶快速腐烂</a></li>
-	<li><a href="#黑曜石防凋灵"><span class="wither_skeleton_skull"></span> 黑曜石防凋灵</a></li>
-	<li><a href="#随机方块"><span class="shulker_box"></span> 随机方块</a></li>
 	<li><a href="#隐藏展示框边框"><span class="item_frame"></span> 隐藏展示框边框</a></li>
 	<li><a href="#自动插火把"><span class="torch"></span> 自动插火把</a></li>
 </ul></li>
@@ -445,9 +444,6 @@
 <p class="command">生物群系命令：/locatebiome cpp:flower</p>
 <p>花世界为仅包含繁花一种生物群系的维度。花世界可以生成红树、繁茂洞穴、溶洞、紫晶洞、蓄水层、噪声洞穴和深板岩层以及</p>
 <table><thead><tr><th>结构名称</th><th>结构</th><th>空位</th><th>间隔</th><th>盐</th></tr></thead><tbody>
-	<tr><td>海底废墟（温暖）</td><td><code>minecraft:ocean_ruin_warm</code></td><td><code>20</code></td><td><code>8</code></td><td><code>14357621</code></td></tr>
-	<tr><td>沉船</td><td><code>minecraft:shipwreck</code></td><td><code>24</code></td><td><code>4</code></td><td><code>165745295</code></td></tr>
-	<tr><td>被掩埋的宝藏</td><td><code>minecraft:buried_treasure</code></td><td><code>1</code></td><td><code>0</code></td><td><code>0</code></td></tr>
 	<tr><td><a href="#附魔室">附魔室</a></td><td><code>cpp:enchanting_room</code></td><td><code>35</code></td><td><code>15</code></td><td><code>114521</code></td></tr>
 	<tr><td><a href="#图腾柱">图腾柱</a></td><td><code>cpp:totem_pillar</code></td><td><code>35</code></td><td><code>15</code></td><td><code>114520</code></td></tr>
 	<tr><td><a href="#水果树">水果树</a></td><td><code>cpp:fruit_tree</code></td><td><code>25</code></td><td><code>9</code></td><td><code>114526</code></td></tr>
@@ -481,7 +477,7 @@
 	<tr><td><a class="size16 enchanted_book"></a></td><td>附魔书</td><td><code>1</code></td><td><code>11/100</code></td><td>等级为30-40级</td></tr>
 	<tr><td><a class="size16 map"></a></td><td>空地图</td><td><code>1</code></td><td><code>10/100</code></td><td></td></tr>
 	<tr><td><a class="size16 compass"></a></td><td>指南针</td><td><code>1</code></td><td><code>10/100</code></td><td></td></tr>
-	<tr><td><a class="size16 filled_map"></a></td><td>探险地图</td><td><code>1</code></td><td><code>10/100</code></td><td>为被掩埋的宝藏、海底废墟和沉船之一的探险地图</td></tr>
+	<tr><td><a class="size16 sculk_catalyst"></a></td><td>幽匿催发体</td><td><code>1</code></td><td><code>10/100</code></td><td></td></tr>
 	<tr><td><a class="size16 ancient_scroll"></a></td><td><a href="#上古卷轴">上古卷轴</a></td><td><code>1</code></td><td><code>9/100</code></td><td>为9种中随机的一种</td></tr>
 </tbody></table>
 <figure>
@@ -595,28 +591,30 @@
 
 <p>矿石树树叶会逐渐转化为矿石，速度受随机刻影响，每个树叶平均需要60秒。手动放置的树叶不会转化。矿石种类如下表所示。如果标签 <code>#forge:ores</code> 非空，则有一半几率生成该标签对应方块。</p>
 <table><thead>
-	<tr><th>条件</th><th colspan="2">矿石</th><th>权重</th></tr>
+	<tr><th>条件</th><th colspan="2">矿石</th><th>权重 (1.19+)</th><th>权重 (1.18-)</th></tr>
 </thead><tbody>
-<tr><th rowspan="5">Y&lt;0</th>
-	<td><a class="size16 deepslate_diamond_ore"></a></td><td>深层钻石矿石</td><td><code>1/30</code></td></tr>
-<tr><td><a class="size16 deepslate_lapis_ore"></a></td><td>深层青金石矿石</td><td><code>1/30</code></td></tr>
-<tr><td><a class="size16 deepslate_redstone_ore"></a></td><td>深层红石矿石</td><td><code>5/30</code></td></tr>
-<tr><td><a class="size16 deepslate_gold_ore"></a></td><td>深层金矿石</td><td><code>5/30</code></td></tr>
-<tr><td><a class="size16 deepslate_iron_ore"></a></td><td>深层铁矿石</td><td><code>18/30</code></td></tr>
+<tr><th rowspan="7">Y&lt;0</th>
+	<td><a class="size16 deepslate_coal_ore"></a></td><td>深层煤矿石</td><td><code>0.003</code></td><td>-</td></tr>
+<tr><td><a class="size16 deepslate_copper_ore"></a></td><td>深层铜矿石</td><td><code>0.045</code></td><td>-</td></tr>
+<tr><td><a class="size16 deepslate_lapis_ore"></a></td><td>深层青金石矿石</td><td><code>0.124</code></td><td><code>1/30</code></td></tr>
+<tr><td><a class="size16 deepslate_diamond_ore"></a></td><td>深层钻石矿石</td><td><code>0.133</code></td><td><code>1/30</code></td></tr>
+<tr><td><a class="size16 deepslate_iron_ore"></a></td><td>深层铁矿石</td><td><code>0.187</code></td><td><code>18/30</code></td></tr>
+<tr><td><a class="size16 deepslate_gold_ore"></a></td><td>深层金矿石</td><td><code>0.216</code></td><td><code>5/30</code></td></tr>
+<tr><td><a class="size16 deepslate_redstone_ore"></a></td><td>深层红石矿石</td><td><code>0.293</code></td><td><code>5/30</code></td></tr>
 <tr><th rowspan="4">下界</th>
-	<td><a class="size16 ancient_debris"></a></td><td>远古残骸</td><td><code>1/30</code></td></tr>
-<tr><td><a class="size16 nether_gold_ore"></a></td><td>下界金矿石</td><td><code>8/30</code></td></tr>
-<tr><td><a class="size16 gilded_blackstone"></a></td><td>镶金黑石</td><td><code>3/30</code></td></tr>
-<tr><td><a class="size16 nether_quartz_ore"></a></td><td>下界石英矿石</td><td><code>18/30</code></td></tr>
+	<td><a class="size16 ancient_debris"></a></td><td>远古残骸</td><td><code>0.01</code></td><td><code>1/30</code></td></tr>
+<tr><td><a class="size16 gilded_blackstone"></a></td><td>镶金黑石</td><td><code>0.01</code></td><td><code>3/30</code></td></tr>
+<tr><td><a class="size16 nether_gold_ore"></a></td><td>下界金矿石</td><td><code>0.25</code></td><td><code>8/30</code></td></tr>
+<tr><td><a class="size16 nether_quartz_ore"></a></td><td>下界石英矿石</td><td><code>0.73</code></td><td><code>18/30</code></td></tr>
 <tr><th rowspan="8">其它情形</th>
-	<td><a class="size16 emerald_ore"></a></td><td>绿宝石矿石</td><td><code>1/150</code></td></tr>
-<tr><td><a class="size16 diamond_ore"></a></td><td>钻石矿石</td><td><code>2/150</code></td></tr>
-<tr><td><a class="size16 lapis_ore"></a></td><td>青金石矿石</td><td><code>2/150</code></td></tr>
-<tr><td><a class="size16 redstone_ore"></a></td><td>红石矿石</td><td><code>10/150</code></td></tr>
-<tr><td><a class="size16 gold_ore"></a></td><td>金矿石</td><td><code>10/150</code></td></tr>
-<tr><td><a class="size16 iron_ore"></a></td><td>铁矿石</td><td><code>35/150</code></td></tr>
-<tr><td><a class="size16 copper_ore"></a></td><td>铜矿石</td><td><code>40/150</code></td></tr>
-<tr><td><a class="size16 coal_ore"></a></td><td>煤矿石</td><td><code>50/150</code></td></tr>
+	<td><a class="size16 emerald_ore"></a></td><td>绿宝石矿石</td><td><code>0.0001</code></td><td><code>1/150</code></td></tr>
+<tr><td><a class="size16 diamond_ore"></a></td><td>钻石矿石</td><td><code>0.0010</code></td><td><code>2/150</code></td></tr>
+<tr><td><a class="size16 redstone_ore"></a></td><td>红石矿石</td><td><code>0.0100</code></td><td><code>10/150</code></td></tr>
+<tr><td><a class="size16 lapis_ore"></a></td><td>青金石矿石</td><td><code>0.0290</code></td><td><code>2/150</code></td></tr>
+<tr><td><a class="size16 gold_ore"></a></td><td>金矿石</td><td><code>0.0075</code></td><td><code>10/150</code></td></tr>
+<tr><td><a class="size16 iron_ore"></a></td><td>铁矿石</td><td><code>0.1541</code></td><td><code>35/150</code></td></tr>
+<tr><td><a class="size16 copper_ore"></a></td><td>铜矿石</td><td><code>0.3629</code></td><td><code>40/150</code></td></tr>
+<tr><td><a class="size16 coal_ore"></a></td><td>煤矿石</td><td><code>0.4354</code></td><td><code>50/150</code></td></tr>
 </tbody></table>
 
 <p>羊毛树树叶有5%几率掉落彩色羊毛、鳕鱼和鲑鱼之一，有0.5%几率掉落彩色Jeb羊。</p>
@@ -2105,6 +2103,13 @@
 	<td>4</td>
 	<td>10</td>
 </tr>
+<tr><td><a class="ui echo_shard"></a><a class="ui water_bottle"></a></td>
+	<td>回响碎片+粗制的药水</td>
+	<td><a href="#幽匿药剂" class="ui agentia_of_sculking"></a></td>
+	<td><a href="#幽匿药剂">幽匿药剂</a>  <span class="lore">隐匿(4:00)</span></td>
+	<td>4</td>
+	<td>10</td>
+</tr>
 <tr><td><a href="#天空之翼" class="ui wing_of_sky"></a><a class="ui water_bottle"></a></td>
 	<td><a href="#天空之翼">天空之翼</a>+粗制的药水</td>
 	<td><a href="#天空药剂" class="ui agentia_of_sky"></a></td>
@@ -2202,7 +2207,7 @@
 <table>
 <thead><tr><th colspan="2">输入</th><th colspan="2">输出</th><th>经验</th><th>耗时</th></tr></thead><tbody>
 <tr><td><a class="ui honey_bottle"></a><a href="#水果" class="ui apricot"></a></td>
-	<td>蜂蜜瓶+<a href="#水果">水果</a>/苹果</td>
+	<td>蜂蜜瓶+<a href="#水果">水果</a>/苹果/西瓜片</td>
 	<td><a href="#冷饮" class="ui cold_drink"></a></td>
 	<td><a href="#冷饮">冷饮</a></td>
 	<td>2</td>
@@ -5004,6 +5009,23 @@
 	<th>配方</th>
 	<th>说明</th>
 </tr></thead><tbody>
+<tr><th>强化深板岩</th>
+	<td>黑曜石+黑暗碎片</td>
+	<td><span class="ui cm" title="合成器">
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="obsidian" title="黑曜石"></a>
+		<a class="reinforced_deepslate" title="强化深层岩"></a>
+	</span></td>
+	<td></td>
+</tr>
+
 <tr><th>染料</th>
 	<td>花</td>
 	<td><span class="ui fur" title="熔炉">
@@ -6500,7 +6522,7 @@
 	<td>热带鱼 河豚</td>
 </tr>
 <tr><td>+2</td>
-	<td>蜘蛛眼 生羊肉 生兔肉 生鸡肉 生鳕鱼 生鲑鱼 煮鸡蛋 黄油 奶酪 莲蓉双黄月饼</td>
+	<td>蜘蛛眼 生羊/兔/鸡/驴/马/骡肉 生鳕鱼 生鲑鱼 煮鸡蛋 黄油 奶酪 莲蓉双黄月饼</td>
 </tr>
 <tr><td>+3</td>
 	<td>生牛肉 生猪排 蜂蜜瓶 肉松面包 焦糖布丁 甜甜圈 蜂蜜煎饼 猪肉粽子</td>
@@ -6512,7 +6534,7 @@
 	<td>熟兔肉 熟鳕鱼 灵魂炸鸡 云腿月饼</td>
 </tr>
 <tr><td>+6</td>
-	<td>熟鸡肉 熟羊肉 熟鲑鱼 烤鸡 烤羊肉串 烤鸡肉串</td>
+	<td>熟羊/兔/鸡/驴/马/骡肉 熟鲑鱼 烤鸡 烤羊肉串 烤鸡肉串</td>
 </tr>
 <tr><td>+8</td>
 	<td>牛排 猪排 培根 烤牛肉串 烤五花肉串</td></tr>
@@ -8269,6 +8291,22 @@
 	</span></td>
 	<td><code>cpp:agentia_of_chain</code></td>
 </tr>
+<tr><th><strong id="幽匿药剂">幽匿药剂</strong><br />
+		<a class="ui size18 hunger" title="6"></a><a class="ui size18 hunger" title="6"></a><a class="ui size18 hunger" title="6"></a><br />
+		<span class="lore">隐匿(4:00)</span></th>
+	<td>回响碎片+粗制的药水</td>
+	<td><span class="ui aiom" title="多功能一体机">
+		<a class="normal_case" title="常温"></a>
+		<a class="low_pressure" title="低压"></a>
+		<a class="ui echo_shard" title="回响碎片"></a>
+		<a class="ui water_bottle"></a>
+		<a class="ui agentia_of_sculking"></a>
+		<a class="empty"></a>
+		<a class="xp4" title="4点经验 10秒"></a>
+	</span></td>
+	<td><code>cpp:agentia_of_sculking</code><br>
+	饮用后玩家在4分钟内为旁观模式，到期后变回生存模式。</td>
+</tr>
 <tr><th><strong id="天空药剂">天空药剂</strong><br />
 		<a class="ui size18 hunger" title="6"></a><a class="ui size18 hunger" title="6"></a><a class="ui size18 hunger" title="6"></a><br />
 		<span class="lore"><a class="ui size18 speed"></a>速度 II(6:00)<br />
@@ -9468,7 +9506,7 @@
 <li>附加物：紫水晶块</li>
 <li>时长：60秒</li>
 <li>消耗材料：紫水晶碎片+<a href="#水晶之心">水晶之心</a></li>
-<li>消耗施法者生命：5点</li>
+<li>消耗施法者生命：6点</li>
 </ul>
 <p><span class="ui dp">
 	<a class="amethyst_shard" title="紫水晶碎片"></a>
@@ -9482,6 +9520,27 @@
 	<a class="amethyst_shard" title="紫水晶碎片"></a>
 </span></p>
 <p>仪式完成后，紫水晶块将会变成紫水晶母岩。</p>
+
+<h4 id="幽匿注入仪式">幽匿注入仪式</h4>
+<ul>
+<li>魔杖等级：黑暗魔杖</li>
+<li>附加物：幽匿呼啸体</li>
+<li>时长：60秒</li>
+<li>消耗材料：<a href="#黑暗碎片">黑暗碎片</a>+幽匿催发体</li>
+<li>消耗施法者生命：12点</li>
+</ul>
+<p><span class="ui dp">
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="sculk_catalyst" title="幽匿催发体"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+	<a class="shard_of_the_darkness" title="黑暗碎片"></a>
+</span></p>
+<p>仪式完成后，幽匿呼啸体将会变得可召唤监守者。</p>
 
 <!--==================================================================-->
 <h2 id="装饰">装饰</h2>
@@ -10686,16 +10745,6 @@
 
 <h3 id="树叶快速腐烂">树叶快速腐烂</h3>
 <p>现在树上的树叶没有邻近的木头时，会迅速腐烂。</p>
-
-<h3 id="黑曜石防凋灵">黑曜石防凋灵</h3>
-<p>现在凋灵无法破坏黑曜石。</p>
-
-<h3 id="随机方块">随机方块</h3>
-<p>副手持有潜影箱而主手为空时，将会从潜影箱随机选择一个给予玩家。</p>
-<figure>
-	<img style="height:200px" src="items/screenshots/random_block.png" alt="随机方块" />
-	<figcaption>图 随机方块</figcaption>
-</figure>
 
 <h3 id="隐藏展示框边框">隐藏展示框边框</h3>
 <p>物品展示框放入物品后边框会消失。若要显示边框，先放入物品展示框并破坏，再放入其它物品即可。</p>

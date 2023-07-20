@@ -1,0 +1,119 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,tag:{id:'cpp:white_force_of_lightning'}}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:dirt'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:grass_block'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:stone'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:sand'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:red_sand'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:gravel'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:podzol'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:mycelium'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:netherrack'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:crimson_nylium'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:warped_nylium'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:blackstone'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:'minecraft:end_stone'}]}"
+					}
+				}
+			}
+		]
+	}
+]

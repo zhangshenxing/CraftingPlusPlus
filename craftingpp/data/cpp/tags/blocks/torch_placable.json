@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:void_air",
+		"minecraft:fire",
+		"minecraft:light",
+		"minecraft:soul_fire",
+		"minecraft:grass",
+		"minecraft:tall_grass",
+		"minecraft:fern",
+		"minecraft:large_fern",
+		"minecraft:seagrass",
+		"minecraft:tall_seagrass",
+		"minecraft:dead_bush",
+		"minecraft:vine",
+		"minecraft:glow_lichen",
+		"minecraft:sculk_vein",
+		"minecraft:snow"
+	]
+}

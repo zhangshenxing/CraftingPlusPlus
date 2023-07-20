@@ -1,0 +1,79 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"minecraft:vanishing_curse\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"minecraft:binding_curse\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"randomenchants:breaking\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"randomenchants:butterfingers\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"randomenchants:fumbling\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"randomenchants:shadow\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"ensorcellation:curse_fool\"}]}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:1b,tag:{Enchantments:[{id:\"ensorcellation:curse_mercy\"}]}}]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,id:\"minecraft:enchanted_golden_apple\"}]}"
+			}
+		}
+	}
+]

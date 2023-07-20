@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"polished_granite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:polished_granite_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/polished_granite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/polished_granite"]
+	},
+	"requirements": [
+		[
+			"polished_granite_stairs",
+			"has_the_recipe"
+		]
+	]
+}

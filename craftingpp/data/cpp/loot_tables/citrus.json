@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.citrus"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:citrus"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "-4"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.fruit.warm"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.citrus.obtain",
+									"with": [
+										{
+											"color": "aqua",
+											"translate": "entity.minecraft.bat"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:citrus',CustomModelData:12970127,dict:['fruit']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

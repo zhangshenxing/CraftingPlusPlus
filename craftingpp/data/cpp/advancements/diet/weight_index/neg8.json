@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"qingtuan": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:qingtuan'}"
+				}
+			}
+		},
+		"sakura_mochi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sakura_mochi'}"
+				}
+			}
+		},
+		"zongzi_with_egg_yolk": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_egg_yolk'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"qingtuan",
+			"sakura_mochi",
+			"zongzi_with_egg_yolk"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg8"
+	}
+}

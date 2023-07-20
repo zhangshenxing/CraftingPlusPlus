@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FFFF55",
+								"translate": "item.cpp.chest_transporter"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:chest_transporter"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chest_transporter.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chest_transporter.gift"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:chest_transporter',CustomModelData:12970067}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

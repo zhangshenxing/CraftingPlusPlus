@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"cpp_mutated_animal\"]}"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "cpp:killed_by_player"
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:shard_of_the_darkness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"type": "minecraft:warden"
+									} 
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:echo_shard"
+						}
+					]
+				}
+			]
+		}
+	]
+}

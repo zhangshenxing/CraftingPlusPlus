@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:axes",
+		{"id":"#fabric:axes","required": false}
+	]
+}

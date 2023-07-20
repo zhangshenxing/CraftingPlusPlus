@@ -1,0 +1,614 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972015
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false}, " (", {"translate": "text.dye_stick.nocolor"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972016
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#F9FFFE"}, " (", {"translate": "color.minecraft.white"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972000
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#F9801D"}, " (", {"translate": "color.minecraft.orange"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972001
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#C74EBD"}, " (", {"translate": "color.minecraft.magenta"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972002
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#3AB3DA"}, " (", {"translate": "color.minecraft.light_blue"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972003
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#FED83D"}, " (", {"translate": "color.minecraft.yellow"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972004
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#80C71F"}, " (", {"translate": "color.minecraft.lime"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972005
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#F38BAA"}, " (", {"translate": "color.minecraft.pink"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972006
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#474F52"}, " (", {"translate": "color.minecraft.gray"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972007
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#9D9D97"}, " (", {"translate": "color.minecraft.light_gray"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972008
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#169C9C"}, " (", {"translate": "color.minecraft.cyan"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972009
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#8932B8"}, " (", {"translate": "color.minecraft.purple"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972010
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#3C44AA"}, " (", {"translate": "color.minecraft.blue"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972011
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#835432"}, " (", {"translate": "color.minecraft.brown"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972012
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#5E7C16"}, " (", {"translate": "color.minecraft.green"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972013
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#B02E26"}, " (", {"translate": "color.minecraft.red"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972014
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [{"translate": "item.cpp.dye_stick", "italic": false, "color": "#1D1D21"}, " (", {"translate": "color.minecraft.black"}, ")"]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972016
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972000}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972000
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972001}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972001
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972002}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972002
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972003}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972003
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972004}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972004
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972005}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972005
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972006}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972006
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972007}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972007
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972008}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972008
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972009}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972009
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972010}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972010
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972011}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972011
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972012}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972012
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972013}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972013
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972014}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972014
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972015}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cmd"
+					},
+					"score": "cppValue"
+				},
+				"range": 12972015
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12972016}"
+	}
+]

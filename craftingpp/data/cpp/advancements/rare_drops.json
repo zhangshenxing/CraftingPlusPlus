@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12970101}"
+		},
+		"title": {
+			"translate": "advancements.cpp.rare_drops.title"
+		},
+		"description": {
+			"color": "white",
+			"translate": "advancements.cpp.rare_drops.description",
+			"extra": [
+				{
+					"color": "#8888FF",
+					"translate": "advancements.cpp.rare_drops.description1"
+				},
+				{
+					"color": "#00FF00",
+					"translate": "advancements.cpp.rare_drops.description2"
+				},
+				{
+					"color": "#00FFFF",
+					"translate": "advancements.cpp.rare_drops.description3"
+				},
+				{
+					"color": "#FF681F",
+					"translate": "advancements.cpp.rare_drops.description4"
+				},
+				{
+					"color": "#FFFF00",
+					"translate": "advancements.cpp.rare_drops.description5"
+				},
+				{
+					"color": "#FF0000",
+					"translate": "advancements.cpp.rare_drops.description6"
+				},
+				{
+					"color": "#A020F0",
+					"translate": "advancements.cpp.rare_drops.description7"
+				}
+			]
+		}
+	},
+	"parent": "cpp:mutated_animal",
+	"criteria": {
+		"rare_drops": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{dict:['cpp_rare_drops']}"
+					}
+				]
+			}
+		}
+	}
+}

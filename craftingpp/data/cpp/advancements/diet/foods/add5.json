@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"meat_floss_bread": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:meat_floss_bread'}"
+				}
+			}
+		},
+		"sandwich": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sandwich'}"
+				}
+			}
+		},
+		"vegetable_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:vegetable_kebab'}"
+				}
+			}
+		},
+		"soul_fried_chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:soul_fried_chicken'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add5"
+	},
+	"requirements": [
+		[
+			"meat_floss_bread",
+			"vegetable_kebab",
+			"sandwich",
+			"soul_fried_chicken"
+		]
+	]
+}

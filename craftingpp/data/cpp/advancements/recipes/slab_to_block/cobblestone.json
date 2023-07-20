@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cobblestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cobblestone_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/cobblestone"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/cobblestone"]
+	},
+	"requirements": [
+		[
+			"cobblestone_slab",
+			"has_the_recipe"
+		]
+	]
+}

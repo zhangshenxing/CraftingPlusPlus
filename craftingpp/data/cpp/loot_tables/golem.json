@@ -1,0 +1,298 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:armor_stand",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.golem"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:golem"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.in",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.hopper"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.drop",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.water"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.fishing",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.fishing_rod"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.water"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.hurt"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.mine"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.inter"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.inter.1",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.shears"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.glass_bottle"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.potion.effect.water"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.compressor"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.inter.2",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.orange_force_of_dirt"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.red_force_of_fire"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.green_force_of_water"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.inter.3",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.crafting_table"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.sugar_cane"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.paper"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.inter.4"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem.convert",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.shulker_box"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.netherite_axe"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.netherite_pickaxe"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_farmer"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_miner"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_farmer"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_miner"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.3"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.4",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.shulker_box"
+										},
+										{
+											"color": "aqua",
+											"text": "18"
+										},
+										{
+											"color": "aqua",
+											"text": "9"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.5",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "64"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.6",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.dropper"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_move.7",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.dropper"
+										},
+										{
+											"color": "aqua",
+											"text": "9"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_farmer",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_farmer"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.bee_nest"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.amethyst_cluster"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.golem_miner",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.golem_miner"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:golem',EntityTag:{Marker:1b,Invisible:1b,Glowing:1b,Invulnerable:1b,Tags:[\"cpp_golem\"],NoGravity:1b,Small:1b,ArmorItems:[{id:\"minecraft:chainmail_boots\",Count:1b,tag:{Trim:{pattern:'cpp:golem',material:'minecraft:none'}}},{id:\"minecraft:chainmail_leggings\",Count:1b,tag:{Trim:{pattern:'cpp:golem',material:'minecraft:none'}}},{id:\"minecraft:chainmail_chestplate\",Count:1b,tag:{Trim:{pattern:'cpp:golem',material:'minecraft:none'}}},{id:\"minecraft:chainmail_helmet\",Count:1b,tag:{Trim:{pattern:'cpp:golem',material:'minecraft:none'}}}],Pose:{LeftArm:[-20.0f,0.0f,0.0f],RightArm:[-20.0f,0.0f,0.0f]}},CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

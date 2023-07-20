@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{dict:['jam']}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/glass_bottle"
+	}
+}

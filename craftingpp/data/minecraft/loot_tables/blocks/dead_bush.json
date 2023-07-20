@@ -1,0 +1,89 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:dead_bush",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": ["minecraft:shears"]
+									}
+								}
+							]				
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "cpp:soybean",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.15
+								},
+								{
+									"condition": "minecraft:survives_explosion"
+								}
+							]
+						},
+						{
+							"type": "minecraft:group",
+							"children": [
+								{
+									"type": "minecraft:item",
+									"name": "minecraft:brown_mushroom"
+								},
+								{
+									"type": "minecraft:item",
+									"name": "minecraft:red_mushroom"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								},
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "score",
+										"target": {
+											"type": "fixed",
+											"name": "$skyislandMode"
+										},
+										"score": "cppConfig"
+									},
+									"range": 1
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:stick",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"add": false,
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 0,
+										"max": 2
+									}
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

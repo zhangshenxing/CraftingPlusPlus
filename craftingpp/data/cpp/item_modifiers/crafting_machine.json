@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"name": {
+			"italic": false,
+			"color": "#FFFF55",
+			"translate": "item.cpp.crafting_machine"
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "dark_gray",
+				"text": "cpp:crafting_machine"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.redstone_control"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{id:'cpp:crafting_machine',CustomModelData:12970000,BlockStateTag:{half:'double'}}"
+	}
+]

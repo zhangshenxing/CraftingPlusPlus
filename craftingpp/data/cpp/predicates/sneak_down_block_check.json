@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"tag": "cpp:part_block"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"tag": "cpp:part_block_open",
+					"state": {
+						"open": "true"
+					}
+				}
+			}
+		}
+	]
+}

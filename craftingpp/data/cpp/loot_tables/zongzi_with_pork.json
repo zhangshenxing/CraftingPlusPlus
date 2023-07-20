@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.zongzi_with_pork"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099\u0099\u0098"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:zongzi_with_pork"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "yellow",
+											"text": "+3"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:zongzi_with_pork',CustomModelData:12970026}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

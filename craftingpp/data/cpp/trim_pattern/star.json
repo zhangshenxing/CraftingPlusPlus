@@ -1,0 +1,7 @@
+{
+	"asset_id": "cpp:star",
+	"description": {
+		"translate": "trim_pattern.cpp.star"
+	},
+	"template_item": "minecraft:nether_star"
+}

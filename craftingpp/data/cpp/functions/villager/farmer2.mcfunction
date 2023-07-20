@@ -1,0 +1,3 @@
+data modify entity @s Offers.Recipes[].sell{id:"minecraft:pumpkin_pie"}.tag.display.Lore set value ['{"italic":false,"color":"white","font":"cpp:default","text":"\\u0099\\u0099\\u0099\\u0099"}','{"italic":false,"color":"gray","translate":"text.cpp.weight_index","with":[{"color":"green","text":"-2"}]}']
+data modify entity @s Offers.Recipes[].sell{id:"minecraft:apple"}.tag.display.Lore set value ['{"italic":false,"color":"white","font":"cpp:default","text":"\\u0099\\u0099"}','{"italic":false,"color":"gray","translate":"text.cpp.weight_index","with":[{"color":"green","text":"-4"}]}']
+tag @s add cpp_villager_checked2

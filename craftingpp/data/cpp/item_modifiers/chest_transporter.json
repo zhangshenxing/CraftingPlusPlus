@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:_"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "tag.Damage",
+				"target": "Damage"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"range": {
+					"min": 25.0
+				},
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#damage"
+					},
+					"score": "cppValue"
+				}
+			}
+		],
+		"function": "minecraft:set_count",
+		"add": false,
+		"count": 0.0
+	}
+]

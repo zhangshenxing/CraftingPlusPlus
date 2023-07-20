@@ -1,0 +1,36 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:misc/fruit_leaves",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:fruit_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

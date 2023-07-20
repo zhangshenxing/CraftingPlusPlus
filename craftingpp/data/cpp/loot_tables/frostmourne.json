@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#7787C8",
+								"translate": "item.cpp.frostmourne"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:frostmourne"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.frostmourne.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.frostmourne.effect"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:frostmourne',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

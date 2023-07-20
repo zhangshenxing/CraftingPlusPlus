@@ -1,0 +1,110 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cyan_force_type"
+					},
+					"score": "cppValue"
+				},
+				"range": 1
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [
+			{
+				"italic": false,
+				"color": "#00FFFF",
+				"translate": "item.cpp.cyan_force_of_mountain"
+			},
+			{
+				"color": "white",
+				"text": " ("
+			},
+			{
+				"color": "green",
+				"translate": "text.cpp.cyan_force_of_mountain.vertical"
+			},
+			{
+				"color": "white",
+				"text": ")"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cyan_force_type"
+					},
+					"score": "cppValue"
+				},
+				"range": 1
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{cpp_type:0b}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cyan_force_type"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": [
+			{
+				"italic": false,
+				"color": "#00FFFF",
+				"translate": "item.cpp.cyan_force_of_mountain"
+			},
+			{
+				"color": "white",
+				"text": " ("
+			},
+			{
+				"color": "light_purple",
+				"translate": "text.cpp.cyan_force_of_mountain.horizontal"
+			},
+			{
+				"color": "white",
+				"text": ")"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#cyan_force_type"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{cpp_type:1b}"
+	}
+]

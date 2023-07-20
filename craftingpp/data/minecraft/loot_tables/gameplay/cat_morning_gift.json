@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:rabbit_hide"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:rabbit_foot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "minecraft:chicken"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "cpp:parrot_meat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:feather"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "minecraft:rotten_flesh"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:phantom_membrane"
+				}
+			]
+		}
+	]
+}

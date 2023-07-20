@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:vaccine_of_blindness\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/vaccines/blindness"
+	}
+}

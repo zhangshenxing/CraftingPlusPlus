@@ -1,0 +1,93 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#00FFFF",
+								"translate": "item.cpp.agentia_of_ridge"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:agentia_of_ridge"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.strength"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "06:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.night_vision"
+										},
+										{
+											"text": "12:00"
+										}
+									]
+								},
+								" ",
+								{
+									"italic": false,
+									"translate": "potion.whenDrank"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"text": "+3 ",
+									"extra": [
+										{
+											"translate": "attribute.name.generic.attack_damage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:agentia_of_ridge',CustomModelData:12970103}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

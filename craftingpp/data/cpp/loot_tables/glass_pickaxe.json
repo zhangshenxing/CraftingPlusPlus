@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.glass_pickaxe"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:glass_pickaxe"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.glass_pickaxe.use"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:glass_pickaxe',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

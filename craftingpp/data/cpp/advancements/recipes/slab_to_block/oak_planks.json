@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:oak_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/oak_planks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/oak_planks"]
+	},
+	"requirements": [
+		[
+			"oak_slab",
+			"has_the_recipe"
+		]
+	]
+}

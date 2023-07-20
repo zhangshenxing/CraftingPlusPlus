@@ -1,0 +1,25 @@
+execute if score @s cppType matches 0001 run function cpp:aiom/type2/recipe/ll1
+execute if score @s cppType matches 0101 run function cpp:aiom/type2/recipe/ln1
+execute if score @s cppType matches 0102 run function cpp:aiom/type2/recipe/ln2
+execute if score @s cppType matches 0201 run function cpp:aiom/type2/recipe/lh1
+execute if score @s cppType matches 1001 run function cpp:aiom/type2/recipe/nl1
+execute if score @s cppType matches 1002 run function cpp:aiom/type2/recipe/nl2
+execute if score @s cppType matches 1003 run function cpp:aiom/type2/recipe/nl3
+execute if score @s cppType matches 1004 run function cpp:aiom/type2/recipe/nl4
+execute if score @s cppType matches 1005 run function cpp:aiom/type2/recipe/nl5
+execute if score @s cppType matches 1006 run function cpp:aiom/type2/recipe/nl6
+execute if score @s cppType matches 1007 run function cpp:aiom/type2/recipe/nl7
+# execute if score @s cppType matches 1101 run function cpp:aiom/type2/recipe/nn1
+execute if score @s cppType matches 1201 run function cpp:aiom/type2/recipe/nh1
+execute if score @s cppType matches 1202 run function cpp:aiom/type2/recipe/nh2
+execute if score @s cppType matches 1203 run function cpp:aiom/type2/recipe/nh3
+execute if score @s cppType matches 1204 run function cpp:aiom/type2/recipe/nh4
+execute if score @s cppType matches 1205 run function cpp:aiom/type2/recipe/nh5
+execute if score @s cppType matches 1206 run function cpp:aiom/type2/recipe/nh6
+execute if score @s cppType matches 2001 run function cpp:aiom/type2/recipe/hl1
+execute if score @s cppType matches 2002 run function cpp:aiom/type2/recipe/hl2
+execute if score @s cppType matches 2003 run function cpp:aiom/type2/recipe/hl3
+execute if score @s cppType matches 2101 run function cpp:aiom/type2/recipe/hn1
+execute if score @s cppType matches 2102 run function cpp:aiom/type2/recipe/hn2
+execute if score @s cppType matches 2103 run function cpp:aiom/type2/recipe/hn3
+execute if score @s cppType matches 2201 run function cpp:aiom/type2/recipe/hh1

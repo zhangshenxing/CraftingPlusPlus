@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#CC7F14",
+								"translate": "item.cpp.phoenix_sword"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:phoenix_sword"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.phoenix_sword.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.phoenix_sword.effect"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:phoenix_sword',CustomModelData:12970004}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"translate": "item.cpp.character.68"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:character/68"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.character.obtain",
+									"with": [
+										{
+											"color": "aqua",
+											"translate": "entity.minecraft.wandering_trader"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.character.rename",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.emerald"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.character.item_frame",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.item_frame"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.character.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:character',CustomModelData:12971068}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

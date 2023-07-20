@@ -1,0 +1,69 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye0"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye1"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye2"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye3"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye4"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye5"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye6"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye7"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye8"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye9"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye10"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye11"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye12"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye13"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye14"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "cpp:color_palette/dye15"
+		}
+	]
+}

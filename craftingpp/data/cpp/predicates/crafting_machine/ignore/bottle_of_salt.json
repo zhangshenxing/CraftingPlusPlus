@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:16b,tag:{dict:['jam']}}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:16b,tag:{id:\"cpp:soy_sauce\"}}]}"
+				}
+			}
+		}
+	]
+}

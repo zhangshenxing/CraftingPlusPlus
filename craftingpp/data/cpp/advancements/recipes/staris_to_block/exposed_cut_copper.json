@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"exposed_cut_copper_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:exposed_cut_copper_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/exposed_cut_copper"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/exposed_cut_copper"]
+	},
+	"requirements": [
+		[
+			"exposed_cut_copper_stairs",
+			"has_the_recipe"
+		]
+	]
+}

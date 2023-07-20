@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"vegetable_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:vegetable_kebab\"}"
+				}
+			}
+		},
+		"double_color_vine_salad": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:double_color_vine_salad\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/jump_boost30"
+	},
+	"requirements": [
+		[
+			"vegetable_kebab",
+			"double_color_vine_salad"
+		]
+	]
+}

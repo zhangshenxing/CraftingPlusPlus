@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:petrified_oak_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FFFF55",
+								"translate": "item.cpp.golden_anvil"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:golden_anvil"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_crafting_machine",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:golden_anvil',CustomModelData:12970004,BlockStateTag:{half:'double'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

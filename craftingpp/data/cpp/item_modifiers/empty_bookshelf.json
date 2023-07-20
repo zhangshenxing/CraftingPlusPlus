@@ -1,0 +1,104 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971010}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971014}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:13b}]}"
+					}
+				}
+			}
+		],			
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971012}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:14b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971011}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b},{Slot:13b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971016}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b},{Slot:14b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971015}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:13b},{Slot:14b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971013}"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b},{Slot:13b},{Slot:14b}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:12971017}"
+	}
+]

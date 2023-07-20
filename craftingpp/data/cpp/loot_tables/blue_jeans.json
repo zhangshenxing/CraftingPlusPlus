@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.blue_jeans"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:blue_jeans"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:blue_jeans',CustomModelData:12970003,Trim:{pattern:'cpp:blue_jeans',material:'minecraft:none'},HideFlags:128}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "legs_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 1,
+									"slot": "legs"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

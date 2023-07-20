@@ -1,0 +1,43 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:10b,id:\"minecraft:pufferfish\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:10b,id:\"minecraft:tropical_fish\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:10b,id:\"minecraft:salmon\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:10b,id:\"minecraft:cod\"}]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"condition": "minecraft:random_chance",
+		"chance": 0.1
+	}
+]

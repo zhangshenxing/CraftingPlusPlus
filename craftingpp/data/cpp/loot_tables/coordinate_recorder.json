@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FFFF55",
+								"translate": "item.cpp.coordinate_recorder"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:coordinate_recorder"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.coordinate_recorder.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.coordinate_recorder.place",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:coordinate_recorder',CustomModelData:12970048}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

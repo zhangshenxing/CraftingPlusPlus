@@ -1,0 +1,152 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:stick\"},{Slot:3b,id:\"minecraft:stick\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:11b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:enchanted_iron'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:chest_transporter"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:\"minecraft:red_wool\"},{id:\"minecraft:string\"},{id:\"minecraft:redstone\"},{id:\"minecraft:lilac\"},{tag:{id:'cpp:artemisia_argyi'}},{tag:{id:'cpp:calamus'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:sachet"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:\"minecraft:honey_bottle\"},{id:\"minecraft:egg\"},{id:\"minecraft:wheat\"},{tag:{id:'cpp:butter'}},{tag:{id:'cpp:blueberry'}},{id:\"minecraft:bowl\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:honey_pancake"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:\"minecraft:ice\"},{id:\"minecraft:sugar\"},{tag:{id:'cpp:rice'}},{tag:{id:'cpp:mango'}},{tag:{id:'cpp:grapefruit'}},{id:\"minecraft:bowl\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:chilled_mango_sago_cream_with_pomelo"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:\"minecraft:porkchop\"},{id:\"minecraft:wheat\"},{id:\"minecraft:sugar\"},{id:\"minecraft:egg\"},{tag:{dict:['salt']}},{tag:{id:'cpp:yeast_powder'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:mooncake_with_chinese_ham",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 2
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:lotus_seeds'}},{tag:{id:'cpp:boiled_egg'}},{id:\"minecraft:wheat\"},{id:\"minecraft:egg\"},{id:\"minecraft:egg\"},{tag:{id:'cpp:yeast_powder'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:mooncake_with_double_yolks_and_lotus_seed_paste",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 2
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:purple_dye\"},{Slot:3b,id:\"minecraft:purple_dye\"},{Slot:10b,id:\"minecraft:ender_eye\"},{Slot:12b,id:\"minecraft:ender_eye\"},{Slot:19b,id:\"minecraft:purple_dye\"},{Slot:21b,id:\"minecraft:purple_dye\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:purple_eye"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:feather\"},{Slot:3b,id:\"minecraft:feather\"},{Slot:10b,id:\"minecraft:ender_eye\"},{Slot:12b,id:\"minecraft:ender_eye\"},{Slot:19b,id:\"minecraft:feather\"},{Slot:21b,id:\"minecraft:feather\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:lash"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:leather\"},{Slot:2b,id:\"minecraft:string\"},{Slot:3b,id:\"minecraft:leather\"},{Slot:19b,id:\"minecraft:feather\"},{Slot:20b,id:\"minecraft:string\"},{Slot:21b,id:\"minecraft:feather\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_breed"
+						}
+					]
+				}
+			]
+		}
+	]
+}

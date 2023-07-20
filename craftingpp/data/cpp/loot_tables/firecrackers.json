@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.firecrackers"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:firecrackers"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.firecrackers.use"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:firecrackers',CustomModelData:12971001,EntityTag:{Tags:['cpp_firecrackers']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

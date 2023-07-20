@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"apple_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[6b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/speed20"
+	},
+	"requirements": [
+		[
+			"apple_jamed"
+		]
+	]
+}

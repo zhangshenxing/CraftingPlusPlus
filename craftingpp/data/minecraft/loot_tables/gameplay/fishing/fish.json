@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:cod",
+					"weight": 60
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:salmon",
+					"weight": 25
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:tropical_fish",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:pufferfish",
+					"weight": 13
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/fish"
+}

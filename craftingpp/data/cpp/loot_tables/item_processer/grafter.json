@@ -1,0 +1,252 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:fruit_leaves\"}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:fruit_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:wool_leaves\"}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:wool_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:ore_leaves\"}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:ore_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:oak_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:oak_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:spruce_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:spruce_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:birch_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:birch_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:jungle_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:jungle_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:acacia_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:acacia_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:cherry_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:cherry_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:dark_oak_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dark_oak_sapling"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:nether_wart_block\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:crimson_fungus"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:warped_wart_block\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:warped_fungus"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:red_mushroom_block\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_mushroom"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:brown_mushroom_block\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:brown_mushroom"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:azalea_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:azalea"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:flowering_azalea_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:flowering_azalea"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:mangrove_leaves\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:mangrove_propagule"
+						}
+					]
+				}
+			]
+		}
+	]
+}

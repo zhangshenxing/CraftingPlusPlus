@@ -1,0 +1,69 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 120
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 31,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 30.0,
+								"max": 40.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.fortune"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.looting"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sweeping"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.lure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.unbreaking"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.respiration"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sharpness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.power"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.mending"
+				}
+			]
+		}
+	]
+}

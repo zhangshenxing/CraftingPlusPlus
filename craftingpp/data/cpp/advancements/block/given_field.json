@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"given_field": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:purple_wool"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/given_field/reset"
+	}
+}

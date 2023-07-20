@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:wooden_pickaxe",
+		"minecraft:golden_pickaxe",
+		{"id": "botania:glass_pickaxe","required": false}
+	]
+}

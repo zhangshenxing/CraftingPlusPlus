@@ -1,0 +1,59 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple",
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		},
+		"cupcake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cupcake'}"
+				}
+			}
+		},
+		"chilled_mango_sago_cream_with_pomelo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chilled_mango_sago_cream_with_pomelo'}"
+				}
+			}
+		},
+		"christmas_roast_chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:christmas_roast_chicken'}"
+				}
+			}
+		},
+		"burger": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:burger'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"cupcake",
+			"chilled_mango_sago_cream_with_pomelo",
+			"christmas_roast_chicken",
+			"burger"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg4"
+	}
+}

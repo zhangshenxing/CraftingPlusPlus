@@ -1,0 +1,17 @@
+execute if score #ds_color cppValue matches 0 run setblock ~ ~ ~ white_stained_glass_pane
+execute if score #ds_color cppValue matches 1 run setblock ~ ~ ~ orange_stained_glass_pane
+execute if score #ds_color cppValue matches 2 run setblock ~ ~ ~ magenta_stained_glass_pane
+execute if score #ds_color cppValue matches 3 run setblock ~ ~ ~ light_blue_stained_glass_pane
+execute if score #ds_color cppValue matches 4 run setblock ~ ~ ~ yellow_stained_glass_pane
+execute if score #ds_color cppValue matches 5 run setblock ~ ~ ~ lime_stained_glass_pane
+execute if score #ds_color cppValue matches 6 run setblock ~ ~ ~ pink_stained_glass_pane
+execute if score #ds_color cppValue matches 7 run setblock ~ ~ ~ gray_stained_glass_pane
+execute if score #ds_color cppValue matches 8 run setblock ~ ~ ~ light_gray_stained_glass_pane
+execute if score #ds_color cppValue matches 9 run setblock ~ ~ ~ cyan_stained_glass_pane
+execute if score #ds_color cppValue matches 10 run setblock ~ ~ ~ purple_stained_glass_pane
+execute if score #ds_color cppValue matches 11 run setblock ~ ~ ~ blue_stained_glass_pane
+execute if score #ds_color cppValue matches 12 run setblock ~ ~ ~ brown_stained_glass_pane
+execute if score #ds_color cppValue matches 13 run setblock ~ ~ ~ green_stained_glass_pane
+execute if score #ds_color cppValue matches 14 run setblock ~ ~ ~ red_stained_glass_pane
+execute if score #ds_color cppValue matches 15 run setblock ~ ~ ~ black_stained_glass_pane
+execute if score #ds_color cppValue matches 16 run setblock ~ ~ ~ glass_pane

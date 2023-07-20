@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FF0000",
+								"translate": "item.cpp.red_force_of_fire"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:red_force_of_fire"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.red_force_of_fire.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:red_force_of_fire',CustomModelData:12970006}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

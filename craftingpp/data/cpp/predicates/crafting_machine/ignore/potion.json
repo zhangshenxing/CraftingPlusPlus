@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"_comment": "酸水",
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:16b,tag:{id:\"cpp:acid\"}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "碱水",
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:16b,tag:{id:\"cpp:soda_water\"}}]}"
+				}
+			}
+		}
+	]
+}

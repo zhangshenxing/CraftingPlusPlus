@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"dark_prismarine_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:dark_prismarine_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/dark_prismarine"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/dark_prismarine"]
+	},
+	"requirements": [
+		[
+			"dark_prismarine_stairs",
+			"has_the_recipe"
+		]
+	]
+}

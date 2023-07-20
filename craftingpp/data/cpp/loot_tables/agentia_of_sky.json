@@ -1,0 +1,93 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#8888FF",
+								"translate": "item.cpp.agentia_of_sky"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:agentia_of_sky"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.speed"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "06:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.slow_falling"
+										},
+										{
+											"text": "06:00"
+										}
+									]
+								},
+								" ",
+								{
+									"italic": false,
+									"translate": "potion.whenDrank"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"text": "+40% ",
+									"extra": [
+										{
+											"translate": "attribute.name.generic.movement_speed"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:agentia_of_sky',CustomModelData:12970101}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,166 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.trim_pattern"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "15"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use1",
+									"with": [
+										{
+											"italic": false,
+											"color": "blue",
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "potion.withAmplifier",
+													"with": [
+														{
+															"translate": "effect.minecraft.regeneration"
+														},
+														{
+															"translate": "potion.potency.3"
+														}
+													]
+												},
+												{
+													"text": "00:01"
+												}
+											]
+										},
+										{
+											"italic": false,
+											"color": "white",
+											"font": "cpp:default",
+											"text": "\u0095\u0094"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use2",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use3",
+									"with": [
+										{
+											"italic": false,
+											"color": "blue",
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "potion.withAmplifier",
+													"with": [
+														{
+															"translate": "effect.minecraft.saturation"
+														},
+														{
+															"translate": "potion.potency.3"
+														}
+													]
+												},
+												{
+													"text": "00:01"
+												}
+											]
+										},
+										{
+											"italic": false,
+											"color": "white",
+											"font": "cpp:default",
+											"text": "\u0099\u0099"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use4",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "5"
+										},
+										{
+											"italic": false,
+											"color": "white",
+											"font": "cpp:default",
+											"text": "\u0095\u0095\u0095"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use5",
+									"with": [
+										{
+											"italic": false,
+											"color": "blue",
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "potion.withAmplifier",
+													"with": [
+														{
+															"translate": "effect.minecraft.resistance"
+														},
+														{
+															"translate": "potion.potency.4"
+														}
+													]
+												},
+												{
+													"text": "00:03"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.nether_star.use6"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

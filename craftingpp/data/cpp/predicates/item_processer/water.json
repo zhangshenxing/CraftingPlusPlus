@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"block": {
+			"nbt": "{Items:[{Slot:3b,id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}},{Slot:12b,id:\"minecraft:dirt\"}]}"
+		}
+	}
+}

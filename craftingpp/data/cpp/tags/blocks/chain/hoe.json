@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:nether_wart_block",
+		"minecraft:warped_wart_block",
+		"minecraft:shroomlight",
+		"minecraft:hay_block",
+		"minecraft:sculk",
+		"minecraft:sculk_sensor",
+		"minecraft:sculk_catalyst",
+		"minecraft:sculk_shrieker"
+	]
+}

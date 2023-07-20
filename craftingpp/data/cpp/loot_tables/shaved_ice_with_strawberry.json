@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.shaved_ice_with_strawberry"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shaved_ice_with_strawberry"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "yellow",
+											"text": "-5"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.anti_fire"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.speed"
+										},
+										{
+											"text": "00:30"
+										}
+									]
+								},
+								" ",
+								{
+									"italic": false,
+									"translate": "potion.whenDrank"
+								},
+								{
+									"text": "+20% ",
+									"italic": false,
+									"color": "blue",
+									"extra": [
+										{
+											"translate":"attribute.name.generic.movement_speed"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shaved_ice_with_strawberry',CustomModelData:12970015}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:golem_farmer\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:golem_fisher\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:golem_miner\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:golem_warrior\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{id:\"cpp:golem_herder\"}"
+					}
+				}
+			}
+		}
+	]
+}

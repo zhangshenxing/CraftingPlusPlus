@@ -1,0 +1,19 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "cpp:_"
+	},
+	"ops": [
+		{
+			"op": "replace",
+			"source": "tag.display.Name",
+			"target": "display.Name"
+		},
+		{
+			"op": "replace",
+			"source": "tag.cpp_type",
+			"target": "cpp_type"
+		}
+	]
+}

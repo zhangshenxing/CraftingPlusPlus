@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:1s,Item:{id:\"minecraft:dark_oak_sapling\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:2s,Item:{id:\"minecraft:dark_oak_sapling\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:3s,Item:{id:\"minecraft:dark_oak_sapling\",Count:1b}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Age:4s,Item:{id:\"minecraft:dark_oak_sapling\",Count:1b}}"
+			}
+		}
+	]
+}

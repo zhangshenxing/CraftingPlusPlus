@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"sss",
+		"sds",
+		"sss"
+	],
+	"key": {
+		"d": {
+			"item": "minecraft:dragon_egg"
+		},
+		"s": {
+			"item": "minecraft:string"
+		}
+	},
+	"result": {
+		"item": "minecraft:spider_spawn_egg"
+	}
+}

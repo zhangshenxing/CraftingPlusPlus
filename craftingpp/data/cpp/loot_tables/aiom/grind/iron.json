@@ -1,0 +1,35 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:iron_dust",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:gold_dust"
+				}
+			]
+		}
+	]
+}

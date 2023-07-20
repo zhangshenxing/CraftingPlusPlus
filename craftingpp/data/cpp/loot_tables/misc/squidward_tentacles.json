@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:squid_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"italic": false, "translate": "advancements.cpp.sponge.squidward_tentacles"}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:stone_brick_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:stone_bricks"
+	}
+}

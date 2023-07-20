@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"birch_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:birch_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/birch_planks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/birch_planks"]
+	},
+	"requirements": [
+		[
+			"birch_stairs",
+			"has_the_recipe"
+		]
+	]
+}

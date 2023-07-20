@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"mangrove_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:mangrove_planks"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stonecutting/mangrove_slab"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stonecutting/mangrove_slab"]
+	},
+	"requirements": [
+		[
+			"mangrove_planks",
+			"has_the_recipe"
+		]
+	]
+}

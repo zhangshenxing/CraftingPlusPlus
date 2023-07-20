@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"sweet_berries": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:sweet_berry_bush"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/sweet_berries/reset"
+	}
+}

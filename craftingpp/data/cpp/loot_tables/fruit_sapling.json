@@ -1,0 +1,164 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.fruit_sapling"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:fruit_sapling"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.fruit_sapling"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.fruit_sapling.cold",
+									"with": [
+										[
+											{
+												"color": "gold",
+												"translate": "item.cpp.chinese_date"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.hawthorn"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.fruit_sapling.temperate",
+									"with": [
+										[
+											{
+												"color": "gold",
+												"translate": "item.cpp.apricot"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.apricot"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.grapefruit"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.lemon"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.loquat"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.orange"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.peach"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.pear"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.persimmon"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.plum"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.cpp.pomegranate"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.minecraft.apple"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.fruit_sapling.warm",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.banana"
+										},
+										", ",
+										{
+											"color": "gold",
+											"translate": "item.cpp.coconut"
+										},
+										", ",
+										{
+											"color": "gold",
+											"translate": "item.cpp.longan"
+										},
+										", ",
+										{
+											"color": "gold",
+											"translate": "item.cpp.lychee"
+										},
+										", ",
+										{
+											"color": "gold",
+											"translate": "item.cpp.mango"
+										},
+										", ",
+										{
+											"color": "gold",
+											"translate": "item.cpp.payapa"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:fruit_sapling',CustomModelData:12973901}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

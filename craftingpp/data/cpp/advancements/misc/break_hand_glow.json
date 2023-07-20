@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"magnet": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:glow_item_frame",
+					"nbt": "{Item:{tag:{id:\"cpp:break_hand\"}}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/break_hand/glow_item_frame_reset"
+	}
+}

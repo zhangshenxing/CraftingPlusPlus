@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:agentia_of_earth'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/agentia/earth"
+	}
+}

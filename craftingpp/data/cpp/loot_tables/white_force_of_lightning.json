@@ -1,0 +1,151 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#55FFFF",
+								"translate": "item.cpp.white_force_of_lightning"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:white_force_of_lightning"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.white_force_of_lightning.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "block.minecraft.dirt",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.grass_block"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.stone"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.sand"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.red_sand"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"text": "→",
+									"extra": [
+										{
+											"translate": "block.minecraft.gravel"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.podzol"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.mycelium"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.dirt"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "aqua",
+									"translate": "block.minecraft.water",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.ice"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.water"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "light_purple",
+									"translate": "block.minecraft.lava",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.obsidian"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.lava"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "block.minecraft.netherrack",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.crimson_nylium"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.warped_nylium"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.blackstone"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.end_stone"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.netherrack"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:white_force_of_lightning',CustomModelData:12970008}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

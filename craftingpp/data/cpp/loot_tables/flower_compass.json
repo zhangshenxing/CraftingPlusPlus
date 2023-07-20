@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compass",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.flower_compass"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:flower_compass"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.flower_compass.use"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:flower_compass',LodestoneTracked:0b,LodestoneDimension:\"minecraft:the_end\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

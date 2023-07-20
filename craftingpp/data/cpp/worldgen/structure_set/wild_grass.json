@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cpp:wild_grass",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 114514,
+		"spacing": 6,
+		"separation": 3,
+		"type": "minecraft:random_spread"
+	}
+}

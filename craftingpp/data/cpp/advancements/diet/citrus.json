@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"citrus": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:citrus\"}"
+				},
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "score",
+							"target": {
+								"type": "fixed",
+								"name": "$forestBatWords"
+							},
+							"score": "cppConfig"
+						},
+						"range": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/citrus"
+	}
+}

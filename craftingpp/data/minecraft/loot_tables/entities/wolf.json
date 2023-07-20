@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:limb_of_ridge"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:wolf_head"
+				}
+			]
+		}
+	]
+}

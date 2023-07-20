@@ -1,0 +1,2 @@
+execute if data storage cpp:thisb items[{tag:{id:"cpp:ammonia_refrigerant"}}] run function cpp:aiom/recipes/lh/check1
+execute if score @s cppExp matches 2.. if data storage cpp:thisb items[{id:"minecraft:honey_bottle"}] run function cpp:aiom/recipes/lh/check2

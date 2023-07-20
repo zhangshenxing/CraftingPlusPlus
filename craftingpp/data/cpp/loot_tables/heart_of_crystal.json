@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#00FF00",
+								"translate": "item.cpp.heart_of_crystal"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:heart_of_crystal"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.heart_of_crystal.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.by_fishing"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:heart_of_crystal',CustomModelData:12970102,dict:['cpp_rare_drops']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

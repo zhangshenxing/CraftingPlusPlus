@@ -1,0 +1,91 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.braised_beef_with_potatoes"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099\u0099\u0099\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:braised_beef_with_potatoes"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "+2"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.strength"
+										},
+										{
+											"text": "00:30"
+										}
+									]
+								},
+								" ",
+								{
+									"italic": false,
+									"translate": "potion.whenDrank"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"text": "+3 ",
+									"extra": [
+										{
+											"translate": "attribute.name.generic.attack_damage"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:braised_beef_with_potatoes',CustomModelData:12970006}"
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:strength",
+									"duration": 30
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

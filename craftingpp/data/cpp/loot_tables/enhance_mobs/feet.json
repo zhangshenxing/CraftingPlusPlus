@@ -1,0 +1,547 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 250
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"weight": 200,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 1,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.3
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_boots",
+					"weight": 150,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 1,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.3
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chainmail_boots",
+					"weight": 150,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 1,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.3
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 200,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 2,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.3
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 45,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 3,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": 2,
+									"name": "cpp_armor_toughness",
+									"attribute": "generic.armor_toughness",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.3
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_boots",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": 3,
+									"name": "cpp_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": 3,
+									"name": "cpp_armor_toughness",
+									"attribute": "generic.armor_toughness",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 5.0
+									},
+									"name": "cpp_max_health",
+									"attribute": "generic.max_health",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.1,
+										"max": 0.4
+									},
+									"name": "cpp_knockback_resistance",
+									"attribute": "generic.knockback_resistance",
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 0.15
+									},
+									"name": "cpp_movement_speed",
+									"attribute": "generic.movement_speed",
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 0.0,
+										"max": 2.0
+									},
+									"name": "cpp_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:snow_boots"
+				}
+			]
+		}
+	]
+}

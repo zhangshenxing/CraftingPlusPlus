@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": {
+			"translate": "advancements.cpp.cobblestone.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.cobblestone.description"
+		}
+	},
+	"parent": "cpp:skyisland/dirt",
+	"criteria": {
+		"cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items":[
+					{
+						"items": [
+							"minecraft:cobblestone"
+						]
+					}
+				]
+			}
+		}
+	}
+}

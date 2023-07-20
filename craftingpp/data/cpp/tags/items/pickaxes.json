@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:pickaxes",
+		{"id":"#fabric:pickaxes","required": false}
+	]
+}

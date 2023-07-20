@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/goat_horn/reset"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:echo_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.echo_shard.obtain",
+									"with": [
+										{
+											"color": "aqua",
+											"translate": "entity.minecraft.warden"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.minecraft.echo_shard.use"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

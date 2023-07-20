@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"diorite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:diorite_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/diorite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/diorite"]
+	},
+	"requirements": [
+		[
+			"diorite_stairs",
+			"has_the_recipe"
+		]
+	]
+}

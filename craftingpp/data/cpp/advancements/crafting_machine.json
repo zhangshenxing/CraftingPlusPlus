@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:petrified_oak_slab"
+		},
+		"title": {
+			"translate": "advancements.cpp.crafting_machine.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.crafting_machine.description"
+		}
+	},
+	"parent": "cpp:xp_bottle",
+	"criteria": {
+		"crafting_machine": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "cpp:crafting_machine"
+			}
+		}
+	}
+}

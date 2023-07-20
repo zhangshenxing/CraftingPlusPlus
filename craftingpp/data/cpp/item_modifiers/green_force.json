@@ -1,0 +1,115 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			{
+				"italic": false,
+				"color": "dark_gray",
+				"text": "cpp:green_force_of_water"
+			},
+			{
+				"color": "green",
+				"italic": false,
+				"translate": "block.minecraft.water",
+				"extra": [
+					" ∞ ",
+					{
+						"color": "red",
+						"italic": false,
+						"translate": "block.minecraft.lava",
+						"extra": [
+							" ",
+							{
+								"score": {
+									"name": "#green_force_lava",
+									"objective": "cppValue"
+								}
+							}
+						]
+					},
+					" ",
+					{
+						"color": "aqua",
+						"italic": false,
+						"translate": "block.minecraft.powder_snow",
+						"extra": [
+							" ",
+							{
+								"score": {
+									"name": "#green_force_powder_snow",
+									"objective": "cppValue"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.green_force_of_water.use",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.use"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.green_force_of_water.switch",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.sneak",
+						"extra": [
+							"+",
+							{
+								"keybind": "key.use"
+							}
+						]
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.green_force_of_water.put",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.sneak",
+						"extra": [
+							"+",
+							{
+								"keybind": "key.use"
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": true,
+		"entity": "this"
+	},
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:_"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "tag.display.Name",
+				"target": "display.Name"
+			},
+			{
+				"op": "replace",
+				"source": "tag.cpp_liquid",
+				"target": "cpp_liquid"
+			}
+		]
+	}
+]

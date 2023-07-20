@@ -1,0 +1,101 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0098"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "+1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.hunger"
+												},
+												{
+													"translate": "potion.potency.2"
+												}
+											]
+										},
+										{
+											"text": "00:15"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.nausea"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "00:15"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.poison"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "01:00"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

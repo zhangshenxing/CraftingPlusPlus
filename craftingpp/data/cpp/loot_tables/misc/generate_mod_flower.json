@@ -1,0 +1,243 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_lycoris_radiata"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:trifolium"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blackthorn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:cattail"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:orange_marigold"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:hibiscus"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blue_hyacinth"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:calamus"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:wild_lilium"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:bauhinia"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:fluffy_grass"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:gerbera"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:esparto"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:glow_forsythia"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:glazed_shade"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:stelera"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:forage_crystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:isorchid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:burning_chrysanthe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:oxalis"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:purple_illusion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pink_calliopsis",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pink_cyclamen",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blue_iris",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:lilium_pumilum",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:snowdrop",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:narcissus",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:cole_flower",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:purple_lupine",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blue_crocu",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_pansy",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:white_chrysanthemum",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:silene_pendula",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:artemisia_argyi",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:primrose",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:forget_me_not",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:endless_summer",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_chrysanthemum",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_calliopsis",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_calliopsis",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_cyclamen",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:white_cyclamen",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:purple_iris",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_iris",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pink_lupine",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_lupine",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:purple_crocu",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_crocu",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blue_pansy",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:orange_pansy",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:arabia_speedwell",
+					"weight": 2
+				}
+			]
+		}
+	]
+}

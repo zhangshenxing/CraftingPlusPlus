@@ -1,0 +1,146 @@
+{
+	"criteria": {
+		"lotus_root": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:lotus_root'}"
+				}
+			}
+		},
+		"caramel_pudding": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:caramel_pudding'}"
+				}
+			}
+		},
+		"honey_pancake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:honey_pancake'}"
+				}
+			}
+		},
+		"chilled_mango_sago_cream_with_pomelo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chilled_mango_sago_cream_with_pomelo'}"
+				}
+			}
+		},
+		"raw_colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_colorful_vegetable'}"
+				}
+			}
+		},
+		"raw_braised_pork_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_pork_with_potatoes'}"
+				}
+			}
+		},
+		"raw_braised_beef_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_beef_with_potatoes'}"
+				}
+			}
+		},
+		"raw_rabbit_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_rabbit_stew'}"
+				}
+			}
+		},
+		"zongzi_with_egg_yolk": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_egg_yolk'}"
+				}
+			}
+		},
+		"zongzi_with_honey_dates": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_honey_dates'}"
+				}
+			}
+		},
+		"zongzi_with_pork": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_pork'}"
+				}
+			}
+		},
+		"zongzi_with_salt": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_salt'}"
+				}
+			}
+		},
+		"zongzi_with_soda": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_soda'}"
+				}
+			}
+		},
+		"zongzi_with_honey": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_honey'}"
+				}
+			}
+		},
+		"cold_drink": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cold_drink'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add4"
+	},
+	"requirements": [
+		[
+			"lotus_root",
+			"caramel_pudding",
+			"honey_pancake",
+			"chilled_mango_sago_cream_with_pomelo",
+			"raw_colorful_vegetable",
+			"raw_braised_pork_with_potatoes",
+			"raw_braised_beef_with_potatoes",
+			"raw_rabbit_stew",
+			"zongzi_with_egg_yolk",
+			"zongzi_with_honey_dates",
+			"zongzi_with_pork",
+			"zongzi_with_salt",
+			"zongzi_with_soda",
+			"zongzi_with_honey",
+			"cold_drink"
+		]
+	]
+}

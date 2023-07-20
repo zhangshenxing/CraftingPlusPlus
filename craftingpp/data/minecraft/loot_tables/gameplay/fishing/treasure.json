@@ -1,0 +1,226 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tube_coral",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brain_coral",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_coral",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tube_coral_fan",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brain_coral_fan",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral_fan",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_coral_fan",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral_fan",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:name_tag",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"damage": {
+								"type": "minecraft:uniform",
+								"max": 0.25,
+								"min": 0.0
+							},
+							"function": "minecraft:set_damage"
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:bow",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"damage": {
+								"type": "minecraft:uniform",
+								"max": 0.25,
+								"min": 0.0
+							},
+							"function": "minecraft:set_damage"
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:fishing_rod",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wet_sponge",
+					"weight": 2
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld"
+							}
+						}
+					],
+					"type": "minecraft:loot_table",
+					"name": "cpp:cod_head"
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld"
+							}
+						}
+					],
+					"type": "minecraft:loot_table",
+					"name": "cpp:salmon_head"
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld"
+							}
+						}
+					],
+					"type": "minecraft:loot_table",
+					"name": "cpp:tropical_fish_head"
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld"
+							}
+						}
+					],
+					"type": "minecraft:loot_table",
+					"name": "cpp:pufferfish_head"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:heart_of_crystal"
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_end"
+							}
+						}
+					],
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_shell",
+					"weight": 20
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_end"
+							}
+						}
+					],
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_flower",
+					"weight": 20
+				},
+				{
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_end"
+							}
+						}
+					],
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_head"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/treasure"
+}

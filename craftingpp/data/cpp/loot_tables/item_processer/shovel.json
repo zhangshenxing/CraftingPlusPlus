@@ -1,0 +1,119 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:\"minecraft:grass_block\"}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:\"minecraft:mycelium\"}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:\"minecraft:podzol\"}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dirt"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:clay\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:clay_ball",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"add": false,
+									"count": 4.0
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:snow_block\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:snowball",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"add": false,
+									"count": 4.0
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:gravel\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:flint"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:snow\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:snowball"
+						}
+					]
+				}
+			]
+		}
+	]
+}

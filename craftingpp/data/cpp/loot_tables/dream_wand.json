@@ -1,0 +1,275 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FF55FF",
+								"translate": "item.cpp.dream_wand"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:dream_wand"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual_alta",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.sneak",
+											"extra": [
+												"+",
+												{
+													"keybind": "key.use"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual_alta1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual_alta2"
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "text.cpp.ritual.attach_enchantments",
+									"extra": [
+										{
+											"italic": false,
+											"color": "gray",
+											"translate": "text.cpp.ritual.attach_enchantments.1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_enchantments.2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_enchantments.3"
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "text.cpp.ritual.attach_effect",
+									"extra": [
+										{
+											"italic": false,
+											"color": "gray",
+											"translate": "text.cpp.ritual.attach_effect.1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.3"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.4",
+									"with": [
+										[
+											{
+												"translate": "effect.minecraft.water_breathing"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.night_vision"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.saturation"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.conduit_power"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.regeneration"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.fire_resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.invisibility"
+											},
+											", ",
+											{
+												"translate": "effect.cpp.magnet"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.5",
+									"with": [
+										[
+											{
+												"translate": "effect.minecraft.regeneration"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.fire_resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.invisibility"
+											},
+											", ",
+											{
+												"translate": "effect.cpp.magnet"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.6",
+									"with": [
+										[
+											{
+												"translate": "effect.minecraft.speed"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.jump_boost"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.slow_falling"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.regeneration"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.fire_resistance"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.invisibility"
+											},
+											", ",
+											{
+												"translate": "effect.cpp.magnet"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_effect.7",
+									"with": [
+										[
+											{
+												"translate": "effect.minecraft.haste"
+											},
+											", ",
+											{
+												"translate": "effect.minecraft.strength"
+											},
+											", ",
+											{
+												"translate": "effect.cpp.chain"
+											},
+											", ",
+											{
+												"translate": "effect.cpp.magnet"
+											}
+										],
+										{
+											"translate": "effect.cpp.magnet"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "text.cpp.ritual.attach_attributes",
+									"extra": [
+										{
+											"italic": false,
+											"color": "gray",
+											"translate": "text.cpp.ritual.attach_attributes.1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_attributes.2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_attributes.3"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ritual.attach_attributes.4"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:dream_wand',CustomModelData:12970064,dict:['wand']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

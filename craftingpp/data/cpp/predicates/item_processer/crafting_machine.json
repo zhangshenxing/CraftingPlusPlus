@@ -1,0 +1,199 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,id:\"minecraft:petrified_oak_slab\"}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:lycoris_radiata\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:trifolium\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:blackthorn\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:typha\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:marigold\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:hibiscus\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:hyacinth_blue_jacket\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:calamus\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:bakerianum_delavayi\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:bauhinia\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:fluffy_grass\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:gerbera\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:esparto\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:glow_forsythia\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:glazed_shade\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:stelera\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:forage_crystal\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:isorchid\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:burning_chrysanthe\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:oxalis\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:purple_illusion\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:lotus\"}}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,tag:{id:\"cpp:dragon_breath_berries\"}}]}"
+					}
+				}
+			}
+		]
+	}
+]

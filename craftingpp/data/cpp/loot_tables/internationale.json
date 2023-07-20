@@ -1,0 +1,35 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_far",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "item.cpp.internationale"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:internationale"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:internationale',CustomModelData:12970001,HideFlags:32}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

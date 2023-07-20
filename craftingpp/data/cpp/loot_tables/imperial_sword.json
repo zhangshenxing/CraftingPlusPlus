@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#8E6BB2",
+								"translate": "item.cpp.imperial_sword"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:imperial_sword"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.imperial_sword.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.imperial_sword.effect"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:imperial_sword',CustomModelData:12970003}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

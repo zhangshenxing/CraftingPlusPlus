@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"soy_sauce_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[11b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/water_breathing20"
+	},
+	"requirements": [
+		[
+			"soy_sauce_jamed"
+		]
+	]
+}

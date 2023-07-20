@@ -1,0 +1,528 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "suspicious_stew",
+					"functions": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:red_lycoris_radiata'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:strength",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:orange_lycoris_radiata'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:strength",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:yellow_lycoris_radiata'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:strength",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:trifolium'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:mining_fatigue",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:blackthorn'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:wither",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:cattail'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:invisibility",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:orange_marigold'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:haste",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:red_marigold'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:haste",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:yellow_marigold'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:haste",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:hibiscus'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:weakness",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:blue_hyacinth'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:purple_hyacinth'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:pink_hyacinth'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:calamus'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:nausea",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:wild_lilium'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:poison",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:bauhinia'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:saturation",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:fluffy_grass'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:levitation",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:gerbera'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:blindness",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:esparto'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:speed",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:glow_forsythia'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:glowing",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:glazed_shade'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:water_breathing",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:stelera'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:poison",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:forage_crystal'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:regeneration",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:isorchid'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:resistance",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:burning_chrysanthe'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:fire_resistance",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:oxalis'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:slowness",
+									"duration": 5
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:purple_illusion'}}]}"
+										}
+									}
+								}
+							],
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:slow_falling",
+									"duration": 5
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

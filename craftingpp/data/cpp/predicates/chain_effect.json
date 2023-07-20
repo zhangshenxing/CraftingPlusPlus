@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"cppChainTick": {
+					"min": 1.0
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{cpp_stored_effect:'chain'}"
+					}
+				}
+			}
+		}
+	]
+}

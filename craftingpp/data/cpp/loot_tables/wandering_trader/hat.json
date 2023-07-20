@@ -1,0 +1,89 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976051}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976052}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976053}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976054}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976055}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976056}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976057}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12976058}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

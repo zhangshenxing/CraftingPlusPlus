@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"title": {
+			"translate": "advancements.cpp.xp_bottle.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.xp_bottle.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"xp_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:experience_bottle"
+						]
+					}
+				],
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": [
+								"minecraft:hopper"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blue_hyacinth"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:purple_hyacinth"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pink_hyacinth"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cherry_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cherry_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/cherry_planks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/cherry_planks"]
+	},
+	"requirements": [
+		[
+			"cherry_slab",
+			"has_the_recipe"
+		]
+	]
+}

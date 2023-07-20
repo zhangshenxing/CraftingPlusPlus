@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"snow_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:snow_block"
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "score",
+							"target": {
+								"type": "fixed",
+								"name": "$skyislandMode"
+							},
+							"score": "cppConfig"
+						},
+						"range": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/snow_block/reset"
+	}
+}

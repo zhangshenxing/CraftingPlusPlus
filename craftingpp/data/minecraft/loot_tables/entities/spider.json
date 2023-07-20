@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:spider_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": -1,
+								"max": 1
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:killed_by_player"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:spider_head"
+				}
+			]
+		}
+	]
+}

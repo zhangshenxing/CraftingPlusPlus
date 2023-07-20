@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"bbb",
+		"bdb",
+		"bbb"
+	],
+	"key": {
+		"d": {
+			"item": "minecraft:dragon_egg"
+		},
+		"b": {
+			"item": "minecraft:bone"
+		}
+	},
+	"result": {
+		"item": "minecraft:skeleton_spawn_egg"
+	}
+}

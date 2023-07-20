@@ -1,0 +1,203 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:orange_lycoris_radiata'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:orange_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:red_marigold'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:purple_hyacinth'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:yellow_lycoris_radiata'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:yellow_marigold'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:entity_properties","entity":"this","predicate":{"nbt":"{item:{tag:{cpp_stored_item:{tag:{id:'cpp:pink_hyacinth'}}}}}"}}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978001}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978002}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:white_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978003}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:black_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978004}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978005}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:orange_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978006}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978007}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978008}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978009}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:lime_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978010}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:magenta_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978011}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:feather"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978012}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:gunpowder"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978013}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:string"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978014}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:glowstone_dust"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978015}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:prismarine_shard"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978016}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:spider_eye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978017}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:ghast_tear"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978018}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:ender_pearl"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978019}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blaze_powder"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978020}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:slime_ball"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978021}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:phantom_membrane"
+						}
+					]
+				}
+			]
+		}
+	]
+}

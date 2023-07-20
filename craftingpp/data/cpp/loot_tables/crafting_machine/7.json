@@ -1,0 +1,168 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:chain\"},{Slot:2b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:chain\"},{Slot:10b,id:\"minecraft:chain\"},{Slot:12b,id:\"minecraft:chain\"},{Slot:19b,id:\"minecraft:chain\"},{Slot:21b,id:\"minecraft:chain\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "minecraft:chainmail_leggings"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:2b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:3b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:10b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:12b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:19b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:21b,tag:{id:'cpp:spring_festival_decorations'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:spring_festival_leggings"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:coal\"},{Slot:2b,id:\"minecraft:coal\"},{Slot:3b,id:\"minecraft:coal\"},{Slot:10b,id:\"minecraft:leather\"},{Slot:12b,id:\"minecraft:leather\"},{Slot:19b,id:\"minecraft:coal\"},{Slot:21b,id:\"minecraft:coal\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:tight_leather_leggings"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:blue_dye\"},{Slot:2b,id:\"minecraft:blue_dye\"},{Slot:3b,id:\"minecraft:blue_dye\"},{Slot:10b,id:\"minecraft:leather\"},{Slot:12b,id:\"minecraft:leather\"},{Slot:19b,id:\"minecraft:blue_dye\"},{Slot:21b,id:\"minecraft:blue_dye\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:blue_jeans"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:sugar\"},{Slot:2b,tag:{id:'cpp:hawthorn'}},{Slot:3b,id:\"minecraft:sugar\"},{Slot:10b,id:\"minecraft:sugar\"},{Slot:11b,tag:{id:'cpp:hawthorn'}},{Slot:12b,id:\"minecraft:sugar\"},{Slot:20b,id:\"minecraft:stick\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:candied_haw"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:redstone\"},{Slot:2b,id:\"minecraft:redstone\"},{Slot:3b,id:\"minecraft:redstone\"},{Slot:11b,id:\"minecraft:magma_cream\"},{Slot:19b,id:\"minecraft:redstone\"},{Slot:20b,id:\"minecraft:redstone\"},{Slot:21b,id:\"minecraft:redstone\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:red_lip"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:glass_pane\"},{Slot:2b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:glass_pane\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:black_dye\"},{Slot:21b,id:\"minecraft:black_dye\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:black_framed_glasses"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:glass_pane\"},{Slot:2b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:glass_pane\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:orange_dye\"},{Slot:21b,id:\"minecraft:orange_dye\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:orange_framed_glasses"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:glass_pane\"},{Slot:2b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:glass_pane\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:feather\"},{Slot:21b,id:\"minecraft:feather\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:joking_glasses"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:glass_pane\"},{Slot:2b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:glass_pane\"},{Slot:10b,id:\"minecraft:ender_eye\"},{Slot:12b,id:\"minecraft:ender_eye\"},{Slot:19b,id:\"minecraft:string\"},{Slot:21b,id:\"minecraft:string\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:minion_goggles"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:bamboo_slab\"},{Slot:2b,id:\"minecraft:bamboo_slab\"},{Slot:3b,id:\"minecraft:bamboo_slab\"},{Slot:10b,id:\"minecraft:string\"},{Slot:12b,id:\"minecraft:string\"},{Slot:19b,id:\"minecraft:ender_pearl\"},{Slot:21b,id:\"minecraft:ender_pearl\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:empire_hat"
+						}
+					]
+				}
+			]
+		}
+	]
+}

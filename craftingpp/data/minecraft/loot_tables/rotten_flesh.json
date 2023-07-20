@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "green",
+											"text": "+2"
+										}
+									]
+								},
+								[
+									{
+										"italic": false,
+										"color": "gray",
+										"translate": "text.cpp.chance",
+										"with": [
+											{
+												"color": "aqua",
+												"text": "80%"
+											}
+										]
+									},
+									{
+										"italic": false,
+										"color": "blue",
+										"translate": "potion.withDuration",
+										"with": [
+											{
+												"translate": "effect.minecraft.hunger"
+											},
+											{
+												"text": "00:30"
+											}
+										]
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"blocks": [
+					"minecraft:lava"
+				]
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"fire_resistance": {}
+				}
+			}
+		}
+	}
+]

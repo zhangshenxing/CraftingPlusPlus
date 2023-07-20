@@ -1,0 +1,106 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cpp_clear:1b,display:{Lore:['{\"italic\":false,\"translate\":\"text.cpp.switch\",\"color\":\"green\"}']}}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 0
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.all_in_one_machine.low_temperature"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 1
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.all_in_one_machine.normal_temperature"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 2
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.all_in_one_machine.high_temperature"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 0
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971054}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 1
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971055}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppAiomTemp": 2
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971056}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

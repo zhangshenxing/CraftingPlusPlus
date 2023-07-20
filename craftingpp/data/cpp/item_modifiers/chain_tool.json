@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "cpp:this"
+	},
+	"ops": [
+		{
+			"op": "replace",
+			"source": "mainhand.tag.Damage",
+			"target": "Damage"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:3b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:1b,Explosions:[{}]}}},{Slot:12b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:1b}}}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:3b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:2b,Explosions:[{}]}}},{Slot:12b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:2b}}}]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:3b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:3b,Explosions:[{}]}}},{Slot:12b,id:\"minecraft:firework_rocket\",tag:{Fireworks:{Flight:3b}}}]}"
+				}
+			}
+		}
+	]
+}

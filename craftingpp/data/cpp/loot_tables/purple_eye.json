@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.purple_eye"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:purple_eye"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:purple_eye',CustomModelData:12970024,Trim:{pattern:'cpp:purple_eye',material:'minecraft:none'},HideFlags:128}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "head_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 0.5,
+									"slot": "head"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

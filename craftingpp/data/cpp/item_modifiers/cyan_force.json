@@ -1,0 +1,95 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			{
+				"italic": false,
+				"color": "dark_gray",
+				"text": "cpp:cyan_force_of_mountain"
+			},
+			{
+				"italic": false,
+				"color": "green",
+				"translate": "text.cpp.cyan_force_of_mountain.level",
+				"with": [
+					{
+						"score": {
+							"objective": "cppValue",
+							"name": "#cyan_force_level"
+						}
+					}
+				],
+				"extra": [
+					" ",
+					{
+						"italic": false,
+						"color": "aqua",
+						"translate": "text.cpp.cyan_force_of_mountain.xp",
+						"with": [
+							{
+								"score": {
+									"objective": "cppValue",
+									"name": "#cyan_force_xp"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.cyan_force_of_mountain.use",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.use"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.cyan_force_of_mountain.switch",
+				"with": [
+					{
+						"color": "light_purple",
+						"keybind": "key.sneak",
+						"extra":[
+							"+",
+							{
+								"keybind": "key.use"
+							}
+						]
+					}
+				]
+			}
+		],
+		"replace": true,
+		"entity": "this"
+	},
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:_"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "tag.cpp_xp",
+				"target": "cpp_xp"
+			},
+			{
+				"op": "replace",
+				"source": "tag.cpp_level",
+				"target": "cpp_level"
+			},
+			{
+				"op": "replace",
+				"source": "tag.cpp_upgrade_xp",
+				"target": "cpp_upgrade_xp"
+			}
+		]
+	}
+]

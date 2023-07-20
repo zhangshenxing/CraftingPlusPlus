@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"northwest_wind": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:northwest_wind'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/northwest_wind"
+	}
+}

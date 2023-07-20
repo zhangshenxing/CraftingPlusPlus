@@ -1,0 +1,20 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"state": {
+					"lit": true
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{BurnTime:0s}"
+			}
+		}
+	}
+]

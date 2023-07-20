@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_box"
+				},
+				{
+					"type":	"minecraft:loot_table",
+					"name": "cpp:character/random"
+				},
+				{
+					"type":	"minecraft:loot_table",
+					"name": "cpp:santa_gift"
+				}
+			]
+		}
+	]
+}

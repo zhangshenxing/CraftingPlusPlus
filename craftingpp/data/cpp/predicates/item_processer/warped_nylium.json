@@ -1,0 +1,19 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"offsetY": 1,
+		"predicate": {
+			"block": {
+				"blocks": ["minecraft:warped_nylium"]
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:12b,id:\"minecraft:netherrack\"},{Slot:3b,id:\"minecraft:bone_meal\"}]}"
+			}
+		}
+	}
+]

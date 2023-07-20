@@ -1,0 +1,5 @@
+{
+	"function": "minecraft:set_damage",
+	"add": false,
+	"damage": 0
+}

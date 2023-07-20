@@ -1,0 +1,79 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#8888FF",
+									"translate": "item.cpp.shooting_star"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "aqua",
+									"translate": "text.cpp.shooting_star.move"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shooting_star"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.shooting_star.use",
+									"with": [
+										{
+											"italic": false,
+											"color": "light_purple",
+											"keybind": "key.use"
+										},
+										{
+											"italic": false,
+											"color": "light_purple",
+											"keybind": "key.sneak"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.shooting_star.use1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.shooting_star.use2"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shooting_star',CustomModelData:12970072,cpp_type:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

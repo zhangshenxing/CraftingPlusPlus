@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"smooth_red_sandstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:smooth_red_sandstone_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/smooth_red_sandstone"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/smooth_red_sandstone"]
+	},
+	"requirements": [
+		[
+			"smooth_red_sandstone_stairs",
+			"has_the_recipe"
+		]
+	]
+}

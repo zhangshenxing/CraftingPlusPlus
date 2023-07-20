@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.trifolium_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:trifolium_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.obtain",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.wheat"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.potatoes"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.cattail"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.fluffy_grass"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.hyacinth"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.esparto"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.wild_lilium"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.forage_crystal"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:trifolium_seeds',CustomModelData:12970002}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

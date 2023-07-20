@@ -1,0 +1,186 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{HideFlags:2}"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			" "
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"text":"","color":"gray","italic":false},{"translate":"item.modifiers.mainhand"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#d2"
+					},
+					"score": "cppValue"
+				},
+				"range": {
+					"min": 1
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#d0"}},".",{"score":{"objective":"cppValue","name":"#d1"}},{"score":{"objective":"cppValue","name":"#d2"}}," ",{"translate":"attribute.name.generic.attack_damage"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#d2"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			},
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#damage"
+					},
+					"score": "cppValue"
+				},
+				"range": {
+					"min": 1
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#d0"}},".",{"score":{"objective":"cppValue","name":"#d1"}}," ",{"translate":"attribute.name.generic.attack_damage"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#damage"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#d0"}}," ",{"translate":"attribute.name.generic.attack_damage"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#s2"
+					},
+					"score": "cppValue"
+				},
+				"range": {
+					"min": 1
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#s0"}},".",{"score":{"objective":"cppValue","name":"#s1"}},{"score":{"objective":"cppValue","name":"#s2"}}," ",{"translate":"attribute.name.generic.attack_speed"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#s2"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			},
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#speed"
+					},
+					"score": "cppValue"
+				},
+				"range": {
+					"min": 1
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#s0"}},".",{"score":{"objective":"cppValue","name":"#s1"}}," ",{"translate":"attribute.name.generic.attack_speed"}]
+		],
+		"replace": false,
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "score",
+					"target": {
+						"type": "fixed",
+						"name": "#speed"
+					},
+					"score": "cppValue"
+				},
+				"range": 0
+			}
+		],
+		"function": "minecraft:set_lore",
+		"lore": [
+			[{"color":"dark_green","italic":false,"text":" "},{"score":{"objective":"cppValue","name":"#s0"}}," ",{"translate":"attribute.name.generic.attack_speed"}]
+		],
+		"replace": false,
+		"entity": "this"
+	}
+]

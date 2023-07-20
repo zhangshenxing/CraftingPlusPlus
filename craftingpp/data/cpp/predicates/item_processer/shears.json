@@ -1,0 +1,18 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,id:\"minecraft:shears\"}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:12b,id:\"minecraft:pumpkin\"}]}"
+			}
+		}
+	}
+]

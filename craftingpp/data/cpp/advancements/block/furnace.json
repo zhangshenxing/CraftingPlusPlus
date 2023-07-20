@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:furnace"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/furnace/reset"
+	}
+}

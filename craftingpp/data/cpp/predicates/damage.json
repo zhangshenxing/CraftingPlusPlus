@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:value_check",
+	"value": {
+		"type": "minecraft:uniform",
+		"min": 0.0,
+		"max": {
+			"type": "score",
+			"target": {
+				"type": "fixed",
+				"name": "#unbreaking_lvl"
+			},
+			"score": "cppValue"
+		}
+	},
+	"range": 0
+}

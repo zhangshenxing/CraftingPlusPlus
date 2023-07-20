@@ -1,0 +1,55 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.wool_sapling"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:wool_sapling"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.wool_sapling",
+									"with": [
+										[
+											{
+												"color": "gold",
+												"translate": "item.minecraft.cod"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "item.minecraft.salmon"
+											}
+										]
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:wool_sapling',CustomModelData:12973903}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

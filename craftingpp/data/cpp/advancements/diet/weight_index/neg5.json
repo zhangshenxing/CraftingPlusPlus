@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bread",
+						"minecraft:baked_potato"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg5"
+	}
+}

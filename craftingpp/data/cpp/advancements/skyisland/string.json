@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:string"
+		},
+		"title": {
+			"translate": "advancements.cpp.string.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.string.description"
+		}
+	},
+	"parent": "cpp:skyisland/root",
+	"criteria": {
+		"string": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items":[
+					{
+						"items": [
+							"minecraft:string"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:'minecraft:water_bucket'}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,tag:{id:'cpp:green_force_of_water'}}]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:green_force_of_water'}}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{cpp_liquid:{lava:0}}}]}"
+				}
+			}
+		}
+	}
+]

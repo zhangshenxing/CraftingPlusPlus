@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"shroomlight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:shroomlight"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:foods/shroomlight_campfire"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:foods/shroomlight_campfire"]
+	},
+	"requirements": [
+		[
+			"shroomlight",
+			"has_the_recipe"
+		]
+	]
+}

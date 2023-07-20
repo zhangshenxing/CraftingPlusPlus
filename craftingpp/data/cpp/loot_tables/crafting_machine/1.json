@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:\"minecraft:charcoal\"}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:\"minecraft:coal\"}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:coal_nugget",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 8
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:moon_stone'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:moon_shard",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 9
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:sun_stone'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:sun_shard",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 9
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

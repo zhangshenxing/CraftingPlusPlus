@@ -1,0 +1,63 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,tag:{id:\"cpp:dye_stick\"}}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/wool"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/carpet"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/bed"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/banner"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/candle"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/glass"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/glass_pane"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/shulker_box"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/terracotta"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/glazed_terracotta"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/concrete"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/dye/concrete_powder"
+			}
+		]
+	}
+]

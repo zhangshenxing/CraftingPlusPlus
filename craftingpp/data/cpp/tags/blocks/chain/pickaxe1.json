@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:chain/pickaxe",
+		"#minecraft:copper_ores",
+		"#minecraft:iron_ores",
+		"#minecraft:lapis_ores",
+		{"id": "#forge:ores/copper", "required": false}
+	]
+}

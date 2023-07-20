@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "cpp:is_on_fire"
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cooked_llama_meat",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"add": false,
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1,
+										"max": 3
+									}
+								},
+								{
+									"function": "minecraft:looting_enchant",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 0,
+										"max": 1
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "cpp:llama_meat",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"add": false,
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1,
+										"max": 3
+									}
+								},
+								{
+									"function": "minecraft:looting_enchant",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 0,
+										"max": 1
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:rare_drops/limb_of_ridge"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:trader_llama_head"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+execute unless data storage cpp:thisb items[{Slot:23b,Count:1b,tag:{cpp_clear:1b}}] run function cpp:crafting_machine/type1/option_output
+execute as @s[tag=!cpp_finish_gui] unless block ~ ~ ~ barrel{Items:[{Slot:0b,Count:1b,tag:{cpp_clear:1b}},{Slot:4b,Count:1b,tag:{cpp_clear:1b}},{Slot:5b,Count:1b,tag:{cpp_clear:1b}},{Slot:6b,Count:1b,tag:{cpp_clear:1b}},{Slot:7b,Count:1b,tag:{cpp_clear:1b}},{Slot:8b,Count:1b,tag:{cpp_clear:1b}},{Slot:9b,Count:1b,tag:{cpp_clear:1b}},{Slot:13b,Count:1b,tag:{cpp_clear:1b}},{Slot:14b,Count:1b,tag:{cpp_clear:1b}},{Slot:15b,Count:1b,tag:{cpp_clear:1b}},{Slot:17b,Count:1b,tag:{cpp_clear:1b}},{Slot:18b,Count:1b,tag:{cpp_clear:1b}},{Slot:22b,Count:1b,tag:{cpp_clear:1b}},{Slot:24b,Count:1b,tag:{cpp_clear:1b}},{Slot:25b,Count:1b,tag:{cpp_clear:1b}},{Slot:26b,Count:1b,tag:{cpp_clear:1b}}]} run function cpp:crafting_machine/type1/gui
+execute if data storage cpp:thisb items[{Slot:16b,tag:{cpp_clear:1b}}] run data remove storage cpp:thisb items[{Slot:16b}]
+scoreboard players set #flag_out cppValue 0
+execute if data storage cpp:thisb items[{Slot:16b}] run function cpp:dist/dist16
+execute if score #flag_out cppValue matches 0 unless predicate cpp:power/strong run function cpp:crafting_machine/type
+execute if score #flag_out cppValue matches 0 run item replace block ~ ~ ~ container.16 with firework_star{cpp_clear:1b,display:{Name:'{"italic":false,"translate":"text.cpp.output_slot"}'},CustomModelData:12970000}

@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:end_stone",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:end_barrens",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

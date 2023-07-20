@@ -1,0 +1,17 @@
+{
+	"function": "minecraft:set_lore",
+	"replace": false,
+	"lore": [
+		{
+			"italic": false,
+			"color": "blue",
+			"translate": "text.cpp.variant",
+			"with": [
+				{
+					"color": "gold",
+					"translate": "block.minecraft.red_sand"
+				}
+			]
+		}
+	]
+}

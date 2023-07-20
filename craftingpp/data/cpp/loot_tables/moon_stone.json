@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:petrified_oak_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FFFF55",
+								"translate": "item.cpp.moon_stone"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:moon_stone"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_crafting_machine",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_structure",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "dimension.cpp.flower"
+										},
+										{
+											"color": "aqua",
+											"translate": "structure.cpp.totem_pillar"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:moon_stone',CustomModelData:12970201,BlockStateTag:{half:'double'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.black_hat"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:black_hat"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:black_hat',CustomModelData:12970013,Trim:{pattern:'cpp:black_hat',material:'minecraft:none'},HideFlags:128}"
+							
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "head_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 1,
+									"slot": "head"
+								},
+								{
+									"name": "head_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"amount": -1,
+									"slot": "head"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

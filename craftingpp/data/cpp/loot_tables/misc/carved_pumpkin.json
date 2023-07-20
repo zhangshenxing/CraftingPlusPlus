@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "storage",
+								"source": "cpp:_"
+							},
+							"ops": [
+								{
+									"op": "replace",
+									"source": "item.tag.id",
+									"target": "id"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.display",
+									"target": "display"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.CustomModelData",
+									"target": "CustomModelData"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.dict",
+									"target": "dict"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

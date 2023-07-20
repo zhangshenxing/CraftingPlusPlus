@@ -1,0 +1,232 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							}
+						}
+					],
+					"name": "minecraft:string"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:limb_of_ridge"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:tabby"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.tabby"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:all_black"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.tuxedo"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:red"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.red"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:siamese"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.siamese"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:british_shorthair"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.british_shorthair"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:calico"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.calico"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:persian"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.persian"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:ragdoll"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.ragdoll"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:white"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.white"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:jellie"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.jellie"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "cat",
+											"variant": "minecraft:black"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:cat_head.black"
+						}
+					]
+				}
+			]
+		}
+	]
+}

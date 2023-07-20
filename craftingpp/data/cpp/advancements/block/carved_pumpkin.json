@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"carved_pumpkin": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:carved_pumpkin"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/carved_pumpkin/reset"
+	}
+}

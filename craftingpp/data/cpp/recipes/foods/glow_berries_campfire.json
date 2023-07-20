@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"show_notification": false,
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:glow_berries"
+	},
+	"result": "minecraft:glow_berries",
+	"experience": 0.1,
+	"cookingtime": 600
+}

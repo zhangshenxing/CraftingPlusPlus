@@ -1,0 +1,242 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:white_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#F9FFFE", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:orange_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#F9801D", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:magenta_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#C74EBD", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:light_blue_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#3AB3DA", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:yellow_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#FED83D", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:lime_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#80C71F", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:pink_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#F38BAA", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:gray_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#474F52", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:light_gray_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#9D9D97", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:cyan_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#169C9C", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:purple_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#8932B8", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:blue_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#3C44AA", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:brown_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#835432", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:green_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#5E7C16", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:red_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#B02E26", "italic": false, "interpret": true},
+		"entity": "this"
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:3b,id:\"minecraft:black_dye\"}]}"
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_name",
+		"name": {"nbt": "Items[1].tag.display.Name", "block": "~ ~ ~", "color": "#1D1D21", "italic": false, "interpret": true},
+		"entity": "this"
+	}
+]

@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"diorite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:diorite_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/diorite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/diorite"]
+	},
+	"requirements": [
+		[
+			"diorite_slab",
+			"has_the_recipe"
+		]
+	]
+}

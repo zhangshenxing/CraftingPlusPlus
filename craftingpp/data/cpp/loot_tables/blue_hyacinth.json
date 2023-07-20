@@ -1,0 +1,98 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.blue_hyacinth"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:blue_hyacinth"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.grass_flower.seeds",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.farmland"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.grass_flower.material",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.farmland"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.bone_meal"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.blue_dye"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.grass_flower.suspicious",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.suspicious_stew"
+										},
+										{
+											"color": "blue",
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "effect.minecraft.jump_boost"
+												},
+												{
+													"text": "00:05"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:blue_hyacinth',CustomModelData:12973007}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

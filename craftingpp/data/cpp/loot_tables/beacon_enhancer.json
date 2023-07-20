@@ -1,0 +1,133 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:petrified_oak_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"translate": "item.cpp.beacon_enhancer"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:beacon_enhancer"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_crafting_machine",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.beacon_enhancer.lore1",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.beacon"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.beacon_enhancer.lore2",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.beacon"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.beacon_enhancer.lore3",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.beacon"
+										},
+										{
+											"color": "aqua",
+											"text": "3×3"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.moon_stone"
+										},
+										{
+											"color": "aqua",
+											"text": "×4"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.sun_stone"
+										},
+										{
+											"color": "aqua",
+											"text": "×5"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.beacon_enhancer"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.beacon_enhancer.lore4",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "2"
+										},
+										{
+											"color": "aqua",
+											"text": "3"
+										},
+										{
+											"color": "aqua",
+											"text": "4"
+										},
+										{
+											"color": "aqua",
+											"text": "5"
+										},
+										{
+											"color": "aqua",
+											"text": "10"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:beacon_enhancer',CustomModelData:12970105,BlockStateTag:{half:'double'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

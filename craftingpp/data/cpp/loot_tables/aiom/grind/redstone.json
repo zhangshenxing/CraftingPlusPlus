@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone_block"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

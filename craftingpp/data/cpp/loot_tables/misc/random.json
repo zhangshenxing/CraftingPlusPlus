@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"slot": "mainhand",
+									"name": "random_luck",
+									"attribute": "generic.luck",
+									"operation": "addition",
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#random_min"
+											},
+											"score": "cppValue"
+										},
+										"max": {
+											"type": "score",
+											"target": {
+												"type": "fixed",
+												"name": "#random_max"
+											},
+											"score": "cppValue"
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

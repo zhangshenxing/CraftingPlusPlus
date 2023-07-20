@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit",
+						"minecraft:beef",
+						"minecraft:porkchop"
+					]
+				}
+			}
+		},
+		"cheese": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cheese'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos3"
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"cheese"
+		]
+	]
+}

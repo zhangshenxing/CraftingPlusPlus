@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"soul_sand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "score",
+							"target": {
+								"type": "fixed",
+								"name": "$skyislandMode"
+							},
+							"score": "cppConfig"
+						},
+						"range": 1
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Inventory:[{id:\"minecraft:coarse_dirt\"}]}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/soul_soil"
+	}
+}

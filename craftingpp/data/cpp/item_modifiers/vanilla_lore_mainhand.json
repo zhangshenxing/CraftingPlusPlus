@@ -1,0 +1,1977 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:apple"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-4"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:baked_potato"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "-5"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:beef"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:beetroot_soup"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "-6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:beetroot"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-1"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:bread"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "-5"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cake"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099",
+				"extra": [
+					{
+						"color": "aqua",
+						"font": "default",
+						"text": "×7"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index_cake",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:carrot"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:chicken"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			},
+			[
+				{
+					"italic": false,
+					"color": "gray",
+					"translate": "text.cpp.chance",
+					"with": [
+						{
+							"color": "aqua",
+							"text": "30%"
+						}
+					]
+				},
+				{
+					"italic": false,
+					"color": "blue",
+					"translate": "potion.withDuration",
+					"with": [
+						{
+							"translate": "effect.minecraft.hunger"
+						},
+						{
+							"text": "00:30"
+						}
+					]
+				}
+			]
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:chorus_fruit"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-4"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cod"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_beef"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+8"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_chicken"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_cod"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+5"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_mutton"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_porkchop"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+8"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_rabbit"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+5"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cooked_salmon"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "+6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:cookie"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:dried_kelp"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-1"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:enchanted_golden_apple"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-1"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.regeneration"
+							},
+							{
+								"translate": "potion.potency.1"
+							}
+						]
+					},
+					{
+						"text": "00:20"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.absorption"
+							},
+							{
+								"translate": "potion.potency.3"
+							}
+						]
+					},
+					{
+						"text": "02:00"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "effect.minecraft.resistance"
+					},
+					{
+						"text": "05:00"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "effect.minecraft.fire_resistance"
+					},
+					{
+						"text": "05:00"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:glow_berries"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:golden_apple"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-1"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.regeneration"
+							},
+							{
+								"translate": "potion.potency.1"
+							}
+						]
+					},
+					{
+						"text": "00:05"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "effect.minecraft.absorption"
+					},
+					{
+						"text": "02:00"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:golden_carrot"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:honey_bottle"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:melon_slice"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:mushroom_stew"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "yellow",
+						"text": "-6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:mutton"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:poisonous_potato"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			},
+			[
+				{
+					"italic": false,
+					"color": "gray",
+					"translate": "text.cpp.chance",
+					"with": [
+						{
+							"color": "aqua",
+							"text": "60%"
+						}
+					]
+				},
+				{
+					"italic": false,
+					"color": "blue",
+					"translate": "potion.withDuration",
+					"with": [
+						{
+							"translate": "effect.minecraft.poison"
+						},
+						{
+							"text": "00:04"
+						}
+					]
+				}
+			]
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:porkchop"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:potato"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-1"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:pufferfish"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+1"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.hunger"
+							},
+							{
+								"translate": "potion.potency.2"
+							}
+						]
+					},
+					{
+						"text": "00:15"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.nausea"
+							},
+							{
+								"translate": "potion.potency.1"
+							}
+						]
+					},
+					{
+						"text": "00:15"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "potion.withAmplifier",
+						"with": [
+							{
+								"translate": "effect.minecraft.poison"
+							},
+							{
+								"translate": "potion.potency.1"
+							}
+						]
+					},
+					{
+						"text": "01:00"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:pumpkin_pie"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:rabbit"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:rotten_flesh"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			},
+			[
+				{
+					"italic": false,
+					"color": "gray",
+					"translate": "text.cpp.chance",
+					"with": [
+						{
+							"color": "aqua",
+							"text": "80%"
+						}
+					]
+				},
+				{
+					"italic": false,
+					"color": "blue",
+					"translate": "potion.withDuration",
+					"with": [
+						{
+							"translate": "effect.minecraft.hunger"
+						},
+						{
+							"text": "00:30"
+						}
+					]
+				}
+			]
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:salmon"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:spider_eye"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+2"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "blue",
+				"translate": "potion.withDuration",
+				"with": [
+					{
+						"translate": "effect.minecraft.poison"
+					},
+					{
+						"text": "00:04"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:suspicious_stew"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099\u0099\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-6"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:sweet_berries"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0099"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "-2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:tropical_fish"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "white",
+				"font": "cpp:default",
+				"text": "\u0098"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.cpp.weight_index",
+				"with": [
+					{
+						"color": "green",
+						"text": "+1"
+					}
+				]
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:echo_shard"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.echo_shard.obtain",
+				"with": [
+					{
+						"color": "aqua",
+						"translate": "entity.minecraft.warden"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.echo_shard.use"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:nether_star"
+							]
+						}
+					}
+				}
+			}
+		],
+		"function": "minecraft:set_lore",
+		"replace": false,
+		"lore": [
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.trim_pattern"
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use",
+				"with": [
+					{
+						"color": "aqua",
+						"text": "15"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use1",
+				"with": [
+					{
+						"italic": false,
+						"color": "blue",
+						"translate": "potion.withDuration",
+						"with": [
+							{
+								"translate": "potion.withAmplifier",
+								"with": [
+									{
+										"translate": "effect.minecraft.regeneration"
+									},
+									{
+										"translate": "potion.potency.3"
+									}
+								]
+							},
+							{
+								"text": "00:01"
+							}
+						]
+					},
+					{
+						"italic": false,
+						"color": "white",
+						"font": "cpp:default",
+						"text": "\u0095\u0094"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use2",
+				"with": [
+					{
+						"color": "aqua",
+						"text": "1"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use3",
+				"with": [
+					{
+						"italic": false,
+						"color": "blue",
+						"translate": "potion.withDuration",
+						"with": [
+							{
+								"translate": "potion.withAmplifier",
+								"with": [
+									{
+										"translate": "effect.minecraft.saturation"
+									},
+									{
+										"translate": "potion.potency.3"
+									}
+								]
+							},
+							{
+								"text": "00:01"
+							}
+						]
+					},
+					{
+						"italic": false,
+						"color": "white",
+						"font": "cpp:default",
+						"text": "\u0099\u0099"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use4",
+				"with": [
+					{
+						"color": "aqua",
+						"text": "5"
+					},
+					{
+						"italic": false,
+						"color": "white",
+						"font": "cpp:default",
+						"text": "\u0095\u0095\u0095"
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use5",
+				"with": [
+					{
+						"italic": false,
+						"color": "blue",
+						"translate": "potion.withDuration",
+						"with": [
+							{
+								"translate": "potion.withAmplifier",
+								"with": [
+									{
+										"translate": "effect.minecraft.resistance"
+									},
+									{
+										"translate": "potion.potency.4"
+									}
+								]
+							},
+							{
+								"text": "00:03"
+							}
+						]
+					}
+				]
+			},
+			{
+				"italic": false,
+				"color": "gray",
+				"translate": "text.minecraft.nether_star.use6"
+			}
+		]
+	}
+]

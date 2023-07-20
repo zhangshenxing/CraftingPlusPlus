@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cookie"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:foods/cookie_campfire"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:foods/cookie_campfire"]
+	},
+	"requirements": [
+		[
+			"cookie",
+			"has_the_recipe"
+		]
+	]
+}

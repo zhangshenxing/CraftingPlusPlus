@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "cpp:_"
+	},
+	"ops": [
+		{
+			"op": "replace",
+			"source": "custom_model_data",
+			"target": "CustomModelData"
+		}
+	]
+}

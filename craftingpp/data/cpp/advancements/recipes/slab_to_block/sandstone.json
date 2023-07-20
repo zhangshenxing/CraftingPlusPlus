@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:sandstone_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/sandstone"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/sandstone"]
+	},
+	"requirements": [
+		[
+			"sandstone_slab",
+			"has_the_recipe"
+		]
+	]
+}

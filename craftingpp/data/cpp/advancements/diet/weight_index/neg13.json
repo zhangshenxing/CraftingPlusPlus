@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"tofu": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:tofu'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"tofu"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg13"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"show_notification": false,
+	"category": "food",
+	"ingredient": {
+		"item": "minecraft:shroomlight"
+	},
+	"result": "minecraft:shroomlight",
+	"experience": 0.35,
+	"cookingtime": 600
+}

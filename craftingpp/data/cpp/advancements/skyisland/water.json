@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": {
+			"translate": "advancements.cpp.water.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.water.description"
+		}
+	},
+	"parent": "cpp:skyisland/block_breaker_done",
+	"criteria": {
+		"water": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

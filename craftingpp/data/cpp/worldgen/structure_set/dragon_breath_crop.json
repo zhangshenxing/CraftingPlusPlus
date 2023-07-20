@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cpp:dragon_breath_crop",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 10387312,
+		"spacing": 10,
+		"separation": 5,
+		"type": "minecraft:random_spread"
+	}
+}

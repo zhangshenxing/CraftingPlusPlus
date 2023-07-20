@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"blueberry_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[3b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/resistance20"
+	},
+	"requirements": [
+		[
+			"blueberry_jamed"
+		]
+	]
+}

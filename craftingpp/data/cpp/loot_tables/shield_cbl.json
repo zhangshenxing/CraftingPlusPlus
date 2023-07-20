@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"translate": "item.cpp.cbl_logo"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shield_cbl"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shield_cbl',CustomModelData:12970010}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

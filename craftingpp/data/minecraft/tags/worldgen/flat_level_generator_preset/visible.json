@@ -1,0 +1,23 @@
+{
+	"replace": true,
+	"values": [
+		"cpp:plains",
+		"cpp:desert",
+		"cpp:snowy_plains",
+		"cpp:mushroom_fields",
+		"cpp:flower_forest",
+		"cpp:soul_sand_valley",
+		"cpp:nether_wastes",
+		"cpp:end_barrens",
+		"cpp:the_void",
+		"minecraft:classic_flat",
+		"minecraft:tunnelers_dream",
+		"minecraft:water_world",
+		"minecraft:overworld",
+		"minecraft:snowy_kingdom",
+		"minecraft:bottomless_pit",
+		"minecraft:desert",
+		"minecraft:redstone_ready",
+		"minecraft:the_void"
+	]
+}

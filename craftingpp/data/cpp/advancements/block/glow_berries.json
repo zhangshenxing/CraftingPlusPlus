@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"glow_berries": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:cave_vines"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/glow_berries/reset"
+	}
+}

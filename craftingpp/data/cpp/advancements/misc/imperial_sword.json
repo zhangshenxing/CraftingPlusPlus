@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"example": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"direct_entity": {
+						"type": "player"
+					}
+				},
+				"player": {
+					"type": "player",
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_sword"
+							],
+							"nbt": "{id:'cpp:imperial_sword'}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/imperial_sword"
+	}
+}

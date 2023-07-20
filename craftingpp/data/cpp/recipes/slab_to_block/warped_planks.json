@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "planks_from_slabs",
+	"category": "building",
+	"pattern": [
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:warped_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:warped_planks"
+	}
+}

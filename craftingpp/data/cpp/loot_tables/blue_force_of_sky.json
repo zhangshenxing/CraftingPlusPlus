@@ -1,0 +1,106 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#8888FF",
+								"translate": "item.cpp.blue_force_of_sky"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:blue_force_of_sky"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.blue_force_of_sky.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.blue_force_of_sky.clear",
+									"with": [
+										{
+											"color": "gold",
+											"text": "15×(1+",
+											"extra": [
+												{
+													"translate": "text.cpp.blue_force_of_sky.level"
+												},
+												{
+													"text": ")"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.blue_force_of_sky.rain",
+									"with": [
+										{
+											"color": "gold",
+											"text": "10×(1+",
+											"extra": [
+												{
+													"translate": "text.cpp.blue_force_of_sky.level"
+												},
+												{
+													"text": ")"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.blue_force_of_sky.thunder",
+									"with": [
+										{
+											"color": "gold",
+											"text": "3×(1+",
+											"extra": [
+												{
+													"translate": "text.cpp.blue_force_of_sky.level"
+												},
+												{
+													"text": ")"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:blue_force_of_sky',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

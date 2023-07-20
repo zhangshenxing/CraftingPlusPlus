@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.santa_gift"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.santa_gift.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.santa_gift.obtain1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.santa_gift.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "text.cpp.santa_gift.description"
+								},
+								{
+									"italic": false,
+									"color": "aqua",
+									"translate": "text.cpp.santa_gift.description1"
+								},
+								{
+									"italic": false,
+									"color": "light_purple",
+									"translate": "text.cpp.santa_gift.description2"
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "text.cpp.santa_gift.description3"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:santa_gift"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:santa_gift',CustomModelData:12970049}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

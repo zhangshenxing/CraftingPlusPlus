@@ -1,0 +1,11 @@
+[
+	{
+		"condition": "minecraft:random_chance_with_looting",
+		"chance": 0.025,
+		"looting_multiplier": 0.01
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "cpp:killed_by_player"
+	}
+]

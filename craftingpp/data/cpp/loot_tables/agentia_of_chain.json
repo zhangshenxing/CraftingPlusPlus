@@ -1,0 +1,98 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.agentia_of_chain"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:agentia_of_chain"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.cpp.chain"
+										},
+										{
+											"text": "08:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain3"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain4"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain5",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "1"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.chain6",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "1024"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:agentia_of_chain',CustomModelData:12970121}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

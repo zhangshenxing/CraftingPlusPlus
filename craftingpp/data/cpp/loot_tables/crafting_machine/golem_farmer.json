@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:golem_farmer",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "context",
+								"target": "block_entity"
+							},
+							"ops": [
+								{
+									"op": "replace",
+									"source": "Items[{id:\"minecraft:shulker_box\"}].tag.BlockEntityTag",
+									"target": "cpp_block_entity_tag"
+								},
+								{
+									"op": "replace",
+									"source": "Items[{tag:{dict:['hand']}}].tag.Enchantments",
+									"target": "Enchantments"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

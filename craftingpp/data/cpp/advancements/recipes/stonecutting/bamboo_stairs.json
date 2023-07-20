@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"bamboo_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:bamboo_planks"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stonecutting/bamboo_stairs"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stonecutting/bamboo_stairs"]
+	},
+	"requirements": [
+		[
+			"bamboo_planks",
+			"has_the_recipe"
+		]
+	]
+}

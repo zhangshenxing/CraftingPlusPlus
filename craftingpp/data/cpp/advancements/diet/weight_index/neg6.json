@@ -1,0 +1,87 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mushroom_stew",
+						"minecraft:beetroot_soup",
+						"minecraft:suspicious_stew"
+					]
+				}
+			}
+		},
+		"dumpling": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:dumpling'}"
+				}
+			}
+		},
+		"pizza": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pizza'}"
+				}
+			}
+		},
+		"sushi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sushi'}"
+				}
+			}
+		},
+		"sandwich": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sandwich'}"
+				}
+			}
+		},
+		"mooncake_with_double_yolks_and_lotus_seed_paste": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mooncake_with_double_yolks_and_lotus_seed_paste'}"
+				}
+			}
+		},
+		"mooncake_with_date_paste": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mooncake_with_date_paste'}"
+				}
+			}
+		},
+		"mooncake_with_rose_paste": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mooncake_with_rose_paste'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"dumpling",
+			"pizza",
+			"sushi",
+			"sandwich",
+			"mooncake_with_double_yolks_and_lotus_seed_paste",
+			"mooncake_with_date_paste",
+			"mooncake_with_rose_paste"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg6"
+	}
+}

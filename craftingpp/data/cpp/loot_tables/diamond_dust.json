@@ -1,0 +1,56 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.diamond_dust"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:diamond_dust"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_aiom",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.all_in_one_machine"
+										},
+										{
+											"color": "aqua",
+											"translate": "text.cpp.all_in_one_machine.normal_temperature"
+										},
+										{
+											"color": "aqua",
+											"translate": "text.cpp.all_in_one_machine.high_pressure"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:diamond_dust',CustomModelData:12970045,dict:['diamond_dust']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

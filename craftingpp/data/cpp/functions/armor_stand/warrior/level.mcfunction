@@ -1,0 +1,9 @@
+scoreboard players set @s cppLevel 0
+execute if block ~ ~-1 ~ beacon store result score @s cppLevel run data get block ~ ~-1 ~ Levels
+execute positioned ~ ~-2 ~ if entity @e[type=item_display,tag=cpp_sun_stone,distance=...5] positioned ~1 ~ ~1 if entity @e[type=item_display,tag=cpp_sun_stone,distance=...5] positioned ~ ~ ~-2 if entity @e[type=item_display,tag=cpp_sun_stone,distance=...5] positioned ~-2 ~ ~ if entity @e[type=item_display,tag=cpp_sun_stone,distance=...5] positioned ~ ~ ~2 if entity @e[type=item_display,tag=cpp_sun_stone,distance=...5] positioned ~1 ~ ~ if entity @e[type=item_display,tag=cpp_moon_stone,distance=...5] positioned ~ ~ ~-2 if entity @e[type=item_display,tag=cpp_moon_stone,distance=...5] positioned ~1 ~ ~1 if entity @e[type=item_display,tag=cpp_moon_stone,distance=...5] positioned ~-2 ~ ~ if entity @e[type=item_display,tag=cpp_moon_stone,distance=...5] run scoreboard players set @s cppLevel 5
+
+execute if score @s cppLevel matches 1 as @e[type=!#cpp:mob_proj_omit,distance=..20,nbt={Invulnerable:0b}] if data entity @s CanPickUpLoot unless data entity @s CustomName run tp @s ~ ~ ~
+execute if score @s cppLevel matches 2 as @e[type=!#cpp:mob_proj_omit,distance=..30,nbt={Invulnerable:0b}] if data entity @s CanPickUpLoot unless data entity @s CustomName run tp @s ~ ~ ~
+execute if score @s cppLevel matches 3 as @e[type=!#cpp:mob_proj_omit,distance=..40,nbt={Invulnerable:0b}] if data entity @s CanPickUpLoot unless data entity @s CustomName run tp @s ~ ~ ~
+execute if score @s cppLevel matches 4 as @e[type=!#cpp:mob_proj_omit,distance=..50,nbt={Invulnerable:0b}] if data entity @s CanPickUpLoot unless data entity @s CustomName run tp @s ~ ~ ~
+execute if score @s cppLevel matches 5 as @e[type=!#cpp:mob_proj_omit,distance=..128,nbt={Invulnerable:0b}] if data entity @s CanPickUpLoot unless data entity @s CustomName run tp @s ~ ~ ~

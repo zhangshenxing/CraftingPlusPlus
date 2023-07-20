@@ -1,0 +1,43 @@
+scoreboard players set #init_ench_ritual cppValue 3
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:protection",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:fire_protection",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:blast_protection",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:projectile_protection",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:feather_falling",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:respiration",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:aqua_affinity",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:thorns",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:swift_sneak",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:depth_strider",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:frost_walker",lvl:2s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:soul_speed",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:sharpness",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:smite",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:bane_of_arthropods",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:knockback",lvl:2s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:fire_aspect",lvl:2s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:looting",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:sweeping",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:efficiency",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:silk_touch",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:fortune",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:power",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:punch",lvl:2s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:flame",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:infinity",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:piercing",lvl:4s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:quick_charge",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:multishot",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:luck_of_the_sea",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:lure",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:loyalty",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:impaling",lvl:5s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:riptide",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:channeling",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:unbreaking",lvl:3s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:mending",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:binding_curse",lvl:1s}}
+summon marker ~ ~ ~ {Tags:["cpp_init_ench_ritual"],data:{id:"minecraft:vanishing_curse",lvl:1s}}
+data remove storage cpp:ench_ritual list
+execute as @e[type=marker,sort=random,tag=cpp_init_ench_ritual,distance=..1] run data modify storage cpp:ench_ritual list append from entity @s data
+kill @e[type=marker,sort=random,tag=cpp_init_ench_ritual,distance=..1]

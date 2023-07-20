@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:soul_sand",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:soul_sand_valley",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "yellow",
+								"translate": "item.cpp.ancient_scroll"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:ancient_scroll.respiration"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate":"enchantment.minecraft.respiration",
+									"extra": [
+										" ",
+										{
+											"translate": "enchantment.level.3"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate":"text.cpp.ancient_scroll",
+									"with": [
+										{
+											"color": "aqua",
+											"translate": "structure.cpp.enchanting_room"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.santa_gift"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:ancient_scroll.respiration',CustomModelData:12970040,dict:['ancient_scroll']}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

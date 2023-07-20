@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.shard_of_the_darkness"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:shard_of_the_darkness"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.shard_of_the_darkness.obtain"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:shard_of_the_darkness',CustomModelData:12970008}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

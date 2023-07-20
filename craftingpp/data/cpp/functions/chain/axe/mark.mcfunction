@@ -1,0 +1,14 @@
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~1 ~ ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~-1 ~ ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~1 ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~-1 ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~ ~1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~ ~-1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~1 ~ ~1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~1 ~ ~-1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~-1 ~ ~1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~-1 ~ ~-1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~1 ~1 ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~1 ~1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~-1 ~1 ~ if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine
+execute if score #res_durability cppValue matches 1.. if score #res_mineable cppValue matches 1.. positioned ~ ~1 ~-1 if block ~ ~ ~ #cpp:chain/axe_or_plants run function cpp:chain/axe/mine

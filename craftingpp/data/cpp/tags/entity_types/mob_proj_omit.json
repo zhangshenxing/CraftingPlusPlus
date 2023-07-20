@@ -1,0 +1,11 @@
+{
+	"values": [
+		"minecraft:armor_stand",
+		"minecraft:player",
+		"minecraft:wither",
+		"minecraft:ender_dragon",
+		"minecraft:warden",
+		{"id": "botania:doppleganger", "required": false},
+		{"id": "extrabotany:ego", "required": false}
+	]
+}

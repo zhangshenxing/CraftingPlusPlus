@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"burger": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:burger'}"
+				}
+			}
+		},
+		"luxurious_netherite_barbecue": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:luxurious_netherite_barbecue'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add15"
+	},
+	"requirements": [
+		[
+			"burger",
+			"luxurious_netherite_barbecue"
+		]
+	]
+}

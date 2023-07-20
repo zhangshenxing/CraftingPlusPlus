@@ -1,0 +1,85 @@
+[
+	{
+		"offsetX": 2,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": 2, "offsetZ": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": 2, "offsetZ": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": -2,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": -2, "offsetZ": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": -2, "offsetZ": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": 2,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": 2, "offsetX": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": 2, "offsetX": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": -2,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": -2, "offsetX": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetZ": -2, "offsetX": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "blocks": ["minecraft:emerald_block"] } }
+	},
+	{
+		"offsetX": -1, "offsetZ": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetX": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetX": -1, "offsetZ": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetZ": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetZ": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetX": 1, "offsetZ": -1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetX": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetX": 1, "offsetZ": 1,
+		"condition": "minecraft:location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	}
+]

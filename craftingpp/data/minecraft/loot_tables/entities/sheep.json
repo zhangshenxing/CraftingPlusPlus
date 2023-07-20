@@ -1,0 +1,98 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:misc/mutated_animal"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "cpp:is_on_fire"
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "minecraft:cooked_mutton",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1,
+										"max": 2
+									}
+								},
+								{
+									"function": "minecraft:looting_enchant",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 0,
+										"max": 1
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "minecraft:mutton",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1,
+										"max": 2
+									}
+								},
+								{
+									"function": "minecraft:looting_enchant",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 0,
+										"max": 1
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:rare_drops/limb_of_ridge"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:sheep_head"
+				}
+			]
+		}
+	]
+}

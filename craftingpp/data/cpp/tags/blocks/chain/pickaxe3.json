@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:chain/pickaxe2",
+		"minecraft:obsidian",
+		"minecraft:ancient_debris"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:chain/pickaxe1",
+		"#minecraft:gold_ores",
+		"#minecraft:diamond_ores",
+		"#minecraft:emerald_ores",
+		"#minecraft:redstone_ores"
+	]
+}

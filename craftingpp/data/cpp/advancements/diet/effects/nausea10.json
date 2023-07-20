@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"bionic_acid_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[8b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/nausea10"
+	}
+}

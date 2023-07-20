@@ -1,0 +1,30 @@
+[
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:3b,tag:{Enchantments:[{id:\"minecraft:silk_touch\"}]}}]}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/mine0"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/mine1"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "cpp:item_processer/mine2"
+			}
+		]
+	}
+]

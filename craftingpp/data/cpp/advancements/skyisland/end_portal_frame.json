@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame"
+		},
+		"title": {
+			"translate": "advancements.cpp.skyisland.end_portal_frame.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.skyisland.end_portal_frame.description"
+		}
+	},
+	"parent": "cpp:skyisland/block_breaker_done",
+	"criteria": {
+		"end_portal_frame": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

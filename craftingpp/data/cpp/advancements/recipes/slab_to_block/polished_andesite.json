@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"polished_andesite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:polished_andesite_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/polished_andesite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/polished_andesite"]
+	},
+	"requirements": [
+		[
+			"polished_andesite_slab",
+			"has_the_recipe"
+		]
+	]
+}

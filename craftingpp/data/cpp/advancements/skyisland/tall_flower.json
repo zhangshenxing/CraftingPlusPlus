@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sunflower"
+		},
+		"title": {
+			"translate": "advancements.cpp.tall_flower.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.tall_flower.description"
+		}
+	},
+	"parent": "cpp:skyisland/aiom_flower",
+	"criteria": {
+		"tall_flower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items":[
+					{
+						"items": [
+							"minecraft:sunflower",
+							"minecraft:peony",
+							"minecraft:rose_bush",
+							"minecraft:lilac"
+						]
+					}
+				]
+			}
+		}
+	}
+}

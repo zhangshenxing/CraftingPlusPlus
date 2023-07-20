@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#A020F0",
+								"translate": "item.cpp.agentia_of_life"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:agentia_of_life"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.regeneration"
+												},
+												{
+													"translate": "potion.potency.1"
+												}
+											]
+										},
+										{
+											"text": "03:00"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withAmplifier",
+									"with": [
+										{
+											"translate": "effect.minecraft.instant_health"
+										},
+										{
+											"translate": "potion.potency.3"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:agentia_of_life',CustomModelData:12970107}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

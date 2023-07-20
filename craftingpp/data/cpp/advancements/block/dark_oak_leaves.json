@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"dark_oak_leaves": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:dark_oak_leaves"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/dark_oak_leaves/reset"
+	}
+}

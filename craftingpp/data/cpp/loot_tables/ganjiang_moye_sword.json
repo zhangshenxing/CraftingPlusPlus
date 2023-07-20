@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#FCD0D0",
+								"translate": "item.cpp.ganjiang_moye_sword"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:ganjiang_moye_sword"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ganjiang_moye_sword.obtain"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ganjiang_moye_sword.effect"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:ganjiang_moye_sword',CustomModelData:12970002}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"title": {
+			"translate": "advancements.cpp.poppy.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.poppy.description"
+		}
+	},
+	"parent": "cpp:skyisland/block_breaker_done",
+	"criteria": {
+		"poppy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items":[
+					{
+						"items": [
+							"minecraft:poppy"
+						]
+					}
+				]
+			}
+		}
+	}
+}

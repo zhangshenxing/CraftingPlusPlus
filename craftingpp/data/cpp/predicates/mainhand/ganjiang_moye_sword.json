@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:netherite_sword"
+				],
+				"nbt": "{id:'cpp:ganjiang_moye_sword'}"
+			}
+		}
+	}
+}

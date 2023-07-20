@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"end_stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:end_stone_brick_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/end_stone_bricks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/end_stone_bricks"]
+	},
+	"requirements": [
+		[
+			"end_stone_brick_slab",
+			"has_the_recipe"
+		]
+	]
+}

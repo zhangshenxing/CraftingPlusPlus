@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"petrified_oak_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:petrified_oak_slab"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/petrified_oak_slab/reset"
+	}
+}

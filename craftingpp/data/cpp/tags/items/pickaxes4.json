@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:netherite_pickaxe",
+		{"id": "botania:terra_pick","required": false}
+	]
+}

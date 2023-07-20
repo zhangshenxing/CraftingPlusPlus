@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_spawn_egg"
+		},
+		"title": {
+			"translate": "advancements.cpp.zombie.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.zombie.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:transporter",
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:zombie_spawn_egg"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

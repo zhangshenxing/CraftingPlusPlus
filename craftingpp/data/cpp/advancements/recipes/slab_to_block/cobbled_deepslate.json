@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cobbled_deepslate_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cobbled_deepslate_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/cobbled_deepslate"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/cobbled_deepslate"]
+	},
+	"requirements": [
+		[
+			"cobbled_deepslate_slab",
+			"has_the_recipe"
+		]
+	]
+}

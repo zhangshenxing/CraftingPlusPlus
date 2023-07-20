@@ -1,0 +1,93 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.double_color_vine_salad"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099\u0099\u0099"
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:double_color_vine_salad"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index",
+									"with": [
+										{
+											"color": "yellow",
+											"text": "-6"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.jump_boost"
+										},
+										{
+											"text": "00:30"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "red",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.nausea"
+										},
+										{
+											"text": "00:10"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:double_color_vine_salad',CustomModelData:12970013}"
+						},
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": 30
+								},
+								{
+									"type": "minecraft:nausea",
+									"duration": 10
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

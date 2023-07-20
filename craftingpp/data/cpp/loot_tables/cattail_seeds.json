@@ -1,0 +1,127 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.cattail_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:cattail_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.obtain",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.beetroots"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.potatoes"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.marigold"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.wild_lilium"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.trifolium"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.fluffy_grass"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.blackthorn"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.gerbera"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.hyacinth"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.glow_forsythia"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.wild_lilium"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.burning_chrysanthe"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:cattail_seeds',CustomModelData:12970004}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

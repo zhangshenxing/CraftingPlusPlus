@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "planks_from_stairs",
+	"category": "building",
+	"pattern": [
+		"ss",
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:jungle_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:jungle_planks",
+		"count": 4.0
+	}
+}

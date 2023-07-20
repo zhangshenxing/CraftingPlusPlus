@@ -1,0 +1,69 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{Slot:3b,id:\"minecraft:piston\"}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "score",
+			"target": {
+				"type": "fixed",
+				"name": "#count"
+			},
+			"score": "cppValue"
+		},
+		"range": {
+			"min": 4.0
+		}
+	},
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:rabbit_hide\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:snowball\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:glowstone_dust\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:clay_ball\"}]}"
+					}
+				}
+			},
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"nbt": "{Items:[{Slot:12b,id:\"minecraft:quartz\"}]}"
+					}
+				}
+			}
+		]
+	}
+]

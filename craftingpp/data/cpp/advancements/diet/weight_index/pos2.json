@@ -1,0 +1,45 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spider_eye",
+						"minecraft:mutton",
+						"minecraft:chicken",
+						"minecraft:cod",
+						"minecraft:salmon",
+						"minecraft:rotten_flesh"
+					]
+				}
+			}
+		},
+		"bacon": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:bacon'}"
+				}
+			}
+		},
+		"raw_colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_colorful_vegetable'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"bacon",
+			"raw_colorful_vegetable"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos2"
+	}
+}

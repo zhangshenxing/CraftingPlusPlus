@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cake",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.blueberry_cake"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099",
+									"extra": [
+										{
+											"color": "aqua",
+											"font": "default",
+											"text": "×7"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:blueberry_cake"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index_cake",
+									"with": [
+										{
+											"color": "green",
+											"text": "-2"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.resistance"
+										},
+										{
+											"text": "00:30"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:blueberry_cake',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

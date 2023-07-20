@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"italic": false,
+									"color": "#FFFF55",
+									"translate": "item.cpp.temperancer"
+								},
+								{
+									"color": "white",
+									"text": " ("
+								},
+								{
+									"color": "white",
+									"translate": "text.cpp.temperancer.close"
+								},
+								{
+									"color": "white",
+									"text": ")"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:temperancer"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.temperancer.switch_open",
+									"with": [
+										[
+											{
+												"italic": false,
+												"color": "light_purple",
+												"keybind": "key.sneak"
+											},
+											"+",
+											{
+												"keybind": "key.use"
+											}
+										]
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:temperancer',CustomModelData:12970047,cpp_type:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"ddd",
+		"dsd",
+		"ddd"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:snowball"
+		},
+		"d": {
+			"item": "minecraft:dirt"
+		}
+	},
+	"result": {
+		"item": "minecraft:cobblestone",
+		"count": 8.0
+	}
+}

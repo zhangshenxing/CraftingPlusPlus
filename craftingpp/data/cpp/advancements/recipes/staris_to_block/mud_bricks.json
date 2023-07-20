@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"mud_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:mud_brick_stairs"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:stairs_to_block/mud_bricks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:stairs_to_block/mud_bricks"]
+	},
+	"requirements": [
+		[
+			"mud_brick_stairs",
+			"has_the_recipe"
+		]
+	]
+}

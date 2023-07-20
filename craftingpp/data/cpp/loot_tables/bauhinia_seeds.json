@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.bauhinia_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:bauhinia_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.wild_lilium"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.glazed_shade"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.lycoris_radiata"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.isorchid"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.calamus"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.oxalis"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.hibiscus"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.purple_illusion"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:bauhinia_seeds',CustomModelData:12970010}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

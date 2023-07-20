@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cpp:wool_tree",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 114518,
+		"spacing": 25,
+		"separation": 9,
+		"type": "minecraft:random_spread"
+	}
+}

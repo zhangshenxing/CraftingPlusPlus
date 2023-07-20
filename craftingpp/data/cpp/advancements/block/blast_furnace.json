@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"blast_furnace": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:blast_furnace"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/block/blast_furnace/reset"
+	}
+}

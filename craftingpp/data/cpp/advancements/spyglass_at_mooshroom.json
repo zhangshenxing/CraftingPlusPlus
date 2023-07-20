@@ -1,0 +1,40 @@
+{
+	"parent": "cpp:flower_world",
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:12976204}"
+		},
+		"title": {
+			"translate": "advancements.cpp.spyglass_at_mooshroom.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.spyglass_at_mooshroom.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"spyglass_at_mooshroom": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "minecraft:mooshroom",
+							"type_specific": {
+								"type": "mooshroom",
+								"variant": "red"
+							}
+						}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

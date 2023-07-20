@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:leaves",
+		"minecraft:grass",
+		"minecraft:fern",
+		"minecraft:dead_bush",
+		"minecraft:vine",
+		"minecraft:string",
+		"minecraft:paper",
+		"minecraft:feather"
+	]
+}

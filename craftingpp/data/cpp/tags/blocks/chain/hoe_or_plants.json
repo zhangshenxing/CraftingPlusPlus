@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:chain/plants",
+		"#cpp:chain/hoe"
+	]
+}

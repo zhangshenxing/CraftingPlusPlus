@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_sapling",
+			"nbt": "{CustomModelData:12973201}"
+		},
+		"title": {
+			"translate": "advancements.cpp.flower_world.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.flower_world.description"
+		}
+	},
+	"parent": "cpp:forgive",
+	"criteria": {
+		"flower_world": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "cpp:flower"
+			}
+		}
+	}
+}

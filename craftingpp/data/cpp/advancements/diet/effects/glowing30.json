@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"baked_shroomlight": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:baked_shroomlight\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/glowing30"
+	},
+	"requirements": [
+		[
+			"baked_shroomlight"
+		]
+	]
+}

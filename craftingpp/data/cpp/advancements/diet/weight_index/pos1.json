@@ -1,0 +1,50 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish",
+						"minecraft:pufferfish"
+					]
+				}
+			}
+		},
+		"flower_shaped_qiaoguo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:flower_shaped_qiaoguo'}"
+				}
+			}
+		},
+		"peach_shaped_qiaoguo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:peach_shaped_qiaoguo'}"
+				}
+			}
+		},
+		"rabbit_shaped_qiaoguo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:rabbit_shaped_qiaoguo'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"flower_shaped_qiaoguo",
+			"peach_shaped_qiaoguo",
+			"rabbit_shaped_qiaoguo"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos1"
+	}
+}

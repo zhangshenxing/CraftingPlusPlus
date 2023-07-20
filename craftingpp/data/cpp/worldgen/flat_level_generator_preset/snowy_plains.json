@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:snow_block",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:snowy_plains",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

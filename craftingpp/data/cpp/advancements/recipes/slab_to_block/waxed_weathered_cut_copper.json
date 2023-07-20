@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"waxed_weathered_cut_copper_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:waxed_weathered_cut_copper_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/waxed_weathered_cut_copper"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/waxed_weathered_cut_copper"]
+	},
+	"requirements": [
+		[
+			"waxed_weathered_cut_copper_slab",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:coarse_dirt\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dirt"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:rooted_dirt\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:item_processer/items/rooted_dirt"
+						}
+					]
+				}
+			]
+		}
+	]
+}

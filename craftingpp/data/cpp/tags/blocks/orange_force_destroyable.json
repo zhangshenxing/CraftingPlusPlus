@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:dirt",
+		"minecraft:dirt_path",
+		"minecraft:farmland",
+		"minecraft:soul_sand",
+		"minecraft:soul_soil",
+		"minecraft:sand",
+		"minecraft:red_sand",
+		{ "id": "#forge:dirt", "required": false},
+		{ "id": "#forge:sand", "required": false}
+	]
+}

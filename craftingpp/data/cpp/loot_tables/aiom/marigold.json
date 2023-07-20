@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:orange_marigold"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:red_marigold"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:yellow_marigold"
+				}
+			]
+		}
+	]
+}

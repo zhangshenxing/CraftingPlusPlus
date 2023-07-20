@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"cyan": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 1024.0
+					}
+				},
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": -64.0
+							}
+						}
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"cpp:kotonoha_mountain": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/kotonoha_mountain"
+	}
+}

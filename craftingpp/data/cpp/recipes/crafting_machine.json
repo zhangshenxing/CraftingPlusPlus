@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"eee",
+		"ece",
+		"eee"
+	],
+	"key": {
+		"c": {
+			"item": "minecraft:crafting_table"
+		},
+		"e": {
+			"item": "minecraft:experience_bottle"
+		}
+	},
+	"result": {
+		"item": "minecraft:petrified_oak_slab"
+	}
+}

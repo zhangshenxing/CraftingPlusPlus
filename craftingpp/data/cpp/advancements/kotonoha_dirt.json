@@ -1,0 +1,77 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970071}"
+		},
+		"title": {
+			"color": "#FF681F",
+			"translate": "advancements.cpp.kotonoha.title.4"
+		},
+		"description": {
+			"translate": "advancements.cpp.kotonoha.description.4"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:kotonoha_mountain",
+	"criteria": {
+		"bad_effects": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"players": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"effects": {
+											"minecraft:absorption": {}
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"effects": {
+											"minecraft:regeneration": {}
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"effects": {
+											"minecraft:resistance": {}
+										}
+									}
+								}
+							]
+						}
+					}
+				],
+				"effects": {
+					"minecraft:bad_omen": {},
+					"minecraft:blindness": {},
+					"minecraft:darkness": {},
+					"minecraft:hunger": {},
+					"minecraft:levitation": {},
+					"minecraft:mining_fatigue": {},
+					"minecraft:nausea": {},
+					"minecraft:poison": {},
+					"minecraft:slowness": {},
+					"minecraft:weakness": {},
+					"minecraft:wither": {}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/kotonoha"
+	}
+}

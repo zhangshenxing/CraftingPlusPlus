@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lily_pad",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.white_water_lily"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:white_water_lily"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.by_fishing"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.lily.copy",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.minecraft.bone_meal"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:white_water_lily',CustomModelData:12971002}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

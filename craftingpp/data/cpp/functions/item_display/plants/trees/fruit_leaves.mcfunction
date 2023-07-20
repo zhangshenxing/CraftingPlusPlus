@@ -1,0 +1,4 @@
+data merge entity @s {transformation:{scale:[1.001f,1.001f,1.001f],translation:[0f,.5f,0f]},Tags:["cpp","cpp_leaves","cpp_leaves_on_tree","cpp_fruit_leaves"],item:{id:"minecraft:dark_oak_leaves",Count:1b,tag:{CustomModelData:12970301,cpp_stored_item:{id:"minecraft:dark_oak_leaves",Count:1b,tag:{display:{Name:'{"italic":false,"translate":"item.cpp.fruit_leaves"}'},id:'cpp:fruit_leaves',CustomModelData:12970301}},cpp_stored_item1:{id:"minecraft:dark_oak_sapling",Count:1b,tag:{id:"cpp:fruit_sapling",CustomModelData:12973901,display:{Name:'{"italic":false,"translate":"item.cpp.fruit_sapling"}'}}}}}}
+data modify entity @s item.tag.cpp_stored_fruit set from storage cpp:_ item
+execute if block ~ ~ ~ #leaves run setblock ~ ~ ~ dark_oak_leaves replace
+setblock ~ ~ ~ dark_oak_leaves[distance=1] keep

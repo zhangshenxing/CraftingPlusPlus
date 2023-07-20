@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:break_hand",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "context",
+								"target": "block_entity"
+							},
+							"ops": [
+								{
+									"op": "replace",
+									"source": "Items[{Slot:11b}].tag.Enchantments",
+									"target": "Enchantments"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

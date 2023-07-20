@@ -1,0 +1,27 @@
+{
+	"function": "minecraft:set_lore",
+	"replace": false,
+	"lore": [
+		{
+			"italic": false,
+			"color": "blue",
+			"translate": "text.cpp.variant",
+			"with": [
+				[
+					{
+						"color": "gold",
+						"translate": "item.minecraft.charcoal"
+					},
+					{
+						"color": "blue",
+						"text": ", "
+					},
+					{
+						"color": "gold",
+						"translate": "item.cpp.cinder"
+					}
+				]
+			]
+		}
+	]
+}

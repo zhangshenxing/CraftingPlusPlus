@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "advancements.cpp.title.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.title.description"
+		}
+	},
+	"parent": "cpp:star_wand",
+	"criteria": {
+		"title": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

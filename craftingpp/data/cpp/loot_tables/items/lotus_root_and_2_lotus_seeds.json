@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:lotus_root"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:lotus_seeds",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

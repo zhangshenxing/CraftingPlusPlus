@@ -1,0 +1,133 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:magnet',cpp_type:0b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:magnet.tp"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:magnet',cpp_type:1b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:magnet.closed"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:magnet',cpp_type:2b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:magnet"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:shooting_star',cpp_type:0b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:shooting_star.move"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:shooting_star',cpp_type:1b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:shooting_star"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:temperancer',cpp_type:0b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:temperancer.closed"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{id:'cpp:temperancer',cpp_type:1b}"
+											}
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:temperancer"
+						}
+					]
+				}
+			]
+		}
+	]
+}

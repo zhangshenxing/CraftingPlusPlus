@@ -1,0 +1,86 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cake",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.rotten_flesh_cake"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "white",
+									"font": "cpp:default",
+									"text": "\u0099",
+									"extra": [
+										{
+											"color": "aqua",
+											"font": "default",
+											"text": "×7"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:rotten_flesh_cake"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.weight_index_cake",
+									"with": [
+										{
+											"color": "green",
+											"text": "+4"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "potion.withAmplifier",
+											"with": [
+												{
+													"translate": "effect.minecraft.hunger"
+												},
+												"255"
+											]
+										},
+										{
+											"text": "00:05"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:rotten_flesh_cake',CustomModelData:12970005}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

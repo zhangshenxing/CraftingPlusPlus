@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"crimson_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crimson_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/crimson_planks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/crimson_planks"]
+	},
+	"requirements": [
+		[
+			"crimson_slab",
+			"has_the_recipe"
+		]
+	]
+}

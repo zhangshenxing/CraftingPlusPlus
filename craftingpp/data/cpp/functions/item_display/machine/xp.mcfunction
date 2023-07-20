@@ -1,0 +1,4 @@
+execute if score @s cppExp matches 0..991 if data storage cpp:thisb items[{Slot:7b,id:"minecraft:experience_bottle"}] unless data storage cpp:thisb items[{Slot:7b}].tag.cpp_compressed_level run function cpp:item_display/machine/xp_add
+execute if score @s cppExp matches 0..424 if data storage cpp:thisb items[{Slot:7b,id:"minecraft:experience_bottle",tag:{cpp_compressed_level:1s}}] run function cpp:item_display/machine/xp_add1
+execute if score @s cppExp matches 0..999 if data storage cpp:thisb items[{Slot:7b,tag:{id:"cpp:wifi_plugin"}}] if entity @a[distance=..32,scores={cppExp=1..}] run function cpp:item_display/machine/xp_add_wifi
+execute if score @s cppExp matches 1001.. if data storage cpp:thisb items[{Slot:7b,tag:{id:"cpp:wifi_plugin"}}] if entity @a[distance=..32] run function cpp:item_display/machine/xp_give_wifi

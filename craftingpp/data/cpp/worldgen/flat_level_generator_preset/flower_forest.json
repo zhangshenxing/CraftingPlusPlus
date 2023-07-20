@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:poppy",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:flower_forest",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

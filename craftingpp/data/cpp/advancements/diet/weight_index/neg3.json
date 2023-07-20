@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot",
+						"minecraft:golden_carrot"
+					]
+				}
+			}
+		},
+		"stargazy_pie": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:stargazy_pie'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"stargazy_pie"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg3"
+	}
+}

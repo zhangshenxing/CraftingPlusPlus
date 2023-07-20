@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"cherry_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[5b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/fire_resistance20"
+	},
+	"requirements": [
+		[
+			"cherry_jamed"
+		]
+	]
+}

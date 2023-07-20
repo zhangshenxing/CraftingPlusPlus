@@ -1,0 +1,154 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:bamboo_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:bamboo_raft"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:oak_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:oak_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:spruce_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:spruce_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:birch_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:birch_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:jungle_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:jungle_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:acacia_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:acacia_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:cherry_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:cherry_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:dark_oak_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dark_oak_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:mangrove_planks\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:mangrove_boat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:\"minecraft:iron_ingot\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:minecart"
+						}
+					]
+				}
+			]
+		}
+	]
+}

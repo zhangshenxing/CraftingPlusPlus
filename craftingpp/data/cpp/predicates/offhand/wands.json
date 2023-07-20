@@ -1,0 +1,49 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:\"cpp:sealing_wand\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:\"cpp:star_wand\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:\"cpp:dream_wand\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:\"cpp:wand_of_the_darkness\"}"
+					}
+				}
+			}
+		}
+	]
+}

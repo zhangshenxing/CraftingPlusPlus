@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:redstone_ores",
+		"#minecraft:diamond_ores",
+		"#minecraft:emerald_ores",
+		"#minecraft:gold_ores"
+	]
+}

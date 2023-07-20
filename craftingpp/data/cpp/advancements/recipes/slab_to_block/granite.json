@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"granite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:granite_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/granite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/granite"]
+	},
+	"requirements": [
+		[
+			"granite_slab",
+			"has_the_recipe"
+		]
+	]
+}

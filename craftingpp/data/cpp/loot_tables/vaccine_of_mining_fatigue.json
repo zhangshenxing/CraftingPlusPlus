@@ -1,0 +1,55 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.vaccine"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "text.cpp.immunized_from",
+									"with": [
+										{
+											"translate": "potion.withDuration",
+											"with": [
+												{
+													"translate": "effect.minecraft.mining_fatigue"
+												},
+												{
+													"text": "03:00:00"
+												}
+											]
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:vaccine_of_mining_fatigue"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:vaccine_of_mining_fatigue',CustomModelData:12970013,HideFlags:32}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:mycelium",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:mushroom_fields",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

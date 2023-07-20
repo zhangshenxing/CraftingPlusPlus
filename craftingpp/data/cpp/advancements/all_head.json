@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"title": {
+			"translate": "advancements.cpp.all_head.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.all_head.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:undead",
+	"criteria": {
+		"zombie_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:zombie_head"]
+					}
+				]
+			}
+		},
+		"skeleton_skull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:skeleton_skull"]
+					}
+				]
+			}
+		},
+		"wither_skeleton_skull": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:wither_skeleton_skull"]
+					}
+				]
+			}
+		},
+		"creeper_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:creeper_head"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

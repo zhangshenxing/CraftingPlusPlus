@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"nether_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:nether_brick_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/nether_bricks"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/nether_bricks"]
+	},
+	"requirements": [
+		[
+			"nether_brick_slab",
+			"has_the_recipe"
+		]
+	]
+}

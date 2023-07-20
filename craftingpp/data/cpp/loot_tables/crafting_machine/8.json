@@ -1,0 +1,111 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:chain\"},{Slot:3b,id:\"minecraft:chain\"},{Slot:10b,id:\"minecraft:chain\"},{Slot:11b,id:\"minecraft:chain\"},{Slot:12b,id:\"minecraft:chain\"},{Slot:19b,id:\"minecraft:chain\"},{Slot:20b,id:\"minecraft:chain\"},{Slot:21b,id:\"minecraft:chain\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "minecraft:chainmail_chestplate"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:3b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:10b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:11b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:12b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:19b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:20b,tag:{id:'cpp:spring_festival_decorations'}},{Slot:21b,tag:{id:'cpp:spring_festival_decorations'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:spring_festival_chestplate"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:brown_dye\"},{Slot:3b,id:\"minecraft:brown_dye\"},{Slot:10b,id:\"minecraft:leather\"},{Slot:11b,id:\"minecraft:leather\"},{Slot:12b,id:\"minecraft:leather\"},{Slot:19b,id:\"minecraft:leather\"},{Slot:20b,id:\"minecraft:leather\"},{Slot:21b,id:\"minecraft:leather\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:jacket"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:\"minecraft:red_dye\"},{Slot:3b,id:\"minecraft:red_dye\"},{Slot:10b,id:\"minecraft:leather\"},{Slot:11b,id:\"minecraft:leather\"},{Slot:12b,id:\"minecraft:leather\"},{Slot:19b,id:\"minecraft:leather\"},{Slot:20b,id:\"minecraft:leather\"},{Slot:21b,id:\"minecraft:leather\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:red_coat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:\"minecraft:cooked_porkchop\"},{id:\"minecraft:cooked_mutton\"},{id:\"minecraft:cooked_beef\"},{id:\"minecraft:warped_fungus\"},{id:\"minecraft:crimson_fungus\"},{id:\"minecraft:nether_wart\"},{id:\"minecraft:blaze_powder\"},{id:\"minecraft:magma_cream\"}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:luxurious_netherite_barbecue"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:1b,id:\"minecraft:poppy\"},{Slot:2b,id:\"minecraft:stick\"},{Slot:3b,id:\"minecraft:dandelion\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:dandelion\"},{Slot:20b,id:\"minecraft:stick\"},{Slot:21b,id:\"minecraft:poppy\"}]}"
+												}
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:1b,id:\"minecraft:dandelion\"},{Slot:2b,id:\"minecraft:stick\"},{Slot:3b,id:\"minecraft:poppy\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:poppy\"},{Slot:20b,id:\"minecraft:stick\"},{Slot:21b,id:\"minecraft:dandelion\"}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:garland"
+						}
+					]
+				}
+			]
+		}
+	]
+}

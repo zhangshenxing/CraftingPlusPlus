@@ -1,0 +1,17 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"nbt": "{Items:[{id:\"minecraft:gray_dye\"}]}"
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_scores",
+		"entity": "this",
+		"scores": {
+			"cppValue": 7
+		}
+	}
+]

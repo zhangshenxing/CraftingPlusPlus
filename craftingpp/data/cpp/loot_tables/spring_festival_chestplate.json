@@ -1,0 +1,38 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#E02000",
+								"translate": "item.cpp.spring_festival_chestplate"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:spring_festival_chestplate"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:spring_festival_chestplate',CustomModelData:12970001,Trim:{material:'minecraft:none',pattern:'cpp:new_year_cloth'},HideFlags:128}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

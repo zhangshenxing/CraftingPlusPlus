@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"oxidized_cut_copper_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:oxidized_cut_copper_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/oxidized_cut_copper"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/oxidized_cut_copper"]
+	},
+	"requirements": [
+		[
+			"oxidized_cut_copper_slab",
+			"has_the_recipe"
+		]
+	]
+}

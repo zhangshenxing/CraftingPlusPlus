@@ -1,0 +1,3 @@
+data merge entity @s {transformation:{scale:[1.001f,1.001f,1.001f],translation:[0f,.5f,0f]},Tags:["cpp","cpp_leaves","cpp_leaves_on_tree","cpp_ore_leaves"],item:{id:"minecraft:dark_oak_leaves",Count:1b,tag:{CustomModelData:12970302,cpp_stored_item:{id:"minecraft:dark_oak_leaves",Count:1b,tag:{display:{Name:'{"italic":false,"translate":"item.cpp.ore_leaves"}'},id:'cpp:ore_leaves',CustomModelData:12970302}},cpp_stored_item1:{id:"minecraft:dark_oak_sapling",Count:1b,tag:{id:"cpp:ore_sapling",CustomModelData:12973902,display:{Name:'{"italic":false,"translate":"item.cpp.ore_sapling"}'}}}}}}
+execute if block ~ ~ ~ #leaves run setblock ~ ~ ~ dark_oak_leaves replace
+setblock ~ ~ ~ dark_oak_leaves[distance=1] keep

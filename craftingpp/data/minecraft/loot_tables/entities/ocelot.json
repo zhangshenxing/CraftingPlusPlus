@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ocelot_head"
+				}
+			]
+		}
+	]
+}

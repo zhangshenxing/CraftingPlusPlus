@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:sculk_replaceable",
+		"minecraft:dirt_path",
+		"minecraft:farmland",
+		{ "id": "#forge:dirt", "required": false}
+	]
+}

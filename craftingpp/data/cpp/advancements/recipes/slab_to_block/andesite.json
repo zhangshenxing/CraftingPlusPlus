@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"andesite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:andesite_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/andesite"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/andesite"]
+	},
+	"requirements": [
+		[
+			"andesite_slab",
+			"has_the_recipe"
+		]
+	]
+}

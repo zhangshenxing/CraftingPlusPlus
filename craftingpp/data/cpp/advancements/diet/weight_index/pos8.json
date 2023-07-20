@@ -1,0 +1,86 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_porkchop",
+						"minecraft:cooked_beef"
+					]
+				}
+			}
+		},
+		"beef_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:beef_kebab'}"
+				}
+			}
+		},
+		"pork_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pork_kebab'}"
+				}
+			}
+		},
+		"lamb_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:lamb_kebab'}"
+				}
+			}
+		},
+		"chicken_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chicken_kebab'}"
+				}
+			}
+		},
+		"braised_pork_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:braised_pork_with_potatoes'}"
+				}
+			}
+		},
+		"braised_beef_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:braised_beef_with_potatoes'}"
+				}
+			}
+		},
+		"rabbit_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:rabbit_stew'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla",
+			"beef_kebab",
+			"pork_kebab",
+			"lamb_kebab",
+			"chicken_kebab",
+			"braised_pork_with_potatoes",
+			"braised_beef_with_potatoes",
+			"rabbit_stew"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos8"
+	}
+}

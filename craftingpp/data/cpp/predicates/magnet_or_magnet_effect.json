@@ -1,0 +1,78 @@
+{
+	"condition": "minecraft:any_of",
+	"terms":[
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"head": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"legs": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"feet": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{cpp_stored_effect:'magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Inventory:[{tag:{id:'cpp:magnet',cpp_type:0b}}]}"
+			}
+		}
+	]
+}

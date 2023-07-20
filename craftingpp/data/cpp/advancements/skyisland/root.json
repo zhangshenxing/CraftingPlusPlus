@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": {
+			"translate": "advancements.cpp.skyisland.root.title",
+			"color": "yellow"
+		},
+		"description": {
+			"translate": "advancements.cpp.skyisland.root.description",
+			"color": "light_purple"
+		},
+		"background": "minecraft:textures/block/bamboo_planks.png"
+	},
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

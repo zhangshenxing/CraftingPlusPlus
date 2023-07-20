@@ -1,0 +1,178 @@
+{
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon"
+		]
+	},
+	"downfall": 0.8,
+	"effects": {
+		"fog_color": 12638463,
+		"mood_sound": {
+			"block_search_extent": 8,
+			"offset": 2.0,
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000
+		},
+		"music": {
+			"max_delay": 24000,
+			"min_delay": 12000,
+			"replace_current_music": false,
+			"sound": "minecraft:music.overworld.jungle_and_forest"
+		},
+		"sky_color": 8103167,
+		"water_color": 4445678,
+		"water_fog_color": 270131
+	},
+	"features": [
+		[],
+		[],
+		[
+			"minecraft:amethyst_geode",
+			"minecraft:large_dripstone"
+		],
+		[],
+		[],
+		[],
+		[
+			"minecraft:ore_dirt",
+			"minecraft:ore_gravel",
+			"minecraft:ore_granite_upper",
+			"minecraft:ore_granite_lower",
+			"minecraft:ore_diorite_upper",
+			"minecraft:ore_diorite_lower",
+			"minecraft:ore_andesite_upper",
+			"minecraft:ore_andesite_lower",
+			"minecraft:ore_tuff",
+			"minecraft:underwater_magma",
+			"minecraft:disk_sand",
+			"minecraft:disk_clay",
+			"minecraft:disk_gravel"
+		],
+		[
+			"minecraft:dripstone_cluster",
+			"minecraft:pointed_dripstone"
+		],
+ 		[],
+		[
+			"minecraft:glow_lichen",
+			"cpp:flower_forest_flowers",
+			"cpp:trees_flower_forest",
+			"cpp:flower_flower_forest",
+			"minecraft:patch_grass_badlands",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal",
+			"minecraft:patch_sugar_cane",
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_melon",
+			"minecraft:patch_tall_grass_2",
+			"cpp:lush_caves_ceiling_vegetation",
+			"minecraft:cave_vines",
+			"cpp:lush_caves_clay",
+			"cpp:lush_caves_vegetation",
+			"minecraft:rooted_azalea_tree",
+			"minecraft:spore_blossom",
+			"minecraft:warm_ocean_vegetation",
+			"minecraft:seagrass_warm",
+			"minecraft:sea_pickle"
+		],
+		[]
+	],
+	"has_precipitation": true,
+	"spawn_costs": {},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [
+			{
+				"type": "minecraft:axolotl",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:sheep",
+				"weight": 12,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:pig",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:chicken",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:cow",
+				"weight": 8,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:rabbit",
+				"weight": 4,
+				"minCount": 2,
+				"maxCount": 3
+			}
+		],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"water_ambient": [
+			{
+				"type": "minecraft:cod",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:salmon",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:pufferfish",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:tropical_fish",
+				"weight": 25,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"water_creature": [
+			{
+				"type": "minecraft:squid",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:dolphin",
+				"weight": 2,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		]
+	},
+	"temperature": 0.7
+}

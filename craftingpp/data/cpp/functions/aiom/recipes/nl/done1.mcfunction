@@ -1,0 +1,23 @@
+scoreboard players remove @s cppExp 4
+execute if score #type cppValue matches 2001 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_sky
+execute if score #type cppValue matches 2002 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_ocean
+execute if score #type cppValue matches 2003 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_ridge
+execute if score #type cppValue matches 2004 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_dirt
+execute if score #type cppValue matches 2005 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_earth
+execute if score #type cppValue matches 2006 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_fire
+execute if score #type cppValue matches 2007 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_life
+execute if score #type cppValue matches 2008 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_lightness
+execute if score #type cppValue matches 2009 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_eyesight
+execute if score #type cppValue matches 2010 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_fire_shield
+execute if score #type cppValue matches 2011 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_waterless
+execute if score #type cppValue matches 2012 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_transparentness
+execute if score #type cppValue matches 2013 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_bounce
+execute if score #type cppValue matches 2014 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_agileness
+execute if score #type cppValue matches 2015 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_sharpness
+execute if score #type cppValue matches 2016 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_rejuveness
+execute if score #type cppValue matches 2017 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_blood
+execute if score #type cppValue matches 2018 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_extremeness
+execute if score #type cppValue matches 2019 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_shield
+execute if score #type cppValue matches 2020 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_tide
+execute if score #type cppValue matches 2021 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_chain
+execute if score #type cppValue matches 2022 run loot replace block ~ ~ ~ container.21 1 loot cpp:agentia_of_sculking

@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:fortune",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.fortune"}}]} run function cpp:golden_anvil/recipes/combine/fortune
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:looting",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.looting"}}]} run function cpp:golden_anvil/recipes/combine/looting
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:sweeping",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.sweeping"}}]} run function cpp:golden_anvil/recipes/combine/sweeping
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:lure",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.lure"}}]} run function cpp:golden_anvil/recipes/combine/lure
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:unbreaking",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.unbreaking"}}]} run function cpp:golden_anvil/recipes/combine/unbreaking
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:respiration",lvl:3s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.respiration"}}]} run function cpp:golden_anvil/recipes/combine/respiration
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.sharpness"}}]} run function cpp:golden_anvil/recipes/combine/sharpness
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:5s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.power"}}]} run function cpp:golden_anvil/recipes/combine/power
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{Enchantments:[{id:"minecraft:mending",lvl:1s}]}},{Slot:3b,tag:{id:"cpp:ancient_scroll.mending"}}]} run function cpp:golden_anvil/recipes/combine/mending

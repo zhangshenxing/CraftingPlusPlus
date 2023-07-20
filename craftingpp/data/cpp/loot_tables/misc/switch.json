@@ -1,0 +1,204 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "text.cpp.switch"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cpp_clear:1b}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 1
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_east"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 2
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_south"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 3
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_west"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 4
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_north"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 5
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_down"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 6
+									}
+								}
+							],
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "text.cpp.output_up"
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 1
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971041}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 2
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971042}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 3
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971043}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 4
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971044}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 5
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971045}"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"cppMachineOutput": 6
+									}
+								}
+							],
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12971046}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

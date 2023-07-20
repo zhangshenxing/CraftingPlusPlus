@@ -1,0 +1,231 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978201}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978202}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978203}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978204}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978205}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:white_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978206}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:light_gray_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978207}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978209}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978210}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978211}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:white_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978212}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978213}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:green_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978214}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:orange_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978215}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:light_blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978216}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978217}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978218}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978219}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978220}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978221}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:white_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978222}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978223}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978226}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978227}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978228}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978229}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:orange_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978401}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978402}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:red_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978403}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978404}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"conditions": [
+								{"condition":"minecraft:value_check","value":{"type":"score","target":"this","score":"cppCMD"},"range":12978405}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_dye"
+						}
+					]
+				}
+			]
+		}
+	]
+}

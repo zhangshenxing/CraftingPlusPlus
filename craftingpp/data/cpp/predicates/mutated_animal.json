@@ -1,0 +1,18 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:random_chance",
+			"chance": 0.05
+		},
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"dimension": "cpp:flower"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral_block"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bubble_coral_fan",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

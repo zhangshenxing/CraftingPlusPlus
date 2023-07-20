@@ -1,0 +1,257 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#A020F0",
+								"translate": "item.cpp.purple_force_of_life"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:purple_force_of_life"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.purple_force_of_life.use",
+									"with": [
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"translate": "block.minecraft.oak_sapling",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.spruce_sapling"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.birch_sapling"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.jungle_sapling"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.acacia_sapling"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "green",
+									"text": "→",
+									"extra": [
+										{
+											"translate": "block.minecraft.dark_oak_sapling"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.mangrove_propagule"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.cherry_sapling"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.oak_sapling"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "aqua",
+									"translate": "item.minecraft.wheat_seeds",
+									"extra": [
+										"→",
+										{
+											"translate": "item.minecraft.beetroot_seeds"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.carrot"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.potato"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.pumpkin_seeds"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.melon_seeds"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "aqua",
+									"text": "→",
+									"extra": [
+										{
+											"translate": "block.minecraft.sugar_cane"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.cactus"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.cocoa_beans"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.bamboo"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.sweet_berries"
+										},
+										"→",
+										{
+											"translate": "item.minecraft.wheat_seeds"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "light_purple",
+									"translate": "block.minecraft.dandelion",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.poppy"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.azure_bluet"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.blue_orchid"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.allium"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.oxeye_daisy"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "light_purple",
+									"text": "→",
+									"extra": [
+										{
+											"translate": "block.minecraft.red_tulip"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.orange_tulip"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.white_tulip"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.pink_tulip"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.cornflower"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "light_purple",
+									"text": "→",
+									"extra": [
+										{
+											"translate": "block.minecraft.lily_of_the_valley"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.rose_bush"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.sunflower"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.lilac"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.peony"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.dandelion"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gold",
+									"translate": "block.minecraft.brown_mushroom",
+									"extra": [
+										"→",
+										{
+											"translate": "block.minecraft.red_mushroom"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.crimson_fungus"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.warped_fungus"
+										},
+										"→",
+										{
+											"translate": "block.minecraft.brown_mushroom"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:purple_force_of_life',CustomModelData:12970007}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

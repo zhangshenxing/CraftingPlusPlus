@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970071}"
+		},
+		"title": {
+			"color": "#FFFF00",
+			"translate": "advancements.cpp.kotonoha.title.5"
+		},
+		"description": {
+			"translate": "advancements.cpp.kotonoha.description.5"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:kotonoha_dirt",
+	"criteria": {
+		"hero_of_the_village": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:hero_of_the_village": {
+						"amplifier": 4
+					}
+				}
+			}
+		},
+		"bad_omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:bad_omen": {
+						"amplifier": 4
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/kotonoha"
+	}
+}

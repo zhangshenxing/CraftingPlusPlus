@@ -1,0 +1,66 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_cod",
+			"nbt": "{CustomModelData:12970014}"
+		},
+		"title": {
+			"translate": "advancements.cpp.doh.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.doh.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:raw_meal",
+	"criteria": {
+		"doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:doughnut'}"
+				}
+			}
+		},
+		"purple_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:purple_doughnut'}"
+				}
+			}
+		},
+		"pink_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pink_doughnut'}"
+				}
+			}
+		},
+		"white_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:white_doughnut'}"
+				}
+			}
+		},
+		"blue_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:blue_doughnut'}"
+				}
+			}
+		},
+		"green_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:green_doughnut'}"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.ore_sapling"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:ore_sapling"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ore_sapling"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ore_sapling.nether",
+									"with": [
+										{
+											"italic": false,
+											"color": "aqua",
+											"translate": "dimension.minecraft.the_nether"
+										},
+										[
+											{
+												"color": "gold",
+												"translate": "block.minecraft.ancient_debris"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "block.minecraft.gilded_blackstone"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "block.minecraft.nether_gold_ore"
+											},
+											", ",
+											{
+												"color": "gold",
+												"translate": "block.minecraft.nether_quartz_ore"
+											}
+										]
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ore_sapling.posy",
+									"with": [
+										{
+											"italic": false,
+											"color": "aqua",
+											"translate": "dimension.minecraft.overworld"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.ore_sapling.negy"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:ore_sapling',CustomModelData:12973902}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

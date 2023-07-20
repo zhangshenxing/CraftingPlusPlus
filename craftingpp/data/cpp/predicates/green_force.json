@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:water",
+						"minecraft:lava"
+					],
+					"state": {
+						"level": 0
+					}
+				} 
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:powder_snow"
+					]
+				} 
+			}
+		}
+	]
+}

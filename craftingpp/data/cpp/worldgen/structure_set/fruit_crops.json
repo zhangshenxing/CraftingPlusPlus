@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cpp:fruit_crops",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 114516,
+		"spacing": 20,
+		"separation": 10,
+		"type": "minecraft:random_spread"
+	}
+}

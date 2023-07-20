@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"soul_fried_chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:\"cpp:soul_fried_chicken\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/regeneration30"
+	},
+	"requirements": [
+		[
+			"soul_fried_chicken"
+		]
+	]
+}

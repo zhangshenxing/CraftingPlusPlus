@@ -1,0 +1,82 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.calamus_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:calamus_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.hibiscus"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.bauhinia"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.lycoris_radiata"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.stelera"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.bauhinia"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.oxalis"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:calamus_seeds',CustomModelData:12970008}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

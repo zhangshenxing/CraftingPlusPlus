@@ -1,0 +1,4 @@
+{
+	"function": "minecraft:set_nbt",
+	"tag": "{cpp_clear:1b}"
+}

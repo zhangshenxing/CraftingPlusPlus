@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:armor_stand",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.golem_farmer"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:golem_farmer"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_crafting_machine",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.crafting_machine"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:golem_farmer',EntityTag:{Marker:1b,Invisible:1b,Glowing:1b,Invulnerable:1b,Tags:[\"cpp_golem_farmer\"],NoGravity:1b,Small:1b,ArmorItems:[{id:\"minecraft:chainmail_boots\",Count:1b,tag:{Trim:{pattern:'cpp:golem_farmer',material:'minecraft:none'}}},{id:\"minecraft:chainmail_leggings\",Count:1b,tag:{Trim:{pattern:'cpp:golem_farmer',material:'minecraft:none'}}},{id:\"minecraft:chainmail_chestplate\",Count:1b,tag:{Trim:{pattern:'cpp:golem_farmer',material:'minecraft:none'}}},{id:\"minecraft:chainmail_helmet\",Count:1b,tag:{Trim:{pattern:'cpp:golem_farmer',material:'minecraft:none'}}}],Pose:{LeftArm:[-20.0f,0.0f,0.0f],RightArm:[-20.0f,0.0f,0.0f]}},HandItems:[{Count:1b,id:\"minecraft:netherite_hoe\"},{Count:1b,id:\"minecraft:shulker_box\"}],CustomModelData:12970002}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

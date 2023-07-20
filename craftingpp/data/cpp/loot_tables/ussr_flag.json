@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.ussr_flag"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:ussr_flag"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:ussr_flag',CustomModelData:12974412,EntityTag:{Item:{id:'minecraft:item_frame',Count:1b,tag:{CustomModelData:12974412,cpp_clear:1b}},Tags:['cpp_item_frame_flag','cpp_special_item_frame','cpp_ussr_flag']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

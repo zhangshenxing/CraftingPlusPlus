@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:void_air",
+		"minecraft:light",
+		"minecraft:fire",
+		"minecraft:soul_fire"
+	]
+}

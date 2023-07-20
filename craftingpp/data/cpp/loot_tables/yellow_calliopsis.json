@@ -1,0 +1,75 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.yellow_calliopsis"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:yellow_calliopsis"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.grass.copy",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.farmland"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.bone_meal"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.grass.material",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.farmland"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.yellow_dye"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:yellow_calliopsis',CustomModelData:12973218}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

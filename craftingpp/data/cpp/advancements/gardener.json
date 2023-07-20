@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_sapling",
+			"nbt": "{CustomModelData:12973901}"
+		},
+		"title": {
+			"translate": "advancements.cpp.gardener.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.gardener.description"
+		}
+	},
+	"parent": "cpp:artist",
+	"criteria": {
+		"wool_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{id:'cpp:wool_sapling'}"
+					}
+				]
+			}
+		},
+		"fruit_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{id:'cpp:fruit_sapling'}"
+					}
+				]
+			}
+		},
+		"ore_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{id:'cpp:ore_sapling'}"
+					}
+				]
+			}
+		}
+	}
+}

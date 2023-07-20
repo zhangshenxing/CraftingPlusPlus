@@ -1,0 +1,3 @@
+execute store result score #x cppValue run data get entity @s Motion[0] 100
+execute store result score #z cppValue run data get entity @s Motion[2] 100
+execute if score #x cppValue matches ..-11 if score #z cppValue matches ..-11 run data modify entity @s Item set value {id:"minecraft:potion",Count:1b,tag:{id:"cpp:northwest_wind",CustomModelData:12970002,HideFlags:32,display:{Lore:['{"italic":false,"color":"white","font":"cpp:default","text":"\\u0099\\u0099\\u0099\\u0099\\u0099"}','{"italic":false,"color":"dark_gray","text":"cpp:northwest_wind"}','{"italic":false,"color":"gray","translate":"text.cpp.weight_index","with":[{"color":"red","text":"-200"}]}'],Name:'{"italic":false,"translate":"item.cpp.northwest_wind"}'}}}

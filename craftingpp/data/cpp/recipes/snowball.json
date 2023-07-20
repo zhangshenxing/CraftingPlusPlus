@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ttt",
+		"tst",
+		"ttt"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:string"
+		},
+		"t": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "minecraft:snowball"
+	}
+}

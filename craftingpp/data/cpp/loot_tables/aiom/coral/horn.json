@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral_block"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:horn_coral_fan",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

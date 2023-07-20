@@ -1,0 +1,52 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.broken_spawner"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:broken_spawner"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.broken_spawner.obtain",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "enchantment.minecraft.silk_touch"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.spawner"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:broken_spawner',CustomModelData:12970009}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

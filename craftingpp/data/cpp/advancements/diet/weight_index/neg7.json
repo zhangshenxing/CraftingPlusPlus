@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"croissant": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:croissant'}"
+				}
+			}
+		},
+		"baked_shroomlight": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:baked_shroomlight'}"
+				}
+			}
+		},
+		"mooncake_with_five_kernel": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mooncake_with_five_kernel'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"croissant",
+			"baked_shroomlight",
+			"mooncake_with_five_kernel"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg7"
+	}
+}

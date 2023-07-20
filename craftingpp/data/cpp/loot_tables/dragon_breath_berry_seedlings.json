@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_flower",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.dragon_breath_berry_seedlings"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:dragon_breath_berry_seedlings"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "text.cpp.dragon_breath_berry_seedlings.lore"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:dragon_breath_berry_seedlings',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

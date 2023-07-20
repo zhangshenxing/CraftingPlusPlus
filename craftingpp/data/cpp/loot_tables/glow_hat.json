@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.glow_hat"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:glow_hat"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "item.modifiers.head"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"translate": "potion.withDuration",
+									"with": [
+										{
+											"translate": "effect.minecraft.glowing"
+										},
+										{
+											"text": "00:05"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.glow_hat.use"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.glow_hat.use1"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.glow_hat.use2"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.glow_hat.use3"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:glow_hat',CustomModelData:12970015,Trim:{pattern:'cpp:glow_hat',material:'minecraft:none'},HideFlags:128}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "head_armor",
+									"attribute": "generic.armor",
+									"operation": "addition",
+									"amount": 2,
+									"slot": "head"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"bbb",
+		"bsb",
+		"bbb"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:stick"
+		},
+		"b": {
+			"item": "minecraft:blaze_powder"
+		}
+	},
+	"result": {
+		"item": "minecraft:blaze_rod"
+	}
+}

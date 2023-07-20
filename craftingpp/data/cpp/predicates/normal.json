@@ -1,0 +1,91 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:apricot\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:grapefruit\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:lemon\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:loquat\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:lychee\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:orange\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:peach\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:pear\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:persimmon\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:plum\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{tag:{id:\"cpp:pomegranate\"}}}}}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Item:{tag:{cpp_stored_fruit:{id:\"minecraft:apple\"}}}}"
+				}
+			}
+		]
+	}
+]

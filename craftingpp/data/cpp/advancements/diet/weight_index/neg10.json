@@ -1,0 +1,110 @@
+{
+	"criteria": {
+		"toffee_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:toffee_apple'}"
+				}
+			}
+		},
+		"baked_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:baked_carrot'}"
+				}
+			}
+		},
+		"ice_cream_cone": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:ice_cream_cone'}"
+				}
+			}
+		},
+		"shaved_ice_with_blueberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_blueberry'}"
+				}
+			}
+		},
+		"shaved_ice_with_strawberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_strawberry'}"
+				}
+			}
+		},
+		"shaved_ice_with_pineapple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_pineapple'}"
+				}
+			}
+		},
+		"assorted_root_candy": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:assorted_root_candy'}"
+				}
+			}
+		},
+		"zongzi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi'}"
+				}
+			}
+		},
+		"zongzi_with_salt": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_salt'}"
+				}
+			}
+		},
+		"zongzi_with_soda": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_soda'}"
+				}
+			}
+		},
+		"zongzi_with_honey": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi_with_honey'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"toffee_apple",
+			"baked_carrot",
+			"ice_cream_cone",
+			"shaved_ice_with_blueberry",
+			"shaved_ice_with_strawberry",
+			"shaved_ice_with_pineapple",
+			"assorted_root_candy",
+			"zongzi",
+			"zongzi_with_salt",
+			"zongzi_with_soda",
+			"zongzi_with_honey"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/neg10"
+	}
+}

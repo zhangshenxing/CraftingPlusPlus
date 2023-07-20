@@ -1,0 +1,413 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"weight": 250
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"weight": 250,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -2.4,
+										"max": -0.4
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 4.0,
+										"max": 12.0
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 250,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -2.4,
+										"max": -0.4
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 5.0,
+										"max": 13.0
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_shovel",
+					"weight": 150,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -3,
+										"max": -1
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 3.5,
+										"max": 11.5
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"weight": 45,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -2.4,
+										"max": -0.4
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 6.0,
+										"max": 14.0
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_shovel",
+					"weight": 45,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -3,
+										"max": -1
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 4.5,
+										"max": 12.5
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -2.4,
+										"max": -0.4
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 7.0,
+										"max": 15.0
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_shovel",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"treasure": true,
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.01,
+								"max": 0.10
+							}
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.2
+								}
+							],
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": -3,
+										"max": -1
+									},
+									"name": "cpp_attack_speed",
+									"attribute": "generic.attack_speed",
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 5.5,
+										"max": 13.5
+									},
+									"name": "cpp_attack_damage",
+									"attribute": "generic.attack_damage",
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

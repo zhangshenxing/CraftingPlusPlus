@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"vanilla": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_rabbit",
+						"minecraft:cooked_cod"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vanilla"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/diet/weight_index/pos5"
+	}
+}

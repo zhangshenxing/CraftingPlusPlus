@@ -1,0 +1,380 @@
+{
+	"criteria": {
+		"apricot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:apricot'}"
+				}
+			}
+		},
+		"banana": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:banana'}"
+				}
+			}
+		},
+		"blueberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:blueberry'}"
+				}
+			}
+		},
+		"cherry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cherry'}"
+				}
+			}
+		},
+		"chinese_date": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chinese_date'}"
+				}
+			}
+		},
+		"coconut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:coconut'}"
+				}
+			}
+		},
+		"golden_grape": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:golden_grape'}"
+				}
+			}
+		},
+		"grape": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:grape'}"
+				}
+			}
+		},
+		"grapefruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:grapefruit'}"
+				}
+			}
+		},
+		"hawthorn": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:hawthorn'}"
+				}
+			}
+		},
+		"lemon": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:lemon'}"
+				}
+			}
+		},
+		"longan": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:longan'}"
+				}
+			}
+		},
+		"loquat": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:loquat'}"
+				}
+			}
+		},
+		"lychee": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:lychee'}"
+				}
+			}
+		},
+		"mango": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:mango'}"
+				}
+			}
+		},
+		"orange": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:orange'}"
+				}
+			}
+		},
+		"payapa": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:payapa'}"
+				}
+			}
+		},
+		"peach": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:peach'}"
+				}
+			}
+		},
+		"pear": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pear'}"
+				}
+			}
+		},
+		"persimmon": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:persimmon'}"
+				}
+			}
+		},
+		"plum": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:plum'}"
+				}
+			}
+		},
+		"pomegranate": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pomegranate'}"
+				}
+			}
+		},
+		"strawberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:strawberry'}"
+				}
+			}
+		},
+		"tomato": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:tomato'}"
+				}
+			}
+		},
+		"pineapple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pineapple'}"
+				}
+			}
+		},
+		"citrus": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:citrus'}"
+				}
+			}
+		},
+		"raisin": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raisin'}"
+				}
+			}
+		},
+		"bacon": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:bacon'}"
+				}
+			}
+		},
+		"doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:doughnut'}"
+				}
+			}
+		},
+		"purple_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:purple_doughnut'}"
+				}
+			}
+		},
+		"pink_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pink_doughnut'}"
+				}
+			}
+		},
+		"white_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:white_doughnut'}"
+				}
+			}
+		},
+		"blue_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:blue_doughnut'}"
+				}
+			}
+		},
+		"green_doughnut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:green_doughnut'}"
+				}
+			}
+		},
+		"ketchup": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:ketchup'}"
+				}
+			}
+		},
+		"strawberry_jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:strawberry_jam'}"
+				}
+			}
+		},
+		"blueberry_jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:blueberry_jam'}"
+				}
+			}
+		},
+		"orange_jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:orange_jam'}"
+				}
+			}
+		},
+		"cherry_jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cherry_jam'}"
+				}
+			}
+		},
+		"apple_jam": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:apple_jam'}"
+				}
+			}
+		},
+		"soy_sauce": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:soy_sauce'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add2"
+	},
+	"requirements": [
+		[
+			"apricot",
+			"banana",
+			"blueberry",
+			"cherry",
+			"chinese_date",
+			"coconut",
+			"golden_grape",
+			"grape",
+			"grapefruit",
+			"hawthorn",
+			"lemon",
+			"longan",
+			"loquat",
+			"lychee",
+			"mango",
+			"orange",
+			"payapa",
+			"peach",
+			"pear",
+			"persimmon",
+			"plum",
+			"pomegranate",
+			"strawberry",
+			"tomato",
+			"pineapple",
+			"citrus",
+			"raisin",
+			"bacon",
+			"doughnut",
+			"purple_doughnut",
+			"pink_doughnut",
+			"white_doughnut",
+			"blue_doughnut",
+			"green_doughnut",
+			"ketchup",
+			"strawberry_jam",
+			"blueberry_jam",
+			"orange_jam",
+			"cherry_jam",
+			"apple_jam",
+			"soy_sauce"
+		]
+	]
+}

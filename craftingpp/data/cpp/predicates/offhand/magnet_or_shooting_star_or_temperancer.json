@@ -1,0 +1,38 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:'cpp:magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:'cpp:shooting_star'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"nbt": "{id:'cpp:temperancer'}"
+					}
+				}
+			}
+		}
+	]
+}

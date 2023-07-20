@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12970071}"
+		},
+		"title": {
+			"color": "#00FFFF",
+			"translate": "advancements.cpp.kotonoha.title.3"
+		},
+		"description": {
+			"translate": "advancements.cpp.kotonoha.description.3",
+			"with": [
+				{
+					"font": "cpp:default",
+					"color": "red",
+					"text": "\u0095"
+				}
+			]
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:kotonoha_water",
+	"criteria": {
+		"cyan": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/kotonoha"
+	}
+}

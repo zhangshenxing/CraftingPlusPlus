@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"expand": true,
+					"name": "cpp:forge_ores"
+				}
+			]
+		}
+	]
+}

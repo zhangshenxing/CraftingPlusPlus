@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"entered_dim": {
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/misc/new_dim/reset"
+	}
+}

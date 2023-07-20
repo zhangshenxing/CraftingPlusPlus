@@ -1,0 +1,65 @@
+{
+	"criteria": {
+		"ice_cream_cone": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:ice_cream_cone'}"
+				}
+			}
+		},
+		"shaved_ice_with_blueberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_blueberry'}"
+				}
+			}
+		},
+		"shaved_ice_with_strawberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_strawberry'}"
+				}
+			}
+		},
+		"shaved_ice_with_pineapple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:shaved_ice_with_pineapple'}"
+				}
+			}
+		},
+		"chilled_mango_sago_cream_with_pomelo": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chilled_mango_sago_cream_with_pomelo'}"
+				}
+			}
+		},
+		"cold_drink": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cold_drink'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/clear_fire"
+	},
+	"requirements": [
+		[
+			"ice_cream_cone",
+			"shaved_ice_with_blueberry",
+			"shaved_ice_with_strawberry",
+			"shaved_ice_with_pineapple",
+			"chilled_mango_sago_cream_with_pomelo",
+			"cold_drink"
+		]
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"air_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[10b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/levitation10"
+	},
+	"requirements": [
+		[
+			"air_jamed"
+		]
+	]
+}

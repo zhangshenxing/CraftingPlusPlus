@@ -1,0 +1,61 @@
+{
+	"criteria": {
+		"jam": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"tag": "cpp:item_frames",
+					"nbt": "{Item:{tag:{dict:['jam']}}}"
+				}
+			}
+		},
+		"bottle_of_salt": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"tag": "cpp:item_frames",
+					"nbt": "{Item:{tag:{id:'cpp:bottle_of_salt'}}}"
+				}
+			}
+		},
+		"bionic_acid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"tag": "cpp:item_frames",
+					"nbt": "{Item:{tag:{id:'cpp:bionic_acid'}}}"
+				}
+			}
+		},
+		"alkaloid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"tag": "cpp:item_frames",
+					"nbt": "{Item:{tag:{id:'cpp:alkaloid'}}}"
+				}
+			}
+		},
+		"bottle_of_air": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"tag": "cpp:item_frames",
+					"nbt": "{Item:{tag:{id:'cpp:bottle_of_air'}}}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"jam",
+			"bottle_of_salt",
+			"bionic_acid",
+			"alkaloid",
+			"bottle_of_air"
+		]
+	],
+	"rewards": {
+		"function": "cpp:adv/misc/jam/reset"
+	}
+}

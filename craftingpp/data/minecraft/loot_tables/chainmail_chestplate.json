@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "minecraft:chainmail_chestplate"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'minecraft:chainmail_chestplate',Trim:{material:'minecraft:none',pattern:'cpp:chainmail'},HideFlags:128}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

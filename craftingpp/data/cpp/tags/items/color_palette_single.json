@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"#banners",
+		"#beds",
+		"#candles",
+		"#wool_carpets",
+		"#cpp:concrete",
+		"#cpp:concrete_powder",
+		"#cpp:glass",
+		"#cpp:glass_pane",
+		"#cpp:glazed_terracotta",
+		"#cpp:shulker_box",
+		"#minecraft:terracotta",
+		"#minecraft:wool"
+	]
+}

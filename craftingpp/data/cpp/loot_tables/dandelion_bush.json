@@ -1,0 +1,56 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.dandelion_bush"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:dandelion_bush"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.bush.copy",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "1"
+										},
+										{
+											"color": "gold",
+											"translate": "item.minecraft.bone_meal"
+										},
+										{
+											"color": "light_purple",
+											"keybind": "key.use"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:dandelion_bush',CustomModelData:12970701}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

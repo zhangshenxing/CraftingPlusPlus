@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"cut_copper_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:cut_copper_slab"]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cpp:slab_to_block/cut_copper"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": ["cpp:slab_to_block/cut_copper"]
+	},
+	"requirements": [
+		[
+			"cut_copper_slab",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "this",
+							"ops": [
+								{
+									"op": "replace",
+									"source": "item.tag.cpp_stored_item.tag.id",
+									"target": "id"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.cpp_stored_item.tag.display",
+									"target": "display"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.cpp_stored_item.tag.CustomModelData",
+									"target": "CustomModelData"
+								},
+								{
+									"op": "replace",
+									"source": "item.tag.cpp_stored_item.tag.dict",
+									"target": "dict"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

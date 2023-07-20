@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.coal_nugget"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:coal_nugget"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.coal_nugget.use",
+									"with": [
+										{
+											"color": "aqua",
+											"text": "1"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:coal_nugget',CustomModelData:12970060}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

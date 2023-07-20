@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"alkaloid_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[9b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/poison10"
+	},
+	"requirements": [
+		[
+			"alkaloid_jamed"
+		]
+	]
+}

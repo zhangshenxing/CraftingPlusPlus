@@ -1,0 +1,21 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:thisb"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "in_items[{id:\"minecraft:shulker_box\"}].tag.BlockEntityTag",
+				"target": "cpp_block_entity_tag"
+			},
+			{
+				"op": "replace",
+				"source": "in_items[{tag:{dict:['hand']}}].tag.Enchantments",
+				"target": "Enchantments"
+			}
+		]
+	}
+]

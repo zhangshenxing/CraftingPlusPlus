@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cpp:ore_tree",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 114517,
+		"spacing": 25,
+		"separation": 9,
+		"type": "minecraft:random_spread"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lava_bucket"
+		},
+		"title": {
+			"translate": "advancements.cpp.lava.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.lava.description"
+		}
+	},
+	"parent": "cpp:skyisland/block_breaker_done",
+	"criteria": {
+		"lava": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

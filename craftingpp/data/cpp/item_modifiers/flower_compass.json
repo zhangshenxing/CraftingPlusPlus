@@ -1,0 +1,62 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "cpp:_"
+		},
+		"ops": [
+			{
+				"op": "replace",
+				"source": "wild_grass[0]",
+				"target": "LodestonePos.X"
+			},
+			{
+				"op": "replace",
+				"source": "wild_grass[1]",
+				"target": "LodestonePos.Y"
+			},
+			{
+				"op": "replace",
+				"source": "wild_grass[2]",
+				"target": "LodestonePos.Z"
+			}
+		]
+	},
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"range": 0,
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#flag_wild_grass"
+					},
+					"score": "cppValue"
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{LodestoneDimension:'cpp:auxi'}"
+	}	,
+	{
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"range": 1,
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#flag_wild_grass"
+					},
+					"score": "cppValue"
+				}
+			}
+		],
+		"function": "minecraft:set_nbt",
+		"tag": "{LodestoneDimension:'cpp:flower'}"
+	}	
+]

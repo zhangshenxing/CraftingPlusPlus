@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:tomato"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:strawberry"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:blueberry"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:pineapple"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:rare_drops/soul_of_dirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:rare_drops/certification_of_earth"
+				}
+			]
+		},
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:zombie_villager_head"
+				}
+			]
+		}
+	]
+}

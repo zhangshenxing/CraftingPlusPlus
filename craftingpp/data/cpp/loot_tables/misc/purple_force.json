@@ -1,0 +1,521 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:acacia_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:dark_oak_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:jungle_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:acacia_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:birch_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:jungle_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:spruce_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:birch_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:oak_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:spruce_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:dark_oak_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:mangrove_propagule"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:mangrove_propagule\"}}"
+									}
+								}
+							],
+							"name": "minecraft:cherry_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:cherry_sapling\"}}"
+									}
+								}
+							],
+							"name": "minecraft:oak_sapling"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:sweet_berries\"}}"
+									}
+								}
+							],
+							"name": "minecraft:wheat_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:bamboo\"}}"
+									}
+								}
+							],
+							"name": "minecraft:sweet_berries"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:cocoa_beans\"}}"
+									}
+								}
+							],
+							"name": "minecraft:bamboo"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:cactus\"}}"
+									}
+								}
+							],
+							"name": "minecraft:cocoa_beans"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:sugar_cane\"}}"
+									}
+								}
+							],
+							"name": "minecraft:cactus"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:melon_seeds\"}}"
+									}
+								}
+							],
+							"name": "minecraft:sugar_cane"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:pumpkin_seeds\"}}"
+									}
+								}
+							],
+							"name": "minecraft:melon_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:potato\"}}"
+									}
+								}
+							],
+							"name": "minecraft:pumpkin_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:carrot\"}}"
+									}
+								}
+							],
+							"name": "minecraft:potato"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:beetroot_seeds\"}}"
+									}
+								}
+							],
+							"name": "minecraft:carrot"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:wheat_seeds\"}}"
+									}
+								}
+							],
+							"name": "minecraft:beetroot_seeds"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:dandelion\"}}"
+									}
+								}
+							],
+							"name": "minecraft:poppy"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:poppy\"}}"
+									}
+								}
+							],
+							"name": "minecraft:azure_bluet"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:azure_bluet\"}}"
+									}
+								}
+							],
+							"name": "minecraft:blue_orchid"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:blue_orchid\"}}"
+									}
+								}
+							],
+							"name": "minecraft:allium"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:allium\"}}"
+									}
+								}
+							],
+							"name": "minecraft:oxeye_daisy"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:oxeye_daisy\"}}"
+									}
+								}
+							],
+							"name": "minecraft:red_tulip"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:red_tulip\"}}"
+									}
+								}
+							],
+							"name": "minecraft:orange_tulip"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:orange_tulip\"}}"
+									}
+								}
+							],
+							"name": "minecraft:white_tulip"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:white_tulip\"}}"
+									}
+								}
+							],
+							"name": "minecraft:pink_tulip"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:pink_tulip\"}}"
+									}
+								}
+							],
+							"name": "minecraft:cornflower"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:cornflower\"}}"
+									}
+								}
+							],
+							"name": "minecraft:lily_of_the_valley"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:lily_of_the_valley\"}}"
+									}
+								}
+							],
+							"name": "minecraft:rose_bush"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:rose_bush\"}}"
+									}
+								}
+							],
+							"name": "minecraft:sunflower"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:sunflower\"}}"
+									}
+								}
+							],
+							"name": "minecraft:lilac"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:lilac\"}}"
+									}
+								}
+							],
+							"name": "minecraft:peony"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:peony\"}}"
+									}
+								}
+							],
+							"name": "minecraft:dandelion"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:brown_mushroom\"}}"
+									}
+								}
+							],
+							"name": "minecraft:red_mushroom"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:red_mushroom\"}}"
+									}
+								}
+							],
+							"name": "minecraft:crimson_fungus"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:crimson_fungus\"}}"
+									}
+								}
+							],
+							"name": "minecraft:warped_fungus"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Item:{id:\"minecraft:warped_fungus\"}}"
+									}
+								}
+							],
+							"name": "minecraft:brown_mushroom"
+						}
+					]
+				}
+			]
+		}
+	]
+}

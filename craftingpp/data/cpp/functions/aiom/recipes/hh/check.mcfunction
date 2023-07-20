@@ -1,0 +1,39 @@
+scoreboard players set #t3 cppValue 0
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:copper_ore"}] run scoreboard players set #t3 cppValue 1
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_copper_ore"}] run scoreboard players set #t3 cppValue 1
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:iron_ore"}] run scoreboard players set #t3 cppValue 2
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_iron_ore"}] run scoreboard players set #t3 cppValue 2
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:gold_ore"}] run scoreboard players set #t3 cppValue 3
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:nether_gold_ore"}] run scoreboard players set #t3 cppValue 3
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_gold_ore"}] run scoreboard players set #t3 cppValue 3
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:coal_ore"}] run scoreboard players set #t3 cppValue 4
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_coal_ore"}] run scoreboard players set #t3 cppValue 4
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:nether_quartz_ore"}] run scoreboard players set #t3 cppValue 5
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:diamond_ore"}] run scoreboard players set #t3 cppValue 6
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_diamond_ore"}] run scoreboard players set #t3 cppValue 6
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:emerald_ore"}] run scoreboard players set #t3 cppValue 7
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_emerald_ore"}] run scoreboard players set #t3 cppValue 7
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:lapis_ore"}] run scoreboard players set #t3 cppValue 8
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_lapis_ore"}] run scoreboard players set #t3 cppValue 8
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:redstone_ore"}] run scoreboard players set #t3 cppValue 9
+execute if data storage cpp:thisb items[{Slot:3b,id:"minecraft:deepslate_redstone_ore"}] run scoreboard players set #t3 cppValue 9
+scoreboard players set #t4 cppValue 0
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:copper_ore"}] run scoreboard players set #t4 cppValue 1
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_copper_ore"}] run scoreboard players set #t4 cppValue 1
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:iron_ore"}] run scoreboard players set #t4 cppValue 2
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_iron_ore"}] run scoreboard players set #t4 cppValue 2
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:gold_ore"}] run scoreboard players set #t4 cppValue 3
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:nether_gold_ore"}] run scoreboard players set #t4 cppValue 3
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_gold_ore"}] run scoreboard players set #t4 cppValue 3
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:coal_ore"}] run scoreboard players set #t4 cppValue 4
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_coal_ore"}] run scoreboard players set #t4 cppValue 4
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:nether_quartz_ore"}] run scoreboard players set #t4 cppValue 5
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:diamond_ore"}] run scoreboard players set #t4 cppValue 6
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_diamond_ore"}] run scoreboard players set #t4 cppValue 6
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:emerald_ore"}] run scoreboard players set #t4 cppValue 7
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_emerald_ore"}] run scoreboard players set #t4 cppValue 7
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:lapis_ore"}] run scoreboard players set #t4 cppValue 8
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_lapis_ore"}] run scoreboard players set #t4 cppValue 8
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:redstone_ore"}] run scoreboard players set #t4 cppValue 9
+execute if data storage cpp:thisb items[{Slot:4b,id:"minecraft:deepslate_redstone_ore"}] run scoreboard players set #t4 cppValue 9
+execute if score #t3 cppValue matches 1..9 if score #t4 cppValue matches 1..9 unless score #t3 cppValue = #t4 cppValue run function cpp:aiom/recipes/hh/tick

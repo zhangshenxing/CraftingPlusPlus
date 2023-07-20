@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12970073}"
+		},
+		"title": {
+			"translate": "advancements.cpp.block_breaker_done.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.block_breaker_done.description"
+		}
+	},
+	"parent": "cpp:skyisland/block_breaker",
+	"criteria": {
+		"block_breaker_done": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+execute if block ~ ~-1 ~ #cpp:air run function cpp:armor_stand/control_end
+execute as @e[type=chicken,distance=..16,limit=1] run function cpp:armor_stand/herder/type/chicken
+execute as @e[type=rabbit,distance=..16,limit=1] run function cpp:armor_stand/herder/type/rabbit
+execute as @e[type=pig,distance=..16,limit=1] run function cpp:armor_stand/herder/type/pig
+execute as @e[type=goat,distance=..16,limit=1] run function cpp:armor_stand/herder/type/goat
+execute as @e[type=cow,distance=..16,limit=1] run function cpp:armor_stand/herder/type/cow
+execute as @e[type=mooshroom,distance=..16,limit=1] run function cpp:armor_stand/herder/type/mooshroom
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:0b}] run function cpp:armor_stand/herder/type/sheep0
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:1b}] run function cpp:armor_stand/herder/type/sheep1
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:2b}] run function cpp:armor_stand/herder/type/sheep2
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:3b}] run function cpp:armor_stand/herder/type/sheep3
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:4b}] run function cpp:armor_stand/herder/type/sheep4
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:5b}] run function cpp:armor_stand/herder/type/sheep5
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:6b}] run function cpp:armor_stand/herder/type/sheep6
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:7b}] run function cpp:armor_stand/herder/type/sheep7
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:8b}] run function cpp:armor_stand/herder/type/sheep8
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:9b}] run function cpp:armor_stand/herder/type/sheep9
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:10b}] run function cpp:armor_stand/herder/type/sheep10
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:11b}] run function cpp:armor_stand/herder/type/sheep11
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:12b}] run function cpp:armor_stand/herder/type/sheep12
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:13b}] run function cpp:armor_stand/herder/type/sheep13
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:14b}] run function cpp:armor_stand/herder/type/sheep14
+execute as @e[type=sheep,distance=..16,limit=1,nbt={Color:15b}] run function cpp:armor_stand/herder/type/sheep15

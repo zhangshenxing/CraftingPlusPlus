@@ -1,0 +1,15 @@
+{
+	"name": "cpp:crops",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"location": "cpp:flower/crops",
+				"processors": "cpp:crops",
+				"projection": "rigid",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		}
+	]
+}

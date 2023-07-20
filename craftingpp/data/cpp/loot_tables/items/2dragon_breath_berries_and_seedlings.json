@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:dragon_breath_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:dragon_breath_berry_seedlings"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"display": "minecraft:netherrack",
+	"settings": {
+		"lakes": false,
+		"features": false,
+		"biome": "minecraft:nether_wastes",
+		"structure_overrides": [],
+		"layers": [
+			{
+				"height": 1,
+				"block": "minecraft:air"
+			}
+		]
+	}
+}

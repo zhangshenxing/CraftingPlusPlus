@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{CustomModelData:12970008}"
+		},
+		"title": {
+			"translate": "advancements.cpp.mutated_animal.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.mutated_animal.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"mutated_animal": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[\"cpp_mutated_animal\"]}"
+				}
+			}
+		}
+	}
+}

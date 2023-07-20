@@ -1,0 +1,56 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.alkaloid_rare_earth"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:alkaloid_rare_earth"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.from_aiom",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.all_in_one_machine"
+										},
+										{
+											"color": "aqua",
+											"translate": "text.cpp.all_in_one_machine.high_temperature"
+										},
+										{
+											"color": "aqua",
+											"translate": "text.cpp.all_in_one_machine.low_pressure"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:alkaloid_rare_earth',CustomModelData:12970053}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

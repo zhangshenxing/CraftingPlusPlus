@@ -1,0 +1,56 @@
+{
+	"criteria": {
+		"colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:colorful_vegetable'}"
+				}
+			}
+		},
+		"beef_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:beef_kebab'}"
+				}
+			}
+		},
+		"pork_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pork_kebab'}"
+				}
+			}
+		},
+		"lamb_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:lamb_kebab'}"
+				}
+			}
+		},
+		"chicken_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:chicken_kebab'}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/foods/add8"
+	},
+	"requirements": [
+		[
+			"colorful_vegetable",
+			"beef_kebab",
+			"pork_kebab",
+			"lamb_kebab",
+			"chicken_kebab"
+		]
+	]
+}

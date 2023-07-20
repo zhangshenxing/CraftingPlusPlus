@@ -1,0 +1,49 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"head": {
+						"nbt": "{Trim:{pattern:\"cpp:star\"}}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"nbt": "{Trim:{pattern:\"cpp:star\"}}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"legs": {
+						"nbt": "{Trim:{pattern:\"cpp:star\"}}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"feet": {
+						"nbt": "{Trim:{pattern:\"cpp:star\"}}"
+					}
+				}
+			}
+		}
+	]
+}

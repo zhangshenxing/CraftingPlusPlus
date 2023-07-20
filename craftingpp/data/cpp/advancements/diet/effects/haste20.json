@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"orange_jamed": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{cppJam:[4b]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/diet/effects/haste20"
+	},
+	"requirements": [
+		[
+			"orange_jamed"
+		]
+	]
+}

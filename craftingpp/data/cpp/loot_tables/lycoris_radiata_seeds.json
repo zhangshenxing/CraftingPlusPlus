@@ -1,0 +1,112 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"translate": "item.cpp.lycoris_radiata_seeds"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"italic": false,
+									"color": "dark_gray",
+									"text": "cpp:lycoris_radiata_seeds"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.obtain",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "block.minecraft.wheat"
+										},
+										{
+											"color": "gold",
+											"translate": "block.minecraft.beetroots"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.blackthorn"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.hyacinth"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.hyacinth"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.calamus"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.calamus"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.stelera"
+										}
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"translate": "text.cpp.seeds.hybrid",
+									"with": [
+										{
+											"color": "gold",
+											"translate": "item.cpp.bauhinia"
+										},
+										{
+											"color": "gold",
+											"translate": "item.cpp.isorchid"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:'cpp:lycoris_radiata_seeds',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

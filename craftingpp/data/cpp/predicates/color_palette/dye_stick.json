@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"block": {
+			"nbt": "{Items:[{Slot:8b,tag:{id:\"cpp:dye_stick\"}}]}"
+		}
+	}
+}

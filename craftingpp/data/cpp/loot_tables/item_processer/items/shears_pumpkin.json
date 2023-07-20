@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carved_pumpkin"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_seeds",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"add": false,
+							"count": 4.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

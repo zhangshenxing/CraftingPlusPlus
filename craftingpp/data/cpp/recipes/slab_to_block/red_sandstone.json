@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:red_sandstone_slab"
+		}
+	},
+	"result": {
+		"item": "minecraft:red_sandstone"
+	}
+}

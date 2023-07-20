@@ -1,0 +1,9 @@
+{
+	"function": "minecraft:enchant_with_levels",
+	"treasure": true,
+	"levels": {
+		"type": "minecraft:uniform",
+		"min": 5.0,
+		"max": 19.0
+	}
+}

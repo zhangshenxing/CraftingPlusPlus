@@ -1,0 +1,36 @@
+{
+	"parent": "cpp:spyglass_at_mooshroom",
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:12971019}"
+		},
+		"title": {
+			"translate": "advancements.cpp.spyglass_at_chi.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.spyglass_at_chi.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"spyglass_at_chi": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"nbt": "{Item:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:12971019}}}"
+						}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+data modify entity @s Offers.Recipes[].sell{id:"minecraft:cake"}.tag.display.Lore set value ['{"italic":false,"color":"white","font":"cpp:default","text":"\\u0099","extra":[{"color":"aqua","font":"default","text":"×7"}]}','{"italic":false,"color":"gray","translate":"text.cpp.weight_index_cake","with":[{"color":"green","text":"+2"}]}']
+data modify entity @s Offers.Recipes[].sell{id:"minecraft:suspicious_stew"}.tag.display.Lore set value ['{"italic":false,"color":"white","font":"cpp:default","text":"\\u0099\\u0099\\u0099"}','{"italic":false,"color":"gray","translate":"text.cpp.weight_index","with":[{"color":"green","text":"-6"}]}']
+tag @s add cpp_villager_checked4
